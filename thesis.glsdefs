@@ -1,0 +1,30 @@
+\ifglsentryexists{HOL}{}%
+{%
+\gls@defglossaryentry{HOL}%
+{%
+name={HOL},%
+sort={HOL},%
+type={main},%
+first={HOL},%
+firstplural={HOLs},%
+text={HOL},%
+plural={HOLs},%
+description={Higher-order logic},%
+descriptionplural={Higher-order logic},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
