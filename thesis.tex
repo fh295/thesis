@@ -26,6 +26,65 @@
 \usepackage{changepage}
 
 
+\usepackage{times}
+
+\usepackage{url}
+
+\usepackage{latexsym}
+
+\usepackage{graphicx}
+
+\usepackage{amssymb}
+
+\usepackage{hyperref}
+%\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{tabularx}
+\usepackage{arydshln}
+\usepackage{wrapfig}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{array,graphicx}
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage{changepage}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{multirow}
+%\usepackage[hyphens]{url}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+
+\usepackage{arydshln}
+\makeatletter
+%\newcommand{\@BIBLABEL}{\@emptybiblabel}
+\newcommand{\@emptybiblabel}[1]{}
+\makeatother
+%\usepackage[hidelinks]{hyperref}
+
+\usepackage[normalem]{ulem}
+\newcounter{quotecount}
+\newcommand{\MyQuote}[1]{\vspace{0.4cm}\addtocounter{quotecount}{1}%
+     (\arabic{quotecount})\hspace*{1cm}\parbox{12cm}{\em #1}\\[0.4cm]}
+
+\newcommand{\me}{\mathrm{e}}
+
+\newcommand*\rot{\rotatebox{90}}
+\newcommand*\OK{\ding{51}}
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Thesis meta-information
@@ -107,12 +166,19 @@
 %% Thesis body:
 %%
 \chapter{Introduction}
-\chapter{Representation Learning}
+\input{Chapter_1.tex}
 \chapter{Neural Language Models}
-\chapter{Learning to Represent Words}
+\input{Chapter_2.tex}
+\chapter{Distributed Representations of Words}
+\input{Chapter_3.tex}
 \chapter{Learning to Represent Phrases}
+\input{Chapter_4.tex}
 \chapter{Learning to Represent Sentences}
+\input{Chapter_5.tex}
+\chapter{Representation Learning}
+\input{Chapter_6.tex}
 \chapter{Conclusion}
+\input{Chapter_7.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
