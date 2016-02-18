@@ -1,4 +1,4 @@
-\begin{thebibliography}{174}
+\begin{thebibliography}{180}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -114,11 +114,19 @@ Yoshua Bengio, Patrice Simard, and Paolo Frasconi.
 \newblock \emph{Neural Networks, IEEE Transactions on}, 5\penalty0
   (2):\penalty0 157--166, 1994.
 
-\bibitem[Bengio et~al.(2003)Bengio, Ducharme, Vincent, and
+\bibitem[Bengio et~al.(2003{\natexlab{a}})Bengio, Ducharme, Vincent, and
   Janvin]{Bengio2003lm}
 Yoshua Bengio, R{\'e}jean Ducharme, Pascal Vincent, and Christian Janvin.
 \newblock A neural probabilistic language model.
-\newblock \emph{J. Mach. Learn. Res.}, 3:\penalty0 1137--1155, March 2003.
+\newblock \emph{J. Mach. Learn. Res.}, 3:\penalty0 1137--1155, March
+  2003{\natexlab{a}}.
+
+\bibitem[Bengio et~al.(2003{\natexlab{b}})Bengio, Ducharme, Vincent, and
+  Janvin]{bengio2003neural}
+Yoshua Bengio, R{\'e}jean Ducharme, Pascal Vincent, and Christian Janvin.
+\newblock A neural probabilistic language model.
+\newblock \emph{The Journal of Machine Learning Research}, 3:\penalty0
+  1137--1155, 2003{\natexlab{b}}.
 
 \bibitem[Berant and Liang(2014)]{berant14paraphrasing}
 Jonathan Berant and Percy Liang.
@@ -162,6 +170,12 @@ Steven Bird.
 \newblock Nltk: the natural language toolkit.
 \newblock In \emph{Proceedings of the COLING/ACL on Interactive presentation
   sessions}, pages 69--72. Association for Computational Linguistics, 2006.
+
+\bibitem[Blei et~al.(2003)Blei, Ng, and Jordan]{blei2003latent}
+David~M Blei, Andrew~Y Ng, and Michael~I Jordan.
+\newblock Latent dirichlet allocation.
+\newblock \emph{the Journal of machine Learning research}, 3:\penalty0
+  993--1022, 2003.
 
 \bibitem[Bordes et~al.(2014)Bordes, Chopra, and Weston]{bordes2014question}
 Antoine Bordes, Sumit Chopra, and Jason Weston.
@@ -276,6 +290,14 @@ Sebastian~J Crutch and Elizabeth~K Warrington.
 \newblock Abstract and concrete concepts have structurally different
   representational frameworks.
 \newblock \emph{Brain}, 128\penalty0 (3):\penalty0 615--627, 2005.
+
+\bibitem[Crutch et~al.(2009)Crutch, Connell, and
+  Warrington]{crutch2009different}
+Sebastian~J Crutch, Sarah Connell, and Elizabeth~K Warrington.
+\newblock The different representational frameworks underpinning abstract and
+  concrete knowledge: Evidence from odd-one-out judgements.
+\newblock \emph{The Quarterly Journal of Experimental Psychology}, 62\penalty0
+  (7):\penalty0 1377--1390, 2009.
 
 \bibitem[Cunningham(2005)]{cunningham2005information}
 Hamish Cunningham.
@@ -424,6 +446,11 @@ Alex Graves, Greg Wayne, and Ivo Danihelka.
 Thomas~L Griffiths, Mark Steyvers, and Joshua~B Tenenbaum.
 \newblock Topics in semantic representation.
 \newblock \emph{Psychological review}, 114\penalty0 (2):\penalty0 211, 2007.
+
+\bibitem[Grigg(2009)]{grigg2009lacan}
+Russell Grigg.
+\newblock \emph{Lacan, language, and philosophy}.
+\newblock SUNY Press, 2009.
 
 \bibitem[Haghighi et~al.(2008)Haghighi, Liang, Berg-Kirkpatrick, and
   Klein]{Haghighi2008Learning}
@@ -669,6 +696,12 @@ Michael~L. Littman, Greg~A. Keim, and Noam Shazeer.
 \newblock A probabilistic approach to solving crossword puzzles.
 \newblock \emph{Artificial Intelligence}, 134\penalty0 (1):\penalty0 23--55,
   2002.
+
+\bibitem[Lucas(2000)]{lucas2000semantic}
+Margery Lucas.
+\newblock Semantic priming without association: A meta-analytic review.
+\newblock \emph{Psychonomic Bulletin \& Review}, 7\penalty0 (4):\penalty0
+  618--630, 2000.
 
 \bibitem[Luong et~al.(2013)Luong, Socher, and Manning]{luong2013better}
 Minh-Thang Luong, Richard Socher, and Christopher~D Manning.
@@ -1054,6 +1087,11 @@ Peter~D Turney and Patrick Pantel.
 \newblock From frequency to meaning: Vector space models of semantics.
 \newblock \emph{Journal of artificial intelligence research}, 37\penalty0
   (1):\penalty0 141--188, 2010.
+
+\bibitem[Tversky(1977)]{tversky1977features}
+Amos Tversky.
+\newblock Features of similarity.
+\newblock \emph{Psychological review}, 84\penalty0 (4):\penalty0 327, 1977.
 
 \bibitem[Vincent et~al.(2008)Vincent, Larochelle, Bengio, and
   Manzagol]{vincent2008extracting}

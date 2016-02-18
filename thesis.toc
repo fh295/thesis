@@ -1,29 +1,30 @@
 \thispagestyle {empty}
 \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
 \contentsline {chapter}{\numberline {2}Understanding and evaluating unsupervised models of word representation}{17}{chapter.2}
+\contentsline {paragraph}{The Challenge of Evaluation}{18}{section*.5}
 \contentsline {section}{\numberline {2.1}Reproducing human semantic knowledge}{19}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Similarity and Association}{20}{subsection.2.1.1}
-\contentsline {paragraph}{Association and similarity in NLP}{22}{section*.6}
+\contentsline {paragraph}{Association and similarity in NLP}{21}{section*.7}
 \contentsline {section}{\numberline {2.2}Motivation for SimLex-999}{23}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Concepts, part-of-speech and concreteness}{23}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Existing gold standards and evaluation resources}{24}{subsection.2.2.2}
-\contentsline {paragraph}{Representative}{24}{section*.7}
-\contentsline {paragraph}{Clearly-defined}{24}{section*.8}
-\contentsline {paragraph}{Consistent and reliable}{24}{section*.9}
-\contentsline {paragraph}{}{24}{section*.10}
-\contentsline {paragraph}{\bf WordSim-353}{24}{section*.11}
-\contentsline {paragraph}{\bf WS-Sim}{26}{section*.12}
-\contentsline {paragraph}{\bf Rubenstein \& Goodenough}{26}{section*.13}
-\contentsline {paragraph}{\bf The MEN Test Collection}{27}{section*.14}
-\contentsline {paragraph}{\bf Synonym detection sets}{27}{section*.15}
-\contentsline {section}{\numberline {2.3}The SimLex-999 Dataset}{28}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Choice of Concepts}{28}{subsection.2.3.1}
-\contentsline {paragraph}{Separating similarity from association}{28}{section*.16}
-\contentsline {paragraph}{POS category}{28}{section*.17}
-\contentsline {paragraph}{Concreteness}{29}{section*.18}
-\contentsline {paragraph}{Final sampling}{30}{section*.20}
+\contentsline {subsection}{\numberline {2.2.2}Existing gold standards and evaluation resources}{23}{subsection.2.2.2}
+\contentsline {paragraph}{Representative}{24}{section*.8}
+\contentsline {paragraph}{Clearly-defined}{24}{section*.9}
+\contentsline {paragraph}{Consistent and reliable}{24}{section*.10}
+\contentsline {paragraph}{}{24}{section*.11}
+\contentsline {paragraph}{\bf WordSim-353}{24}{section*.12}
+\contentsline {paragraph}{\bf WS-Sim}{25}{section*.13}
+\contentsline {paragraph}{\bf Rubenstein \& Goodenough}{26}{section*.14}
+\contentsline {paragraph}{\bf The MEN Test Collection}{26}{section*.15}
+\contentsline {paragraph}{\bf Synonym detection sets}{27}{section*.16}
+\contentsline {section}{\numberline {2.3}The SimLex-999 Dataset}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Choice of Concepts}{27}{subsection.2.3.1}
+\contentsline {paragraph}{Separating similarity from association}{27}{section*.17}
+\contentsline {paragraph}{POS category}{28}{section*.18}
+\contentsline {paragraph}{Concreteness}{28}{section*.19}
+\contentsline {paragraph}{Final sampling}{30}{section*.21}
 \contentsline {subsection}{\numberline {2.3.2}Question Design}{30}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Context-free rating}{31}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Context-free rating}{32}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Questionnaire structure}{32}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Participants}{33}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Post-processing}{33}{subsection.2.3.6}
@@ -33,41 +34,41 @@
 \contentsline {subsection}{\numberline {2.4.3}Finer-grained Semantic Relations}{37}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Evaluating Models with SimLex-999}{39}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Neural language models for word representation}{39}{subsection.2.5.1}
-\contentsline {paragraph}{\bf Collobert \& Weston}{39}{section*.26}
-\contentsline {paragraph}{\bf Huang et al.}{40}{section*.27}
-\contentsline {paragraph}{\bf Log-linear models}{41}{section*.28}
+\contentsline {paragraph}{\bf Collobert \& Weston}{39}{section*.28}
+\contentsline {paragraph}{\bf Huang et al.}{40}{section*.29}
+\contentsline {paragraph}{\bf Log-linear models}{41}{section*.30}
 \contentsline {subsection}{\numberline {2.5.2}\bf Vector space (counting) models}{42}{subsection.2.5.2}
-\contentsline {paragraph}{\bf SVD}{42}{section*.29}
+\contentsline {paragraph}{\bf LSA}{42}{section*.31}
 \contentsline {subsection}{\numberline {2.5.3}Results}{43}{subsection.2.5.3}
-\contentsline {paragraph}{\bf Overall performance on SimLex-999}{44}{figure.caption.32}
-\contentsline {paragraph}{\bf Modeling similarity vs. association}{44}{section*.33}
-\contentsline {paragraph}{\bf Learning concepts of different POS}{46}{section*.38}
-\contentsline {paragraph}{\bf Learning concrete and abstract concepts}{48}{figure.caption.40}
+\contentsline {paragraph}{\bf Overall performance on SimLex-999}{43}{figure.caption.34}
+\contentsline {paragraph}{\bf Modeling similarity vs. association}{44}{section*.35}
+\contentsline {paragraph}{\bf Learning concepts of different POS}{46}{section*.40}
+\contentsline {paragraph}{\bf Learning concrete and abstract concepts}{49}{figure.caption.42}
 \contentsline {section}{\numberline {2.6}Conclusion}{49}{section.2.6}
 \contentsline {chapter}{\numberline {3}Improved distributed word representations by learning from more than text}{53}{chapter.3}
 \contentsline {section}{\numberline {3.1}Learning Distributed Word Representations from Text}{53}{section.3.1}
 \contentsline {section}{\numberline {3.2}Modelling Word Acquisition with Multi-Modal Data and Neural Language Models}{53}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Introduction}{53}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Model Design}{55}{subsection.3.2.2}
-\contentsline {paragraph}{Language-only Model}{55}{section*.41}
-\contentsline {paragraph}{Multi-modal Extension}{57}{section*.43}
+\contentsline {paragraph}{Language-only Model}{55}{section*.43}
+\contentsline {paragraph}{Multi-modal Extension}{57}{section*.45}
 \contentsline {subsection}{\numberline {3.2.3}Information Sources}{58}{subsection.3.2.3}
-\contentsline {paragraph}{ESPGame Dataset}{58}{section*.45}
-\contentsline {paragraph}{CSLB Property Norms}{59}{section*.46}
-\contentsline {paragraph}{Linguistic Input}{59}{section*.47}
+\contentsline {paragraph}{ESPGame Dataset}{58}{section*.47}
+\contentsline {paragraph}{CSLB Property Norms}{59}{section*.48}
+\contentsline {paragraph}{Linguistic Input}{59}{section*.49}
 \contentsline {subsection}{\numberline {3.2.4}Evaluation}{59}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Results and Discussion}{61}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Combining information sources}{61}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Propagating input to abstract concepts}{62}{subsection.3.2.7}
-\contentsline {paragraph}{Johns and Jones}{62}{section*.51}
-\contentsline {paragraph}{Ridge Regression}{63}{section*.52}
-\contentsline {paragraph}{Comparisons}{63}{section*.53}
+\contentsline {paragraph}{Johns and Jones}{62}{section*.53}
+\contentsline {paragraph}{Ridge Regression}{63}{section*.54}
+\contentsline {paragraph}{Comparisons}{63}{section*.55}
 \contentsline {subsection}{\numberline {3.2.8}Direct representation vs. propagation}{65}{subsection.3.2.8}
 \contentsline {subsection}{\numberline {3.2.9}Source and quantity of perceptual input}{66}{subsection.3.2.9}
 \contentsline {subsection}{\numberline {3.2.10}Conclusions}{67}{subsection.3.2.10}
-\contentsline {paragraph}{Type I}{67}{section*.56}
-\contentsline {paragraph}{Type II}{67}{section*.57}
-\contentsline {paragraph}{Type III}{68}{section*.58}
+\contentsline {paragraph}{Type I}{67}{section*.58}
+\contentsline {paragraph}{Type II}{67}{section*.59}
+\contentsline {paragraph}{Type III}{68}{section*.60}
 \contentsline {section}{\numberline {3.3}Multi-modal fusion based on image dispersion}{68}{section.3.3}
 \contentsline {section}{\numberline {3.4}Sequence-to-Sequence Learning of Word Representations From Bilingual Data}{68}{section.3.4}
 \contentsline {section}{\numberline {3.5}Learning Embeddings with Neural Language Models}{69}{section.3.5}
@@ -119,5 +120,5 @@
 \contentsline {subsection}{\numberline {5.0.12}Conclusion}{117}{subsection.5.0.12}
 \contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{119}{chapter.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{121}{chapter.7}
-\contentsline {chapter}{Bibliography}{123}{section*.78}
+\contentsline {chapter}{Bibliography}{123}{section*.80}
 \contentsline {chapter}{\numberline {A}Extra Information}{141}{appendix.A}
