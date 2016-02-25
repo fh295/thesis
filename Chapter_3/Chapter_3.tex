@@ -1,17 +1,14 @@
 % This chapter is about word representations
 
-Beyond the distributional hypothesis: Learning word semantics from more than text data. 
+\section{Introduction}
 
-\section{Learning Distributed Word Representations from Text}
+How can text-based models of word representation be improved in order to achieve human-like performance on evaluations like SimLex-999? Improved algorithms are undoubtedly part of the picture, but it is possible that models may never acquire human-quality word representations from raw text, however efficient the learning algorithm and however much data they observe. This possibility stems from the fact that text data as a source of information lacks various characteristics of the information available to human learners. Perhaps most obviously, humans have access to perceptual information from all five senses, and much of conceptual acquisition and word learning, particularly at the early stages, seems to involve the unification of linguistic concepts with those acquired via these other modalities [REF]. In addition, as the conceptual system develops, humans rely on actively learning via interactions and explicit instructions and explanations that typically follow a curriculum tailored to the current level of the learner. Neither of these learning strategies are available to the text-based learning algorithms described in the previous chapter. 
 
-A brief history of how this was done...Bengio - Collobert - Turian - Mikolov
+In light of these observations, the work presented in this chapter aims to improve the acquisition of distributed word representations by training neural language models on information sources other than raw text. I begin by exploring ways to endow word-learning models with information corresponding to that which is available to the sensory-perceptual system when humans learn concepts. Earlier studies had shown that data from images [REF] and data corresponding to other modalities [REF] can enrich distributed representations beyond what can naturally be acquired from text. However, the approach presented here is novel in two respects. First, is follows an original strategy for `mixing' information from different modalities, facilitated by fast neural language models and moderated by word frequency statistics in text. Second, I show for the first time that the addition of multi-modal information for learning can enrich both abstract and concrete concepts. This is particularly important for models whose ultimate application is the interpretation of language, since the vast majority of (lexical) concepts found in adult language are abstract rather than concrete.  
 
-Contrast with 'predicting' models: LSA, Sahlgren, Baroni
+The second study described in this chapter relates to the acquisition of lexical concepts from bilingual data with neural language models. For this purpose, I applied a recently-developed deep sequence-to-sequence learning architecture trained to translate between two European languages. From a cognitive modelling perspective, the experiments can be understood as a (crude) model of a bilingual learner. in that they address the question of how the need to translate between languages influences or stimulates the acquisition of word concepts. As with the case for multi-modal learning, I was able to show clear quantitative and qualitative differences in the concepts acquired via this bilingual learning framework compared with those acquired via equivalent means from (raw) monolingual text. 
 
-Levy two results. 
-
-\section{Modelling Word Acquisition with Multi-Modal Data and Neural Language Models}
-
+\section{`Embodied' learning of abstract concepts with multi-modal data}
 
 \subsection{Introduction}
 

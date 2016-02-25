@@ -1,6 +1,6 @@
 \thispagestyle {empty}
 \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
-\contentsline {chapter}{\numberline {2}Understanding and evaluating unsupervised models of word representation}{17}{chapter.2}
+\contentsline {chapter}{\numberline {2}Understanding and evaluating models of word representation}{17}{chapter.2}
 \contentsline {paragraph}{The Challenge of Evaluation}{18}{section*.5}
 \contentsline {section}{\numberline {2.1}Reproducing human semantic knowledge}{19}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Similarity and Association}{20}{subsection.2.1.1}
@@ -42,47 +42,49 @@
 \contentsline {subsection}{\numberline {2.5.3}Results}{43}{subsection.2.5.3}
 \contentsline {paragraph}{\bf Overall performance on SimLex-999}{43}{figure.caption.34}
 \contentsline {paragraph}{\bf Modeling similarity vs. association}{44}{section*.35}
-\contentsline {paragraph}{\bf Learning concepts of different POS}{46}{section*.40}
-\contentsline {paragraph}{\bf Learning concrete and abstract concepts}{49}{figure.caption.42}
-\contentsline {section}{\numberline {2.6}Conclusion}{49}{section.2.6}
-\contentsline {chapter}{\numberline {3}Improved distributed word representations by learning from more than text}{53}{chapter.3}
-\contentsline {section}{\numberline {3.1}Learning Distributed Word Representations from Text}{53}{section.3.1}
-\contentsline {section}{\numberline {3.2}Modelling Word Acquisition with Multi-Modal Data and Neural Language Models}{53}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Introduction}{53}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Model Design}{55}{subsection.3.2.2}
-\contentsline {paragraph}{Language-only Model}{55}{section*.43}
-\contentsline {paragraph}{Multi-modal Extension}{57}{section*.45}
-\contentsline {subsection}{\numberline {3.2.3}Information Sources}{58}{subsection.3.2.3}
-\contentsline {paragraph}{ESPGame Dataset}{58}{section*.47}
-\contentsline {paragraph}{CSLB Property Norms}{59}{section*.48}
-\contentsline {paragraph}{Linguistic Input}{59}{section*.49}
-\contentsline {subsection}{\numberline {3.2.4}Evaluation}{59}{subsection.3.2.4}
+\contentsline {paragraph}{\bf Learning concepts of different POS}{47}{section*.39}
+\contentsline {paragraph}{\bf Learning concrete and abstract concepts}{47}{figure.caption.41}
+\contentsline {section}{\numberline {2.6}Conclusion}{48}{section.2.6}
+\contentsline {paragraph}{What is so special about neural word embeddings?}{49}{section*.42}
+\contentsline {paragraph}{The future of word representations}{50}{section*.43}
+\contentsline {chapter}{\numberline {3}Learning word representations from more than text}{53}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{53}{section.3.1}
+\contentsline {section}{\numberline {3.2}`Embodied' learning of abstract concepts with multi-modal data}{54}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Introduction}{54}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Model Design}{56}{subsection.3.2.2}
+\contentsline {paragraph}{Language-only Model}{56}{section*.44}
+\contentsline {paragraph}{Multi-modal Extension}{57}{section*.46}
+\contentsline {subsection}{\numberline {3.2.3}Information Sources}{59}{subsection.3.2.3}
+\contentsline {paragraph}{ESPGame Dataset}{59}{section*.48}
+\contentsline {paragraph}{CSLB Property Norms}{59}{section*.49}
+\contentsline {paragraph}{Linguistic Input}{60}{section*.50}
+\contentsline {subsection}{\numberline {3.2.4}Evaluation}{60}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Results and Discussion}{61}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Combining information sources}{61}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Propagating input to abstract concepts}{62}{subsection.3.2.7}
-\contentsline {paragraph}{Johns and Jones}{62}{section*.53}
-\contentsline {paragraph}{Ridge Regression}{63}{section*.54}
-\contentsline {paragraph}{Comparisons}{63}{section*.55}
-\contentsline {subsection}{\numberline {3.2.8}Direct representation vs. propagation}{65}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Source and quantity of perceptual input}{66}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.6}Combining information sources}{62}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Propagating input to abstract concepts}{63}{subsection.3.2.7}
+\contentsline {paragraph}{Johns and Jones}{63}{section*.54}
+\contentsline {paragraph}{Ridge Regression}{63}{section*.55}
+\contentsline {paragraph}{Comparisons}{64}{section*.56}
+\contentsline {subsection}{\numberline {3.2.8}Direct representation vs. propagation}{66}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Source and quantity of perceptual input}{67}{subsection.3.2.9}
 \contentsline {subsection}{\numberline {3.2.10}Conclusions}{67}{subsection.3.2.10}
-\contentsline {paragraph}{Type I}{67}{section*.58}
-\contentsline {paragraph}{Type II}{67}{section*.59}
-\contentsline {paragraph}{Type III}{68}{section*.60}
-\contentsline {section}{\numberline {3.3}Multi-modal fusion based on image dispersion}{68}{section.3.3}
-\contentsline {section}{\numberline {3.4}Sequence-to-Sequence Learning of Word Representations From Bilingual Data}{68}{section.3.4}
-\contentsline {section}{\numberline {3.5}Learning Embeddings with Neural Language Models}{69}{section.3.5}
+\contentsline {paragraph}{Type I}{68}{section*.59}
+\contentsline {paragraph}{Type II}{68}{section*.60}
+\contentsline {paragraph}{Type III}{68}{section*.61}
+\contentsline {section}{\numberline {3.3}Multi-modal fusion based on image dispersion}{69}{section.3.3}
+\contentsline {section}{\numberline {3.4}Sequence-to-Sequence Learning of Word Representations From Bilingual Data}{69}{section.3.4}
+\contentsline {section}{\numberline {3.5}Learning Embeddings with Neural Language Models}{70}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Monolingual Models}{70}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Bilingual Representation-learning Models}{71}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Neural Machine Translation Models}{72}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Experiments}{72}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Similarity and relatedness modelling}{73}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Importance of training data quantity}{76}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Analogy Resolution}{76}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.6}Experiments}{73}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Similarity and relatedness modelling}{74}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Importance of training data quantity}{77}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Analogy Resolution}{77}{subsection.3.6.3}
 \contentsline {section}{\numberline {3.7}Effect of Target Language}{79}{section.3.7}
-\contentsline {section}{\numberline {3.8}Overcoming the Vocabulary Size Problem}{79}{section.3.8}
-\contentsline {section}{\numberline {3.9}How Similarity Emerges}{81}{section.3.9}
-\contentsline {section}{\numberline {3.10}Conclusion}{82}{section.3.10}
+\contentsline {section}{\numberline {3.8}Overcoming the Vocabulary Size Problem}{80}{section.3.8}
+\contentsline {section}{\numberline {3.9}How Similarity Emerges}{82}{section.3.9}
+\contentsline {section}{\numberline {3.10}Conclusion}{83}{section.3.10}
 \contentsline {chapter}{\numberline {4}Representing phrases with neural language models}{85}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{85}{section.4.1}
 \contentsline {section}{\numberline {4.2}Neural Language Model Architectures}{86}{section.4.2}
@@ -120,5 +122,5 @@
 \contentsline {subsection}{\numberline {5.0.12}Conclusion}{117}{subsection.5.0.12}
 \contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{119}{chapter.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{121}{chapter.7}
-\contentsline {chapter}{Bibliography}{123}{section*.80}
+\contentsline {chapter}{Bibliography}{123}{section*.81}
 \contentsline {chapter}{\numberline {A}Extra Information}{141}{appendix.A}
