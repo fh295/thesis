@@ -23,67 +23,64 @@
 \BOOKMARK [1][-]{section.2.6}{Conclusion}{chapter.2}% 23
 \BOOKMARK [0][-]{chapter.3}{Learning word representations from more than text}{}% 24
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{`Embodied' learning of abstract concepts with multi-modal data}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.2.1}{Introduction}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.2}{Model Design}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.3}{Information Sources}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.4}{Evaluation}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.5}{Results and Discussion}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.6}{Combining information sources}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.7}{Propagating input to abstract concepts}{section.3.2}% 33
-\BOOKMARK [2][-]{subsection.3.2.8}{Direct representation vs. propagation}{section.3.2}% 34
-\BOOKMARK [2][-]{subsection.3.2.9}{Source and quantity of perceptual input}{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.10}{Conclusions}{section.3.2}% 36
-\BOOKMARK [1][-]{section.3.3}{Multi-modal fusion based on image dispersion}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.4}{Sequence-to-Sequence Learning of Word Representations From Bilingual Data}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.5}{Learning Embeddings with Neural Language Models}{chapter.3}% 39
-\BOOKMARK [2][-]{subsection.3.5.1}{Monolingual Models}{section.3.5}% 40
-\BOOKMARK [2][-]{subsection.3.5.2}{Bilingual Representation-learning Models}{section.3.5}% 41
-\BOOKMARK [2][-]{subsection.3.5.3}{Neural Machine Translation Models}{section.3.5}% 42
-\BOOKMARK [1][-]{section.3.6}{Experiments}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.6.1}{Similarity and relatedness modelling}{section.3.6}% 44
-\BOOKMARK [2][-]{subsection.3.6.2}{Importance of training data quantity}{section.3.6}% 45
-\BOOKMARK [2][-]{subsection.3.6.3}{Analogy Resolution}{section.3.6}% 46
-\BOOKMARK [1][-]{section.3.7}{Effect of Target Language}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.8}{Overcoming the Vocabulary Size Problem}{chapter.3}% 48
-\BOOKMARK [1][-]{section.3.9}{How Similarity Emerges}{chapter.3}% 49
-\BOOKMARK [1][-]{section.3.10}{Conclusion}{chapter.3}% 50
-\BOOKMARK [0][-]{chapter.4}{Representing phrases with neural language models}{}% 51
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.2}{Neural Language Model Architectures}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.2.1}{Long Short Term Memory}{section.4.2}% 54
-\BOOKMARK [2][-]{subsection.4.2.2}{Bag-of-Words NLMs}{section.4.2}% 55
-\BOOKMARK [2][-]{subsection.4.2.3}{Pre-trained Input Representations}{section.4.2}% 56
-\BOOKMARK [2][-]{subsection.4.2.4}{Training Objective}{section.4.2}% 57
-\BOOKMARK [2][-]{subsection.4.2.5}{Implementation Details}{section.4.2}% 58
-\BOOKMARK [1][-]{section.4.3}{Reverse Dictionaries}{chapter.4}% 59
-\BOOKMARK [2][-]{subsection.4.3.1}{Data Collection and Training}{section.4.3}% 60
-\BOOKMARK [2][-]{subsection.4.3.2}{Comparisons}{section.4.3}% 61
-\BOOKMARK [2][-]{subsection.4.3.3}{Reverse Dictionary Evaluation}{section.4.3}% 62
-\BOOKMARK [2][-]{subsection.4.3.4}{Results}{section.4.3}% 63
-\BOOKMARK [2][-]{subsection.4.3.5}{Qualitative Analysis}{section.4.3}% 64
-\BOOKMARK [2][-]{subsection.4.3.6}{Cross-Lingual Reverse Dictionaries}{section.4.3}% 65
-\BOOKMARK [2][-]{subsection.4.3.7}{Discussion}{section.4.3}% 66
-\BOOKMARK [1][-]{section.4.4}{General Knowledge \(crossword\) Question Answering}{chapter.4}% 67
-\BOOKMARK [2][-]{subsection.4.4.1}{Evaluation}{section.4.4}% 68
-\BOOKMARK [2][-]{subsection.4.4.2}{Benchmarks and Comparisons}{section.4.4}% 69
-\BOOKMARK [2][-]{subsection.4.4.3}{Results}{section.4.4}% 70
-\BOOKMARK [2][-]{subsection.4.4.4}{Qualitative Analysis}{section.4.4}% 71
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 72
-\BOOKMARK [0][-]{chapter.5}{Representing sentences with neural language models}{}% 73
-\BOOKMARK [1][-]{subsection.5.0.1}{Introduction}{chapter.5}% 74
-\BOOKMARK [2][-]{subsection.5.0.2}{Distributed Sentence Representations}{subsection.5.0.1}% 75
-\BOOKMARK [2][-]{subsection.5.0.3}{Existing Models Trained on Text}{subsection.5.0.1}% 76
-\BOOKMARK [2][-]{subsection.5.0.4}{Models Trained on Structured Resources}{subsection.5.0.1}% 77
-\BOOKMARK [2][-]{subsection.5.0.5}{Novel Text-Based Models}{subsection.5.0.1}% 78
-\BOOKMARK [2][-]{subsection.5.0.6}{Training and Model Selection}{subsection.5.0.1}% 79
-\BOOKMARK [2][-]{subsection.5.0.7}{Evaluating Sentence Representations}{subsection.5.0.1}% 80
-\BOOKMARK [2][-]{subsection.5.0.8}{Supervised Evaluations}{subsection.5.0.1}% 81
-\BOOKMARK [2][-]{subsection.5.0.9}{Unsupervised Evaluations}{subsection.5.0.1}% 82
-\BOOKMARK [2][-]{subsection.5.0.10}{Results}{subsection.5.0.1}% 83
-\BOOKMARK [2][-]{subsection.5.0.11}{Discussion}{subsection.5.0.1}% 84
-\BOOKMARK [2][-]{subsection.5.0.12}{Conclusion}{subsection.5.0.1}% 85
-\BOOKMARK [0][-]{chapter.6}{Representing semantics in memory networks}{}% 86
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 87
-\BOOKMARK [0][-]{section*.81}{Bibliography}{}% 88
-\BOOKMARK [0][-]{appendix.A}{Extra Information}{}% 89
+\BOOKMARK [1][-]{section.3.2}{Grounded acquisition of abstract concepts from multi-modal data}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Model Design}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Information sources}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.3}{Evaluation}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.4}{Results and Discussion}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.5}{Combining information sources}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.6}{Propagating input to abstract concepts}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.7}{Direct representation vs. propagation}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.8}{Source and quantity of perceptual input}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.9}{Conclusions}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{Learning word representations from bilingual data using encoder-decoder models}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.1}{Neural Machine Translation Models}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.2}{Other bilingual models of learning word representations}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.3}{Experiments}{section.3.3}% 39
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Similarity and relatedness modelling}{subsection.3.3.3}% 40
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Importance of training data quantity}{subsection.3.3.3}% 41
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{Analogy resolution}{subsection.3.3.3}% 42
+\BOOKMARK [1][-]{section.3.4}{Effect of Target Language}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.4.1}{Overcoming the vocabulary size problem}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.2}{How similarity emerges in NMT embeddings}{section.3.4}% 45
+\BOOKMARK [2][-]{subsection.3.4.3}{Conclusions}{section.3.4}% 46
+\BOOKMARK [1][-]{section.3.5}{Discussion}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{Representing phrases with neural language models}{}% 48
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.2}{Neural Language Model Architectures}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.2.1}{Long Short Term Memory}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.2}{Bag-of-Words NLMs}{section.4.2}% 52
+\BOOKMARK [2][-]{subsection.4.2.3}{Pre-trained Input Representations}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.4}{Training Objective}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.5}{Implementation Details}{section.4.2}% 55
+\BOOKMARK [1][-]{section.4.3}{Reverse Dictionaries}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.3.1}{Data Collection and Training}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.2}{Comparisons}{section.4.3}% 58
+\BOOKMARK [2][-]{subsection.4.3.3}{Reverse Dictionary Evaluation}{section.4.3}% 59
+\BOOKMARK [2][-]{subsection.4.3.4}{Results}{section.4.3}% 60
+\BOOKMARK [2][-]{subsection.4.3.5}{Qualitative Analysis}{section.4.3}% 61
+\BOOKMARK [2][-]{subsection.4.3.6}{Cross-Lingual Reverse Dictionaries}{section.4.3}% 62
+\BOOKMARK [2][-]{subsection.4.3.7}{Discussion}{section.4.3}% 63
+\BOOKMARK [1][-]{section.4.4}{General Knowledge \(crossword\) Question Answering}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.4.1}{Evaluation}{section.4.4}% 65
+\BOOKMARK [2][-]{subsection.4.4.2}{Benchmarks and Comparisons}{section.4.4}% 66
+\BOOKMARK [2][-]{subsection.4.4.3}{Results}{section.4.4}% 67
+\BOOKMARK [2][-]{subsection.4.4.4}{Qualitative Analysis}{section.4.4}% 68
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 69
+\BOOKMARK [0][-]{chapter.5}{Representing sentences with neural language models}{}% 70
+\BOOKMARK [1][-]{subsection.5.0.1}{Introduction}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.0.2}{Distributed Sentence Representations}{subsection.5.0.1}% 72
+\BOOKMARK [2][-]{subsection.5.0.3}{Existing Models Trained on Text}{subsection.5.0.1}% 73
+\BOOKMARK [2][-]{subsection.5.0.4}{Models Trained on Structured Resources}{subsection.5.0.1}% 74
+\BOOKMARK [2][-]{subsection.5.0.5}{Novel Text-Based Models}{subsection.5.0.1}% 75
+\BOOKMARK [2][-]{subsection.5.0.6}{Training and Model Selection}{subsection.5.0.1}% 76
+\BOOKMARK [2][-]{subsection.5.0.7}{Evaluating Sentence Representations}{subsection.5.0.1}% 77
+\BOOKMARK [2][-]{subsection.5.0.8}{Supervised Evaluations}{subsection.5.0.1}% 78
+\BOOKMARK [2][-]{subsection.5.0.9}{Unsupervised Evaluations}{subsection.5.0.1}% 79
+\BOOKMARK [2][-]{subsection.5.0.10}{Results}{subsection.5.0.1}% 80
+\BOOKMARK [2][-]{subsection.5.0.11}{Discussion}{subsection.5.0.1}% 81
+\BOOKMARK [2][-]{subsection.5.0.12}{Conclusion}{subsection.5.0.1}% 82
+\BOOKMARK [0][-]{chapter.6}{Representing semantics in memory networks}{}% 83
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 84
+\BOOKMARK [0][-]{section*.79}{Bibliography}{}% 85
+\BOOKMARK [0][-]{appendix.A}{Extra Information}{}% 86
