@@ -1,49 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: plainnat.bst
-Reallocated field_info (elt_size=4) to 10068 items from 5000.
+Reallocated field_info (elt_size=4) to 10040 items from 5000.
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for ""
 You've used 180 entries,
             2773 wiz_defined-function locations,
-            1459 strings with 36751 characters,
-and the built_in function-call counts, 93261 in all, are:
-= -- 8240
-> -- 5623
+            1455 strings with 36688 characters,
+and the built_in function-call counts, 93116 in all, are:
+= -- 8219
+> -- 5612
 < -- 149
-+ -- 1904
-- -- 1711
-* -- 7283
-:= -- 13809
++ -- 1901
+- -- 1708
+* -- 7260
+:= -- 13786
 add.period$ -- 579
 call.type$ -- 180
 change.case$ -- 1100
 chr.to.int$ -- 167
 cite$ -- 360
-duplicate$ -- 4511
-empty$ -- 7671
-format.name$ -- 1997
-if$ -- 20093
+duplicate$ -- 4515
+empty$ -- 7675
+format.name$ -- 1992
+if$ -- 20067
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 187
+missing$ -- 186
 newline$ -- 910
 num.names$ -- 722
-pop$ -- 2502
+pop$ -- 2508
 preamble$ -- 1
-purify$ -- 927
+purify$ -- 926
 quote$ -- 0
-skip$ -- 3469
+skip$ -- 3465
 stack$ -- 0
-substring$ -- 3165
-swap$ -- 844
+substring$ -- 3126
+swap$ -- 843
 text.length$ -- 71
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1945
+type$ -- 1950
 warning$ -- 0
-while$ -- 796
+while$ -- 794
 width$ -- 0
-write$ -- 2330
-(There was 1 warning)
+write$ -- 2329

@@ -75,7 +75,7 @@
 \contentsline {subsection}{\numberline {3.3.3}Experiments}{70}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}Similarity and relatedness modelling}{71}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}Importance of training data quantity}{74}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3.3}Analogy resolution}{75}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.3}Analogy resolution}{74}{subsubsection.3.3.3.3}
 \contentsline {section}{\numberline {3.4}Effect of Target Language}{76}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Overcoming the vocabulary size problem}{77}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}How similarity emerges in NMT embeddings}{79}{subsection.3.4.2}

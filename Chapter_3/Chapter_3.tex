@@ -264,6 +264,7 @@ As in previous studies~\citep{Agirre2009,bruni2014multimodal,baroni2014don}, the
 Table~\ref{table:perf} shows the correlations of NMT (English-French) embeddings, other bilingually trained embeddings and monolingual embeddings with these three lexical gold-standards. NMT outperform monolingual embeddings, and, to a lesser extent, the other bilingually trained embeddings, on SimLex-999. However, this clear advantage is not observed on MEN and WordSim-353, where the projected embeddings of~\cite{faruqui2014improving}, which were tuned for high performance on WordSim-353, perform best. Given the aforementioned differences between the evaluations, this suggests that bilingually-trained embeddings, and NMT based embeddings in particular, better capture similarity, whereas monolingual embedding spaces are orientated more towards relatedness. 
 
 \begin{table}[t]
+\small
 \begin{center}
 \begin{tabular}{r c | r  r  r  | r r | r r |}
 \multicolumn{2}{c|}{~} &\multicolumn{3}{c|}{Monolingual models}  & \multicolumn{2}{c|}{\small Biling. models} & \multicolumn{2}{c|}{NMT models}\\  
@@ -285,7 +286,10 @@ Syn/antonym & \(\%\) & 0.69  & 0.72  &  0.75 & 0.76 & 0.70 &  {\bf 0.79} & 0.74 
 
 
 \begin{table}[t]
+
 \begin{center}
+\renewcommand{\tabcolsep}{4.6pt}
+\begin{adjustwidth}{-1cm}{}
 \begin{tabular}{r | r  r  r | r r | r r}
 &\bf Skipgram &\bf Glove &\bf CW&\bf FD &\bf BiCVM  &\bf RNNenc &\bf RNNsearch \\ 
 \hline
@@ -312,10 +316,12 @@ Syn/antonym & \(\%\) & 0.69  & 0.72  &  0.75 & 0.76 & 0.70 &  {\bf 0.79} & 0.74 
 
 
 \end{tabular}
+\end{adjustwidth}
 \caption{Nearest neighbours (excluding plurals) in the embedding spaces of different models. All models were trained for 6 epochs on the translation corpus except CW and FD (as noted previously). NMT embedding spaces are oriented according to similarity, whereas embeddings learned by monolingual models are organized according to relatedness. The other bilingual model BiCVM also exhibits a notable focus on similarity.}
 \label{table:neigh}
 \end{center}
 \vspace{-5mm}
+
 \end{table}
 
 To test this hypothesis further, I ran three more evaluations designed to probe the sensitivity of models to similarity as distinct from relatedness or association. In the first, I measured performance on SimLex-Assoc-333 ~\citep{hill2014simlex}. This evaluation comprises the 333 most related pairs in SimLex-999, according to an independent empirical measure of relatedness (free associate generation~\citep{nelson2004university}). Importantly, the pairs in SimLex-Assoc-333, while all strongly related, still span the full range of similarity scores.\footnote{The most dissimilar pair in SimLex-Assoc-333 is [\emph{shrink,grow}] with a score of 0.23. The highest is [\emph{vanish},\emph{disappear}] with 9.80.} Therefore, the extent to which embeddings can model this data reflects their sensitivity to the similarity (or dissimilarity) of two concepts, even in the face of a strong signal in the training data that those concepts are related.    
@@ -371,8 +377,11 @@ When considering the two properties of NMT embeddings highlighted by these exper
 To better understand why a translation objective yields embedding spaces with particular properties, I trained the RNN Search architecture to translate from English to German. 
 
 \begin{table}[ht]
+\small
 \begin{center}
 \begin{tabular}{r c | m{0.9cm}  m{0.9cm}  r c c c }
+
+
     \multicolumn{2}{c|}{~} &\bf  \small EN-FR &\bf  \small EN-DE &  &  `earned' & `castle' & `money'\\ 
 \cline{1-4} \cline{6-8}
 WordSim-353   & \(\rho\) & 0.60 & \bf 0.61 &   & {\small \emph{gained}} & {\small \emph{chateau}} & {\small \bf \emph{ silver}} \\
@@ -400,6 +409,7 @@ A potential drawback to using NMT models for learning word embeddings is the com
 A recently proposed solution to this problem enables NMT models to be trained with larger target vocabularies (and hence larger meaningful source vocabularies) at comparable computational cost to training with a small target vocabulary~\citep{Jean}. The algorithm uses (biased) importance sampling~\citep{Bengio+Senecal-2003-small} to approximate the probability distribution of words over a large target vocabulary with a finite set of distributions over subsets of that vocabulary. Despite this element of approximation in the decoder, extending the effective target vocabulary in this way significantly improves translation performance, since the model can make sense of more sentences in the training data and encounters fewer unknown words at test time. In terms of representation learning, the method provides a means to scale up the NMT approach to vocabularies as large as those learned by monolingual models. However, given that the method replaces an exact calculation with an approximate one, I tested how the quality of source embeddings is affected by scaling up the target language vocabulary in this way. 
 
 \begin{table}[t]
+\small
 \begin{center}
 \begin{tabular}{r c | c c c c }
     \multicolumn{2}{c|}{~} &\bf RNN Search &\bf RNN Search & \bf RNN Search-LV  & \bf RNN Search-LV  \\ 
@@ -449,6 +459,9 @@ The language-specific effects I observed in Section~\ref{lang_effects} suggest a
 
 \section{Discussion}
 
-Not all word embeddings learned from text are born equal. Depending on the application, those learned by NMT models may have particularly desirable properties. For decades, distributional semantic models have aimed to exploit Firth's famous \emph{distributional hypothesis} to induce word meanings from (monolingual) text. However, the hypothesis also betrays the weakness of the monolingual distributional approach when it comes to learning humah-quality concept representations. For while it is undeniable that ``words which are similar in meaning appear in similar distributional contexts"~\citep{dist}, the converse assertion, which is what really matters, is only sometimes true. 
+Distributed word representations have been of interest to the NLP community for many years, but the emergence of neural language models has rendered them of interest to a far wider constituency of language engineers, machine learning researchers and artificial intelligence experts in general. The `embeddings' in NLMs have surprising and fundamental commonalities with distributed representations acquired by more traditional means. Nevertheless, there is something compelling about the way in which they `emerge' via the optimisation of cost functions corresponding (typically) to the sort of language prediction task that a lay human could easily describe or even attempt. This might lie behind their wide appeal.  
+
+The single most important takeaway from this chapter is that not all sets of neural word embeddings are alike. In particular, their semantics depends in interesting ways on both the modality of the information to which the corresponding NLMs are exposed as well as its architecture and objective function. In the first section, I showed that the addition of information corresponding to the physical properties of concepts can enrich the quality of word embeddings. Moreover, while only concrete word concepts have such physical properties, in many cases, simple neural architectures like Skipgram are capable of propagating this information to a wider range of words that may have different parts-of-speech or refer to more abstract concepts. In the second section, I showed that NLMs whose objective is apparently more complex (translating sentences between languages) also acquire word embeddings with properties (semantic similarity) that are not observed so strongly in those trained via simpler objectives (neighbouring word prediction). Conveniently, it was evaluating with SimLex-999 that allowed this distinction to come to light (although it was corroborated via analyses on existing datasets such as the TOEFL synonymy questions). 
+
 
 
