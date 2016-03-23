@@ -83,40 +83,40 @@
 \contentsline {section}{\numberline {3.5}Discussion}{81}{section.3.5}
 \contentsline {chapter}{\numberline {4}Representing phrases with neural language models}{83}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{83}{section.4.1}
-\contentsline {section}{\numberline {4.2}Neural Language Model Architectures}{84}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Long Short Term Memory}{85}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Bag-of-Words NLMs}{86}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Pre-trained Input Representations}{87}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Training Objective}{87}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Implementation Details}{88}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Reverse Dictionaries}{88}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data Collection and Training}{89}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Comparisons}{90}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Reverse Dictionary Evaluation}{91}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Results}{92}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Qualitative Analysis}{94}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Cross-Lingual Reverse Dictionaries}{95}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Discussion}{96}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}General Knowledge (crossword) Question Answering}{97}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Evaluation}{97}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Benchmarks and Comparisons}{98}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results}{99}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Qualitative Analysis}{101}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{102}{section.4.5}
-\contentsline {chapter}{\numberline {5}Representing sentences with neural language models}{103}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}Introduction}{103}{subsection.5.0.1}
-\contentsline {subsection}{\numberline {5.0.2}Distributed Sentence Representations}{104}{subsection.5.0.2}
-\contentsline {subsection}{\numberline {5.0.3}Existing Models Trained on Text}{105}{subsection.5.0.3}
-\contentsline {subsection}{\numberline {5.0.4}Models Trained on Structured Resources}{106}{subsection.5.0.4}
-\contentsline {subsection}{\numberline {5.0.5}Novel Text-Based Models}{107}{subsection.5.0.5}
-\contentsline {subsection}{\numberline {5.0.6}Training and Model Selection}{108}{subsection.5.0.6}
-\contentsline {subsection}{\numberline {5.0.7}Evaluating Sentence Representations}{110}{subsection.5.0.7}
-\contentsline {subsection}{\numberline {5.0.8}Supervised Evaluations}{110}{subsection.5.0.8}
-\contentsline {subsection}{\numberline {5.0.9}Unsupervised Evaluations}{111}{subsection.5.0.9}
-\contentsline {subsection}{\numberline {5.0.10}Results}{112}{subsection.5.0.10}
-\contentsline {subsection}{\numberline {5.0.11}Discussion}{113}{subsection.5.0.11}
-\contentsline {subsection}{\numberline {5.0.12}Conclusion}{115}{subsection.5.0.12}
-\contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{117}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{119}{chapter.7}
-\contentsline {chapter}{Bibliography}{121}{section*.79}
-\contentsline {chapter}{\numberline {A}Extra Information}{139}{appendix.A}
+\contentsline {section}{\numberline {4.2}Neural Language Model Architectures}{85}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Long Short Term Memory}{86}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Bag-of-Words NLMs}{87}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Pre-trained Input Representations}{88}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Training Objective}{88}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Implementation Details}{89}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Reverse Dictionaries}{89}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Data Collection and Training}{90}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Comparisons}{91}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Reverse Dictionary Evaluation}{92}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Results}{93}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Qualitative Analysis}{95}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Cross-Lingual Reverse Dictionaries}{96}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Discussion}{97}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}General Knowledge (crossword) Question Answering}{98}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Evaluation}{98}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Benchmarks and Comparisons}{99}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results}{100}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Qualitative Analysis}{102}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion}{103}{section.4.5}
+\contentsline {chapter}{\numberline {5}Representing sentences with neural language models}{105}{chapter.5}
+\contentsline {subsection}{\numberline {5.0.1}Introduction}{105}{subsection.5.0.1}
+\contentsline {subsection}{\numberline {5.0.2}Distributed Sentence Representations}{106}{subsection.5.0.2}
+\contentsline {subsection}{\numberline {5.0.3}Existing Models Trained on Text}{107}{subsection.5.0.3}
+\contentsline {subsection}{\numberline {5.0.4}Models Trained on Structured Resources}{108}{subsection.5.0.4}
+\contentsline {subsection}{\numberline {5.0.5}Novel Text-Based Models}{109}{subsection.5.0.5}
+\contentsline {subsection}{\numberline {5.0.6}Training and Model Selection}{110}{subsection.5.0.6}
+\contentsline {subsection}{\numberline {5.0.7}Evaluating Sentence Representations}{112}{subsection.5.0.7}
+\contentsline {subsection}{\numberline {5.0.8}Supervised Evaluations}{112}{subsection.5.0.8}
+\contentsline {subsection}{\numberline {5.0.9}Unsupervised Evaluations}{113}{subsection.5.0.9}
+\contentsline {subsection}{\numberline {5.0.10}Results}{114}{subsection.5.0.10}
+\contentsline {subsection}{\numberline {5.0.11}Discussion}{115}{subsection.5.0.11}
+\contentsline {subsection}{\numberline {5.0.12}Conclusion}{117}{subsection.5.0.12}
+\contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{119}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{121}{chapter.7}
+\contentsline {chapter}{Bibliography}{123}{section*.79}
+\contentsline {chapter}{\numberline {A}Extra Information}{141}{appendix.A}
