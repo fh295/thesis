@@ -1,7 +1,5 @@
 % This chapter is about word representations
-
-\section{Introduction}
-
+\label{CH3}
 How can text-based models of word representation be improved in order to achieve human-like performance on evaluations like SimLex-999? Improved algorithms are undoubtedly part of the picture, but it is plausible that models may never acquire human-quality word representations from raw text, however efficient the learning algorithm and however much data they observe. This is because text data as a learning resource lacks various characteristics of the information available to human learners. For instance, much of conceptual acquisition and word learning, particularly at the early stages, apparently involves the unification of linguistic concepts with those acquired via the perceptual system~\citep{barsalou2005situating}. In addition, as the conceptual system develops, humans actively learn via interactions that depend on the current output of the learner, or explicit explanations targetted at the learner, or following a curriculum.Information in this form is not available to the text-based learning algorithms described in the previous chapter. 
 
 In light of these observations, in this chapter I seek to improve the representations acquired by Neural Language Models (NLMs) by training on information sources other than raw text. The analyses focus on word representations because the corresponding models and  and evaluations are better understood, although the conclusions should ultimately extend to phrases and sentences (see Chapter~/ref{CH4}).

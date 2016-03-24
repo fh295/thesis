@@ -48,75 +48,72 @@
 \contentsline {paragraph}{What is so special about neural word embeddings?}{49}{section*.42}
 \contentsline {paragraph}{The future of word representations}{50}{section*.43}
 \contentsline {chapter}{\numberline {3}Learning word representations from more than text}{53}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{53}{section.3.1}
-\contentsline {section}{\numberline {3.2}Grounded acquisition of abstract concepts from multi-modal data}{54}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Model Design}{56}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.1}Grounded acquisition of abstract concepts from multi-modal data}{54}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Model Design}{56}{subsection.3.1.1}
 \contentsline {paragraph}{Language-only model}{56}{section*.44}
-\contentsline {subsection}{\numberline {3.2.2}Information sources}{58}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.1.2}Information sources}{57}{subsection.3.1.2}
 \contentsline {paragraph}{ESPGame dataset}{58}{section*.46}
 \contentsline {paragraph}{CSLB Property Norms}{58}{section*.47}
-\contentsline {paragraph}{Linguistic input}{59}{section*.48}
-\contentsline {subsection}{\numberline {3.2.3}Evaluation}{59}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Results and Discussion}{60}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Combining information sources}{61}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Propagating input to abstract concepts}{62}{subsection.3.2.6}
+\contentsline {paragraph}{Linguistic input}{58}{section*.48}
+\contentsline {subsection}{\numberline {3.1.3}Evaluation}{59}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Results and Discussion}{60}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Combining information sources}{60}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Propagating input to abstract concepts}{61}{subsection.3.1.6}
 \contentsline {paragraph}{Johns and Jones}{62}{section*.52}
 \contentsline {paragraph}{Ridge Regression}{62}{section*.53}
 \contentsline {paragraph}{Comparisons}{63}{section*.54}
-\contentsline {subsection}{\numberline {3.2.7}Direct representation vs. propagation}{65}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Source and quantity of perceptual input}{66}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Conclusions}{66}{subsection.3.2.9}
-\contentsline {paragraph}{Type I}{67}{section*.57}
+\contentsline {subsection}{\numberline {3.1.7}Direct representation vs. propagation}{64}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Source and quantity of perceptual input}{65}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.9}Conclusions}{66}{subsection.3.1.9}
+\contentsline {paragraph}{Type I}{66}{section*.57}
 \contentsline {paragraph}{Type II}{67}{section*.58}
 \contentsline {paragraph}{Type III}{67}{section*.59}
-\contentsline {section}{\numberline {3.3}Learning word representations from bilingual data using encoder-decoder models}{68}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Neural Machine Translation Models}{68}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Other bilingual models of learning word representations}{69}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Experiments}{70}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.1}Similarity and relatedness modelling}{71}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Importance of training data quantity}{74}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3.3}Analogy resolution}{74}{subsubsection.3.3.3.3}
-\contentsline {section}{\numberline {3.4}Effect of Target Language}{76}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Overcoming the vocabulary size problem}{77}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}How similarity emerges in NMT embeddings}{79}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Conclusions}{80}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Discussion}{81}{section.3.5}
+\contentsline {section}{\numberline {3.2}Learning word representations from bilingual data using encoder-decoder models}{67}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Neural Machine Translation Models}{68}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Other bilingual models of learning word representations}{69}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Experiments}{70}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}Similarity and relatedness modelling}{71}{subsubsection.3.2.3.1}
+\contentsline {subsubsection}{\numberline {3.2.3.2}Importance of training data quantity}{73}{subsubsection.3.2.3.2}
+\contentsline {subsubsection}{\numberline {3.2.3.3}Analogy resolution}{74}{subsubsection.3.2.3.3}
+\contentsline {section}{\numberline {3.3}Effect of Target Language}{76}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Overcoming the vocabulary size problem}{77}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}How similarity emerges in NMT embeddings}{78}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Conclusions}{80}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Discussion}{81}{section.3.4}
 \contentsline {chapter}{\numberline {4}Representing phrases with neural language models}{83}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{83}{section.4.1}
-\contentsline {section}{\numberline {4.2}Neural Language Model Architectures}{85}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Long Short Term Memory}{86}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Bag-of-Words NLMs}{87}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Pre-trained Input Representations}{88}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Training Objective}{88}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Implementation Details}{89}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Reverse Dictionaries}{89}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data Collection and Training}{90}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Comparisons}{91}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Reverse Dictionary Evaluation}{92}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Results}{93}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Qualitative Analysis}{95}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Cross-Lingual Reverse Dictionaries}{96}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Discussion}{97}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}General Knowledge (crossword) Question Answering}{98}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Evaluation}{98}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Benchmarks and Comparisons}{99}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results}{100}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Qualitative Analysis}{102}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{103}{section.4.5}
+\contentsline {section}{\numberline {4.1}Neural language model architectures}{85}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Long short-term memory}{86}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Bag-of-words NLMs}{87}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Pre-trained input representations}{88}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Training objective}{88}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Implementation details}{89}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Reverse dictionaries}{89}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Data collection and training}{90}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Comparisons}{91}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Reverse dictionary evaluation}{92}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Results}{93}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Qualitative analysis}{95}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Cross-lingual reverse dictionaries}{95}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Discussion}{97}{subsection.4.2.7}
+\contentsline {section}{\numberline {4.3}Answering crossword questions}{98}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Evaluation}{99}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Benchmarks and comparisons}{100}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Results}{101}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Qualitative analysis}{102}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Conclusion}{103}{section.4.4}
 \contentsline {chapter}{\numberline {5}Representing sentences with neural language models}{105}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}Introduction}{105}{subsection.5.0.1}
-\contentsline {subsection}{\numberline {5.0.2}Distributed Sentence Representations}{106}{subsection.5.0.2}
-\contentsline {subsection}{\numberline {5.0.3}Existing Models Trained on Text}{107}{subsection.5.0.3}
-\contentsline {subsection}{\numberline {5.0.4}Models Trained on Structured Resources}{108}{subsection.5.0.4}
-\contentsline {subsection}{\numberline {5.0.5}Novel Text-Based Models}{109}{subsection.5.0.5}
-\contentsline {subsection}{\numberline {5.0.6}Training and Model Selection}{110}{subsection.5.0.6}
-\contentsline {subsection}{\numberline {5.0.7}Evaluating Sentence Representations}{112}{subsection.5.0.7}
-\contentsline {subsection}{\numberline {5.0.8}Supervised Evaluations}{112}{subsection.5.0.8}
-\contentsline {subsection}{\numberline {5.0.9}Unsupervised Evaluations}{113}{subsection.5.0.9}
-\contentsline {subsection}{\numberline {5.0.10}Results}{114}{subsection.5.0.10}
-\contentsline {subsection}{\numberline {5.0.11}Discussion}{115}{subsection.5.0.11}
-\contentsline {subsection}{\numberline {5.0.12}Conclusion}{117}{subsection.5.0.12}
+\contentsline {section}{\numberline {5.1}Distributed Sentence Representations}{106}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Existing Models Trained on Text}{107}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Models Trained on Structured Resources}{108}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Novel Text-Based Models}{109}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Training and Model Selection}{111}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Evaluating Sentence Representations}{112}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Supervised Evaluations}{113}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Unsupervised Evaluations}{113}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Results}{114}{section.5.3}
+\contentsline {section}{\numberline {5.4}Discussion}{115}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusion}{118}{section.5.5}
 \contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{119}{chapter.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{121}{chapter.7}
-\contentsline {chapter}{Bibliography}{123}{section*.79}
+\contentsline {chapter}{Bibliography}{123}{section*.80}
 \contentsline {chapter}{\numberline {A}Extra Information}{141}{appendix.A}
