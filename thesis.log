@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  24 MAR 2016 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  25 MAR 2016 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1135,17 +1135,8 @@ Package: ulem 2012/05/18
 \ULdepth=\dimen215
 )
 \c@quotecount=\count209
- (./thesis.aux
 
-LaTeX Warning: Label `font-table' multiply defined.
-
-
-LaTeX Warning: Label `tb:tablename' multiply defined.
-
-
-LaTeX Warning: Label `tb:tablename' multiply defined.
-
-)
+No file thesis.aux.
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -1163,7 +1154,7 @@ LaTeX Font Info:    ... okay on input line 93.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1208,12 +1199,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 93.
 LaTeX Info: Redefining \pageref on input line 93.
 LaTeX Info: Redefining \nameref on input line 93.
-
-(./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
 
- (./thesis.glsdefs)
+
+(./thesis.glsdefs)
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1319,7 +1309,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 \cam@logo=\box62
 
-<CollegeShields/CUni.pdf, id=337, 330.23375pt x 69.25874pt>
+<CollegeShields/CUni.pdf, id=4, 330.23375pt x 69.25874pt>
 File: CollegeShields/CUni.pdf Graphic file (type pdf)
 
 <use CollegeShields/CUni.pdf>
@@ -1332,7 +1322,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
 \cam@collegeshieldbox=\box64
 
-<CollegeShields/StJohns.png, id=338, 803.0pt x 956.57375pt>
+<CollegeShields/StJohns.png, id=5, 803.0pt x 956.57375pt>
 File: CollegeShields/StJohns.png Graphic file (type png)
 
 <use CollegeShields/StJohns.png>
@@ -1354,177 +1344,1042 @@ geShields/CUni.pdf> <./CollegeShields/StJohns.png>] [2
 
 ] [7] [8
 
-] (./thesis.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
- [9]
-Overfull \hbox (11.8121pt too wide) in paragraph at lines 71--71
- [][] [][]\OT1/ptm/m/n/12 Learning word rep-re-sen-ta-tions from bilin-gual dat
-a us-ing encoder-decoder 
- []
+]
 
-[10])
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [11] [12
+[9] [10
 
 ]
 No file thesis.gls.
-[13] [14
+[11] [12
 
 ]
 Chapter 1.
-(./Chapter_1/Chapter_1.tex) [15
+(./Chapter_1/Chapter_1.tex) [13
 
-] [16
+] [14
 
 ]
 Chapter 2.
 (./Chapter_2/Chapter_2.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+
+
+Package natbib Warning: Citation `dist' on page 15 undefined on input line 4.
+
+
+Package natbib Warning: Citation `cordier1965' on page 15 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `harper1965' on page 15 undefined on input lin
+e 6.
+
+
+Package natbib Warning: Citation `landauer1997solution' on page 15 undefined on
+ input line 6.
+
+
+Package natbib Warning: Citation `blei2003latent' on page 15 undefined on input
+ line 6.
+
+
+Package natbib Warning: Citation `griffiths2007topics' on page 15 undefined on 
+input line 6.
+
+
+Package natbib Warning: Citation `bengio2003neural' on page 15 undefined on inp
+ut line 8.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 15 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 15 undefined on
+ input line 8.
+
+
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
- [17]
-[18] [19]
+ [15]
+
+Package natbib Warning: Citation `finkelstein2001placing' on page 16 undefined 
+on input line 11.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 16 undefined on 
+input line 11.
+
+
+Package natbib Warning: Citation `gentner1978relational' on page 16 undefined o
+n input line 11.
+
+
+Package natbib Warning: Citation `hill2013quantitative' on page 16 undefined on
+ input line 11.
+
+
+Package natbib Warning: Citation `tversky1977features' on page 16 undefined on 
+input line 11.
+
+[16]
+
+LaTeX Warning: Reference `evaluation' on page 17 undefined on input line 13.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 17 undefined on
+ input line 19.
+
+
+Package natbib Warning: Citation `turian2010word' on page 17 undefined on input
+ line 19.
+
+[17]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
- [20]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
- [21] [22] [23]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 105.
 
+
+Package natbib Warning: Citation `plaut1995semantic' on page 18 undefined on in
+put line 23.
+
+
+Package natbib Warning: Citation `mcrae2012semantic' on page 18 undefined on in
+put line 23.
+
+
+Package natbib Warning: Citation `mcrae2012semantic' on page 18 undefined on in
+put line 25.
+
+
+Package natbib Warning: Citation `grigg2009lacan' on page 18 undefined on input
+ line 27.
+
+
+Package natbib Warning: Citation `crutch2009different' on page 18 undefined on 
+input line 27.
+
+
+Package natbib Warning: Citation `lucas2000semantic' on page 18 undefined on in
+put line 27.
+
+
+Package natbib Warning: Citation `fellbaum1999wordnet' on page 18 undefined on 
+input line 27.
+
+
+Package natbib Warning: Citation `wu1994verbs' on page 18 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `wu1994verbs' on page 18 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `nelson2004university' on page 18 undefined on
+ input line 27.
+
+[18]
+
+LaTeX Warning: Reference `existing' on page 19 undefined on input line 29.
+
+
+LaTeX Warning: Reference `tab1' on page 19 undefined on input line 29.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+
+Package natbib Warning: Citation `hill2013quantitative' on page 19 undefined on
+ input line 29.
+
+
+Package natbib Warning: Citation `he2008indirect' on page 19 undefined on input
+ line 47.
+
+
+Package natbib Warning: Citation `Haghighi2008Learning' on page 19 undefined on
+ input line 47.
+
+
+Package natbib Warning: Citation `marton2009improved' on page 19 undefined on i
+nput line 47.
+
+
+Package natbib Warning: Citation `beltagysemantic' on page 19 undefined on inpu
+t line 47.
+
+
+Package natbib Warning: Citation `navigli2009word' on page 19 undefined on inpu
+t line 47.
+
+
+Package natbib Warning: Citation `phan2008learning' on page 19 undefined on inp
+ut line 47.
+
+
+Package natbib Warning: Citation `rose2002reuters' on page 19 undefined on inpu
+t line 47.
+
+[19]
+
+Package natbib Warning: Citation `huang2012improving' on page 20 undefined on i
+nput line 49.
+
+
+Package natbib Warning: Citation `reisinger2010multi' on page 20 undefined on i
+nput line 49.
+
+
+Package natbib Warning: Citation `luong2013better' on page 20 undefined on inpu
+t line 49.
+
+
+Package natbib Warning: Citation `budanitsky2006evaluating' on page 20 undefine
+d on input line 49.
+
+
+Package natbib Warning: Citation `turney2012domain' on page 20 undefined on inp
+ut line 49.
+
+
+Package natbib Warning: Citation `agirre2009study' on page 20 undefined on inpu
+t line 51.
+
+
+Package natbib Warning: Citation `agirre2009study' on page 20 undefined on inpu
+t line 51.
+
+
+Package natbib Warning: Citation `agirre2009study' on page 20 undefined on inpu
+t line 51.
+
+[20]
+
+Package natbib Warning: Citation `gentner2006verbs' on page 21 undefined on inp
+ut line 82.
+
+
+Package natbib Warning: Citation `markman1997similar' on page 21 undefined on i
+nput line 82.
+
+
+Package natbib Warning: Citation `hill2014multi' on page 21 undefined on input 
+line 82.
+
+
+Package natbib Warning: Citation `paivio1991dual' on page 21 undefined on input
+ line 84.
+
+
+Package natbib Warning: Citation `hill2013quantitative' on page 21 undefined on
+ input line 84.
+
+
+Package natbib Warning: Citation `hill2013concreteness' on page 21 undefined on
+ input line 84.
+
+
+Package natbib Warning: Citation `kielaimproving' on page 21 undefined on input
+ line 84.
+
+[21]
+
+Package natbib Warning: Citation `finkelstein2001placing' on page 22 undefined 
+on input line 101.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 22 undefined on i
+nput line 101.
+
+
+Package natbib Warning: Citation `bansal2014tailoring' on page 22 undefined on 
+input line 101.
+
+
+LaTeX Warning: Reference `assoc' on page 22 undefined on input line 105.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 105.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [24] [25]
-Overfull \hbox (14.67964pt too wide) in paragraph at lines 125--126
- []\OT1/ptm/b/n/12 Rubenstein & Good-e-nough[] \OT1/ptm/m/n/12 Prior to WS-353,
- the smaller re-source pro-duced by []Ruben-
- []
+)
 
-[26]
+Package natbib Warning: Citation `collobert2008unified' on page 22 undefined on
+ input line 115.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 22 undefined on i
+nput line 115.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 22 undefined on i
+nput line 115.
+
+
+Package natbib Warning: Citation `pado2007flexible' on page 22 undefined on inp
+ut line 115.
+
+
+Package natbib Warning: Citation `reisinger2010mixture' on page 22 undefined on
+ input line 115.
+
+
+Package natbib Warning: Citation `silberer2014learning' on page 22 undefined on
+ input line 115.
+
+[22]
+
+Package natbib Warning: Citation `yong1999case' on page 23 undefined on input l
+ine 117.
+
+
+Package natbib Warning: Citation `cunningham2005information' on page 23 undefin
+ed on input line 117.
+
+
+Package natbib Warning: Citation `resnik201011' on page 23 undefined on input l
+ine 117.
+
+
+Package natbib Warning: Citation `alfonseca2002extending' on page 23 undefined 
+on input line 117.
+
+
+Package natbib Warning: Citation `agirre2009study' on page 23 undefined on inpu
+t line 119.
+
+
+Package natbib Warning: Citation `agirre2009study' on page 23 undefined on inpu
+t line 121.
+
+
+Package natbib Warning: Citation `agirre2009study' on page 23 undefined on inpu
+t line 123.
+
+[23]
+
+Package natbib Warning: Citation `rubenstein1965contextual' on page 24 undefine
+d on input line 125.
+
+
+Package natbib Warning: Citation `hassan2011semantic' on page 24 undefined on i
+nput line 125.
+
+
+Package natbib Warning: Citation `rubenstein1965contextual' on page 24 undefine
+d on input line 125.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 24 undefined on 
+input line 127.
+
+
+Package natbib Warning: Citation `bruni2012distributional2' on page 24 undefine
+d on input line 127.
+
+
+Package natbib Warning: Citation `bernardi2013relatedness' on page 24 undefined
+ on input line 127.
+
+
+Package natbib Warning: Citation `bruni2012distributional' on page 24 undefined
+ on input line 129.
+
+
+Package natbib Warning: Citation `landauer1997solution' on page 24 undefined on
+ input line 131.
+
+
+Package natbib Warning: Citation `griffiths2007topics' on page 24 undefined on 
+input line 131.
+
+
+Package natbib Warning: Citation `turney2010frequency' on page 24 undefined on 
+input line 131.
+
+
 Overfull \hbox (8.66713pt too wide) in paragraph at lines 131--132
  []\OT1/ptm/b/n/12 Synonym de-tec-tion sets[] \OT1/ptm/m/n/12 Multiple-choice s
 yn-onym de-tec-tion tasks, such as the TOEFL
  []
 
-[27] [28] <Chapter_2/Figure_1_CL.pdf, id=833, 794.97pt x 289.08pt>
+[24]
+
+LaTeX Warning: Reference `motivation' on page 25 undefined on input line 148.
+
+
+Package natbib Warning: Citation `leech1994claws4' on page 25 undefined on inpu
+t line 148.
+
+[25]
+
+LaTeX Warning: Reference `motivation' on page 26 undefined on input line 150.
+
+
+Package natbib Warning: Citation `fellbaum1999wordnet' on page 26 undefined on 
+input line 150.
+
+
+Package natbib Warning: Citation `hill2014multi' on page 26 undefined on input 
+line 152.
+
+
+Package natbib Warning: Citation `kielaimproving' on page 26 undefined on input
+ line 152.
+
+
+LaTeX Warning: Reference `motivation' on page 26 undefined on input line 152.
+
+<Chapter_2/Figure_1_CL.pdf, id=179, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_1_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_1_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_1_CL.pdf used on input line 154.
 (pdftex.def)             Requested size: 412.56497pt x 150.02692pt.
- [29 <./Chapter_2/Figure_1_CL.pdf>]
-<Chapter_2/screenshot1_CL.png, id=852, 1153.30875pt x 689.57625pt>
+
+
+LaTeX Warning: Reference `fig1' on page 26 undefined on input line 156.
+
+[26 <./Chapter_2/Figure_1_CL.pdf>]
+
+LaTeX Warning: Reference `fig2' on page 27 undefined on input line 164.
+
+
+LaTeX Warning: Reference `motivation' on page 27 undefined on input line 164.
+
+<Chapter_2/screenshot1_CL.png, id=194, 1153.30875pt x 689.57625pt>
 File: Chapter_2/screenshot1_CL.png Graphic file (type png)
 
 <use Chapter_2/screenshot1_CL.png>
 Package pdftex.def Info: Chapter_2/screenshot1_CL.png used on input line 166.
 (pdftex.def)             Requested size: 412.56497pt x 246.67946pt.
- [30 <./Chapter_2/screenshot1_CL.png>]
-<Chapter_2/screenshot2_CL.png, id=861, 602.25pt x 488.82625pt>
+
+
+LaTeX Warning: Reference `fig2' on page 27 undefined on input line 168.
+
+
+LaTeX Warning: Reference `fig3' on page 27 undefined on input line 168.
+
+[27] <Chapter_2/screenshot2_CL.png, id=202, 602.25pt x 488.82625pt>
 File: Chapter_2/screenshot2_CL.png Graphic file (type png)
 
 <use Chapter_2/screenshot2_CL.png>
 Package pdftex.def Info: Chapter_2/screenshot2_CL.png used on input line 175.
 (pdftex.def)             Requested size: 350.55502pt x 284.52756pt.
 
-Underfull \vbox (badness 3240) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./Chapter_2/screenshot2_CL.png>] [32] [33]
-<Chapter_2/Figure_1A_CL.pdf, id=889, 794.97pt x 289.08pt>
+ [28 <./Chapter_2/screenshot1_CL.png>]
+
+Package natbib Warning: Citation `huang2012improving' on page 29 undefined on i
+nput line 187.
+
+
+Package natbib Warning: Citation `resnik1995using' on page 29 undefined on inpu
+t line 189.
+
+
+Package natbib Warning: Citation `pedersen2004wordnet' on page 29 undefined on 
+input line 189.
+
+[29 <./Chapter_2/screenshot2_CL.png>] [30] [31]
+<Chapter_2/Figure_1A_CL.pdf, id=231, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_1A_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_1A_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_1A_CL.pdf used on input line 213.
 (pdftex.def)             Requested size: 412.56497pt x 150.02692pt.
- [34 <./Chapter_2/Figure_1A_CL.pdf>]
-Overfull \hbox (19.98361pt too wide) in paragraph at lines 223--224
-\OT1/ptm/m/n/12 have proved chal-leng-ing for com-pu-ta-tional mod-els, in-clud
--ing antonymy, po-lar-ity ([]Williams
- []
 
-[35] <Chapter_2/Figure_6_CL.pdf, id=930, 794.97pt x 361.35pt>
+
+Package natbib Warning: Citation `pado2007flexible' on page 32 undefined on inp
+ut line 215.
+
+
+Package natbib Warning: Citation `reisinger2010mixture' on page 32 undefined on
+ input line 215.
+
+
+Package natbib Warning: Citation `silberer2014learning' on page 32 undefined on
+ input line 215.
+
+
+Package natbib Warning: Citation `bruni2012distributional2' on page 32 undefine
+d on input line 215.
+
+
+LaTeX Warning: Reference `fig4' on page 32 undefined on input line 219.
+
+
+Package natbib Warning: Citation `paivio1991dual' on page 32 undefined on input
+ line 219.
+
+[32 <./Chapter_2/Figure_1A_CL.pdf>]
+
+Package natbib Warning: Citation `williams2009predicting' on page 33 undefined 
+on input line 223.
+
+
+Package natbib Warning: Citation `wiebe2000learning' on page 33 undefined on in
+put line 223.
+
+
+LaTeX Warning: Reference `tab2' on page 33 undefined on input line 229.
+
+<Chapter_2/Figure_6_CL.pdf, id=248, 794.97pt x 361.35pt>
 File: Chapter_2/Figure_6_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_6_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_6_CL.pdf used on input line 261.
 (pdftex.def)             Requested size: 412.56497pt x 187.53366pt.
- [36 <./Chapter_2/Figure_6_CL.pdf>] [37]
-<Chapter_2/simlex_relations_CL.pdf, id=962, 1111.15125pt x 370.38374pt>
+
+
+Package natbib Warning: Citation `agirre2009study' on page 33 undefined on inpu
+t line 269.
+
+[33]
+
+LaTeX Warning: Reference `fig5' on page 34 undefined on input line 273.
+
+
+LaTeX Warning: Reference `fig5' on page 34 undefined on input line 273.
+
+
+LaTeX Warning: Reference `fig5' on page 34 undefined on input line 273.
+
+
+Package natbib Warning: Citation `cruse1986lexical' on page 34 undefined on inp
+ut line 278.
+
+[34]
+
+Package natbib Warning: Citation `levy2015supervised' on page 35 undefined on i
+nput line 280.
+
+
+Package natbib Warning: Citation `rosch1976structural' on page 35 undefined on 
+input line 280.
+
+
+LaTeX Warning: Reference `fig6' on page 35 undefined on input line 282.
+
+
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+ [35 <./Chapter_2/Figure_6_CL.pdf>]
+<Chapter_2/simlex_relations_CL.pdf, id=274, 1111.15125pt x 370.38374pt>
 File: Chapter_2/simlex_relations_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/simlex_relations_CL.pdf>
 Package pdftex.def Info: Chapter_2/simlex_relations_CL.pdf used on input line 2
 88.
 (pdftex.def)             Requested size: 412.56497pt x 137.52022pt.
- [38] [39 <./Chapter_2/simlex_relations_CL.pdf>] [40] [41] [42]
-<Chapter_2/Figure_2A_CL.pdf, id=1098, 794.97pt x 289.08pt>
+
+
+Package natbib Warning: Citation `baroni2014don' on page 36 undefined on input 
+line 293.
+
+
+Package natbib Warning: Citation `Bengio2003lm' on page 36 undefined on input l
+ine 293.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36 <./Chapter_2/simlex_relations_CL.pdf>]
+
+Package natbib Warning: Citation `collobert2008unified' on page 37 undefined on
+ input line 300.
+
+
+Package natbib Warning: Citation `turian2010word' on page 37 undefined on input
+ line 304.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 37 undefined on
+ input line 304.
+
+
+Package natbib Warning: Citation `lewis2004rcv1' on page 37 undefined on input 
+line 304.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 37 undefined on i
+nput line 308.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 37 undefined on
+ input line 308.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 37 undefined on
+ input line 308.
+
+[37]
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 38 undefined on
+ input line 316.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 38 undefined on
+ input line 316.
+
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 38 undefined 
+on input line 316.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 38 undefined on
+ input line 316.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 38 undefined on input 
+line 316.
+
+[38]
+
+LaTeX Warning: Reference `conclusion' on page 39 undefined on input line 330.
+
+[39]
+
+Package natbib Warning: Citation `kiela2014systematic' on page 40 undefined on 
+input line 336.
+
+
+Package natbib Warning: Citation `bird2006nltk' on page 40 undefined on input l
+ine 336.
+
+
+Package natbib Warning: Citation `recchia2009more' on page 40 undefined on inpu
+t line 336.
+
+
+Package natbib Warning: Citation `landauer1997solution' on page 40 undefined on
+ input line 338.
+
+
+Package natbib Warning: Citation `golub1970singular' on page 40 undefined on in
+put line 338.
+
+<Chapter_2/Figure_2A_CL.pdf, id=355, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_2A_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_2A_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_2A_CL.pdf used on input line 352.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
 
-<Chapter_2/Figure_2B_CL.pdf, id=1111, 794.97pt x 289.08pt>
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 40 undefined on
+ input line 352.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 40 undefined on i
+nput line 352.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 40 undefined on
+ input line 352.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 40 undefined on
+ input line 352.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 40 undefined on i
+nput line 352.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 40 undefined on
+ input line 352.
+
+<Chapter_2/Figure_2B_CL.pdf, id=356, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_2B_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_2B_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_2B_CL.pdf used on input line 354.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
- [43 <./Chapter_2/Figure_2A_CL.pdf>] [44 <./Chapter_2/Figure_2B_CL.pdf>]
-<Chapter_2/Figure_3A_CL.pdf, id=1184, 794.97pt x 289.08pt>
+
+
+Package natbib Warning: Citation `lewis2004rcv1' on page 40 undefined on input 
+line 354.
+
+
+Package natbib Warning: Citation `lewis2004rcv1' on page 40 undefined on input 
+line 354.
+
+
+LaTeX Warning: Reference `fig7' on page 40 undefined on input line 356.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 40 undefined on i
+nput line 356.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 40 undefined on i
+nput line 356.
+
+
+LaTeX Warning: Reference `prev' on page 40 undefined on input line 356.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 40 undefined on i
+nput line 356.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 40 undefined on i
+nput line 356.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 40 undefined on
+ input line 356.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 40 undefined on
+ input line 356.
+
+
+Overfull \hbox (4.77977pt too wide) in paragraph at lines 356--357
+ []\OT1/ptm/b/n/12 Overall per-for-mance on SimLex-999[] \OT1/ptm/m/n/12 Fig-ur
+e [] shows the per-for-mance of the NLMs
+ []
+
+[40]
+
+LaTeX Warning: Reference `fig8' on page 41 undefined on input line 358.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 41 undefined on
+ input line 358.
+
+
+Package natbib Warning: Citation `lewis2004rcv1' on page 41 undefined on input 
+line 358.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 41 undefined on input 
+line 358.
+
+[41 <./Chapter_2/Figure_2A_CL.pdf> <./Chapter_2/Figure_2B_CL.pdf>]
+
+LaTeX Warning: Reference `fig7' on page 42 undefined on input line 360.
+
+
+LaTeX Warning: Reference `fig8' on page 42 undefined on input line 360.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 42 undefined on i
+nput line 360.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 42 undefined on
+ input line 360.
+
+
+LaTeX Warning: Reference `fig7' on page 42 undefined on input line 360.
+
+
+LaTeX Warning: Reference `fig9' on page 42 undefined on input line 368.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 42 undefined on
+ input line 368.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 42 undefined on i
+nput line 368.
+
+[42] <Chapter_2/Figure_3A_CL.pdf, id=398, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_3A_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_3A_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_3A_CL.pdf used on input line 370.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
 
-Underfull \vbox (badness 4647) has occurred while \output is active []
 
- [45 <./Chapter_2/Figure_3A_CL.pdf>]
-<Chapter_2/Figure_5_CL.pdf, id=1206, 794.97pt x 289.08pt>
+Package natbib Warning: Citation `mikolov2013efficient' on page 43 undefined on
+ input line 370.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 43 undefined on
+ input line 370.
+
+
+Package natbib Warning: Citation `levy2014dependency' on page 43 undefined on i
+nput line 372.
+
+
+Package natbib Warning: Citation `levy2014dependency' on page 43 undefined on i
+nput line 372.
+
+
+LaTeX Warning: Reference `fig9' on page 43 undefined on input line 374.
+
+<Chapter_2/Figure_5_CL.pdf, id=399, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_5_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_5_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_5_CL.pdf used on input line 376.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
 
-<Chapter_2/New_Figure_2_CL.pdf, id=1207, 948.54375pt x 370.38374pt>
+<Chapter_2/New_Figure_2_CL.pdf, id=400, 948.54375pt x 370.38374pt>
 File: Chapter_2/New_Figure_2_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/New_Figure_2_CL.pdf>
 Package pdftex.def Info: Chapter_2/New_Figure_2_CL.pdf used on input line 378.
 (pdftex.def)             Requested size: 412.5553pt x 142.2619pt.
- [46 <./Chapter_2/Figure_5_CL.pdf> <./Chapter_2/New_Figure_2_CL.pdf>]
-<Chapter_2/Figure_4_CL.pdf, id=1282, 794.97pt x 289.08pt>
+
+
+LaTeX Warning: Reference `motivation' on page 43 undefined on input line 385.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 43 undefined on
+ input line 385.
+
+
+LaTeX Warning: Reference `fig11' on page 43 undefined on input line 387.
+
+[43 <./Chapter_2/Figure_3A_CL.pdf>] [44 <./Chapter_2/Figure_5_CL.pdf> <./Chapte
+r_2/New_Figure_2_CL.pdf>]
+
+Package natbib Warning: Citation `levy2014dependency' on page 45 undefined on i
+nput line 389.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 45 undefined on
+ input line 389.
+
+
+LaTeX Warning: Reference `fig12' on page 45 undefined on input line 389.
+
+
+Package natbib Warning: Citation `markman1997similar' on page 45 undefined on i
+nput line 389.
+
+
+Package natbib Warning: Citation `sun2008verb' on page 45 undefined on input li
+ne 389.
+
+<Chapter_2/Figure_4_CL.pdf, id=476, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_4_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_4_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_4_CL.pdf used on input line 395.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
- [47] [48 <./Chapter_2/Figure_4_CL.pdf>]
-[49] [50]) [51] [52
+
+
+LaTeX Warning: Reference `fig1' on page 45 undefined on input line 398.
+
+
+LaTeX Warning: Reference `fig13' on page 45 undefined on input line 398.
+
+[45 <./Chapter_2/Figure_4_CL.pdf>]
+
+Package natbib Warning: Citation `hill2013concreteness' on page 46 undefined on
+ input line 402.
+
+[46]
+
+Package natbib Warning: Citation `levy2015improving' on page 47 undefined on in
+put line 414.
+
+
+Package natbib Warning: Citation `wang2015learning' on page 47 undefined on inp
+ut line 414.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 47 undefined on input 
+line 418.
+
+
+LaTeX Warning: Reference `fig8' on page 47 undefined on input line 418.
+
+
+LaTeX Warning: Reference `fig11' on page 47 undefined on input line 418.
+
+
+Package natbib Warning: Citation `levy2014neural' on page 47 undefined on input
+ line 418.
+
+
+LaTeX Warning: Reference `shallow' on page 47 undefined on input line 418.
+
+
+Package natbib Warning: Citation `levy2015improving' on page 47 undefined on in
+put line 420.
+
+
+LaTeX Warning: Reference `shallow' on page 47 undefined on input line 420.
+
+
+Package natbib Warning: Citation `levy2015improving' on page 47 undefined on in
+put line 420.
+
+[47]
+
+Package natbib Warning: Citation `gershmanmetaphor' on page 48 undefined on inp
+ut line 424.
+
+
+Package natbib Warning: Citation `barsalou2003grounding' on page 48 undefined o
+n input line 424.
+
+
+Package natbib Warning: Citation `dist' on page 48 undefined on input line 428.
+
+
+) [48] [49] [50
 
 ]
 Chapter 3.
 (./Chapter_3/Chapter_3.tex
+
+Package natbib Warning: Citation `barsalou2005situating' on page 51 undefined o
+n input line 3.
+
+
+Package natbib Warning: Citation `feng2010visual' on page 51 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `bruni2012distributional' on page 51 undefined
+ on input line 7.
+
+
+Package natbib Warning: Citation `kiela2015multi' on page 51 undefined on input
+ line 7.
+
+
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
- [53]
+ [51]
 Overfull \hbox (21.69455pt too wide) in paragraph at lines 11--11
 []\OT1/ptm/b/n/17.28 Grounded ac-qui-si-tion of ab-stract con-cepts from multi-
 
  []
 
-[54] [55]
+
+Package natbib Warning: Citation `andrews2009integrating' on page 52 undefined 
+on input line 13.
+
+
+Package natbib Warning: Citation `barsalou2005situating' on page 52 undefined o
+n input line 13.
+
+
+Package natbib Warning: Citation `feng2010visual' on page 52 undefined on input
+ line 13.
+
+
+Package natbib Warning: Citation `bruni2012distributional' on page 52 undefined
+ on input line 13.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 52 undefined on
+ input line 13.
+
+
+Package natbib Warning: Citation `rollermultimodal' on page 52 undefined on inp
+ut line 13.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 52 undefined on 
+input line 15.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 52 undefined on
+ input line 15.
+
+
+Package natbib Warning: Citation `rollermultimodal' on page 52 undefined on inp
+ut line 15.
+
+
+Package natbib Warning: Citation `silberer2014learning' on page 52 undefined on
+ input line 15.
+
+
+Package natbib Warning: Citation `paivio1991dual' on page 52 undefined on input
+ line 15.
+
+
+Package natbib Warning: Citation `hill2013quantitative' on page 52 undefined on
+ input line 15.
+
+[52]
+
+Package natbib Warning: Citation `leech1994claws4' on page 53 undefined on inpu
+t line 17.
+
+
+Package natbib Warning: Citation `nelson2004university' on page 53 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `crutch2005abstract' on page 53 undefined on i
+nput line 17.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 53 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `mesnil2012unsupervised' on page 53 undefined 
+on input line 17.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 53 undefined on
+ input line 19.
+
+
+Package natbib Warning: Citation `von2004labeling' on page 53 undefined on inpu
+t line 21.
+
+
+Package natbib Warning: Citation `devereux2013centre' on page 53 undefined on i
+nput line 21.
+
+
+Package natbib Warning: Citation `nelson2004university' on page 53 undefined on
+ input line 21.
+
+[53]
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 54 undefined on
+ input line 31.
+
+
+LaTeX Warning: Reference `CH2' on page 54 undefined on input line 31.
+
+
+Package natbib Warning: Citation `bybee2001frequency' on page 54 undefined on i
+nput line 31.
+
+
+Package natbib Warning: Citation `chater2006probabilistic' on page 54 undefined
+ on input line 31.
+
+
+LaTeX Warning: Reference `percep_sources' on page 54 undefined on input line 33
+.
+
+
 Overfull \hbox (4.27162pt too wide) in paragraph at lines 33--34
 []\OT1/ptm/m/n/12 To im-ple-ment this pro-cess, per-cep-tual in-for-ma-tion is 
 ex-tracted from ex-ter-nal sources
  []
 
-[56]
+
+LaTeX Warning: Reference `examples' on page 54 undefined on input line 35.
+
+[54]
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 55 undefined on
+ input line 39.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 
@@ -1532,34 +2387,411 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
-[57] [58] [59] [60] [61] [62]
-<Chapter_3/Graph_1_EMNLP2014.pdf, id=1551, 794.97pt x 230.8625pt>
+
+Package natbib Warning: Citation `von2004labeling' on page 55 undefined on inpu
+t line 48.
+
+
+Package natbib Warning: Citation `devereux2013centre' on page 55 undefined on i
+nput line 50.
+
+
+Package natbib Warning: Citation `mcrae2005semantic' on page 55 undefined on in
+put line 50.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 55 undefined on
+ input line 50.
+
+
+Package natbib Warning: Citation `rollermultimodal' on page 55 undefined on inp
+ut line 50.
+
+[55]
+
+Package natbib Warning: Citation `fodor1983modularity' on page 56 undefined on 
+input line 52.
+
+
+Package natbib Warning: Citation `nelson2004university' on page 56 undefined on
+ input line 88.
+
+
+Package natbib Warning: Citation `andrews2009integrating' on page 56 undefined 
+on input line 88.
+
+
+Package natbib Warning: Citation `feng2010visual' on page 56 undefined on input
+ line 88.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 56 undefined on
+ input line 88.
+
+
+Package natbib Warning: Citation `rollermultimodal' on page 56 undefined on inp
+ut line 88.
+
+
+Package natbib Warning: Citation `huang2012improving' on page 56 undefined on i
+nput line 88.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 56 undefined on
+ input line 88.
+
+[56]
+
+Package natbib Warning: Citation `leech1994claws4' on page 57 undefined on inpu
+t line 110.
+
+
+LaTeX Warning: Reference `set_details' on page 57 undefined on input line 110.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 58 undefined on
+ input line 147.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 58 undefined on
+ input line 147.
+
+
+Package natbib Warning: Citation `hardoon2004canonical' on page 58 undefined on
+ input line 147.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 58 undefined on 
+input line 147.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 58 undefined on 
+input line 147.
+
+
+Overfull \hbox (2.71451pt too wide) in paragraph at lines 147--148
+\OT1/ptm/m/n/12 dimensionality rep-re-sen-ta-tions that pre-serve un-der-ly-ing
+ inter-modal cor-re-la-tions, which
+ []
+
+[58]
+
+LaTeX Warning: Reference `main_results' on page 59 undefined on input line 151.
+
+
+
+Package natbib Warning: Citation `johns2012perceptual' on page 59 undefined on 
+input line 160.
+
+[59]
+
+Package natbib Warning: Citation `johns2012perceptual' on page 60 undefined on 
+input line 164.
+
+
+Package natbib Warning: Citation `hill2014multi' on page 60 undefined on input 
+line 171.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 60 undefined on
+ input line 173.
+
+<Chapter_3/Graph_1_EMNLP2014.pdf, id=579, 794.97pt x 230.8625pt>
 File: Chapter_3/Graph_1_EMNLP2014.pdf Graphic file (type pdf)
 
 <use Chapter_3/Graph_1_EMNLP2014.pdf>
 Package pdftex.def Info: Chapter_3/Graph_1_EMNLP2014.pdf used on input line 175
 .
 (pdftex.def)             Requested size: 412.56497pt x 119.81316pt.
- [63 <./Chapter_3/Graph_1_EMNLP2014.pdf>]
-<Chapter_3/Graph_2_EMNLP2014.pdf, id=1573, 794.97pt x 469.755pt>
+
+
+LaTeX Warning: Reference `main_results' on page 60 undefined on input line 177.
+
+
+
+Package natbib Warning: Citation `feng2010visual' on page 60 undefined on input
+ line 177.
+
+
+Package natbib Warning: Citation `silberer2012grounded' on page 60 undefined on
+ input line 177.
+
+
+Package natbib Warning: Citation `silberer2013models' on page 60 undefined on i
+nput line 177.
+
+[60] <Chapter_3/Graph_2_EMNLP2014.pdf, id=586, 794.97pt x 469.755pt>
 File: Chapter_3/Graph_2_EMNLP2014.pdf Graphic file (type pdf)
 
 <use Chapter_3/Graph_2_EMNLP2014.pdf>
 Package pdftex.def Info: Chapter_3/Graph_2_EMNLP2014.pdf used on input line 188
 .
 (pdftex.def)             Requested size: 412.56497pt x 243.79376pt.
- [64 <./Chapter_3/Graph_2_EMNLP2014.pdf>]
-[65]
+
+
+Package natbib Warning: Citation `katja2005content' on page 61 undefined on inp
+ut line 194.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./Chapter_3/Graph_1_EMNLP2014.pdf>]
+
+LaTeX Warning: Reference `repprop' on page 62 undefined on input line 196.
+
+[62 <./Chapter_3/Graph_2_EMNLP2014.pdf>]
+
+LaTeX Warning: Reference `conc1' on page 63 undefined on input line 202.
+
+
+LaTeX Warning: Reference `conc3' on page 63 undefined on input line 202.
+
+
+LaTeX Warning: Reference `repprop' on page 63 undefined on input line 204.
+
+
+Underfull \vbox (badness 6758) has occurred while \output is active []
+
+ [63]
+
+Package natbib Warning: Citation `srivastava2012multimodal' on page 64 undefine
+d on input line 210.
+
+
+Package natbib Warning: Citation `wu2013online' on page 64 undefined on input l
+ine 210.
+
+
 Overfull \hbox (0.31213pt too wide) in paragraph at lines 210--211
 []\OT1/ptm/m/n/12 While NLMs have been ap-plied to the prob-lem of multi-modal 
 rep-re-sen-ta-tion learn-
  []
 
-[66] [67] [68] [69] [70]
-Overfull \hbox (0.68373pt too wide) in paragraph at lines 262--263
-[]\OT1/ptm/m/n/12 Table []3.4[] shows the cor-re-la-tions of NMT (English-Frenc
-h) em-bed-dings, other bilin-
+[64]
+
+Package natbib Warning: Citation `grafton2009embodied' on page 65 undefined on 
+input line 218.
+
+
+Package natbib Warning: Citation `barsalou2010grounded' on page 65 undefined on
+ input line 218.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 65 undefined on input 
+line 229.
+
+
+Package natbib Warning: Citation `levy2015improving' on page 65 undefined on in
+put line 229.
+
+
+Package natbib Warning: Citation `levy2014neural' on page 65 undefined on input
+ line 229.
+
+
+Package natbib Warning: Citation `kalchbrenner13emnlp' on page 65 undefined on 
+input line 229.
+
+
+Package natbib Warning: Citation `devlin2014fast' on page 65 undefined on input
+ line 229.
+
+
+Package natbib Warning: Citation `Sutskever2014sequence' on page 65 undefined o
+n input line 229.
+
+[65]
+
+Package natbib Warning: Citation `kalchbrenner13emnlp' on page 66 undefined on 
+input line 237.
+
+
+Package natbib Warning: Citation `Sutskever2014sequence' on page 66 undefined o
+n input line 237.
+
+
+Package natbib Warning: Citation `bahdanau2014neural' on page 66 undefined on i
+nput line 239.
+
+
+Package natbib Warning: Citation `kalchbrenner13emnlp' on page 66 undefined on 
+input line 241.
+
+
+Package natbib Warning: Citation `Cho2014' on page 66 undefined on input line 2
+41.
+
+
+Package natbib Warning: Citation `bahdanau2014neural' on page 66 undefined on i
+nput line 241.
+
+
+Package natbib Warning: Citation `Haghighi2008Learning' on page 66 undefined on
+ input line 244.
+
+
+Package natbib Warning: Citation `vulic2011identifying' on page 66 undefined on
+ input line 244.
+
+
+Package natbib Warning: Citation `mikolov2013exploiting' on page 66 undefined o
+n input line 244.
+
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 66 undefined on in
+put line 244.
+
+
+Package natbib Warning: Citation `lauly2014autoencoder' on page 66 undefined on
+ input line 244.
+
+
+Package natbib Warning: Citation `Haghighi2008Learning' on page 66 undefined on
+ input line 244.
+
+
+Package natbib Warning: Citation `vulic2011identifying' on page 66 undefined on
+ input line 244.
+
+
+Package natbib Warning: Citation `mikolov2013exploiting' on page 66 undefined o
+n input line 244.
+
+
+Package natbib Warning: Citation `Klementiev' on page 66 undefined on input lin
+e 244.
+
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 66 undefined on in
+put line 244.
+
+
+Package natbib Warning: Citation `lauly2014autoencoder' on page 66 undefined on
+ input line 244.
+
+
+Package natbib Warning: Citation `Kocisky:2014' on page 66 undefined on input l
+ine 244.
+
+[66]
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 67 undefined on in
+put line 246.
+
+
+Package natbib Warning: Citation `Klementiev' on page 67 undefined on input lin
+e 246.
+
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 67 undefined on in
+put line 246.
+
+
+Package natbib Warning: Citation `lauly2014autoencoder' on page 67 undefined on
+ input line 246.
+
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 67 undefined on in
+put line 246.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 67 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 67 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 67 undefined on
+ input line 248.
+
+
+Package natbib Warning: Citation `Cho2014' on page 67 undefined on input line 2
+52.
+
+
+Package natbib Warning: Citation `bahdanau2014neural' on page 67 undefined on i
+nput line 252.
+
+
+Package natbib Warning: Citation `kalchbrenner13emnlp' on page 67 undefined on 
+input line 252.
+
+
+Package natbib Warning: Citation `devlin2014fast' on page 67 undefined on input
+ line 252.
+
+
+Package natbib Warning: Citation `Sutskever2014sequence' on page 67 undefined o
+n input line 252.
+
+
+Package natbib Warning: Citation `Cho2014' on page 67 undefined on input line 2
+52.
+
+[67]
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 68 undefined on in
+put line 254.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 68 undefined on
+ input line 254.
+
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 68 undefined 
+on input line 254.
+
+
+Package natbib Warning: Citation `Pennington2014' on page 68 undefined on input
+ line 254.
+
+
+Package natbib Warning: Citation `collobert2008unified' on page 68 undefined on
+ input line 256.
+
+
+Package natbib Warning: Citation `Agirre2009' on page 68 undefined on input lin
+e 260.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 68 undefined on 
+input line 260.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 68 undefined on input 
+line 260.
+
+
+Package natbib Warning: Citation `Agirre2009' on page 68 undefined on input lin
+e 260.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 68 undefined on 
+input line 260.
+
+
+Package natbib Warning: Citation `hill2014simlex' on page 68 undefined on input
+ line 260.
+
+
+Overfull \hbox (6.53047pt too wide) in paragraph at lines 260--261
+\OT1/ptm/m/n/12 sine) dis-tances be-tween em-bed-dings and cor-re-lat-ing these
+ dis-tances with (gold-standard)
  []
+
+[68]
+
+LaTeX Warning: Reference `table:perf' on page 69 undefined on input line 262.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 69 undefined on
+ input line 262.
 
 
 Overfull \hbox (9.61494pt too wide) in paragraph at lines 267--279
@@ -1571,15 +2803,63 @@ Overfull \hbox (15.42433pt too wide) in paragraph at lines 291--317
 [][] 
  []
 
-[71] [72] [73] <Chapter_3/Figure_1_ICLR2015.pdf, id=1806, 794.97pt x 361.35pt>
+
+Package natbib Warning: Citation `hill2014simlex' on page 69 undefined on input
+ line 325.
+
+
+Package natbib Warning: Citation `nelson2004university' on page 69 undefined on
+ input line 325.
+
+
+Package natbib Warning: Citation `landauer1997solution' on page 69 undefined on
+ input line 327.
+
+[69]
+
+LaTeX Warning: Reference `table:perf' on page 70 undefined on input line 331.
+
+
+LaTeX Warning: Reference `table:neigh' on page 70 undefined on input line 333.
+
+[70]
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 71 undefined 
+on input line 339.
+
+
+LaTeX Warning: Reference `fig:size' on page 71 undefined on input line 339.
+
+<Chapter_3/Figure_1_ICLR2015.pdf, id=679, 794.97pt x 361.35pt>
 File: Chapter_3/Figure_1_ICLR2015.pdf Graphic file (type pdf)
 
 <use Chapter_3/Figure_1_ICLR2015.pdf>
 Package pdftex.def Info: Chapter_3/Figure_1_ICLR2015.pdf used on input line 342
 .
 (pdftex.def)             Requested size: 412.56497pt x 177.1151pt.
- [74 <./Chapter_3/Figure_1_ICLR2015.pdf>]
-<Chapter_3/Figure_2_ICLR2015.pdf, id=1831, 794.97pt x 361.35pt>
+
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 71 undefined 
+on input line 351.
+
+[71 <./Chapter_3/Figure_1_ICLR2015.pdf>]
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 72 undefined 
+on input line 353.
+
+
+LaTeX Warning: Reference `fig:analogy' on page 72 undefined on input line 355.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 72 undefined on
+ input line 355.
+
+[72]
+
+Package natbib Warning: Citation `levy2014dependency' on page 73 undefined on i
+nput line 359.
+
+<Chapter_3/Figure_2_ICLR2015.pdf, id=702, 794.97pt x 361.35pt>
 File: Chapter_3/Figure_2_ICLR2015.pdf Graphic file (type pdf)
 
 <use Chapter_3/Figure_2_ICLR2015.pdf>
@@ -1587,9 +2867,6 @@ Package pdftex.def Info: Chapter_3/Figure_2_ICLR2015.pdf used on input line 364
 .
 (pdftex.def)             Requested size: 412.56497pt x 177.1151pt.
 
-Underfull \vbox (badness 2662) has occurred while \output is active []
-
- [75]
 Underfull \hbox (badness 10000) in paragraph at lines 383--383
 []|\OT1/ptm/b/n/10.95 EN-
  []
@@ -1606,12 +2883,46 @@ Overfull \hbox (7.05948pt too wide) in paragraph at lines 380--395
  [] 
  []
 
-[76 <./Chapter_3/Figure_2_ICLR2015.pdf>]
+
+LaTeX Warning: Reference `table:de' on page 73 undefined on input line 401.
+
+[73 <./Chapter_3/Figure_2_ICLR2015.pdf>]
+
+Package natbib Warning: Citation `morin2005hierarchical' on page 74 undefined o
+n input line 405.
+
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 74 undefined 
+on input line 405.
+
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 74 undefined on in
+put line 405.
+
+
+Package natbib Warning: Citation `Jean' on page 74 undefined on input line 407.
+
+
+
+Package natbib Warning: Citation `Bengio+Senecal-2003-small' on page 74 undefin
+ed on input line 407.
+
+[74]
 Overfull \hbox (23.62758pt too wide) in paragraph at lines 412--425
  [] 
  []
 
-[77] [78]
+
+LaTeX Warning: Reference `table:ex' on page 75 undefined on input line 431.
+
+
+Package natbib Warning: Citation `luong2014addressing' on page 75 undefined on 
+input line 431.
+
+
+LaTeX Warning: Reference `table:de' on page 75 undefined on input line 437.
+
+[75]
 Overfull \hbox (0.28818pt too wide) in paragraph at lines 439--440
 []\OT1/ptm/m/n/12 These in-fre-quent but strik-ing dif-fer-ences be-tween the E
 nglish-German and English-
@@ -1628,33 +2939,263 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--448
  []
 
 
-Underfull \vbox (badness 2318) has occurred while \output is active []
+Package natbib Warning: Citation `faruqui2014improving' on page 76 undefined on
+ input line 449.
 
- [79]
-[80] [81]) [82]
-Chapter 4.
-(./Chapter_4/Chapter_4.tex
-Underfull \vbox (badness 1742) has occurred while \output is active []
+[76]
 
- [83
+Package natbib Warning: Citation `hill2014simlex' on page 77 undefined on input
+ line 454.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 77 undefined on
+ input line 454.
+
+
+LaTeX Warning: Reference `lang_effects' on page 77 undefined on input line 456.
+
+
+
+Package natbib Warning: Citation `Hermann:2014:ICLR' on page 77 undefined on in
+put line 456.
+
+
+Package natbib Warning: Citation `faruqui2014improving' on page 77 undefined on
+ input line 456.
+
+
+Package natbib Warning: Citation `Kocisky:2014' on page 77 undefined on input l
+ine 456.
+
+[77] [78]
+
+LaTeX Warning: Reference `CH5' on page 79 undefined on input line 464.
+
+) [79] [80
 
 ]
-[84] [85] [86] [87]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Chapter 4.
+(./Chapter_4/Chapter_4.tex
 
- [88]
-[89] [90] [91] [92]
+LaTeX Warning: Reference `CH2' on page 81 undefined on input line 6.
+
+
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [81]
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 82 undefined 
+on input line 12.
+
+
+Package natbib Warning: Citation `zock2004word' on page 82 undefined on input l
+ine 14.
+
+
+Package natbib Warning: Citation `307754' on page 82 undefined on input line 14
+.
+
+
+Package natbib Warning: Citation `Klementiev' on page 82 undefined on input lin
+e 14.
+
+
+Package natbib Warning: Citation `hermann2013multilingual' on page 82 undefined
+ on input line 14.
+
+
+Package natbib Warning: Citation `gouws2014bilbowa' on page 82 undefined on inp
+ut line 14.
+
+[82]
+
+LaTeX Warning: Reference `CH5' on page 83 undefined on input line 20.
+
+
+Package natbib Warning: Citation `mikolov2010recurrent' on page 83 undefined on
+ input line 24.
+
+
+Package natbib Warning: Citation `kiros2014unifying' on page 83 undefined on in
+put line 24.
+
+
+Package natbib Warning: Citation `bahdanau2014neural' on page 83 undefined on i
+nput line 24.
+
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 83 undefined 
+on input line 26.
+
+[83]
+
+Package natbib Warning: Citation `bengio1994learning' on page 84 undefined on i
+nput line 48.
+
+
+Package natbib Warning: Citation `hochreiter1997long' on page 84 undefined on i
+nput line 48.
+
+[84]
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+ [85]
+
+Package natbib Warning: Citation `huang2012improving' on page 86 undefined on i
+nput line 115.
+
+
+Package natbib Warning: Citation `bordes2015large' on page 86 undefined on inpu
+t line 115.
+
+[86]
+
+Package natbib Warning: Citation `faruqui2014retrofitting' on page 87 undefined
+ on input line 120.
+
+
+Package natbib Warning: Citation `cho2014learning' on page 87 undefined on inpu
+t line 122.
+
+
+Package natbib Warning: Citation `bergstra+al:2010-scipy' on page 87 undefined 
+on input line 124.
+
+
+Package natbib Warning: Citation `zeiler2012adadelta' on page 87 undefined on i
+nput line 124.
+
+[87]
+
+Package natbib Warning: Citation `bilac2003improving' on page 88 undefined on i
+nput line 130.
+
+
+Package natbib Warning: Citation `bilac2004dictionary' on page 88 undefined on 
+input line 130.
+
+
+Package natbib Warning: Citation `zock2004word' on page 88 undefined on input l
+ine 130.
+
+
+Package natbib Warning: Citation `shaw2013building' on page 88 undefined on inp
+ut line 130.
+
+[88]
+
+Package natbib Warning: Citation `mitchell2010composition' on page 89 undefined
+ on input line 144.
+
+
+Package natbib Warning: Citation `shaw2013building' on page 89 undefined on inp
+ut line 150.
+
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+ [89]
+
+Package natbib Warning: Citation `leech1994claws4' on page 90 undefined on inpu
+t line 154.
+
+[90]
+
+LaTeX Warning: Reference `results' on page 91 undefined on input line 178.
+
+
 Overfull \hbox (18.56956pt too wide) in paragraph at lines 186--218
 []  [] 
  []
 
-[93] [94]
+
+LaTeX Warning: Reference `results' on page 91 undefined on input line 224.
+
+[91]
+
+Package natbib Warning: Citation `iyyer2015deep' on page 92 undefined on input 
+line 228.
+
+
+LaTeX Warning: Reference `qual' on page 92 undefined on input line 246.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
 Overfull \hbox (4.6203pt too wide) in paragraph at lines 294--295
 []\OT1/ptm/m/n/12 The sec-ond ex-am-ple demon-strates how the NLMs gen-er-ally 
 re-turn can-di-dates whose
  []
 
-[95] [96] [97] [98] [99] [100]
+[93]
+
+Package natbib Warning: Citation `hermann2013multilingual' on page 94 undefined
+ on input line 301.
+
+
+Package natbib Warning: Citation `lauly2014autoencoder' on page 94 undefined on
+ input line 301.
+
+
+Package natbib Warning: Citation `gouws2014bilbowa' on page 94 undefined on inp
+ut line 301.
+
+
+Package natbib Warning: Citation `gouws2014bilbowa' on page 94 undefined on inp
+ut line 301.
+
+
+LaTeX Warning: Reference `cross' on page 94 undefined on input line 329.
+
+[94] [95]
+
+Package natbib Warning: Citation `ferrucci2010building' on page 96 undefined on
+ input line 343.
+
+
+Package natbib Warning: Citation `molla2007question' on page 96 undefined on in
+put line 343.
+
+
+Package natbib Warning: Citation `Iyyer:Boyd-Graber:Claudino:Socher:Daume-2014'
+ on page 96 undefined on input line 343.
+
+
+Package natbib Warning: Citation `weston2015towards' on page 96 undefined on in
+put line 343.
+
+
+Package natbib Warning: Citation `berant14paraphrasing' on page 96 undefined on
+ input line 343.
+
+
+Package natbib Warning: Citation `bordes2014question' on page 96 undefined on i
+nput line 343.
+
+
+Package natbib Warning: Citation `littman2002probabilistic' on page 96 undefine
+d on input line 345.
+
+[96]
+
+Package natbib Warning: Citation `littman2002probabilistic' on page 97 undefine
+d on input line 414.
+
+
+Package natbib Warning: Citation `ginsberg2011dr' on page 97 undefined on input
+ line 426.
+
+[97]
+
+Package natbib Warning: Citation `littman2002probabilistic' on page 98 undefine
+d on input line 431.
+
+
+Package natbib Warning: Citation `ginsberg2011dr' on page 98 undefined on input
+ line 431.
+
+
 Overfull \hbox (15.36818pt too wide) in paragraph at lines 436--469
 []  []
  []
@@ -1664,15 +3205,128 @@ Underfull \hbox (badness 10000) in paragraph at lines 436--469
 
  []
 
-[101] [102] [103]) [104]
+
+LaTeX Warning: Reference `results2' on page 98 undefined on input line 475.
+
+[98]
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 99 undefined 
+on input line 479.
+
+
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+ [99]
+
+LaTeX Warning: Reference `egs' on page 100 undefined on input line 484.
+
+
+LaTeX Warning: Reference `egs' on page 100 undefined on input line 486.
+
+
+Package natbib Warning: Citation `bordes2014question' on page 100 undefined on 
+input line 488.
+
+
+Package natbib Warning: Citation `graves2014neural' on page 100 undefined on in
+put line 488.
+
+
+Package natbib Warning: Citation `weston2015towards' on page 100 undefined on i
+nput line 488.
+
+[100] [101]) [102]
 Chapter 5.
-(./Chapter_5/Chapter_5.tex [105
+(./Chapter_5/Chapter_5.tex
+
+LaTeX Warning: Reference `CH2' on page 103 undefined on input line 4.
+
+
+LaTeX Warning: Reference `CH3' on page 103 undefined on input line 4.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 103 undefined on input
+ line 4.
+
+
+Package natbib Warning: Citation `levy2014neural' on page 103 undefined on inpu
+t line 4.
+
+
+Package natbib Warning: Citation `hill2014simlex' on page 103 undefined on inpu
+t line 4.
+
+
+Package natbib Warning: Citation `collobert2011natural' on page 103 undefined o
+n input line 4.
+
+
+LaTeX Warning: Reference `CH4' on page 103 undefined on input line 6.
+
+
+Package natbib Warning: Citation `mitchell2008vector' on page 103 undefined on 
+input line 6.
+
+
+Package natbib Warning: Citation `clark2007combining' on page 103 undefined on 
+input line 6.
+
+
+Package natbib Warning: Citation `baroni2014frege' on page 103 undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `milajevs2014evaluating' on page 103 undefined
+ on input line 6.
+
+
+Package natbib Warning: Citation `Sutskever2014sequence' on page 103 undefined 
+on input line 6.
+
+
+Package natbib Warning: Citation `mao2014deep' on page 103 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `serban2015building' on page 103 undefined on 
+input line 6.
+
+
+Package natbib Warning: Citation `cho2014learning' on page 103 undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `norman1972memory' on page 103 undefined on in
+put line 6.
+
+[103
 
 ]
+
+Package natbib Warning: Citation `kiros2015skip' on page 104 undefined on input
+ line 10.
+
+
+Package natbib Warning: Citation `hill2015learning' on page 104 undefined on in
+put line 10.
+
+
 Overfull \hbox (10.05951pt too wide) in paragraph at lines 10--11
 \OT1/ptm/m/n/12 low log-linear mod-els work best on un-su-per-vised bench-marks
 . Specif-i-cally, SkipThought
  []
+
+
+Package natbib Warning: Citation `socher2011semi' on page 104 undefined on inpu
+t line 14.
+
+
+Package natbib Warning: Citation `kalchbrenner2014convolutional' on page 104 un
+defined on input line 14.
+
+
+Package natbib Warning: Citation `milajevs2014evaluating' on page 104 undefined
+ on input line 14.
 
 
 Overfull \hbox (2.16272pt too wide) in paragraph at lines 14--15
@@ -1680,37 +3334,247 @@ Overfull \hbox (2.16272pt too wide) in paragraph at lines 14--15
  as with the pre-dom-i-nant meth-
  []
 
+[104]
 
-Underfull \vbox (badness 2865) has occurred while \output is active []
+Package natbib Warning: Citation `kiros2015skip' on page 105 undefined on input
+ line 17.
+
+
+Package natbib Warning: Citation `cho2014learning' on page 105 undefined on inp
+ut line 17.
+
+
+Package natbib Warning: Citation `le2014distributed' on page 105 undefined on i
+nput line 21.
+
+
+Package natbib Warning: Citation `mikolov2013distributed' on page 105 undefined
+ on input line 25.
+
+
+Package natbib Warning: Citation `mitchell2010composition' on page 105 undefine
+d on input line 25.
+
+
+Package natbib Warning: Citation `marcobaronijointly' on page 105 undefined on 
+input line 27.
+
+[105]
+
+Package natbib Warning: Citation `hill2015learning' on page 106 undefined on in
+put line 34.
+
+
+Package natbib Warning: Citation `chen2015microsoft' on page 106 undefined on i
+nput line 36.
+
+
+Package natbib Warning: Citation `szegedy2014going' on page 106 undefined on in
+put line 36.
+
+
+Package natbib Warning: Citation `russakovsky2014imagenet' on page 106 undefine
+d on input line 36.
+
+
+Package natbib Warning: Citation `cho2014learning' on page 106 undefined on inp
+ut line 38.
+
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
 
  [106]
-[107]
-Overfull \hbox (0.13445pt too wide) in paragraph at lines 25--26
-\OT1/ptm/b/n/12 Bottom-Up Meth-ods \OT1/ptm/m/n/12 I train \OT1/ptm/b/n/12 CBOW
- \OT1/ptm/m/n/12 and \OT1/ptm/b/n/12 Skip-Gram \OT1/ptm/m/n/12 word em-bed-ding
-s ([]Mikolov et al.[],
- []
 
-[108] [109]
+Package natbib Warning: Citation `vincent2008extracting' on page 107 undefined 
+on input line 43.
+
+
+Package natbib Warning: Citation `vincent2010stacked' on page 107 undefined on 
+input line 43.
+
+
+Package natbib Warning: Citation `dai2015semi' on page 107 undefined on input l
+ine 47.
+
+
+Package natbib Warning: Citation `iyyer2015deep' on page 107 undefined on input
+ line 47.
+
+
+Package natbib Warning: Citation `sutskever2011generating' on page 107 undefine
+d on input line 47.
+
+
+LaTeX Warning: Reference `unseval' on page 107 undefined on input line 47.
+
+
+Package natbib Warning: Citation `harris1954distributional' on page 107 undefin
+ed on input line 49.
+
+
+Package natbib Warning: Citation `polajnar2015exploration' on page 107 undefine
+d on input line 49.
+
+
+LaTeX Warning: Reference `modelprops' on page 107 undefined on input line 49.
+
+[107]
+
+LaTeX Warning: Reference `eqn1' on page 108 undefined on input line 57.
+
+
 Overfull \hbox (34.6065pt too wide) in paragraph at lines 91--105
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `modelprops' on page 108 undefined on input line 121.
 
- [110]
-[111]
+[108]
+
+Package natbib Warning: Citation `collobert2011natural' on page 109 undefined o
+n input line 125.
+
+
+Package natbib Warning: Citation `mikolov2013efficient' on page 109 undefined o
+n input line 125.
+
+
+Package natbib Warning: Citation `kiros2015skip' on page 109 undefined on input
+ line 125.
+
+
+Package natbib Warning: Citation `hill2015learning' on page 109 undefined on in
+put line 125.
+
+
+Package natbib Warning: Citation `baroni2014don' on page 109 undefined on input
+ line 125.
+
+
+Package natbib Warning: Citation `levy2015improving' on page 109 undefined on i
+nput line 125.
+
+[109]
 Overfull \hbox (16.83025pt too wide) in paragraph at lines 136--169
  [] 
  []
+
+
+LaTeX Warning: Reference `supersec' on page 110 undefined on input line 173.
+
+
+LaTeX Warning: Reference `supersec' on page 110 undefined on input line 173.
 
 
 Overfull \hbox (35.32828pt too wide) in paragraph at lines 185--219
  [] 
  []
 
-[112] [113] [114] [115]
+
+LaTeX Warning: Reference `unseval' on page 110 undefined on input line 223.
+
+
+LaTeX Warning: Reference `supervised' on page 110 undefined on input line 223.
+
+
+LaTeX Warning: Reference `unseval' on page 110 undefined on input line 223.
+
+
+LaTeX Warning: Reference `supervised' on page 110 undefined on input line 223.
+
+
+Package natbib Warning: Citation `dolan2004unsupervised' on page 110 undefined 
+on input line 233.
+
+
+Package natbib Warning: Citation `pang2005seeing' on page 110 undefined on inpu
+t line 233.
+
+
+Package natbib Warning: Citation `hu2004mining' on page 110 undefined on input 
+line 233.
+
+
+Package natbib Warning: Citation `pang2004sentimental' on page 110 undefined on
+ input line 233.
+
+
+Package natbib Warning: Citation `wiebe2005annotating' on page 110 undefined on
+ input line 233.
+
+
+Package natbib Warning: Citation `voorhees2002overview' on page 110 undefined o
+n input line 233.
+
+
+Package natbib Warning: Citation `kiros2015skip' on page 110 undefined on input
+ line 233.
+
+
+Package natbib Warning: Citation `marelli2014sick' on page 110 undefined on inp
+ut line 237.
+
+
+Package natbib Warning: Citation `agirre2014semeval' on page 110 undefined on i
+nput line 237.
+
+
+LaTeX Warning: Reference `unsex' on page 110 undefined on input line 237.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+
+LaTeX Warning: Reference `supervised' on page 111 undefined on input line 243.
+
+
+Package natbib Warning: Citation `ji2013discriminative' on page 111 undefined o
+n input line 243.
+
+
+Package natbib Warning: Citation `vincent2008extracting' on page 111 undefined 
+on input line 243.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+
+LaTeX Warning: Reference `unsupervised' on page 112 undefined on input line 245
+.
+
+
+Package natbib Warning: Citation `marcobaronijointly' on page 112 undefined on 
+input line 245.
+
+
+LaTeX Warning: Reference `supervised' on page 112 undefined on input line 252.
+
+
+LaTeX Warning: Reference `unsupervised' on page 112 undefined on input line 252
+.
+
+
+Package natbib Warning: Citation `voorhees2002overview' on page 112 undefined o
+n input line 254.
+
+
+Package natbib Warning: Citation `bruni2014multimodal' on page 112 undefined on
+ input line 254.
+
+[112]
+
+LaTeX Warning: Reference `neighbours' on page 113 undefined on input line 256.
+
+
+Package natbib Warning: Citation `almahairi2015learning' on page 113 undefined 
+on input line 258.
+
+
+LaTeX Warning: Reference `modelprops' on page 113 undefined on input line 261.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 269.
 
@@ -1718,11 +3582,43 @@ Overfull \hbox (11.83568pt too wide) in paragraph at lines 268--305
  [] 
  []
 
-[116] [117]) [118]
-Chapter 6.
-(./Chapter_6/Chapter_6.tex) [119
 
-] [120
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+[114]
+
+LaTeX Warning: Reference `consistency' on page 115 undefined on input line 350.
+
+
+
+Package natbib Warning: Citation `wiebe2005annotating' on page 115 undefined on
+ input line 352.
+
+
+LaTeX Warning: Reference `unsex' on page 115 undefined on input line 352.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
+Overfull \hbox (4.5035pt too wide) in paragraph at lines 403--404
+\OT1/ptm/m/n/12 If the ap-pli-ca-tion is un-known, how-ever, the best all round
+ choice may be Dic-tRep+embs:
+ []
+
+[116]
+
+LaTeX Warning: Reference `unsex' on page 117 undefined on input line 413.
+
+) [117] [118
+
+]
+Chapter 6.
+(./Chapter_6/Chapter_6.tex) [119] [120
 
 ]
 Chapter 7.
@@ -1740,27 +3636,44 @@ Appendix A.
 
 ]
 No file thesis.ind.
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
-(./thesis.aux)
+(./thesis.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9D6146A40C5A2DEF5DC7C4229AD36923;6400.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  9D6146A40C5A2DEF5DC7C4229AD36923;6400.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 22241 strings out of 493089
- 409528 string characters out of 6134841
- 508471 words of memory out of 5000000
- 24765 multiletter control sequences out of 15000+600000
+ 22150 strings out of 493089
+ 408096 string characters out of 6134841
+ 485142 words of memory out of 5000000
+ 24681 multiletter control sequences out of 15000+600000
  49570 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,10389b,1176s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,10389b,1353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
@@ -1784,10 +3697,10 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on thesis.pdf (142 pages, 1143223 bytes).
+Output written on thesis.pdf (142 pages, 1101104 bytes).
 PDF statistics:
- 2782 PDF objects out of 2984 (max. 8388607)
- 2462 compressed objects within 25 object streams
- 551 named destinations out of 1000 (max. 500000)
- 767 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1542 PDF objects out of 1728 (max. 8388607)
+ 1247 compressed objects within 13 object streams
+ 552 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
