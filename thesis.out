@@ -78,6 +78,23 @@
 \BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 78
 \BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 79
 \BOOKMARK [0][-]{chapter.6}{Representing semantics in memory networks}{}% 80
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 81
-\BOOKMARK [0][-]{section*.80}{Bibliography}{}% 82
-\BOOKMARK [0][-]{appendix.A}{Extra Information}{}% 83
+\BOOKMARK [1][-]{section.6.1}{Motivation and background}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.2}{The Children's Book Test}{chapter.6}% 82
+\BOOKMARK [2][-]{subsection.6.2.1}{Related Resources}{section.6.2}% 83
+\BOOKMARK [1][-]{section.6.3}{Studying Memory Representation with Memory Networks}{chapter.6}% 84
+\BOOKMARK [2][-]{subsection.6.3.1}{Encoding Memories and Queries}{section.6.3}% 85
+\BOOKMARK [2][-]{subsection.6.3.2}{End-to-end Memory Networks}{section.6.3}% 86
+\BOOKMARK [2][-]{subsection.6.3.3}{Self-supervision for Window Memories}{section.6.3}% 87
+\BOOKMARK [1][-]{section.6.4}{Baseline and Comparison Models}{chapter.6}% 88
+\BOOKMARK [2][-]{subsection.6.4.1}{Non-Learning Baselines}{section.6.4}% 89
+\BOOKMARK [2][-]{subsection.6.4.2}{N-gram Language Models}{section.6.4}% 90
+\BOOKMARK [2][-]{subsection.6.4.3}{Supervised Embedding Models}{section.6.4}% 91
+\BOOKMARK [2][-]{subsection.6.4.4}{Recurrent Language Models}{section.6.4}% 92
+\BOOKMARK [2][-]{subsection.6.4.5}{Human Performance}{section.6.4}% 93
+\BOOKMARK [2][-]{subsection.6.4.6}{Other Related Approaches}{section.6.4}% 94
+\BOOKMARK [1][-]{section.6.5}{Results}{chapter.6}% 95
+\BOOKMARK [2][-]{subsection.6.5.1}{News Article Question Answering}{section.6.5}% 96
+\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 97
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 98
+\BOOKMARK [0][-]{section*.89}{Bibliography}{}% 99
+\BOOKMARK [0][-]{appendix.A}{Extra Information}{}% 100
