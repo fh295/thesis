@@ -1,4 +1,4 @@
-\begin{thebibliography}{180}
+\begin{thebibliography}{205}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -45,12 +45,23 @@ Amjad Almahairi, Kyle Kastner, Kyunghyun Cho, and Aaron Courville.
 \newblock In \emph{Proceedings of the 9th ACM Conference on Recommender
   Systems}, pages 147--154. ACM, 2015.
 
+\bibitem[Altmann and Steedman(1988)]{altmann1988interaction}
+Gerry Altmann and Mark Steedman.
+\newblock Interaction with context during human sentence processing.
+\newblock \emph{Cognition}, 30\penalty0 (3):\penalty0 191--238, 1988.
+
 \bibitem[Andrews et~al.(2009)Andrews, Vigliocco, and
   Vinson]{andrews2009integrating}
 Mark Andrews, Gabriella Vigliocco, and David Vinson.
 \newblock Integrating experiential and distributional data to learn semantic
   representations.
 \newblock \emph{Psychological Review}, 116\penalty0 (3):\penalty0 463, 2009.
+
+\bibitem[Baayen and Lieber(1996)]{baayen1996word}
+R~Harald Baayen and Rochelle Lieber.
+\newblock Word frequency distributions and lexical semantics.
+\newblock \emph{Computers and the Humanities}, 30\penalty0 (4):\penalty0
+  281--291, 1996.
 
 \bibitem[Bahdanau et~al.(2015)Bahdanau, Cho, and Bengio]{bahdanau2014neural}
 Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
@@ -164,6 +175,12 @@ Slaven Bilac, Wataru Watanabe, Taiichi Hashimoto, Takenobu Tokunaga, and Hozumi
   Tanaka.
 \newblock Dictionary search based on the target word description.
 \newblock In \emph{Proceedings of NLP 2014}, 2004.
+
+\bibitem[Binder and Desai(2011)]{binder2011neurobiology}
+Jeffrey~R Binder and Rutvik~H Desai.
+\newblock The neurobiology of semantic memory.
+\newblock \emph{Trends in cognitive sciences}, 15\penalty0 (11):\penalty0
+  527--536, 2011.
 
 \bibitem[Bird(2006)]{bird2006nltk}
 Steven Bird.
@@ -340,6 +357,14 @@ Bill Dolan, Chris Quirk, and Chris Brockett.
   Computational Linguistics}, page 350. Association for Computational
   Linguistics, 2004.
 
+\bibitem[Dyer et~al.(2015)Dyer, Ballesteros, Ling, Matthews, and
+  Smith]{dyer2015transition}
+Chris Dyer, Miguel Ballesteros, Wang Ling, Austin Matthews, and Noah~A Smith.
+\newblock Transition-based dependency parsing with stack long short-term
+  memory.
+\newblock In \emph{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics}, 2015.
+
 \bibitem[Faruqui and Dyer(2014)]{faruqui2014improving}
 Manaal Faruqui and Chris Dyer.
 \newblock Improving vector space word representations using multilingual
@@ -434,10 +459,25 @@ Scott~T Grafton.
 \newblock \emph{Annals of the New York Academy of Sciences}, 1156\penalty0
   (1):\penalty0 97--117, 2009.
 
+\bibitem[Graves et~al.(2008)Graves, Liwicki, Bunke, Schmidhuber, and
+  Fern{\'a}ndez]{graves2008unconstrained}
+Alex Graves, Marcus Liwicki, Horst Bunke, J{\"u}rgen Schmidhuber, and Santiago
+  Fern{\'a}ndez.
+\newblock Unconstrained on-line handwriting recognition with recurrent neural
+  networks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  577--584, 2008.
+
 \bibitem[Graves et~al.(2014)Graves, Wayne, and Danihelka]{graves2014neural}
 Alex Graves, Greg Wayne, and Ivo Danihelka.
 \newblock Neural turing machines.
 \newblock \emph{arXiv preprint arXiv:1410.5401}, 2014.
+
+\bibitem[Grefenstette et~al.(2015)Grefenstette, Hermann, Suleyman, and
+  Blunsom]{grefenstette2015learning}
+Edward Grefenstette, Karl~Moritz Hermann, Mustafa Suleyman, and Phil Blunsom.
+\newblock Learning to transduce with unbounded memory.
+\newblock \emph{NIPS}, 2015.
 
 \bibitem[Griffiths et~al.(2007)Griffiths, Steyvers, and
   Tenenbaum]{griffiths2007topics}
@@ -474,6 +514,12 @@ Zellig~S Harris.
 \newblock Distributional structure.
 \newblock \emph{Word}, 1954.
 
+\bibitem[Hassall(1904)]{goldilocks}
+John Hassall.
+\newblock Goldilocks and the three bears.
+\newblock In \emph{The Old Nursery Stories and Rhymes}. Blackie \& Son: London,
+  1904.
+
 \bibitem[Hassan and Mihalcea(2011)]{hassan2011semantic}
 Samer Hassan and Rada Mihalcea.
 \newblock Semantic relatedness using salient semantic analysis.
@@ -486,6 +532,13 @@ Xiaodong He, Mei Yang, Jianfeng Gao, Patrick Nguyen, and Robert Moore.
 \newblock In \emph{Proceedings of EMNLP}, pages 98--107. Association for
   Computational Linguistics, 2008.
 
+\bibitem[Heafield et~al.(2013)Heafield, Pouzyrevsky, Clark, and
+  Koehn]{Heafield-estimate}
+Kenneth Heafield, Ivan Pouzyrevsky, Jonathan~H. Clark, and Philipp Koehn.
+\newblock Scalable modified {Kneser-Ney} language model estimation.
+\newblock In \emph{Proceedings of the 51st Annual Meeting of the Association
+  for Computational Linguistics}, pages 690--696, Sofia, Bulgaria, August 2013.
+
 \bibitem[Hermann and Blunsom(2013)]{hermann2013multilingual}
 Karl~Moritz Hermann and Phil Blunsom.
 \newblock Multilingual distributed representations without word alignment.
@@ -495,6 +548,15 @@ Karl~Moritz Hermann and Phil Blunsom.
 Karl~Moritz Hermann and Phil Blunsom.
 \newblock {Multilingual Distributed Representations without Word Alignment}.
 \newblock In \emph{Proceedings of ICLR}, 2014.
+
+\bibitem[Hermann et~al.(2015)Hermann, Ko\v{c}isk\'y, Grefenstette, Espeholt,
+  Kay, Suleyman, and Blunsom]{nips15_hermann}
+Karl~Moritz Hermann, Tom\'a\v{s} Ko\v{c}isk\'y, Edward Grefenstette, Lasse
+  Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom.
+\newblock Teaching machines to read and comprehend.
+\newblock In \emph{Advances in Neural Information Processing Systems (NIPS)},
+  2015.
+\newblock URL \url{http://arxiv.org/abs/1506.03340}.
 
 \bibitem[Hill et~al.(2013{\natexlab{a}})Hill, Kiela, and
   Korhonen]{hill2013concreteness}
@@ -528,6 +590,14 @@ Felix Hill, Roi Reichart, and Anna Korhonen.
 \newblock Simlex-999: Evaluating semantic models with (genuine) similarity
   estimation.
 \newblock \emph{Computational Linguistics}, 2015{\natexlab{b}}.
+
+\bibitem[Hinton et~al.(2012)Hinton, Srivastava, Krizhevsky, Sutskever, and
+  Salakhutdinov]{hinton2012improving}
+Geoffrey~E Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and
+  Ruslan~R Salakhutdinov.
+\newblock Improving neural networks by preventing co-adaptation of feature
+  detectors.
+\newblock \emph{arXiv preprint arXiv:1207.0580}, 2012.
 
 \bibitem[Hochreiter and Schmidhuber(1997)]{hochreiter1997long}
 Sepp Hochreiter and J{\"u}rgen Schmidhuber.
@@ -578,6 +648,11 @@ Brendan~T Johns and Michael~N Jones.
 \newblock Perceptual inference through global lexical similarity.
 \newblock \emph{Topics in Cognitive Science}, 4\penalty0 (1):\penalty0
   103--120, 2012.
+
+\bibitem[Joulin and Mikolov(2015)]{joulin2015inferring}
+Armand Joulin and Tomas Mikolov.
+\newblock Inferring algorithmic patterns with stack-augmented recurrent nets.
+\newblock \emph{NIPS}, 2015.
 
 \bibitem[Kalchbrenner and Blunsom(2013)]{kalchbrenner13emnlp}
 Nal Kalchbrenner and Phil Blunsom.
@@ -638,6 +713,20 @@ Tom\'{a}\v{s} Ko\v{c}isk\'{y}, Karl~Moritz Hermann, and Phil Blunsom.
 \newblock {Learning Bilingual Word Representations by Marginalizing
   Alignments}.
 \newblock In \emph{Proceedings of ACL}, jun 2014.
+
+\bibitem[Kuhn and De~Mori(1990)]{kuhn1990cache}
+Roland Kuhn and Renato De~Mori.
+\newblock A cache-based natural language model for speech recognition.
+\newblock \emph{Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 12\penalty0 (6):\penalty0 570--583, 1990.
+
+\bibitem[Kumar et~al.(2015)Kumar, Irsoy, Su, Bradbury, English, Pierce,
+  Ondruska, Gulrajani, and Socher]{kumar2015ask}
+Ankit Kumar, Ozan Irsoy, Jonathan Su, James Bradbury, Robert English, Brian
+  Pierce, Peter Ondruska, Ishaan Gulrajani, and Richard Socher.
+\newblock Ask me anything: Dynamic memory networks for natural language
+  processing.
+\newblock \emph{http://arxiv.org/abs/1506.07285}, 2015.
 
 \bibitem[Landauer and Dumais(1997)]{landauer1997solution}
 Thomas~K Landauer and Susan~T Dumais.
@@ -711,12 +800,26 @@ Minh-Thang Luong, Richard Socher, and Christopher~D Manning.
   morphology.
 \newblock \emph{CoNLL-2013}, 104, 2013.
 
-\bibitem[Luong et~al.(2015)Luong, Sutskever, Le, Vinyals, and
+\bibitem[Luong et~al.(2015{\natexlab{a}})Luong, Pham, and
+  Manning]{luong2015effective}
+Minh-Thang Luong, Hieu Pham, and Christopher~D Manning.
+\newblock Effective approaches to attention-based neural machine translation.
+\newblock \emph{Proceedings of EMNLP}, 2015{\natexlab{a}}.
+
+\bibitem[Luong et~al.(2015{\natexlab{b}})Luong, Sutskever, Le, Vinyals, and
   Zaremba]{luong2014addressing}
 Thang Luong, Ilya Sutskever, Quoc~V Le, Oriol Vinyals, and Wojciech Zaremba.
 \newblock Addressing the rare word problem in neural machine translation.
 \newblock \emph{Proceedings of the Association for Computational Linguistics},
-  2015.
+  2015{\natexlab{b}}.
+
+\bibitem[Manning et~al.(2014)Manning, Surdeanu, Bauer, Finkel, Bethard, and
+  McClosky]{manning2014stanford}
+Christopher~D Manning, Mihai Surdeanu, John Bauer, Jenny Finkel, Steven~J
+  Bethard, and David McClosky.
+\newblock The stanford corenlp natural language processing toolkit.
+\newblock In \emph{Proceedings of 52nd Annual Meeting of the Association for
+  Computational Linguistics: System Demonstrations}, pages 55--60, 2014.
 
 \bibitem[Mao et~al.(2015)Mao, Xu, Yang, Wang, and Yulle]{mao2014deep}
 Junhua Mao, Wei Xu, Yi~Yang, Jiang Wang, and Alan Yulle.
@@ -770,6 +873,11 @@ Gr{\'e}goire Mesnil, Yann Dauphin, Xavier Glorot, Salah Rifai, Yoshua Bengio,
   approach.
 \newblock \emph{Journal of Machine Learning Research-Proceedings Track},
   27:\penalty0 97--110, 2012.
+
+\bibitem[Mikolov and Zweig(2012)]{mikolov2012context}
+Tomas Mikolov and Geoffrey Zweig.
+\newblock Context dependent recurrent neural network language model.
+\newblock In \emph{SLT}, pages 234--239, 2012.
 
 \bibitem[Mikolov et~al.(2010)Mikolov, Karafi{\'a}t, Burget, Cernock{\`y}, and
   Khudanpur]{mikolov2010recurrent}
@@ -949,6 +1057,13 @@ Philip Resnik and Jimmy Lin.
 \newblock \emph{The handbook of computational linguistics and natural language
   processing}, 57:\penalty0 271, 2010.
 
+\bibitem[Richardson et~al.(2013)Richardson, Burges, and
+  Renshaw]{richardson2013mctest}
+Matthew Richardson, Christopher~JC Burges, and Erin Renshaw.
+\newblock Mctest: A challenge dataset for the open-domain machine comprehension
+  of text.
+\newblock In \emph{EMNLP}, volume~1, page~2, 2013.
+
 \bibitem[Roller and Schulte~im Walde(2013)]{rollermultimodal}
 Stephen Roller and Sabine Schulte~im Walde.
 \newblock A multimodal {LDA} model integrating textual, cognitive and visual
@@ -974,6 +1089,11 @@ Herbert Rubenstein and John~B Goodenough.
 \newblock Contextual correlates of synonymy.
 \newblock \emph{Communications of the ACM}, 8\penalty0 (10):\penalty0 627--633,
   1965.
+
+\bibitem[Rush et~al.(2015)Rush, Chopra, and Weston]{rush2015neural}
+Alexander~M Rush, Sumit Chopra, and Jason Weston.
+\newblock A neural attention model for abstractive sentence summarization.
+\newblock \emph{Proceedings of EMNLP}, 2015.
 
 \bibitem[Russakovsky et~al.(2014)Russakovsky, Deng, Su, Krause, Satheesh, Ma,
   Huang, Karpathy, Khosla, Bernstein, et~al.]{russakovsky2014imagenet}
@@ -1030,6 +1150,12 @@ Richard Socher, Jeffrey Pennington, Eric~H Huang, Andrew~Y Ng, and
 Nitish Srivastava and Ruslan Salakhutdinov.
 \newblock Multimodal learning with deep boltzmann machines.
 \newblock In \emph{NIPS}, pages 2231--2239, 2012.
+
+\bibitem[Sukhbaatar et~al.(2015)Sukhbaatar, Szlam, Weston, and
+  Fergus]{sukhbaatar2015end}
+Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus.
+\newblock End-to-end memory networks.
+\newblock \emph{Proceedings of NIPS}, 2015.
 
 \bibitem[Sun et~al.(2008)Sun, Korhonen, and Krymolowski]{sun2008verb}
 Lin Sun, Anna Korhonen, and Yuval Krymolowski.
@@ -1128,6 +1254,13 @@ Ivan Vuli{\'c}, Wim De~Smet, and Marie-Francine Moens.
   papers-Volume 2}, pages 479--484. Association for Computational Linguistics,
   2011.
 
+\bibitem[Wan et~al.(2013)Wan, Zeiler, Zhang, Cun, and
+  Fergus]{wan2013regularization}
+Li~Wan, Matthew Zeiler, Sixin Zhang, Yann~L Cun, and Rob Fergus.
+\newblock Regularization of neural networks using dropconnect.
+\newblock In \emph{Proceedings of the 30th International Conference on Machine
+  Learning (ICML-13)}, pages 1058--1066, 2013.
+
 \bibitem[Wang et~al.(2015)Wang, Mohamed, and Hirst]{wang2015learning}
 Tong Wang, Abdel-rahman Mohamed, and Graeme Hirst.
 \newblock Learning lexical embeddings with syntactic and lexicographic
@@ -1135,12 +1268,24 @@ Tong Wang, Abdel-rahman Mohamed, and Graeme Hirst.
 \newblock In \emph{Proceedings of the 53rd Annual Meeting of the Association
   for Computational Linguistics}, volume~2, pages 458--463, 2015.
 
-\bibitem[Weston et~al.(2015)Weston, Bordes, Chopra, and
+\bibitem[Weston et~al.(2010)Weston, Bengio, and Usunier]{weston2010large}
+Jason Weston, Samy Bengio, and Nicolas Usunier.
+\newblock Large scale image annotation: learning to rank with joint word-image
+  embeddings.
+\newblock \emph{Machine learning}, 81\penalty0 (1):\penalty0 21--35, 2010.
+
+\bibitem[Weston et~al.(2015{\natexlab{a}})Weston, Bordes, Chopra, and
   Mikolov]{weston2015towards}
 Jason Weston, Antoine Bordes, Sumit Chopra, and Tomas Mikolov.
 \newblock Towards ai-complete question answering: a set of prerequisite toy
   tasks.
-\newblock \emph{arXiv preprint arXiv:1502.05698}, 2015.
+\newblock \emph{arXiv preprint arXiv:1502.05698}, 2015{\natexlab{a}}.
+
+\bibitem[Weston et~al.(2015{\natexlab{b}})Weston, Chopra, and
+  Bordes]{weston2014memory}
+Jason Weston, Sumit Chopra, and Antoine Bordes.
+\newblock Memory networks.
+\newblock \emph{Proceedings of ICLR}, 2015{\natexlab{b}}.
 
 \bibitem[Wiebe(2000)]{wiebe2000learning}
 Janyce Wiebe.
@@ -1163,6 +1308,12 @@ Gbolahan~K Williams and Sarabjot~Singh Anand.
 \newblock Predicting the polarity strength of adjectives using wordnet.
 \newblock In \emph{ICWSM}, 2009.
 
+\bibitem[Williams(1992)]{williams1992simple}
+Ronald~J Williams.
+\newblock Simple statistical gradient-following algorithms for connectionist
+  reinforcement learning.
+\newblock \emph{Machine learning}, 8\penalty0 (3-4):\penalty0 229--256, 1992.
+
 \bibitem[Wu et~al.(2013)Wu, Hoi, Xia, Zhao, Wang, and Miao]{wu2013online}
 Pengcheng Wu, Steven~CH Hoi, Hao Xia, Peilin Zhao, Dayong Wang, and Chunyan
   Miao.
@@ -1176,6 +1327,16 @@ Zhibiao Wu and Martha Palmer.
 \newblock Verbs semantics and lexical selection.
 \newblock In \emph{Proceedings of ACL}, pages 133--138. Association for
   Computational Linguistics, 1994.
+
+\bibitem[Xu et~al.(2015)Xu, Ba, Kiros, Courville, Salakhutdinov, Zemel, and
+  Bengio]{xu2015show}
+Kelvin Xu, Jimmy Ba, Ryan Kiros, Aaron Courville, Ruslan Salakhutdinov, Richard
+  Zemel, and Yoshua Bengio.
+\newblock Show, attend and tell: Neural image caption generation with visual
+  attention.
+\newblock In \emph{Proceedings of the International Conference on Machine
+  Learning (ICML'15)}, 2015.
+\newblock URL \url{http://arxiv.org/abs/1502.03044}.
 
 \bibitem[Yong and Foo(1999)]{yong1999case}
 Chung Yong and Shou~King Foo.
@@ -1194,5 +1355,10 @@ Michael Zock and Slaven Bilac.
 \newblock Word lookup on the basis of associations: From an idea to a roadmap.
 \newblock In \emph{Proceedings of the ACL Workshop on Enhancing and Using
   Electronic Dictionaries}, 2004.
+
+\bibitem[Zweig and Burges(2011)]{zweig2011microsoft}
+Geoffrey Zweig and Christopher~JC Burges.
+\newblock The microsoft research sentence completion challenge.
+\newblock Technical report, Technical Report MSR-TR-2011-129, Microsoft, 2011.
 
 \end{thebibliography}
