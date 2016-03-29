@@ -104,7 +104,7 @@ There are also similarities between the CBT and the CNN/Daily Mail (CNN QA) data
 %
 The CBT is also similar to the MCTest of machine comprehension \citep{richardson2013mctest}, in which children's stories written by annotators are accompanied by four multiple-choice questions. However, it is very difficult to train statistical models only on MCTest because its training set consists of only 300 examples.
 
-\section{Studying memory representation with memory networks}
+\section{Memory representation in memory networks}
 
 \label{sec:memnn}
 
@@ -134,7 +134,7 @@ For the lexical memory, memories are made of the $n$ words preceding the word to
 
 \subsection{End-to-end training} \label{sec:mod_o}
 
-The {MemN2N} architecture, introduced by \cite{sukhbaatar2015end}, allows for a direct training of Memory Networks through backpropagation, and consists of two main steps.
+The {MemN2N} architecture, introduced by \cite{sukhbaatar2015end}, allows for direct training of memory networks with backpropagation.
 
 First, `supporting memories', those useful to find the correct answer to the query $q$, are retrieved. This is done by embedding both the query and all memories into a single space of dimension $p$ using an embedding matrix $\bA\in\Re^{p \times d}$ yielding the query embedding  $\bq=\bA\phi(q)$ and memory embeddings $\{\bc_i=\bA\phi(s_i)\}_{i=1,\dots n}$, with $n$ the number of memories. %\footnote{To encode the position of words in the windows on the window memory setting, I used one embedding matrix per position, that is, $\bA$ is duplicated $b$ times.} 
 %
@@ -148,11 +148,7 @@ The match between $\bq$ and each memory $\bc_i$ in the embedding space is fed th
 \begin{equation} \label{eq:eq_o}
   \bm_{o1} = \sum_{i=1 \dots n} \alpha_{i} \bm_i\,, \mbox{~~~~~~}\text{with~~~~~}\alpha_i =  \frac{e^{\bc_i^\top\bq}}{\sum_j e^{\bc_j^\top\bq}}, \, i=1,\dots n,
 \end{equation}
-and where $\{\bm_i\}_{i=1,\dots n}$ is a set of memory embeddings obtained in the same way as the $\bc_i$, but using another embedding matrix $\bB\in\Re^{p\times d}$.
-
-%The scoring function \(S_O \) is an embedding model of the form \[ S_o(q,y) = \phi_q(q)^\top U_o^\top U_o \phi_y(y)\] parameterised by weight matrix \(U_o\).
-
-During training, optimization is carried out using stochastic gradient descent (SGD). Extra experimental details and hyperparameters are given in Appendix~\ref{ap:hp}.
+and where $\{\bm_i\}_{i=1,\dots n}$ is a set of memory embeddings obtained in the same way as the $\bc_i$, but using another embedding matrix $\bB\in\Re^{p\times d}$. During training, optimization is carried out using stochastic gradient descent (SGD). Extra experimental details and hyperparameters are given in Appendix~\ref{ap:hp}.
 
 %\todo{something about multi-core training: AB: not sure especially since word-memnn run on GPU. seems to complexify for nothing.}. 
 
@@ -323,7 +319,14 @@ Other recent papers have proposed RNN-like architectures with new ways of readin
   \vspace*{-4ex}
 \end{table}
 
+\paragraph{The form of memory representations} Of central importance to this thesis is the fact that the particular form of the internal memory representations had a clear impact of the performance of memory networks.
 
+ When each sentence in the context is stored as an ordered sequence of word embeddings (\emph{sentence mem + PE}), performance is generally poor. Encoding the context as an unbroken sequence of individual words (\emph{lexical memory}) works particularly well for capturing prepositions and verbs, but is less effective with nouns and entities. In contrast, \emph{window memories} centred around the candidate words are more useful than either word-level or sentence-level memories when predicting named entities and nouns. 
+
+
+It is tempting to ascribe the poor performance of full-sentence embeddings to the limitations of bag-of-words encoding (and the blindness to word order). However, for nouns and named entity prediction, networks with memories that do not encode word order (window memories) ara capable of outperforming those that do (both lexical memories and the DeepMind bidirectional RNN reading models~\citep{nips15_hermann} discussed in Section~\ref{dmind}). This suggests that word order itself is of secondary importance compared with the `scope' of the representation. In particular, it appears that full sentences in general contain too much disparate information for the pertinent parts to be easily accessed if encoded into a single representation. 
+
+Of course, it is important to note that these conclusions relat only to the present (word-prediction) task and the CNN QA task described below. The extent to which they generalise remains to be determined by future work. 
 
 \paragraph{Modelling syntactic flow} 
 In general, there is a clear difference in model performance according
@@ -354,19 +357,6 @@ in recurrent networks (See e.g. \cite{bengio1994learning}).
 %translation between close languages \cite{sutskever2014sequence} but note that only consists of a single source sentence.
 
 %LSTMs are able to overcome this issue for related problems such as translation between close languages \cite{sutskever2014sequence}. The reason that they cannot in the present case may be due to the low frequency of nouns and entities and the nature of the missing word prediction task, which together make it challenging for the multiple memory gates to learn information retention strategies that effectively generalise to the test set. 
-
-
-\paragraph{Getting memory representations `just right'} Not all memory
-networks exploited the context to achieve
-decent prediction of nouns and named entities.
-For instance, when each sentence in the context is stored as an ordered sequence of word
-embeddings (\emph{sentence mem + PE}), performance is quite
-poor in general. Encoding the context as an unbroken sequence of individual
-words (\emph{lexical memory}) works well for capturing prepositions
-and verbs, but is less effective with nouns and entities. In contrast,
-\emph{window memories} centred around the
-candidate words are more useful than either word-level or
-sentence-level memories when predicting named entities and nouns. 
 
 
 
@@ -494,27 +484,18 @@ in Figure~\ref{tab:ex_pred_cbt}. It is notable that this model is able to achiev
 
 
 \subsection{News Article Question Answering}
+\label{dmind}
 To examine how well the conclusions generalise to different machine
 reading tasks and language styles, I also tested the
 best-performing Memory Networks on the CNN QA task \citep{nips15_hermann}.\footnote{The CNN QA dataset was released after the primary experiments were completed, hence I experiment only with one of the two large datasets released with that paper.} This dataset consists of 93k news articles from the CNN website, each coupled with a question derived from a bullet point summary accompanying the article, and a single-word answer. The answer is always a named entity, and all named entities in the article function as possible candidate answers.
 
-As shown in Table~\ref{cnn}, the window model without self-supervision 
-achieves similar
-performance to the best approach proposed for the task by \cite{nips15_hermann}
-when using an ensemble of MemNN models.
-the use of an ensemble 
-is an alternative way of replicating the application of \emph{dropout}~\citep{hinton2012improving} in the previous best
-approaches \citep{nips15_hermann} as ensemble averaging has similar effects to dropout~\citep{wan2013regularization}.
-When self-supervision is added, the Memory Network
-greatly surpasses the state-of-the-art on this task. 
-Finally, the last line of
-Table~\ref{cnn} (\emph{excluding co-occurrences}) shows how an additional heuristic, removing from the candidate list all named entities
-already appearing in the bullet point summary, boosts performance even further.
+As shown in Table~\ref{cnn}, the window model without self-supervision achieves similar performance to the best approach proposed for the task by DeepMind \citep{nips15_hermann} when using an ensemble of MemNN models. The use of an ensemble  is an alternative way of replicating the application of \emph{dropout}~\citep{hinton2012improving} in the previous best approaches \citep{nips15_hermann} as ensemble averaging has similar effects to dropout~\citep{wan2013regularization}. When self-supervision is added, the Memory Network
+greatly surpasses the state-of-the-art on this task.  Finally, the last line of Table~\ref{cnn} (\emph{excluding co-occurrences}) shows how an additional heuristic, removing from the candidate list all named entities already appearing in the bullet point summary, boosts performance even further.
 
 
-Some common principles may explain the strong
+Some common principles pertinent to the key questions of this thesis may explain the strong
 performance of the best performing models on this
-task. The attentive/impatient reading models encode the articles using bidirectional RNNs
+task. The DeepMind attentive/impatient reading models encode the articles using bidirectional RNNs
 \citep{graves2008unconstrained}. For each word in
 the article, the combined hidden state of such an RNN naturally
 focuses on a window-like chunk of surrounding text, much like the window-based memory network or the CLSTM. Together, these results therefore support the principle that the most informative representations of text correspond to sub-sentential chunks. Indeed, the observation that the most informative representations
@@ -531,31 +512,18 @@ Memory Network instead seems to stem from how it accesses or retrieves
 this information; in particular, the hard attention and
 self-supervision. Jointly learning to access and use information is a
 difficult optimization. Self-supervision in particular makes effective
-Memory Network learning more tractable.\footnote{See the appendix for an ablation study in which optional features of the memory network are removed.} 
+Memory Network learning more tractable.
 
 \section{Conclusion}
 
-TO DO
+In this chapter, I have presentation an alternative framework for analysing and evaluating different forms of linguistic representation. The approach differs from those taken in Chapters~\ref{CH2}-\ref{CH6}, in that it directly tests the effect of representations on more extrinsic language-prediction task whose application to language technology is clear and unambiguous. The development of neural language models such as memory networks, which compute mulitple layers of internal representations in an otherwise end-to-end architecture, makes this form of analysis and evaluation increasingly viable.  
 
-MAKE IT MORE ABOUT MEMORY REPRESENTATION, LESS ABOUT CBT AND MEMNNs
+The conclusions from this chapter were based largely on the Children's Book Test, a new semantic language modelling task. The CBT measures how well models can use both local and wider contextual information to make predictions about different types of words in children's stories. A particular strength of the CBT over similar existing bechmarks is the clear separating drawn between prediction of syntactic function words and more semantically informative terms. This distinction makes the CBT a robust proxy for the impact of language models on applications that require a focus on semantic coherence. It also facilitates finer grained analyses that permit more detailed conclusions about the effects of various modelling decisions, including, most pertinently, the form of memory representations. 
 
-I have presented the Children's Book Test, a new semantic language modelling benchmark. The CBT measures how well models can use both local and wider contextual information to make predictions about different types of words in children's stories. By separating the prediction of syntactic function words from more semantically informative terms, the CBT provides a robust proxy for how much language models can impact applications requiring a focus on semantic coherence. 
+The most consistent finding overall was that memories that encode sub-sentential chunks (windows) of informative text 
+seem to be most useful to neural nets, particularly for tasks involving the prediction of the most semantically informative words in text. 
+Indeed, this effect was observed on both the CBT and the CNN QA benchmark, an independent test of machine reading that focuses solely on the prediction of entities. 
 
-I tested a wide range of models on the CBT, each with different ways of
-representing and retaining previously seen content. This enabled us to draw novel insights into the optimal strategies for representing and accessing semantic information in memory. One consistent finding was that memories that encode sub-sentential chunks (windows) of informative text 
-seem to be most useful to neural nets when interpreting and modelling language. 
-However, the results indicate that the
-most useful text chunk size depends on the modeling task 
-(e.g. semantic content vs. syntactic function words).
-%One should be careful in how explicit 
-%memories are defined since the best choice might depend on the task at 
-%hand: on the CBT, windows are optimal, but on the
-%bAbI tasks, sentences have shown to be adequate.
-% 
-I showed that Memory Networks that adhere to this principle can be efficiently trained using a simple
-self-supervision to surpass all other methods for predicting named
-entities on both the CBT and the CNN QA
-benchmark, an independent test of machine reading. 
-%
+Since the experiments in this chapter were carried out, further evidence has emerged of the strength of this effect. Models that combine important aspects of the best memory networks (self-supervision) and the DeepMind reading models (context representation based on bidirectional RNNs) seems to outperform both models [REF]. This provides further support for the utility of window-like memory representations, while highlighting the benefits of a soft, flexible or variable window length over a prescribed, fixed memory scope.  
 
 

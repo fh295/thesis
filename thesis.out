@@ -81,7 +81,7 @@
 \BOOKMARK [1][-]{section.6.1}{Testing representations `in the wild'}{chapter.6}% 81
 \BOOKMARK [1][-]{section.6.2}{The Children's Book Test}{chapter.6}% 82
 \BOOKMARK [2][-]{subsection.6.2.1}{Related resources}{section.6.2}% 83
-\BOOKMARK [1][-]{section.6.3}{Studying memory representation with memory networks}{chapter.6}% 84
+\BOOKMARK [1][-]{section.6.3}{Memory representation in memory networks}{chapter.6}% 84
 \BOOKMARK [2][-]{subsection.6.3.1}{End-to-end training}{section.6.3}% 85
 \BOOKMARK [2][-]{subsection.6.3.2}{Self-supervision for Window Memories}{section.6.3}% 86
 \BOOKMARK [1][-]{section.6.4}{Baseline and ocmparison models}{chapter.6}% 87
@@ -96,4 +96,10 @@
 \BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 96
 \BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 97
 \BOOKMARK [0][-]{section*.89}{Bibliography}{}% 98
-\BOOKMARK [0][-]{appendix.A}{Extra Information}{}% 99
+\BOOKMARK [0][-]{appendix.A}{}{}% 99
+\BOOKMARK [1][-]{section.A.1}{Experimental Details}{appendix.A}% 100
+\BOOKMARK [1][-]{section.A.2}{Results on CBT Validation Set}{appendix.A}% 101
+\BOOKMARK [1][-]{section.A.3}{Ablation Study on CNN QA}{appendix.A}% 102
+\BOOKMARK [1][-]{section.A.4}{Effects of Anonymising Entities in CBT}{appendix.A}% 103
+\BOOKMARK [1][-]{section.A.5}{Candidates and Window Memories in CBT}{appendix.A}% 104
+\BOOKMARK [0][-]{appendix.B}{}{}% 105

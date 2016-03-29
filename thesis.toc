@@ -117,23 +117,32 @@
 \contentsline {section}{\numberline {6.1}Testing representations `in the wild'}{122}{section.6.1}
 \contentsline {section}{\numberline {6.2}The Children's Book Test}{123}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Related resources}{124}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Studying memory representation with memory networks}{126}{section.6.3}
+\contentsline {section}{\numberline {6.3}Memory representation in memory networks}{126}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}End-to-end training}{127}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{128}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{127}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Baseline and ocmparison models}{129}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Non-learning baselines}{129}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}N-gram language models}{130}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}N-gram language models}{129}{subsection.6.4.2}
 \contentsline {subsection}{\numberline {6.4.3}Supervised embedding models}{130}{subsection.6.4.3}
 \contentsline {subsection}{\numberline {6.4.4}Recurrent language models}{130}{subsection.6.4.4}
 \contentsline {subsection}{\numberline {6.4.5}Human performance}{131}{subsection.6.4.5}
 \contentsline {subsection}{\numberline {6.4.6}Other related approaches}{131}{subsection.6.4.6}
 \contentsline {section}{\numberline {6.5}Results}{132}{section.6.5}
-\contentsline {paragraph}{Modelling syntactic flow}{132}{section*.83}
-\contentsline {paragraph}{Capturing semantic coherence}{133}{section*.84}
-\contentsline {paragraph}{Getting memory representations `just right'}{133}{section*.85}
-\contentsline {paragraph}{Self-supervised memory retrieval}{133}{section*.87}
+\contentsline {paragraph}{The form of memory representations}{132}{section*.83}
+\contentsline {paragraph}{Modelling syntactic flow}{133}{section*.84}
+\contentsline {paragraph}{Capturing semantic coherence}{133}{section*.85}
+\contentsline {paragraph}{Self-supervised memory retrieval}{134}{section*.87}
 \contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{134}{subsection.6.5.1}
-\contentsline {section}{\numberline {6.6}Conclusion}{135}{section.6.6}
+\contentsline {section}{\numberline {6.6}Conclusion}{136}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{137}{chapter.7}
 \contentsline {chapter}{Bibliography}{139}{section*.89}
-\contentsline {chapter}{\numberline {A}Extra Information}{159}{appendix.A}
+\contentsline {chapter}{\numberline {A}}{159}{appendix.A}
+\contentsline {section}{\numberline {A.1}Experimental Details}{159}{section.A.1}
+\contentsline {paragraph}{Setting}{159}{section*.91}
+\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{159}{section*.92}
+\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{160}{section*.93}
+\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{160}{section.A.2}
+\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{161}{section.A.3}
+\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{161}{section.A.4}
+\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{161}{section.A.5}
+\contentsline {chapter}{\numberline {B}}{163}{appendix.B}
