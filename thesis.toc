@@ -114,27 +114,26 @@
 \contentsline {section}{\numberline {5.4}Discussion}{115}{section.5.4}
 \contentsline {section}{\numberline {5.5}Conclusion}{118}{section.5.5}
 \contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{121}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation and background}{122}{section.6.1}
+\contentsline {section}{\numberline {6.1}Testing representations `in the wild'}{122}{section.6.1}
 \contentsline {section}{\numberline {6.2}The Children's Book Test}{123}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Related Resources}{124}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Studying Memory Representation with Memory Networks}{126}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Encoding Memories and Queries}{126}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}End-to-end Memory Networks}{127}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Self-supervision for Window Memories}{128}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Baseline and Comparison Models}{129}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Non-Learning Baselines}{129}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}N-gram Language Models}{130}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Supervised Embedding Models}{130}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Recurrent Language Models}{131}{subsection.6.4.4}
-\contentsline {subsection}{\numberline {6.4.5}Human Performance}{131}{subsection.6.4.5}
-\contentsline {subsection}{\numberline {6.4.6}Other Related Approaches}{132}{subsection.6.4.6}
+\contentsline {subsection}{\numberline {6.2.1}Related resources}{124}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Studying memory representation with memory networks}{126}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}End-to-end training}{127}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{128}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Baseline and ocmparison models}{129}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Non-learning baselines}{129}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}N-gram language models}{130}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Supervised embedding models}{130}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Recurrent language models}{130}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}Human performance}{131}{subsection.6.4.5}
+\contentsline {subsection}{\numberline {6.4.6}Other related approaches}{131}{subsection.6.4.6}
 \contentsline {section}{\numberline {6.5}Results}{132}{section.6.5}
 \contentsline {paragraph}{Modelling syntactic flow}{132}{section*.83}
 \contentsline {paragraph}{Capturing semantic coherence}{133}{section*.84}
-\contentsline {paragraph}{Getting memory representations `just right'}{134}{section*.85}
-\contentsline {paragraph}{Self-supervised memory retrieval}{134}{section*.87}
+\contentsline {paragraph}{Getting memory representations `just right'}{133}{section*.85}
+\contentsline {paragraph}{Self-supervised memory retrieval}{133}{section*.87}
 \contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{134}{subsection.6.5.1}
-\contentsline {section}{\numberline {6.6}Conclusion}{136}{section.6.6}
+\contentsline {section}{\numberline {6.6}Conclusion}{135}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{137}{chapter.7}
 \contentsline {chapter}{Bibliography}{139}{section*.89}
 \contentsline {chapter}{\numberline {A}Extra Information}{159}{appendix.A}

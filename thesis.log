@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  26 MAR 2016 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  29 MAR 2016 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1352,7 +1352,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 \cam@logo=\box63
 
-<CollegeShields/CUni.pdf, id=406, 330.23375pt x 69.25874pt>
+<CollegeShields/CUni.pdf, id=401, 330.23375pt x 69.25874pt>
 File: CollegeShields/CUni.pdf Graphic file (type pdf)
 
 <use CollegeShields/CUni.pdf>
@@ -1365,7 +1365,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 185.
 \cam@collegeshieldbox=\box65
 
-<CollegeShields/StJohns.png, id=407, 803.0pt x 956.57375pt>
+<CollegeShields/StJohns.png, id=402, 803.0pt x 956.57375pt>
 File: CollegeShields/StJohns.png Graphic file (type png)
 
 <use CollegeShields/StJohns.png>
@@ -1442,21 +1442,21 @@ Overfull \hbox (8.66713pt too wide) in paragraph at lines 131--132
 yn-onym de-tec-tion tasks, such as the TOEFL
  []
 
-[27] [28] <Chapter_2/Figure_1_CL.pdf, id=919, 794.97pt x 289.08pt>
+[27] [28] <Chapter_2/Figure_1_CL.pdf, id=914, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_1_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_1_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_1_CL.pdf used on input line 154.
 (pdftex.def)             Requested size: 412.56497pt x 150.02692pt.
  [29 <./Chapter_2/Figure_1_CL.pdf>]
-<Chapter_2/screenshot1_CL.png, id=938, 1153.30875pt x 689.57625pt>
+<Chapter_2/screenshot1_CL.png, id=933, 1153.30875pt x 689.57625pt>
 File: Chapter_2/screenshot1_CL.png Graphic file (type png)
 
 <use Chapter_2/screenshot1_CL.png>
 Package pdftex.def Info: Chapter_2/screenshot1_CL.png used on input line 166.
 (pdftex.def)             Requested size: 412.56497pt x 246.67946pt.
  [30 <./Chapter_2/screenshot1_CL.png>]
-<Chapter_2/screenshot2_CL.png, id=947, 602.25pt x 488.82625pt>
+<Chapter_2/screenshot2_CL.png, id=942, 602.25pt x 488.82625pt>
 File: Chapter_2/screenshot2_CL.png Graphic file (type png)
 
 <use Chapter_2/screenshot2_CL.png>
@@ -1466,7 +1466,7 @@ Package pdftex.def Info: Chapter_2/screenshot2_CL.png used on input line 175.
 Underfull \vbox (badness 3240) has occurred while \output is active []
 
  [31 <./Chapter_2/screenshot2_CL.png>] [32] [33]
-<Chapter_2/Figure_1A_CL.pdf, id=974, 794.97pt x 289.08pt>
+<Chapter_2/Figure_1A_CL.pdf, id=969, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_1A_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_1A_CL.pdf>
@@ -1478,14 +1478,14 @@ Overfull \hbox (19.98361pt too wide) in paragraph at lines 223--224
 -ing antonymy, po-lar-ity ([]Williams
  []
 
-[35] <Chapter_2/Figure_6_CL.pdf, id=1015, 794.97pt x 361.35pt>
+[35] <Chapter_2/Figure_6_CL.pdf, id=1010, 794.97pt x 361.35pt>
 File: Chapter_2/Figure_6_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_6_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_6_CL.pdf used on input line 261.
 (pdftex.def)             Requested size: 412.56497pt x 187.53366pt.
  [36 <./Chapter_2/Figure_6_CL.pdf>] [37]
-<Chapter_2/simlex_relations_CL.pdf, id=1048, 1111.15125pt x 370.38374pt>
+<Chapter_2/simlex_relations_CL.pdf, id=1043, 1111.15125pt x 370.38374pt>
 File: Chapter_2/simlex_relations_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/simlex_relations_CL.pdf>
@@ -1493,21 +1493,21 @@ Package pdftex.def Info: Chapter_2/simlex_relations_CL.pdf used on input line 2
 88.
 (pdftex.def)             Requested size: 412.56497pt x 137.52022pt.
  [38] [39 <./Chapter_2/simlex_relations_CL.pdf>] [40] [41] [42]
-<Chapter_2/Figure_2A_CL.pdf, id=1184, 794.97pt x 289.08pt>
+<Chapter_2/Figure_2A_CL.pdf, id=1179, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_2A_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_2A_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_2A_CL.pdf used on input line 352.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
 
-<Chapter_2/Figure_2B_CL.pdf, id=1197, 794.97pt x 289.08pt>
+<Chapter_2/Figure_2B_CL.pdf, id=1192, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_2B_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_2B_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_2B_CL.pdf used on input line 354.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
  [43 <./Chapter_2/Figure_2A_CL.pdf>] [44 <./Chapter_2/Figure_2B_CL.pdf>]
-<Chapter_2/Figure_3A_CL.pdf, id=1269, 794.97pt x 289.08pt>
+<Chapter_2/Figure_3A_CL.pdf, id=1264, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_3A_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_3A_CL.pdf>
@@ -1517,21 +1517,21 @@ Package pdftex.def Info: Chapter_2/Figure_3A_CL.pdf used on input line 370.
 Underfull \vbox (badness 4647) has occurred while \output is active []
 
  [45 <./Chapter_2/Figure_3A_CL.pdf>]
-<Chapter_2/Figure_5_CL.pdf, id=1291, 794.97pt x 289.08pt>
+<Chapter_2/Figure_5_CL.pdf, id=1286, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_5_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_5_CL.pdf>
 Package pdftex.def Info: Chapter_2/Figure_5_CL.pdf used on input line 376.
 (pdftex.def)             Requested size: 412.57405pt x 142.26357pt.
 
-<Chapter_2/New_Figure_2_CL.pdf, id=1292, 948.54375pt x 370.38374pt>
+<Chapter_2/New_Figure_2_CL.pdf, id=1287, 948.54375pt x 370.38374pt>
 File: Chapter_2/New_Figure_2_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/New_Figure_2_CL.pdf>
 Package pdftex.def Info: Chapter_2/New_Figure_2_CL.pdf used on input line 378.
 (pdftex.def)             Requested size: 412.5553pt x 142.2619pt.
  [46 <./Chapter_2/Figure_5_CL.pdf> <./Chapter_2/New_Figure_2_CL.pdf>]
-<Chapter_2/Figure_4_CL.pdf, id=1368, 794.97pt x 289.08pt>
+<Chapter_2/Figure_4_CL.pdf, id=1363, 794.97pt x 289.08pt>
 File: Chapter_2/Figure_4_CL.pdf Graphic file (type pdf)
 
 <use Chapter_2/Figure_4_CL.pdf>
@@ -1566,7 +1566,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
  []
 
 [57] [58] [59] [60] [61] [62]
-<Chapter_3/Graph_1_EMNLP2014.pdf, id=1639, 794.97pt x 230.8625pt>
+<Chapter_3/Graph_1_EMNLP2014.pdf, id=1634, 794.97pt x 230.8625pt>
 File: Chapter_3/Graph_1_EMNLP2014.pdf Graphic file (type pdf)
 
 <use Chapter_3/Graph_1_EMNLP2014.pdf>
@@ -1574,7 +1574,7 @@ Package pdftex.def Info: Chapter_3/Graph_1_EMNLP2014.pdf used on input line 175
 .
 (pdftex.def)             Requested size: 412.56497pt x 119.81316pt.
  [63 <./Chapter_3/Graph_1_EMNLP2014.pdf>]
-<Chapter_3/Graph_2_EMNLP2014.pdf, id=1660, 794.97pt x 469.755pt>
+<Chapter_3/Graph_2_EMNLP2014.pdf, id=1655, 794.97pt x 469.755pt>
 File: Chapter_3/Graph_2_EMNLP2014.pdf Graphic file (type pdf)
 
 <use Chapter_3/Graph_2_EMNLP2014.pdf>
@@ -1604,7 +1604,7 @@ Overfull \hbox (15.42433pt too wide) in paragraph at lines 291--317
 [][] 
  []
 
-[71] [72] [73] <Chapter_3/Figure_1_ICLR2015.pdf, id=1895, 794.97pt x 361.35pt>
+[71] [72] [73] <Chapter_3/Figure_1_ICLR2015.pdf, id=1890, 794.97pt x 361.35pt>
 File: Chapter_3/Figure_1_ICLR2015.pdf Graphic file (type pdf)
 
 <use Chapter_3/Figure_1_ICLR2015.pdf>
@@ -1612,7 +1612,7 @@ Package pdftex.def Info: Chapter_3/Figure_1_ICLR2015.pdf used on input line 342
 .
 (pdftex.def)             Requested size: 412.56497pt x 177.1151pt.
  [74 <./Chapter_3/Figure_1_ICLR2015.pdf>]
-<Chapter_3/Figure_2_ICLR2015.pdf, id=1920, 794.97pt x 361.35pt>
+<Chapter_3/Figure_2_ICLR2015.pdf, id=1915, 794.97pt x 361.35pt>
 File: Chapter_3/Figure_2_ICLR2015.pdf Graphic file (type pdf)
 
 <use Chapter_3/Figure_2_ICLR2015.pdf>
@@ -1775,11 +1775,11 @@ Chapter 6.
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [121]
-[122] <Chapter_6/cbt_fig1.png, id=2613, 534.21983pt x 234.8775pt>
+[122] <Chapter_6/cbt_fig1.png, id=2606, 534.21983pt x 234.8775pt>
 File: Chapter_6/cbt_fig1.png Graphic file (type png)
 
 <use Chapter_6/cbt_fig1.png>
-Package pdftex.def Info: Chapter_6/cbt_fig1.png used on input line 37.
+Package pdftex.def Info: Chapter_6/cbt_fig1.png used on input line 31.
 (pdftex.def)             Requested size: 412.56497pt x 181.3974pt.
 
 
@@ -1787,71 +1787,79 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [123] [124 <./Chapter_6/cbt_fig1.png>]
 
-LaTeX Warning: Reference `ap:anon' on page 125 undefined on input line 109.
+LaTeX Warning: Reference `ap:anon' on page 125 undefined on input line 103.
 
 
-Overfull \hbox (11.94946pt too wide) in paragraph at lines 113--113
-[]\OT1/ptm/b/n/17.28 Studying Mem-ory Rep-re-sen-ta-tion with Mem-ory Net-
+Overfull \hbox (0.13002pt too wide) in paragraph at lines 107--107
+[]\OT1/ptm/b/n/17.28 Studying mem-ory rep-re-sen-ta-tion with mem-ory net-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [125]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 131.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 115.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
 
 
 LaTeX Warning: Reference `ap:nonsparse-windows' on page 126 undefined on input 
-line 134.
+line 117.
 
 
 LaTeX Warning: Reference `ap:qa_cnn_ab_study' on page 126 undefined on input li
-ne 145.
+ne 122.
 
-[126] [127]
+[126]
 
-LaTeX Warning: Reference `ap:hp' on page 128 undefined on input line 193.
+LaTeX Warning: Reference `ap:hp' on page 127 undefined on input line 155.
+
+
+Overfull \hbox (3.2875pt too wide) in paragraph at lines 155--156
+[]\OT1/ptm/m/n/12 During train-ing, op-ti-miza-tion is car-ried out us-ing stoc
+has-tic gra-di-ent de-scent (SGD).
+ []
+
+
+Underfull \vbox (badness 3098) has occurred while \output is active []
+
+ [127]
+
+LaTeX Warning: Reference `ap:qa_cnn_ab_study' on page 128 undefined on input li
+ne 193.
 
 [128]
+Underfull \vbox (badness 5954) has occurred while \output is active []
 
-LaTeX Warning: Reference `ap:qa_cnn_ab_study' on page 129 undefined on input li
-ne 231.
-
-[129] [130]
-Overfull \hbox (13.92328pt too wide) in paragraph at lines 291--295
+ [129]
+[130]
+Overfull \hbox (13.92328pt too wide) in paragraph at lines 253--257
 \OT1/ptm/m/n/12 ques-tion type of the CBT, in two modes ei-ther with ques-tion 
 only or with ques-tion+context
  []
 
 [131]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 357.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 319.
  [132]
-Overfull \hbox (5.25932pt too wide) in paragraph at lines 378--393
+Overfull \hbox (5.25932pt too wide) in paragraph at lines 340--355
  []\OT1/ptm/b/n/12 Capturing se-man-tic co-her-ence[] \OT1/ptm/m/n/12 The best 
 per-form-ing Mem-ory Net-works pre-dict com-
  []
 
-
-Overfull \hbox (4.27423pt too wide) in paragraph at lines 397--408
- []\OT1/ptm/b/n/12 Getting mem-ory rep-re-sen-ta-tions `just right'[] \OT1/ptm/
-m/n/12 Not all mem-ory net-works that I trained
- []
-
-[133] <Chapter_6/cbt_fig2.png, id=2790, 534.21983pt x 222.5916pt>
+<Chapter_6/cbt_fig2.png, id=2763, 534.21983pt x 222.5916pt>
 File: Chapter_6/cbt_fig2.png Graphic file (type png)
 
 <use Chapter_6/cbt_fig2.png>
-Package pdftex.def Info: Chapter_6/cbt_fig2.png used on input line 420.
+Package pdftex.def Info: Chapter_6/cbt_fig2.png used on input line 382.
 (pdftex.def)             Requested size: 412.56497pt x 171.90892pt.
- [134 <./Chapter_6/cbt_fig2.png>] [135]) [136]
+ [133] [134 <./Chapter_6/cbt_fig2.png>] [135])
+[136]
 Chapter 7.
 (./Chapter_7/Chapter_7.tex) [137
 
@@ -1875,7 +1883,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2DC11133AF94D4F18B33D229CE4CEC91;7700.
+(rerunfilecheck)             Checksum: D2673CB4E7EF737B8A8A479EDB0C47DD;7621.
 
 
 LaTeX Warning: There were undefined references.
@@ -1886,11 +1894,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
- 22822 strings out of 493089
- 419668 string characters out of 6134841
- 519905 words of memory out of 5000000
- 25244 multiletter control sequences out of 15000+600000
- 55685 words of font info for 128 fonts, out of 8000000 for 9000
+ 22811 strings out of 493089
+ 419499 string characters out of 6134841
+ 519863 words of memory out of 5000000
+ 25236 multiletter control sequences out of 15000+600000
+ 54647 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,92p,10389b,1217s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1917,10 +1925,10 @@ rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
 tmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on thesis.pdf (160 pages, 2714803 bytes).
+Output written on thesis.pdf (160 pages, 2710737 bytes).
 PDF statistics:
- 3159 PDF objects out of 3580 (max. 8388607)
- 2810 compressed objects within 29 object streams
- 632 named destinations out of 1000 (max. 500000)
- 913 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3138 PDF objects out of 3580 (max. 8388607)
+ 2790 compressed objects within 28 object streams
+ 629 named destinations out of 1000 (max. 500000)
+ 905 words of extra memory for PDF output out of 10000 (max. 10000000)
 

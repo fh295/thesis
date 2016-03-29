@@ -1,4 +1,4 @@
-\begin{thebibliography}{205}
+\begin{thebibliography}{204}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -513,12 +513,6 @@ Kenneth Harper.
 Zellig~S Harris.
 \newblock Distributional structure.
 \newblock \emph{Word}, 1954.
-
-\bibitem[Hassall(1904)]{goldilocks}
-John Hassall.
-\newblock Goldilocks and the three bears.
-\newblock In \emph{The Old Nursery Stories and Rhymes}. Blackie \& Son: London,
-  1904.
 
 \bibitem[Hassan and Mihalcea(2011)]{hassan2011semantic}
 Samer Hassan and Rada Mihalcea.
