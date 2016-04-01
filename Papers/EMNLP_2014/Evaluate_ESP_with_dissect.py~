@@ -1,0 +1,58 @@
+from composes.semantic_space.space import Space
+from composes.transformation.scaling.ppmi_weighting import PpmiWeighting
+from composes.transformation.dim_reduction.svd import Svd
+from composes.transformation.feature_selection.top_feature_selection import TopFeatureSelection
+from composes.similarity.cos import CosSimilarity
+from composes.utils import io_utils
+from composes.utils import log_utils
+from composes.utils import io_utils
+from composes.utils import scoring_utils
+from composes.similarity.cos import CosSimilarity
+import sys
+
+winsize = sys.argv[1]
+
+
+if __name__ == '__main__':
+    # set constants
+    data_path = "/local/scratch/fh295/NeuralNetworks14/"
+    log_file = data_path + "all.log"
+    core_cooccurrence_file = data_path + "ESP.dm"
+    core_row_file = data_path + "ESP.rows"
+    core_col_file = data_path + "ESP.cols"
+    core_space_file = data_path + "core.pkl"
+    
+    # config log file
+    log_utils.config_logging(log_file)
+    
+    print "Building semantic space from co-occurrence counts"
+    core_space = Space.build(data=core_cooccurrence_file, rows=core_row_file,
+                             cols=core_col_file, format="dm")
+    
+    # print "Applying ppmi weighting"
+    # core_space = core_space.apply(PpmiWeighting())
+    # print "Applying feature selection"
+    # core_space = core_space.apply(TopFeatureSelection(5000))
+    
+    if 'SVD' in sys.argv:
+	print "Applying svd 200"	    
+        core_space = core_space.apply(Svd(200))
+    
+    print "Saving the semantic space"
+    io_utils.save(core_space, core_space_file)
+    my_space = io_utils.load(core_space_file)
+
+
+    fname2 = data_path +"USF_concs.txt"
+    word_pairs2 = io_utils.read_tuple_list(fname2, fields=[0,1])
+    predicted2 = my_space.get_sims(word_pairs2, CosSimilarity())
+
+    print 'RESULTS FOR USF CONCRETE'
+    #compute correlations
+    gold2 = io_utils.read_list(fname2, field=2)
+    print "Spearman"
+    print scoring_utils.score(gold2, predicted2, "spearman")
+    print "Pearson"
+    print scoring_utils.score(gold2, predicted2, "pearson")
+
+ 

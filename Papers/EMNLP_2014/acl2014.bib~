@@ -1,0 +1,781 @@
+@article{markman1997similar,
+  title={Similar and different: The differentiation of basic-level categories},
+  author={Markman, Arthur B and Wisniewski, Edward J},
+  journal={Journal of Experimental Psychology: Learning, Memory, and Cognition},
+  volume={23},
+  number={1},
+  year={1997},
+  publisher={American Psychological Association}
+}
+
+@inproceedings{mikolov2013distributed,
+  title={Distributed representations of words and phrases and their compositionality},
+  author={Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={3111--3119},
+  year={2013}
+}
+
+@article{gentner1978relational,
+  title={On relational meaning: The acquisition of verb meaning},
+  author={Gentner, Dedre},
+  journal={Child development},
+  pages={988--998},
+  year={1978},
+  publisher={JSTOR}
+}
+
+@article{bruni2014multimodal,
+  title={Multimodal distributional semantics},
+  author={Bruni, Elia and Tran, Nam Khanh and Baroni, Marco},
+  journal={Journal of Artificial Intelligence Research},
+  volume={49},
+  pages={1--47},
+  year={2014}
+}
+
+@inproceedings{finkelstein2001placing,
+  title={Placing search in context: The concept revisited},
+  author={Finkelstein, Lev and Gabrilovich, Evgeniy and Matias, Yossi and Rivlin, Ehud and Solan, Zach and Wolfman, Gadi and Ruppin, Eytan},
+  booktitle={Proceedings of the 10th International Conference on the World Wide Web},
+  pages={406--414},
+  year={2001},
+  organization={ACM}
+}
+
+@inproceedings{silberer2014learning,
+  title={Learning Grounded Meaning Representations with Autoencoders},
+  author={Silberer, C and Lapata, M},
+  booktitle={Proceedings of Association for Computational Linguistics},
+  year={2014},
+  organization={ACL}
+}
+
+
+@inproceedings{pedersen2004wordnet,
+  title={WordNet:: Similarity: measuring the relatedness of concepts},
+  author={Pedersen, Ted and Patwardhan, Siddharth and Michelizzi, Jason},
+  booktitle={Demonstration Papers at HLT-NAACL 2004},
+  pages={38--41},
+  year={2004},
+  organization={Association for Computational Linguistics}
+}
+
+@book{fellbaum1999wordnet,
+  title={WordNet},
+  author={Fellbaum, Christiane},
+  year={1999},
+  publisher={Wiley Online Library}
+}
+
+@article{bernal2007syntax,
+  title={Syntax constrains the acquisition of verb meaning},
+  author={Bernal, Savita and Lidz, Jeffrey and Millotte, S{\'e}verine and Christophe, Anne},
+  journal={Language Learning and Development},
+  volume={3},
+  number={4},
+  pages={325--341},
+  year={2007},
+  publisher={Taylor and Francis}
+}
+
+
+@InProceedings{mikolov2013efficient,
+  author    = {Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
+  title     = {Efficient estimation of word representations in vector space},
+  booktitle = {Proceedings of International Conference of Learning Representations},
+  year      = {2013},
+  address   = {Scottsdale, Arizona, USA}
+}
+
+@article{howell2005model,
+  title={A model of grounded language acquisition: Sensorimotor features improve lexical and grammatical learning},
+  author={Howell, Steve R and Jankowicz, Damian and Becker, Suzanna},
+  journal={Journal of Memory and Language},
+  volume={53},
+  number={2},
+  pages={258--276},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@book{levin1993english,
+  title={English verb classes and alternations: A preliminary investigation},
+  author={Levin, Beth},
+  volume={348},
+  year={1993},
+  publisher={University of Chicago press Chicago}
+}
+
+@book{bowerman2001language,
+  title={Language acquisition and conceptual development},
+  author={Bowerman, Melissa and Levinson, Stephen C},
+  volume={3},
+  year={2001},
+  publisher={Cambridge University Press}
+}
+
+@article{barsalou2003grounding,
+  title={Grounding conceptual knowledge in modality-specific systems},
+  author={Barsalou, Lawrence W and Kyle Simmons, W and Barbey, Aron K and Wilson, Christine D},
+  journal={Trends in Cognitive Sciences},
+  volume={7},
+  number={2},
+  pages={84--91},
+  year={2003},
+  publisher={Elsevier}
+}
+
+@article{Hill2014,
+  title={Multi-modal models for abstract and concrete concept semantics},
+  author={Hill, Felix and Reichart, Roi and Korhonen, Anna},
+  journal={Transactions of the Association for Computational Linguistics},
+  year={In Preparation},
+}
+
+@book{golinkoff2000becoming,
+  title={Becoming a word learner: A debate on lexical acquisition.},
+  author={Golinkoff, Roberta Michnick and Hirsh-Pasek, Kathy and Bloom, Lois and Smith, Linda B and Woodward, Amanda L and Akhtar, Nameera and Tomasello, Michael and Hollich, George},
+  year={2000},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{huang2012improving,
+  title={Improving word representations via global context and multiple word prototypes},
+  author={Huang, Eric H and Socher, Richard and Manning, Christopher D and Ng, Andrew Y},
+  booktitle={Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Long Papers-Volume 1},
+  pages={873--882},
+  year={2012},
+  organization={Association for Computational Linguistics}
+}
+
+@article{turney2010frequency,
+  title={From frequency to meaning: Vector space models of semantics},
+  author={Turney, Peter D and Pantel, Patrick and others},
+  journal={Journal of artificial intelligence research},
+  volume={37},
+  number={1},
+  pages={141--188},
+  year={2010}
+}
+
+@article{barsalou2005situating,
+  title={Situating abstract concepts},
+  author={Barsalou, Lawrence W and Wiemer-Hastings, Katja},
+  journal={Grounding Cognition: The Role of Perception and Action in Memory, Language, and Thought},
+  pages={129--163},
+  year={2005}
+}
+
+@inproceedings{silberer2012grounded,
+  title={Grounded models of semantic representation},
+  author={Silberer, Carina and Lapata, Mirella},
+  booktitle={Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+  pages={1423--1433},
+  year={2012},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{silberer2013models,
+  title={Models of semantic representation with visual attributes},
+  author={Silberer, Carina and Ferrari, Vittorio and Lapata, Mirella},
+  booktitle={Proceedings of the 51th Annual Meeting of the Association for Computational Linguistics, Sofia, Bulgaria, August},
+  year={2013}
+}
+
+
+
+
+
+
+@inproceedings{feng2010visual,
+  title={Visual information in semantic representation},
+  author={Feng, Yansong and Lapata, Mirella},
+  booktitle={Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  pages={91--99},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@article{steiger1980tests,
+title={Tests for comparing elements of a correlation matrix.},
+author={Steiger, James H},
+journal={Psychological Bulletin},
+volume={87},
+number={2},
+pages={245},
+year={1980},
+publisher={American Psychological Association}
+}
+
+@InProceedings{rollermultimodal,
+  author    = {Roller, Stephen  and  Schulte im Walde, Sabine},
+  title     = {A Multimodal {LDA} Model integrating Textual, Cognitive and Visual Modalities},
+  booktitle = {Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing},
+  month     = {October},
+  year      = {2013},
+  address   = {Seattle, Washington, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1146--1157},
+}
+
+
+@inproceedings{bruni2012distributional,
+  title={Distributional semantics in technicolor},
+  author={Bruni, Elia and Boleda, Gemma and Baroni, Marco and Tran, Nam-Khanh},
+  booktitle={Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Long Papers-Volume 1},
+  pages={136--145},
+  year={2012},
+  organization={Association for Computational Linguistics}
+}
+
+
+
+@inproceedings{goldbergdataset,
+  title={A Dataset of Syntactic-Ngrams over Time from a Very Large Corpus of English Books},
+  author={Goldberg, Yoav and Orwant, Jon},
+  booktitle={Second Joint Conference on Lexical and Computational Semantics, Association for Computational Linguistics},
+  pages={241-247},
+  year={2013},
+  organization={Association for Computational Linguistics}
+}
+
+
+@article{mcrae2005semantic,
+  title={Semantic feature production norms for a large set of living and nonliving things},
+  author={McRae, Ken and Cree, George S and Seidenberg, Mark S and McNorgan, Chris},
+  journal={Behavior Research Methods},
+  volume={37},
+  number={4},
+  pages={547--559},
+  year={2005},
+  publisher={Springer}
+}
+
+@inproceedings{von2004labeling,
+  title={Labeling images with a computer game},
+  author={Von Ahn, Luis and Dabbish, Laura},
+  booktitle={Proceedings of the SIGCHI conference on human factors in computing systems},
+  pages={319--326},
+  year={2004},
+  organization={ACM}
+}
+
+@book{myers1990classical,
+  title={Classical and Modern Regression with Applications},
+  author={Myers, Raymond H},
+  volume={2},
+  year={1990},
+  publisher={Duxbury Press Belmont, CA}
+}
+
+@article{johns2012perceptual,
+  title={Perceptual inference through global lexical similarity},
+  author={Johns, Brendan T and Jones, Michael N},
+  journal={Topics in Cognitive Science},
+  volume={4},
+  number={1},
+  pages={103--120},
+  year={2012},
+  publisher={Wiley Online Library}
+}
+
+@article{paivio1991dual,
+  title={Dual coding theory: Retrospect and current status.},
+  author={Paivio, Allan},
+  journal={Canadian Journal of Psychology},
+  volume={45},
+  number={3},
+  pages={255},
+  year={1991},
+  publisher={Canadian Psychological Association}
+}
+
+@article{schwanenflugel1983differential,
+  title={Differential context effects in the comprehension of abstract and concrete verbal materials.},
+  author={Schwanenflugel, Paula J and Shoben, Edward J},
+  journal={Journal of Experimental Psychology: Learning, Memory, and Cognition},
+  volume={9},
+  number={1},
+  pages={82},
+  year={1983},
+  publisher={American Psychological Association}
+}
+
+@article{binder2005distinct,
+  title={Distinct brain systems for processing concrete and abstract concepts},
+  author={Binder, Jeffrey R and Westbury, Chris F and McKiernan, Kristen A and Possing, Edward T and Medler, David A},
+  journal={Journal of Cognitive Neuroscience},
+  volume={17},
+  number={6},
+  pages={905--917},
+  year={2005},
+  publisher={MIT Press}
+}
+
+@article{west2000imaginal,
+  title={Imaginal, semantic, and surface-level processing of concrete and abstract words: an electrophysiological investigation},
+  author={West, W Caroline and Holcomb, Phillip J},
+  journal={Journal of Cognitive Neuroscience},
+  volume={12},
+  number={6},
+  pages={1024--1037},
+  year={2000},
+  publisher={MIT Press}
+}
+
+@article{andrews2009integrating,
+  title={Integrating experiential and distributional data to learn semantic representations.},
+  author={Andrews, Mark and Vigliocco, Gabriella and Vinson, David},
+  journal={Psychological Review},
+  volume={116},
+  number={3},
+  pages={463},
+  year={2009},
+  publisher={American Psychological Association}
+}
+
+
+@inproceedings{leech1994claws4,
+  title={CLAWS4: the tagging of the {B}ritish {N}ational {C}orpus},
+  author={Leech, Geoffrey and Garside, Roger and Bryant, Michael},
+  booktitle={Proceedings of the 15th conference on Computational linguistics-Volume 1},
+  pages={622--628},
+  year={1994},
+  organization={Association for Computational Linguistics}
+}
+
+@article{gallese2005brain,
+  title={The brain's concepts: The role of the sensory-motor system in conceptual knowledge},
+  author={Gallese, Vittorio and Lakoff, George},
+  journal={Cognitive neuropsychology},
+  volume={22},
+  number={3-4},
+  pages={455--479},
+  year={2005},
+  publisher={Taylor and Francis}
+}
+
+@article{rosen2001nominalism,
+  title={Nominalism, naturalism, epistemic relativism},
+  author={Rosen, Gideon},
+  journal={No{\^u}s},
+  volume={35},
+  number={s15},
+  pages={69--91},
+  year={2001},
+  publisher={Wiley Online Library}
+}
+
+
+@book{brinton2005lexicalization,
+  title={Lexicalization and language change},
+  author={Brinton, Laurel J and Traugott, Elizabeth Closs},
+  year={2005},
+  publisher={Cambridge University Press}
+}
+
+@inproceedings{shutova2010metaphor,
+  title={Metaphor Corpus Annotated for Source-Target Domain Mappings.},
+  author={Shutova, Ekaterina and Teufel, Simone},
+  booktitle={LREC},
+  year={2010}
+}
+
+@inproceedings{turney2011literal,
+  title={Literal and metaphorical sense identification through concrete and abstract context},
+  author={Turney, Peter D and Neuman, Yair and Assaf, Dan and Cohen, Yohai},
+  booktitle={Proceedings of the 2011 Conference on the Empirical Methods in Natural Language Processing},
+  pages={680--690},
+  year={2011}
+}
+
+@article{neuman2009metaphor,
+  title={Metaphor-based meaning excavation},
+  author={Neuman, Yair and Nave, Ophir},
+  journal={Information Sciences},
+  volume={179},
+  number={16},
+  pages={2719--2728},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@article{hill2013quantitative,
+  title={A Quantitative Empirical Analysis of the Abstract/Concrete Distinction},
+  author={Hill, Felix and Korhonen, Anna and Bentz, Christian},
+  journal={Cognitive Science},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@inproceedings{wu2013online,
+  title={Online multimodal deep similarity learning with application to image retrieval},
+  author={Wu, Pengcheng and Hoi, Steven CH and Xia, Hao and Zhao, Peilin and Wang, Dayong and Miao, Chunyan},
+  booktitle={Proceedings of the 21st ACM International Conference on Multimedia},
+  pages={153--162},
+  year={2013},
+  organization={ACM}
+}
+
+@article{barsalou2010grounded,
+  title={Grounded cognition: past, present, and future},
+  author={Barsalou, Lawrence W},
+  journal={Topics in Cognitive Science},
+  volume={2},
+  number={4},
+  pages={716--724},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+@article{grafton2009embodied,
+  title={Embodied cognition and the simulation of action to understand others},
+  author={Grafton, Scott T},
+  journal={Annals of the New York Academy of Sciences},
+  volume={1156},
+  number={1},
+  pages={97--117},
+  year={2009},
+  publisher={Wiley Online Library}
+}
+
+@article{katja2005content,
+  title={Content differences for abstract and concrete concepts},
+  author={Wiemer-Hastings, Katja and Xu, Xu},
+  journal={Cognitive Science},
+  volume={29},
+  number={5},
+  pages={719--736},
+  year={2005},
+  publisher={Wiley Online Library}
+}
+
+@article{feng2013constructing,
+  title={Constructing hierarchical image-tags bimodal representations for word tags alternative choice},
+  author={Feng, Fangxiang and Li, Ruifan and Wang, Xiaojie},
+  journal={arXiv preprint arXiv:1307.1275},
+  year={2013}
+}
+
+@article{crutch2005abstract,
+  title={Abstract and concrete concepts have structurally different representational frameworks},
+  author={Crutch, Sebastian J and Warrington, Elizabeth K},
+  journal={Brain},
+  volume={128},
+  number={3},
+  pages={615--627},
+  year={2005},
+  publisher={Oxford Univ Press}
+}
+
+@inproceedings{srivastava2012multimodal,
+  title={Multimodal Learning with Deep Boltzmann Machines.},
+  author={Srivastava, Nitish and Salakhutdinov, Ruslan},
+  booktitle={NIPS},
+  pages={2231--2239},
+  year={2012}
+}
+
+@book{borghi2012embodied,
+  title={Embodied and grounded cognition},
+  author={Borghi, Anna and Pecher, Diane},
+  year={2012},
+  publisher={Frontiers E-books}
+}
+
+@article{gentner1997structure,
+  title={Structure mapping in analogy and similarity.},
+  author={Gentner, Dedre and Markman, Arthur B},
+  journal={American psychologist},
+  volume={52},
+  number={1},
+  pages={45},
+  year={1997},
+  publisher={American Psychological Association}
+}
+
+@article{gentner2006verbs,
+  title={Why verbs are hard to learn},
+  author={Gentner, Dedre},
+  journal={Action meets word: How children learn verbs},
+  pages={544--564},
+  year={2006}
+}
+
+@inproceedings{baroni2010nouns,
+  title={Nouns are vectors, adjectives are matrices: Representing adjective-noun constructions in semantic space},
+  author={Baroni, Marco and Zamparelli, Roberto},
+  booktitle={Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing},
+  pages={1183--1193},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{socher2012semantic,
+  title={Semantic compositionality through recursive matrix-vector spaces},
+  author={Socher, Richard and Huval, Brody and Manning, Christopher D and Ng, Andrew Y},
+  booktitle={Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+  pages={1201--1211},
+  year={2012},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{fyshe2012semantic,
+  title={Documents and Dependencies: an Exploration of Vector Space Models for Semantic Composition},
+  author={Fyshe, Alona and Talukdar, Partha and Murphy, Brian and Mitchell, Tom},
+  booktitle={Proceedings of the 2013 Conference on Computational Natural Language Learning},
+  year={2013},
+  organization={Association for Computational Linguistics}
+}
+
+
+@article{nelson2004university,
+  title={The {U}niversity of {So}uth {F}lorida free association, rhyme, and word fragment norms},
+  author={Nelson, Douglas L and McEvoy, Cathy L and Schreiber, Thomas A},
+  journal={Behavior Research Methods, Instruments, \& Computers},
+  volume={36},
+  number={3},
+  pages={402--407},
+  year={2004},
+  publisher={Springer}
+}
+
+@phdthesis{sahlgren2006word,
+  title={The Word-Space Model: Using distributional analysis to represent syntagmatic and paradigmatic relations between words in high-dimensional vector spaces},
+  author={Sahlgren, Magnus},
+  year={2006},
+  school={Stockholm}
+}
+
+@inproceedings{erk2008structured,
+  title={A structured vector space model for word meaning in context},
+  author={Erk, Katrin and Pad{\'o}, Sebastian},
+  booktitle={Proceedings of the Conference on Empirical Methods in Natural Language Processing},
+  pages={897--906},
+  year={2008},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{hinton1999products,
+  title={Products of experts},
+  author={Hinton, Geoffrey E},
+  booktitle={Artificial Neural Networks, 1999. ICANN 99. Ninth International Conference on (Conf. Publ. No. 470)},
+  volume={1},
+  pages={1--6},
+  year={1999},
+  organization={IET}
+}
+
+@inproceedings{hill2012beauty,
+  title={Beauty before age?: applying subjectivity to automatic English adjective ordering},
+  author={Hill, Felix},
+  booktitle={Proceedings of the 2012 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Student Research Workshop},
+  pages={11--16},
+  year={2012},
+  organization={Association for Computational Linguistics}
+}
+
+@article{kipper2008large,
+  title={A large-scale classification of English verbs},
+  author={Kipper, Karin and Korhonen, Anna and Ryant, Neville and Palmer, Martha},
+  journal={Language Resources and Evaluation},
+  volume={42},
+  number={1},
+  pages={21--40},
+  year={2008},
+  publisher={Springer}
+}
+
+@article{gildea2002automatic,
+  title={Automatic labeling of semantic roles},
+  author={Gildea, Daniel and Jurafsky, Daniel},
+  journal={Computational linguistics},
+  volume={28},
+  number={3},
+  pages={245--288},
+  year={2002},
+  publisher={MIT Press}
+}
+
+@book{levin1993english,
+  title={English verb classes and alternations: A preliminary investigation},
+  author={Levin, Beth},
+  volume={348},
+  year={1993},
+  publisher={University of Chicago press Chicago}
+}
+
+@article{van2012multiway,
+  title={Multiway Tensor Factorization for Unsupervised Lexical Acquisition},
+  author={Van de Cruys, Tim and Rimell, Laura and Poibeau, Thierry and Korhonen, Anna and others},
+  journal={COLING 2012: Technical Papers},
+  pages={2703--2720},
+  year={2012}
+}
+
+@article{tyler2001towards,
+  title={Towards a distributed account of conceptual knowledge},
+  author={Tyler, Lorraine K and Moss, Helen E},
+  journal={Trends in Cognitive Sciences},
+  volume={5},
+  pages={244--252},
+  year={2001},
+  publisher={Elsevier}
+}
+
+@inproceedings{collobert2007fast,
+  title={Fast semantic extraction using a novel neural network architecture},
+  author={Collobert, Ronan and Weston, Jason},
+  booktitle={Annual meeting-association for computational linguistics},
+  volume={45},
+  number={1},
+  pages={560},
+  year={2007}
+}
+
+@article{mesnil2012unsupervised,
+  title={Unsupervised and Transfer Learning Challenge: a Deep Learning Approach.},
+  author={Mesnil, Gr{\'e}goire and Dauphin, Yann and Glorot, Xavier and Rifai, Salah and Bengio, Yoshua and Goodfellow, Ian J and Lavoie, Erick and Muller, Xavier and Desjardins, Guillaume and Warde-Farley, David and others},
+  journal={Journal of Machine Learning Research-Proceedings Track},
+  volume={27},
+  pages={97--110},
+  year={2012}
+}
+
+@book{bybee2001frequency,
+  title={Frequency and the Emergence of Linguistic Structure},
+  author={Bybee, Joan L and Hopper, Paul J},
+  volume={45},
+  year={2001},
+  publisher={John Benjamins Publishing}
+}
+
+@article{chater2006probabilistic,
+  title={Probabilistic models of language processing and acquisition},
+  author={Chater, Nick and Manning, Christopher D},
+  journal={Trends in Cognitive Sciences},
+  volume={10},
+  number={7},
+  pages={335--344},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@inproceedings{turian2010word,
+  title={Word representations: a simple and general method for semi-supervised learning},
+  author={Turian, Joseph and Ratinov, Lev and Bengio, Yoshua},
+  booktitle={Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics},
+  pages={384--394},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@article{duchi2011adaptive,
+  title={Adaptive subgradient methods for online learning and stochastic optimization},
+  author={Duchi, John and Hazan, Elad and Singer, Yoram},
+  journal={The Journal of Machine Learning Research},
+  volume={12},
+  pages={2121--2159},
+  year={2011},
+  publisher={JMLR. org}
+}
+
+@inproceedings{collobert2008unified,
+  title={A unified architecture for natural language processing: Deep neural networks with multitask learning},
+  author={Collobert, Ronan and Weston, Jason},
+  booktitle={Proceedings of the 25th International Conference on Machine Learning},
+  pages={160--167},
+  year={2008},
+  organization={ACM}
+}
+
+@article{devereux2013centre,
+  title={The Centre for Speech, Language and the Brain (CSLB) concept property norms},
+  author={Devereux, Barry J and Tyler, Lorraine K and Geertzen, Jeroen and Randall, Billi},
+  journal={Behavior Research Methods},
+  pages={1--9},
+  year={2013},
+  publisher={Springer}
+}
+
+@inproceedings{morin2005hierarchical,
+  title={Hierarchical probabilistic neural network language model},
+  author={Morin, Frederic and Bengio, Yoshua},
+  booktitle={Proceedings of the international Workshop on Artificial Intelligence and Statistics},
+  pages={246--252},
+  year={2005}
+}
+
+@inproceedings{kelly2010acquiring,
+  title={Acquiring human-like feature-based conceptual representations from corpora},
+  author={Kelly, Colin and Devereux, Barry and Korhonen, Anna},
+  booktitle={Proceedings of the NAACL HLT 2010 First Workshop on Computational Neurolinguistics},
+  pages={61--69},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@incollection{manning2011part,
+  title={Part-of-speech tagging from 97\% to 100\%: is it time for some linguistics?},
+  author={Manning, Christopher D},
+  booktitle={Computational Linguistics and Intelligent Text Processing},
+  pages={171--189},
+  year={2011},
+  publisher={Springer}
+}
+
+@article{bybee200319,
+  title={19 Mechanisms of Change in Grammaticization: The Role of Frequency},
+  author={Bybee, Joan},
+  journal={The handbook of historical linguistics},
+  pages={602},
+  year={2003}
+}
+
+@article{harris1954,
+  title={Distributional structure},
+  author={Harris, Zellig},
+  journal={Word},
+  volume={10},
+  number={23},
+  pages={146-162},
+  year={1954}
+}
+
+
+
+@article{hardoon2004canonical,
+  title={Canonical correlation analysis: An overview with application to learning methods},
+  author={Hardoon, David R and Szedmak, Sandor and Shawe-Taylor, John},
+  journal={Neural Computation},
+  volume={16},
+  number={12},
+  pages={2639--2664},
+  year={2004},
+  publisher={MIT Press}
+}
+
+@article{landauer1997solution,
+  title={A solution to Plato's problem: The latent semantic analysis theory of acquisition, induction, and representation of knowledge.},
+  author={Landauer, Thomas K and Dumais, Susan T},
+  journal={Psychological Review},
+  volume={104},
+  number={2},
+  pages={211},
+  year={1997},
+  publisher={American Psychological Association}
+}
+
+
+@inproceedings{reichartimproved,
+  title={Improved Lexical Acquisition through DPP-based Verb Clustering},
+  author={Reichart, Roi and Korhonen, Anna},
+  booktitle={Proceedings of the Conference of the Association for Computational Linguistics (ACL)},
+  year={2013},
+  organization={Association for Computational Linguistics}
+}
+
+
+
+

@@ -1,0 +1,314 @@
+%
+% File acl2014.tex
+%
+% Contact: koller@ling.uni-potsdam.de, yusuke@nii.ac.jp
+%%
+%% Based on the style files for ACL-2013, which were, in turn,
+%% Based on the style files for ACL-2012, which were, in turn,
+%% based on the style files for ACL-2011, which were, in turn, 
+%% based on the style files for ACL-2010, which were, in turn, 
+%% based on the style files for ACL-IJCNLP-2009, which were, in turn,
+%% based on the style files for EACL-2009 and IJCNLP-2008...
+
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt]{article}
+
+\usepackage{acl2014}
+
+\usepackage{times}
+
+\usepackage{url}
+
+\usepackage{latexsym}
+
+\usepackage{graphicx}
+
+\newcommand{\me}{\mathrm{e}}
+
+%\setlength\titlebox{5cm}
+
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+
+\title{Learning Abstract Concepts from Multi-Modal Data: \\ Since You Probably Can't See What I Mean}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  {\tt email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  {\tt email@domain} \\}
+
+
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+
+
+Models that acquire semantic representations from both linguistic and perceptual input outperform linguistic-only models on various NLP tasks. However, this superiority has only been established when learning concrete concepts, which are usually domain specific and also comparatively rare in everyday language. We present Percep2Vec, a novel multi-modal probabilistic language model for learning semantic representations. Percep2Vec outperforms alternative approaches both in combining input from two modalities, and in propagating perceptual information about concrete to more abstract concepts. The approach thus extends the multi-modal advantage from concrete concrete concepts to more widely applicable abstract representations. 
+
+
+
+
+
+\end{abstract}
+
+
+
+\section{Introduction}
+
+Multi-modal models that learn semantic word representations from both linguistic and perceptual input were originally motivated by parallels with human concept acquisition \cite{andrews2009integrating}, and evidence that many concepts are grounded in the perceptual system \cite{barsalou2005situating}. These models aim to integrate the information encoded in linguistic corpora with information about the perceptible characteristics of concepts to produce enhanced lexical semantic representations. The perceptual information is generally mined directly from images \cite{feng2010visual,bruni2012distributional} or from data collected as part of psychological experiments on perception \cite{silberer2012grounded,rollermultimodal}. 
+
+By exploiting the additional information encoded in this perceptual input, multi-modal models can outperform language-only models on a range of NLP tasks, including modelling similarity, \cite{bruni2014multimodal} and free association \cite{silberer2012grounded}, predicting compositionality \cite{rollermultimodal} and concept categorization \cite{silberer2014learning}. However, to date, this superiority has only been established when evaluating on concrete words such as \emph{cat} or \emph{dog}, rather than abstract concepts, such as \emph{curiosity} or \emph{loyalty}. Indeed, differences between abstract and concrete processing and representation \cite{paivio1991dual,hill2013quantitative} suggest that conclusions about concrete conceptual learning may not necessarily hold in the general case. In this paper, we therefore focus on multi-modal models for learning abstract concepts.
+
+Although learning abstract representations may seem of secondary or peripheral interest, in fact the vast majority of open-class, meaning-bearing words in everyday language are abstract. For example, 72\% of the noun or verb tokens in the British National Corpus \cite{leech1994claws4} are rated by human judges\footnote{Contributors to the University of South Florida dataset (USF) \cite{nelson2004university}} as more abstract than the noun \emph{war}, a concept many would already consider to be quite abstract. 
+Moreover, abstract representations by definition encode higher-level, more general principles than concrete concepts, which are typically domain specific. They are therefore likely to be essential for increasingly popular multi-task, multi-domain or transfer learning models that acquire conceptual knowledge without reference to a specific objective or task \cite{collobert2008unified,mesnil2012unsupervised}. 
+
+Motivated by these observations, we present \emph{Percep2Vec}, a novel architecture for learning abstract, as well as concrete, representations from multi-modal input. Percep2Vec is a multi-modal extension of the log-linear skipgram model proposed by \newcite{mikolov2013efficient}. The model architecture is designed to reflect the process of human word learning, in that perceptual input is available for learning when and only when concrete concepts are 'experienced' by the model. 
+
+We train Percep2Vec on running-text language and two sources of perceptual information describing concrete nouns (from images and property norming experiments). We first observe that, on these concrete nouns, Percep2Vec is able to model a free association gold standard significantly better than both language-only models and previous multi-modal models. The architecture therefore represents a state-of-the-art means of \emph{combining} information from different modalities. 
+
+In addition, the model can leverage the linguistic input to effectively \emph{propagate} perceptual information about concrete nouns to representations of more abstract concepts. Percep2Vec outperforms alternative models at this propagation process, although the effectiveness of propagation in general differs according to the type of abstract concept. Propagation from concrete nouns to concrete verbs is highly effective, while representations of abstract verbs can also be improved via this process. However, the inclusion of perceptual input degrades the representations of abstract nouns as compared to those learned by language-only models.  
+
+Finally, we investigate the optimum quantity and type of perceptual input to include in such models. We show that, between the highly concrete concepts for which multi-modal representation learning is effective, and the very abstract concepts for which it is not, there are concepts whose representations are only enhanced by propagating perceptual information about related concrete concepts through a langue-based model.  
+
+In addition to presenting a novel model architecture that outperforms previous models on several evaluation tasks, our empirical observations are potentially important for omtimizing the learning of representations of concrete and abstract concepts in multi-modal models. In addition, we point to various potential implications for theories of cognitive conceptual representation.    
+
+\section{Model Design}
+
+The design of Percep2Vec is motivated by human concept learning. Specifically, it aims to reflect the fact that linguistic references to concrete concepts often occur in proximity to physical manifestations of that concept, and are thus accompanied by pertinent perceptual information. Before describing how this perceptual input is integrated, we first describe the basic corpus-based representation learning model. 
+
+\paragraph{Language-only Model} Percep2Vec builds on the continuous log-linear skip-gram language model proposed by \newcite{mikolov2013efficient} for semantic representation learning. This model learns lexical representations in a similar way to neural-probabilistic language models (NPLM) but with no non-linear hidden layer, a simplification that enables faster training. 
+
+\begin{figure*}[ht]  \includegraphics[width = \textwidth]{Figure_1}  \caption{Percep2Vec model architecture. Light boxes are elements of the original \newcite{mikolov2013efficient} model. For target words \(w_n\) in the domain of \(\mathbf{P}\), the model updates based on corpus context words \( w_{n+i} \) then on words \(p^w_{n+i}\) in perceptual psuedo-sentences. Otherwise, updates are based solely on the \( w_{n+i}. \)}\end{figure*}
+
+For each word type \(w\) in the corpus, the model learns both a `target-representation' \( r_{w}\) and a `context-representation' \(\hat{r}_{w}\) such that, given such a target word, its ability to predict nearby context words is maximized. The probability of encountering context word \(c\) given target \(w\) is defined as:  
+
+\[p(c|w)  = \frac{\me^{\hat{r}_{c} \cdot r_{w}}}{\sum_{v \in V} \me^{\hat{r}_v\cdot r_{w}}}    \]where \(V\) is the vocabulary (set of word types in the corpus). 
+
+The training data for the model is a set of target-word, context-word pairs, extracted from a corpus of sentences as follows. In a given sentence \(S\) (of length \(N\)), for each position \( n \leq N\), each word \(w_n\) is treated in turn as a target word. An integer \( {t(n)} \) is then sampled from a uniform distribution on \( \{1, \dots K \} \), where \(K > 0\) is a predefined maximum context-window parameter. The pair tokens \( \{(w_n, w_{n+j}): -{t(n)}\leq j \leq {t(n)}, w_i \in S \}\) are then appended to the training data. Thus, target/context training pairs are such that (i) only words within a \(K\)-window of the target are selected as context words for that target, and (ii) words closer to the target are more likely to be selected than those further away.
+
+The training objective is then to maximize the log probability \( T\) across of all such examples from \(S\), and then across all sentences in the corpus:
+ 
+\[ T = \frac{1}{N} \sum_{n=1}^{N} \sum_{-{t(n)}\leq j \leq {t(n)}, j\neq 0} log(  p(w_{n+j}|w_{n}) ) \]The model free parameters (target-representations and context-representations of dimension \(D\) for each word in the corpus with frequency above a certain threshold \(F\)) are updated according to stochastic gradient descent and backpropation, with learning rate controlled by Adagrad \cite{duchi2011adaptive}. For efficiency, the output layer is encoded as a hierarchical softmax function based on a binary Huffman tree \cite{morin2005hierarchical}. 
+
+It is notable that the language-only model captures conceptual meaning by exploting the intuition that words appearing in similar linguistic contexts are likely to have similar meanings. Informally, the model adjusts its concept representations to increase the `probability' of seeing the language in the training corpus. Since this probability increases with the \(p(c|w)\), and the \(p(c|w)\) increase with the dot product \( \hat{r}_v\cdot r_{c} \), the updates have the effect of moving each target concept representation incrementally `closer' to the context-representations of its collocates. In the target-representation space, this results in representations of concept words that regularly occur in similar contexts moving closer together.   
+
+
+\paragraph{Multi-modal Extension} Percep2Vec extends the \newcite{mikolov2013efficient} architecture by introducing perceptually-informed training examples whenever a sufficiently concrete concept word is encountered in the text. To implement this process,  perceptual information is extracted from external sources and encoded in an associative array \(\bf{P}\), which maps (typically concrete) words \(w\) to bags of perceptual features \({\bf b}(w)\). The construction of this array depends on the perceptual information source; the process for our chosen sources is detailed in Section 2.1.  
+
+Training Percep2Vec begins as before on running-text. When a sentence \(S_m\) containing a word \(w\) in the domain of \(\mathbf{P}\) is encountered, the model completes training on \(S_m\) and begins learning from a perceptual pseudo-sentence \(\hat{S}(w)\).  \(\hat{S}(w)\) is constructed  by randomly sampling features from \({\bf b}(w)\) to occupy positions before and instances of \(w\), so that  \(\hat{S}(w)\) is the same length as \(S_m\) (see Figure 2). Once training on \(\hat{S}(w)\) is completed, the model reverts to the next `real' linguistic sentence \(S_{m+1}\), and the process continues. 
+
+Based on the assumption that frequency in domain-general linguistic corpora correlates with the likelihood of `experiencing' a concept in the world \cite{bybee2001frequency,chater2006probabilistic}, Percep2Vec aligns with human language learning by introducing more perceptual input for commonly experienced concrete concepts and less input for rarer concepts. When a concrete concept is encountered in the corpus, its representation is first updated based on language (moved incrementally closer to concepts appearing in similar linguistic contexts), and then on perception (moved incrementally closer to concepts with the same or similar perceptual features). 
+
+For greater flexibility, we introduce a parameter \(\alpha\) reflecting the raw quantity of perceptual information relative to linguistic input. When \(\alpha=2\), two pseudo-sentences are generated and inserted for every corpus occurrence of a token from the domain of \(\mathbf{P}\). For non-integral \(\alpha \), the number of sentences inserted is \( \lfloor \alpha \rfloor \), and further sentence is added with probability \(\alpha - \lfloor \alpha \rfloor \).
+
+In all experiments reported in the following sections, we set the window size parameter \(K = 5\) and the minimum frequency parameter \(F = 3\), which guarantees that the model learns representations for all concepts in our evaluation sets. While the model learns both target and context representations for each word in the vocabulary, we conduct our experiments with the target representations only. We set the dimension parameter \(D = 300 \) as this produces high quality representations in the language only case \cite{mikolov2013efficient}. All concept representations are therefore 300 dimensional dense, real-valued vectors (sometimes referred to as a \emph{word-embeddings} \cite{turian2010word}).
+
+
+\begin{figure} \(\hat{S}(crocodile) =\)\small{ {\bf Crocodile} legs {\bf crocodile} teeth {\bf crocodile} teeth {\bf crocodile} scales {\bf crocodile} green {\bf crocodile}. \\ \\ \(\hat{S}(screwdriver)=\) { \bf Screwdriver} handle {\bf screwdriver} flat  {\bf screwdriver} long {\bf screwdriver}  handle {\bf screwdriver}  head. } \caption{Example pseudo-sentences generated by Percep2Vec.}\end{figure}
+
+\subsection{Information Sources}
+
+We construct the associative array of perceptual information \(\mathbf{P}\) from two sources that are representative of those typically used for multi-modal semantic models.
+
+\paragraph{ESPGame Dataset} The ESP-Game dataset (ESP) \cite{von2004labeling} consists of 100,000 images, each annotated with a list of lexical concepts that appear in that image.  
+
+For any concept word \(w\) identified in an ESP image, we construct a corresponding bag of features \({\bf b}(w)\) . For each ESP image \(I\) that contains \(w\), we append every other concept token identified in \(I\) to \({\bf b}(w)\). Thus, the more frequently a concept co-occurs with \(w\) in images, the more its corresponding lexical token will occur in \({\bf b}(w)\). The array \(\mathbf{P_{ESP}}\) in this case then consists of the  \( (w,  {\bf b}(w) ) \) pairs.
+
+\paragraph{CSLB Property Norms} The Centre for Speech, Language and the Brain norms (CSLB) \cite{devereux2013centre} is a recently-released dataset containing semantic properties for 638 concrete concepts produced by human annotators. The CSLB dataset was compiled in the same way as the \newcite{mcrae2005semantic} property norms used widely in multi-modal models \cite{silberer2012grounded,rollermultimodal}; we use CSLB because it contains more concepts. For each concept, the proportion of the 30 annotators that produced a given feature can also be employed as a measure of the strength of that feature.
+
+When encoding the CSLB data in \(\mathbf{P}\), we first map properties to lexical forms (e.g. \emph{is\_green} becomes \emph{green}). For each concept word \(w\) in CSLB, we then construct a corresponding feature bag \({\bf b}(w)\) by appending lexical forms to \({\bf b}(w)\) such that the count of each feature word is equal to the strength of that feature for \(w\). Thus, when features are sampled from \({\bf b}(w)\) to create pseudo-sentences (as detailed previously) the probability of a feature word occuring in a sentence reflects feature strength. The array \(\mathbf{P_{CSLB}}\) then consists of all \( (w,  {\bf b}(w) ) \) pairs.
+
+\paragraph{Linguistic Input} The linguistic input to all models is the 400m word Text8 Corpus\footnote{Downloadable from http://mattmahoney.net/dc/textdata.html} of Wikipedia text, split into sentences and with punctuation removed. 
+
+
+
+ \begin{table}[t]\begin{center}\begin{tabular}{c|ccc|c}
+
+
+\multicolumn{2}{c}{\bf ESPGame} &\multicolumn{1}{c}{} & \multicolumn{2}{c}{\bf CSLB}\\
+ \underline{Image 1} &  \underline{Image 2} & &  \underline{Crocodile} & \underline{Screwdriver} \\ 
+\footnotesize{red} &  \footnotesize{wreck} &  &  \footnotesize{has 4 legs (7)} &  \footnotesize{has handle (28)} \\ 
+\footnotesize{chihuaua} &  \footnotesize{cyan} & &  \footnotesize{has tail (18)} &  \footnotesize{has head (5)} \\ 
+\footnotesize{eyes} &  \footnotesize{man} & &  \footnotesize{has jaw (7)} & \footnotesize{is long (9)} \\ 
+\footnotesize{little} &  \footnotesize{crash} & &  \footnotesize{has scales (8)} &   \footnotesize{is plastic (18)} \\ 
+\footnotesize{ear} &  \footnotesize{accident} & &  \footnotesize{has teeth (20)} & \footnotesize{is metal (28)} \\ 
+\footnotesize{nose}  &  \footnotesize{street} & &  \footnotesize{is green (10}) &  \\ 
+\footnotesize{small} &   & & \footnotesize{is large (10)} &    \\ 
+
+
+
+
+
+
+\end{tabular}\end{center}\caption{\label{font-table} Concepts identified in images in the ESP Game (left) and features produced for concepts by human annotators in the CSLB dataset (with feature strength, max=30).}\end{table}
+
+
+
+
+ \begin{figure*}  \includegraphics[width = \textwidth]{Graph_1}  \caption{Percep2Vec compared with other methods of information combination (left) and propagation.}\end{figure*}
+
+
+
+\subsection{Evaluation}
+
+We evaluate the quality of representations by how well they reflect \emph{free association} scores, an empirical measure of cognitive conceptual proximity. The University of South Florida Norms (USF) \cite{nelson2004university} contain free association scores for over 40,000 concept pairs, and have been widely used in NLP to evaluate semantic representations \cite{andrews2009integrating,feng2010visual,silberer2012grounded,rollermultimodal}. Each concept that we extract from the USF database has also been rated for conceptual concreteness on a Likert scale of 1-7 by at least 10 human annotators. Following previous studies (REF), we measure the (Spearman \(\rho\)) correlation between association scores and the cosine similarity of vector representations.
+
+ \begin{table}[t]\begin{center}\begin{tabular}{l|l|c}
+
+
+
+\bf Concept 1 & \bf Concept 2 & \bf Assoc. \\
+ \hline 
+abdomen \footnotesize{ (6.83)} & stomach \footnotesize{ (6.04)} & 0.566 \\
+throw \footnotesize{  (4.05)} & ball  \footnotesize{ (6.08)} & 0.234 \\
+hope \footnotesize{  (1.18)} & glory \footnotesize{ (3.53)} & 0.192 \\
+egg \footnotesize{ (5.79)} & milk \footnotesize{ (6.66)} & 0.012 \\
+
+
+
+\end{tabular}\end{center}\caption{\label{font-table} Example concept pairs (with mean concreteness rating) and free-association scores from the USF dataset.}\end{table}
+
+
+
+
+
+
+We create separate abstract and concrete evaluation sets by ranking the USF concepts according to concreteness and sampling at random from the first and fourth quartiles. We also introduce a complementary noun/verb dichotomy\footnote{Based on the majority POS-tag of words in the lemmatized British National Corpus \cite{leech1994claws4}}, on the intuition that information propagation may occur differently from noun to noun or from noun to verb because of the distinct structural relationships in sentences. The abstract/concrete and noun/verb dichotomies yield four distinct evaluation sets (Table 1). For consistency, the concrete noun set is filtered so that all concrete noun concepts have perceptual representations from both CSLB and ESP. For each of the four resulting concept sets \(C_i \) (concrete/abstract, noun/verb), a corresponding set of pairs  \( \{ (w_1, w_2):   (w_1, w_2) \in USF \land  w_1, w_2 \in C_i\}\) is extracted for evaluation. 
+
+
+
+ \begin{table}[t]\begin{center}\begin{tabular}{l|c|c|p{2.1cm}}
+
+
+
+\bf Concept Type & \bf Words & \bf Pairs & \bf Examples \\ 
+
+\hline concrete nouns & 541 & 1418 & \emph{yacht, cup} \\
+
+abstract nouns & 100 & 295 & \emph{fear, respect} \\
+
+all nouns & 666 & 1815 & \emph{fear, cup} \\
+
+concrete verbs & 50 & 66 & \emph{ kiss, launch} \\
+
+abstract verbs & 50 & 127 & \emph{differ, obey} \\
+
+all verbs & 100 & 221 & \emph{kiss, obey} \\
+
+\end{tabular}\end{center}\caption{\label{font-table} Details the subsets of USF data used in our evaluations, downloadable from our website}\end{table}
+
+
+
+
+
+\section{Results and Discussion}
+
+Our experiments were designed to answer four questions, covered in the following subsections: (1) Which model architectures perform best at \emph{combining} combining information pertinent to multiple modalities, when such information exists explicitly (as common for concrete concepts)? (2) Which model architectures best propagate perceptual information to concepts for which it does not exist (as is common for abstract concepts)? (3) Is it preferable to include all of the perceptual input that can be obtained from a given source, or to filter this input stream in some way? (4) How much perceptual vs linguistic input is optimal for learning various concept types? 
+
+\subsection{Combining information sources} To evaluate Percep2Vec as a method of information combination, we compared its performance on the concrete noun evaluation set against alternative methods. When implementing these alternatives, we first encoded the perceptual input directly into sparse feature vectors, with coordinates for each of the 2726 features in CSLB and for each of the 100,000 images in ESP. 
+
+The first alternative is simple concatenation of these perceptual vectors with linguistic vectors acquired by the \newcite{mikolov2013efficient} model on the Text8 Corpus. In the second alternative, proposed for multi-modal models by \newcite{silberer2012grounded}, \emph{canonical correlation analysis} (CCA) \cite{hardoon2004canonical} was applied to the vectors of both modalities, yielding reduced-dimensionality representations that preserve underlying inter-modal correlations, which are then concatenated.\footnote{Implemented here using the \emph{CCA} package in R.}The final alternative, proposed by \newcite{bruni2014multimodal} involves applying Singular Value Decomposition (SVD) to the matrix of concatenated multi-modal representations, yielding smoothed representations.\footnote{Implemented using the \emph{sparsesvd} package in Python, with truncation factor \(k=2^{10}\) as per \cite{bruni2014multimodal}.}
+
+SVD results: ESP and CSLB 0.163, ESP, 0.158, 0.162
+
+We compare these alternatives to a Percep2Vec model with \(\alpha = 1\) (approximately similar levels of perceptual and linguistic input, as is the case with the alternative methods). In The CSLB and ESP models, all training pseudosentences are generated from the arrays \(\mathbf{P_{CSLB}}\) and \(\mathbf{P_{ESP}}\) respectively. In the CSLB\&ESP models, a random choice between the sources is made every time perceptual input is included (so that the overall quantity of perceptual information is the same). 
+
+As shown in Figure 2 (left hand side), Percep2Vec representations achieve a higher correlation with the USF data than both CCA and concatenation regardless of perceptual input source. With the optimal perceptual source (ESP only), for instance, the correlation is 11\% higher that the next best alternative method, CCA. 
+
+A possible factor behind the improvement is that in Percep2Vec representations both modalities are fully integrated, whereas for alternative methods each representation feature (whether of reduced dimension or not) corresponds to a particular modality. This property may help Percep2Vec to overcome the challenges inherent in information combination such as inter-modality differences in information content and representation sparsity.   
+
+
+
+ \begin{figure*}[t] 
+
+\includegraphics[width = \textwidth]{Graph_2}  
+
+\caption{SWAP OR SEPARATE THESE GRAPHS. Effect of increasing \(\alpha\) on correlation with USF pairs (Spearman \(\rho\)) for each concept type.}
+
+\end{figure*}
+
+
+
+\subsection{Propagating input to abstract concepts}To test the process of information propagation in Percep2Vec, we measured how well its representations reflect free association between more abstract concepts. We compared Percep2Vec with two recently-proposed alternative methods for inferring perceptual features when explicit perceptual information is lacking. 
+
+In the method of \newcite{johns2012perceptual}, the perceptual representation of a concept with only a linguistic representation is computed as the average of the perceptual representations of concepts with both linguistic and perceptual representations, weighted according to the proximity of those concepts (in the linguistic space). An alternative approach proposed by [reference withdrawn] uses \emph{ridge regression} \cite{myers1990classical} to learn linear mappings between dimensions in the linguistic space and the perceptual space from the set of concepts that have both linguistic and perceptual representations. These inferred mappings are then applied to predict pseudo-perceptual features for those concepts that lack explicit perceptual representations.  
+
+
+
+We applied the Johns and Jones method and ridge regression starting from linguistic representations acquired by the \newcite{mikolov2013efficient} model from the Text8 Corpus, and concatenated the resulting pseudo-perceptual and linguistic representations. The method described by \newcite{johns2012perceptual} requires specification of a learning rate \(\lambda\). Following Johns and Jones, we set \(\lambda =3,13\) for the first and second stages of inferrence respectively. 
+Following [reference withdrawn], our ridge regression regularization term was defined as the Euclidian norm of the input vector to encourage smoother mapping functions and thus better generalization from concrete concepts to the more abstract case. As with the implementation of Percep2Vec, the perceptual input for these alternative models was limited to concrete nouns.
+
+
+Figure 2 (right hand side) CHECK illustrates the propagation performance of the three models. While the correlations overall may seem somewhat low, this is a consequence of the difficulty of modeling free association scores. In fact, the performance of both the language-only and Percep2Vec models across the concept types, ranging from .18--.36., is equal to or higher than equivalent models evaluated on the same data previously \cite{feng2010visual,silberer2012grounded,silberer2013models}. 
+
+For learning representations of concrete verbs, Percep2Vec achieves a 69\% increase in performance over the next best alternative. The performance of Percep2Vec on abstract verbs is marginally inferior to Johns and Jones' method. Nevertheless, the clear advantage for concrete verbs makes Percep2Vec the best choice for learning representations of verbs in general, as shown by performance on the set \emph{all verbs}, which also includes mixed abstract-concrete pairs. 
+
+Percep2Vec is also marginally inferior to alternative approaches in learning representations of abstract nouns. However, in this case, no method improves on the linguistic-only baseline. It is possible that perceptual information is simply so removed from the core semantics of these concepts that they are best acquired via the linguistic medium alone, regardless of learning mechanism. The moderately inferior performance of Percep2Vec in such cases is likely caused by its greater inherent inter-modal dependence compared with methods that simply concatenate modal representations. When the perceptual signal is of low quality, this greater inter-modal dependence allows the linguistic signal to be obscured. The trade-off, however, is the higher quality joint representations when the perceptual signal is of higher-quality, exemplified by the fact that Percep2Vec outperforms alternatives on the set \emph{all nouns}, which includes the more concrete nouns. 
+
+\subsection{Direct representation vs propagation}
+
+Although property norm datasets such as the CSLB data typically consist of perceptual feature information for concrete nouns only, image-based datasets such as ESP do contain information on more abstract concepts, which was omitted from the previous experiments. Indeed, it is very much possible for images to portray quite abstract concepts, such as \emph{love} or \emph{war}; such concepts are found not only in ESP but also other image datasets, such as Google Images [reference withdrawn]. However, encodings or descriptions of abstract concepts are generally more subjective and less reliable than those of concrete concepts \cite{katja2005content}. We therefore investigated whether or not it is preferable to include this additional information or to restrict perceptual input to concrete nouns.    
+
+Of our evaluation sets, it was possible to construct from ESP (and add to \(\mathbf{P_{ESP}}\)) representations for all of the concrete verbs, and for approximately half of the abstract verbs and abstract nouns. In Figure 3, we compare the performance of a Percep2Vec model trained on all available perceptual input versus the model in which the perceptual input was restricted to concrete nouns. 
+
+The results constitute a clear empirical manifestation of the abstract/concrete distinction. Concrete verbs behave similarly to concrete nouns, in that they can be effectively represented directly from perceptual information sources. The information encoded in these representations is beneficial to the model and increases performance. In contrast, constructing `perceptual' representations of abstract verbs and abstract nouns directly from perceptual information sources as training data is clearly counter-productive (to the extent that performance also degrades on the combined sets \emph{all nouns} and \emph{all verbs}). It appears in these cases that the perceptual input, which may not be of sufficient quality, acts to obscure or contradict the otherwise useful signal inferred from the corpus.
+
+As shown in the previous section, the inclusion of any form of perceptual input inhibits the learning of abstract nouns. However, this is not the case for abstract verbs. When perceptual input is included for concrete nouns only, the model learns higher quality representations of abstract verbs than when perceptual input is also available for more abstract concepts \emph{and} when no perceptual input is available whatsoever. This supports the idea of a gradual scale of concreteness: the most concrete concepts can be effectively represented directly in the perceptual modality; somewhat more abstract concepts cannot be represented directly in the perceptual modality, but have representations that are improved by propagating perceptual input from concrete concepts via language; and the most abstract concepts are best acquired via language alone.   
+
+\subsection{Source and quantity of perceptual input} For different concept types, we tested the effect of varying the proportion of perceptual to linguistic input (the parameter \(\alpha\)). Perceptual input was restricted to concrete nouns as in Sections 3.1 and 3.2. 
+
+As shown in Figure 4, performance on concrete nouns improves (albeit to a decreasing degree) as \( \alpha \) increases. When learning concrete noun representations, linguistic input seems to be largely redundant when perceptual input is of sufficient quality and quantity. For the other concept types, in each case there is an optimal value for \( \alpha \) in the range .5--2, above which perceptual input obscures the linguistic signal and performance degrades. The proximity of these optima to 1 is notable, suggesting that, in general for optimal learning, when a concrete concept is experienced, approximately equal weight should be given to available perceptual and liniguistic information. 
+
+\section{Conclusions}
+
+We have presented Percep2Vec, a method for acquiring semantic representations of both concrete and abstract concepts from linguistic and perceptual input. While neuro-probabilistic models have been applied to the problem of multi-modal representation learning previously \cite{srivastava2012multimodal,wu2013online} our model and experiments develop this work in several important ways. First, we consider the problem of learning abstract concepts, which is particularly important given their frequency and likely role in generalization processes and multi-task learning. By categorizing concepts in our evaluation sets and separating the processes of information combination and propagation, we demonstrate that the multi-modal approach is indeed applicable to some, but perhaps not all, abstract concepts. Second, our model is a more faithful reflection of human language learning, in that perceptual input is introduced precisely when concrete concepts are `experienced' by the model in the corpus text.  
+
+Taken together, our experiments indicate the utility for multi-modal learning of semantic representations of distinguisihing three types of concept . 
+
+\paragraph{Type I}Concepts that can be effectively represented directly in the perceptual modality. For such concepts, generally concrete nouns or concrete verbs, Percep2Vec provides a simple mechanism for combining perceptual representations with linguistic input. The resulting multi-modal representations are of higher quality than those learned via other approaches, resulting in a performance improvement of over 10\% in modelling free association.
+
+\paragraph{Type II}Concepts that cannot be effectively represented directly in the perceptual modality, but whose representations can be improved by joint learning from linguistic input and perceptual information about related concepts (of Type I). Percep2Vec effectively propagates perceptual input (exploiting the relations inferred from the linguistic input) to enhance the representations of these concepts (which include abstract verbs) above the language-only baseline. Because abstract words are so frequent, such propagation extends the benefit of the multi-modal approach to a far wider range of language than models based solely in the concrete domain. 
+
+\paragraph{Type III}Concepts such as abstract nouns, which are more effectively learned via langauge-only models than multi-modal models. Neither Percep2Vec nor other proposed propagation methods achieve an improvement in representation quality for these concepts over the language-only baseline. Of course, it is an empirical question whether a multi-modal approach could ever enhance the representation learning of these concepts, one with potential implications for cognitive theories of grounding (a topic of much debate in psychology \cite{grafton2009embodied,barsalou2010grounded}). 
+
+Further, we investigated the optimum type and quantitity of perceptual input for learning concepts of different types. A notable general observation was that the addition of too much perceptual can result in degraded representations. For concepts of type I and II, the optimal quantity resulted from setting \(\alpha = 1\); i.e. whenever a concrete concept was encountered, the model case learned from an equal number of language-based and perception-based examples. While we make no formal claims here, it may be ultimately possible to gain insight into human language learning and attention from such observations. 
+
+In future work we will address the question of whether Type III concepts can ever be enhanced via multi-modal learning. Whether or not this is the case, a further goal is the development of a single multi-modal model that optimally learns concepts of each type. One strategy could involve filtering the perceptual input stream for concepts according to concreteness. We will also investigate more complex architectures that facilitate different representational frameworks for concepts of different types. 
+
+ 
+
+
+
+
+% include your own bib file like this:
+
+\bibliographystyle{acl}
+
+\bibliography{acl2014}
+
+
+
+
+
+
+
+\end{document}
+

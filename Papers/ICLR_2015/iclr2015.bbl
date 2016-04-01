@@ -1,0 +1,246 @@
+\begin{thebibliography}{35}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agirre et~al.(2009)Agirre, Alfonseca, Hall, Kravalova, Pasca, and
+  Soroa]{Agirre2009}
+Agirre, Eneko, Alfonseca, Enrique, Hall, Keith, Kravalova, Jana, Pasca, Marius,
+  and Soroa, Aitor.
+\newblock A study on similarity and relatedness using distributional and
+  wordnet-based approaches.
+\newblock In \emph{Proceedings of NAACL-HLT 2009}, 2009.
+
+\bibitem[Bahdanau et~al.(2014)Bahdanau, Cho, and Bengio]{Bahdanau2014}
+Bahdanau, Dzmitry, Cho, Kyunghyun, and Bengio, Yoshua.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock \emph{ar{X}iv:{\tt 1409.0473 [cs.CL]}}, September 2014.
+
+\bibitem[Baroni et~al.(2014)Baroni, Dinu, and Kruszewski]{baroni2014don}
+Baroni, Marco, Dinu, Georgiana, and Kruszewski, Germ{\'a}n.
+\newblock Don’t count, predict! a systematic comparison of context-counting
+  vs. context-predicting semantic vectors.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
+  for Computational Linguistics}, volume~1, 2014.
+
+\bibitem[Bastien et~al.(2012)Bastien, Lamblin, Pascanu, Bergstra, Goodfellow,
+  Bergeron, Bouchard, and Bengio]{Bastien-Theano-2012}
+Bastien, Fr{\'{e}}d{\'{e}}ric, Lamblin, Pascal, Pascanu, Razvan, Bergstra,
+  James, Goodfellow, Ian~J., Bergeron, Arnaud, Bouchard, Nicolas, and Bengio,
+  Yoshua.
+\newblock Theano: new features and speed improvements.
+\newblock Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop,
+  2012.
+
+\bibitem[Bengio \& S\'en\'ecal(2003)Bengio and
+  S\'en\'ecal]{Bengio+Senecal-2003-small}
+Bengio, Yoshua and S\'en\'ecal, Jean-S\'ebastien.
+\newblock Quick training of probabilistic neural nets by importance sampling.
+\newblock In \emph{Proceedings of AISTATS 2003}, 2003.
+
+\bibitem[Bengio et~al.(2003)Bengio, Ducharme, Vincent, and
+  Janvin]{Bengio2003lm}
+Bengio, Yoshua, Ducharme, R{\'e}jean, Vincent, Pascal, and Janvin, Christian.
+\newblock A neural probabilistic language model.
+\newblock \emph{J. Mach. Learn. Res.}, 3:\penalty0 1137--1155, March 2003.
+
+\bibitem[Bergstra et~al.(2010)Bergstra, Breuleux, Bastien, Lamblin, Pascanu,
+  Desjardins, Turian, Warde-Farley, and Bengio]{bergstra+al:2010-scipy}
+Bergstra, James, Breuleux, Olivier, Bastien, Fr{\'{e}}d{\'{e}}ric, Lamblin,
+  Pascal, Pascanu, Razvan, Desjardins, Guillaume, Turian, Joseph, Warde-Farley,
+  David, and Bengio, Yoshua.
+\newblock Theano: a {CPU} and {GPU} math expression compiler.
+\newblock In \emph{Proceedings of the Python for Scientific Computing
+  Conference ({SciPy})}, June 2010.
+\newblock Oral Presentation.
+
+\bibitem[Bruni et~al.(2014)Bruni, Tran, and Baroni]{Bruni2014}
+Bruni, Elia, Tran, Nam-Khanh, and Baroni, Marco.
+\newblock Multimodal distributional semantics.
+\newblock \emph{J. Artif. Intell. Res.(JAIR)}, 49:\penalty0 1--47, 2014.
+
+\bibitem[Chandar et~al.(2014)Chandar, Lauly, Larochelle, Khapra, Ravindran,
+  Raykar, and Saha]{Chandar}
+Chandar, Sarath, Lauly, Stanislas, Larochelle, Hugo, Khapra, Mitesh~M.,
+  Ravindran, Balaraman, Raykar, Vikas, and Saha, Amrita.
+\newblock {An Autoencoder Approach to Learning Bilingual Word Representations}.
+\newblock In \emph{NIPS}, 2014.
+
+\bibitem[Cho et~al.(2014)Cho, van Merrienboer, Gulcehre, Bougares, Schwenk, and
+  Bengio]{Cho2014}
+Cho, Kyunghyun, van Merrienboer, Bart, Gulcehre, Caglar, Bougares, Fethi,
+  Schwenk, Holger, and Bengio, Yoshua.
+\newblock Learning phrase representations using {RNN} encoder-decoder for
+  statistical machine translation.
+\newblock In \emph{Proceedings of the Empirical Methods in Natural Language
+  Processing (EMNLP 2014)}, October 2014.
+\newblock to appear.
+
+\bibitem[Collobert \& Weston(2008)Collobert and Weston]{collobert2008unified}
+Collobert, Ronan and Weston, Jason.
+\newblock A unified architecture for natural language processing: Deep neural
+  networks with multitask learning.
+\newblock In \emph{Proceedings of the 25th international conference on Machine
+  learning}, pp.\  160--167. ACM, 2008.
+
+\bibitem[Devlin et~al.(2014)Devlin, Zbib, Huang, Lamar, Schwartz, and
+  Makhoul]{devlin2014fast}
+Devlin, Jacob, Zbib, Rabih, Huang, Zhongqiang, Lamar, Thomas, Schwartz,
+  Richard, and Makhoul, John.
+\newblock Fast and robust neural network joint models for statistical machine
+  translation.
+\newblock In \emph{52nd Annual Meeting of the Association for Computational
+  Linguistics, Baltimore, MD, USA, June}, 2014.
+
+\bibitem[Faruqui \& Dyer(2014)Faruqui and Dyer]{faruqui2014improving}
+Faruqui, Manaal and Dyer, Chris.
+\newblock Improving vector space word representations using multilingual
+  correlation.
+\newblock In \emph{Proceedings of EACL}, volume 2014, 2014.
+
+\bibitem[Firth(1957)]{dist}
+Firth, J, R.
+\newblock \emph{A synopsis of linguistic theory 1930-1955}, pp.\  1--32.
+\newblock Oxford: Philological Society, 1957.
+
+\bibitem[Haghighi et~al.(2008)Haghighi, Liang, Berg-Kirkpatrick, and
+  Klein]{haghighi2008learning}
+Haghighi, Aria, Liang, Percy, Berg-Kirkpatrick, Taylor, and Klein, Dan.
+\newblock Learning bilingual lexicons from monolingual corpora.
+\newblock In \emph{ACL}, volume 2008, pp.\  771--779, 2008.
+
+\bibitem[Hermann \& Blunsom(2014)Hermann and Blunsom]{Hermann:2014:ICLR}
+Hermann, Karl~Moritz and Blunsom, Phil.
+\newblock {Multilingual Distributed Representations without Word Alignment}.
+\newblock In \emph{Proceedings of ICLR}, 2014.
+
+\bibitem[Hill \& Korhonen(2014)Hill and Korhonen]{Hill2014EMNLP}
+Hill, Felix and Korhonen, Anna.
+\newblock Learning abstract concepts from multi-modal data: Since you probably
+  can't see what i mean.
+\newblock In \emph{Proceedings of the Empirical Methods in Natural Language
+  Processing (EMNLP 2014)}, October 2014.
+
+\bibitem[Hill et~al.(2014)Hill, Reichart, and Korhonen]{hill2014simlex}
+Hill, Felix, Reichart, Roi, and Korhonen, Anna.
+\newblock Simlex-999: Evaluating semantic models with (genuine) similarity
+  estimation.
+\newblock \emph{arXiv preprint arXiv:1408.3456}, 2014.
+
+\bibitem[Jean et~al.(2014)Jean, Cho, Memisevic, and Bengio]{Jean}
+Jean, Sébastien, Cho, Kyunghyun, Memisevic, Roland, and Bengio, Yoshua.
+\newblock On using very large target vocabulary for neural machine translation.
+\newblock In \emph{arXiv preprint arXiv:1412.2007}, 2014.
+
+\bibitem[Kalchbrenner \& Blunsom(2013)Kalchbrenner and
+  Blunsom]{kalchbrenner13emnlp}
+Kalchbrenner, Nal and Blunsom, Phil.
+\newblock Recurrent continuous translation models.
+\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, Seattle, October 2013. Association for
+  Computational Linguistics.
+
+\bibitem[Klementiev et~al.(2012{\natexlab{a}})Klementiev, Titov, and
+  Bhattarai]{Klementiev}
+Klementiev, A., Titov, I., and Bhattarai, B.
+\newblock Inducing crosslingual distributed representations of words.
+\newblock In \emph{COLING}, 2012{\natexlab{a}}.
+
+\bibitem[Klementiev et~al.(2012{\natexlab{b}})Klementiev, Titov, and
+  Bhattarai]{klementiev2012inducing}
+Klementiev, Alexandre, Titov, Ivan, and Bhattarai, Binod.
+\newblock Inducing crosslingual distributed representations of words.
+\newblock \emph{COLING}, 2012{\natexlab{b}}.
+
+\bibitem[Ko\v{c}isk\'{y} et~al.(2014)Ko\v{c}isk\'{y}, Hermann, and
+  Blunsom]{Kocisky:2014}
+Ko\v{c}isk\'{y}, Tom\'{a}\v{s}, Hermann, Karl~Moritz, and Blunsom, Phil.
+\newblock {Learning Bilingual Word Representations by Marginalizing
+  Alignments}.
+\newblock In \emph{Proceedings of ACL}, jun 2014.
+
+\bibitem[Landauer \& Dumais(1997)Landauer and Dumais]{landauer1997solution}
+Landauer, Thomas~K and Dumais, Susan~T.
+\newblock A solution to plato's problem: The latent semantic analysis theory of
+  acquisition, induction, and representation of knowledge.
+\newblock \emph{Psychological review}, 104\penalty0 (2):\penalty0 211, 1997.
+
+\bibitem[Levy \& Goldberg(2014)Levy and Goldberg]{levy2014dependency}
+Levy, Omer and Goldberg, Yoav.
+\newblock Dependency-based word embeddings.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
+  for Computational Linguistics}, volume~2, 2014.
+
+\bibitem[Luong et~al.(2014)Luong, Sutskever, Le, Vinyals, and
+  Zaremba]{luong2014addressing}
+Luong, Thang, Sutskever, Ilya, Le, Quoc~V, Vinyals, Oriol, and Zaremba,
+  Wojciech.
+\newblock Addressing the rare word problem in neural machine translation.
+\newblock \emph{arXiv preprint arXiv:1410.8206}, 2014.
+
+\bibitem[Mikolov et~al.(2013{\natexlab{a}})Mikolov, Le, and
+  Sutskever]{mikolov2013exploiting}
+Mikolov, Tomas, Le, Quoc~V, and Sutskever, Ilya.
+\newblock Exploiting similarities among languages for machine translation.
+\newblock \emph{CORR}, 2013{\natexlab{a}}.
+
+\bibitem[Mikolov et~al.(2013{\natexlab{b}})Mikolov, Sutskever, Chen, Corrado,
+  and Dean]{mikolov2013distributed}
+Mikolov, Tomas, Sutskever, Ilya, Chen, Kai, Corrado, Greg~S, and Dean, Jeff.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pp.\
+  3111--3119, 2013{\natexlab{b}}.
+
+\bibitem[Mnih \& Hinton(2009)Mnih and Hinton]{mnih2009scalable}
+Mnih, Andriy and Hinton, Geoffrey~E.
+\newblock A scalable hierarchical distributed language model.
+\newblock In \emph{Advances in neural information processing systems}, pp.\
+  1081--1088, 2009.
+
+\bibitem[Morin \& Bengio(2005)Morin and Bengio]{morin2005hierarchical}
+Morin, Frederic and Bengio, Yoshua.
+\newblock Hierarchical probabilistic neural network language model.
+\newblock In \emph{AISTATS}, volume~5, pp.\  246--252. Citeseer, 2005.
+
+\bibitem[Nelson et~al.(2004)Nelson, McEvoy, and
+  Schreiber]{nelson2004university}
+Nelson, Douglas~L, McEvoy, Cathy~L, and Schreiber, Thomas~A.
+\newblock The university of south florida free association, rhyme, and word
+  fragment norms.
+\newblock \emph{Behavior Research Methods, Instruments, \& Computers},
+  36\penalty0 (3):\penalty0 402--407, 2004.
+
+\bibitem[Pennington et~al.(2014)Pennington, Socher, and
+  Manning]{Pennington2014}
+Pennington, Jeffrey, Socher, Richard, and Manning, Christopher.
+\newblock Glove: Global vectors for word representation.
+\newblock In \emph{Proceedings of the Empirical Methods in Natural Language
+  Processing (EMNLP 2014)}, October 2014.
+
+\bibitem[Sutskever et~al.(2014)Sutskever, Vinyals, and
+  Le]{Sutskever2014sequence}
+Sutskever, Ilya, Vinyals, Oriol, and Le, Quoc~V.
+\newblock Sequence to sequence learning with neural networks.
+\newblock \emph{arXiv preprint arXiv:1409.3215}, 2014.
+
+\bibitem[Turney \& Pantel(2010)Turney and Pantel]{turney2010frequency}
+Turney, Peter~D and Pantel, Patrick.
+\newblock From frequency to meaning: Vector space models of semantics.
+\newblock \emph{Journal of artificial intelligence research}, 37\penalty0
+  (1):\penalty0 141--188, 2010.
+
+\bibitem[Vuli{\'c} et~al.(2011)Vuli{\'c}, De~Smet, and
+  Moens]{vulic2011identifying}
+Vuli{\'c}, Ivan, De~Smet, Wim, and Moens, Marie-Francine.
+\newblock Identifying word translations from comparable corpora using latent
+  topic models.
+\newblock In \emph{Proceedings of the 49th Annual Meeting of the Association
+  for Computational Linguistics: Human Language Technologies: short
+  papers-Volume 2}, pp.\  479--484. Association for Computational Linguistics,
+  2011.
+
+\end{thebibliography}

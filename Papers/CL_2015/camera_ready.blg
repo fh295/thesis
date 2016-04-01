@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: camera_ready.aux
+The style file: fullname.bst
+Database file #1: simlex.bib
+Warning--I didn't find a database entry for ""
+You've used 76 entries,
+            2625 wiz_defined-function locations,
+            969 strings with 17461 characters,
+and the built_in function-call counts, 33428 in all, are:
+= -- 3527
+> -- 1469
+< -- 32
++ -- 432
+- -- 418
+* -- 2305
+:= -- 5123
+add.period$ -- 327
+call.type$ -- 76
+change.case$ -- 508
+chr.to.int$ -- 73
+cite$ -- 76
+duplicate$ -- 1492
+empty$ -- 2573
+format.name$ -- 557
+if$ -- 7314
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 79
+newline$ -- 459
+num.names$ -- 230
+pop$ -- 692
+preamble$ -- 1
+purify$ -- 511
+quote$ -- 0
+skip$ -- 1124
+stack$ -- 0
+substring$ -- 1561
+swap$ -- 418
+text.length$ -- 32
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 596
+warning$ -- 0
+while$ -- 265
+width$ -- 83
+write$ -- 1071
+(There was 1 warning)

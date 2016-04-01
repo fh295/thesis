@@ -1,0 +1,213 @@
+%%%%%
+%%
+%% Sample document ``thesis.tex''
+%%
+%% Version: v0.2
+%% Authors: Jean Martina, Rok Strnisa, Matej Urbas
+%% Date: 30/07/2008
+%%
+%% Copyright (c) 2008-2011, Rok Strniša, Jean Martina, Matej Urbas
+%% License: Simplified BSD License
+%% License file: ./License
+%% Original License URL: http://www.freebsd.org/copyright/freebsd-license.html
+%%%%%
+
+% Available documentclass options:
+%
+%   <all `report` document class options, e.g.: `a5paper`>
+%   withindex   - enables the index. New index entries can be added through `\index{my entry}`
+%   glossary    - enables the glossary.
+%   techreport  - typesets the thesis in the technical report format.
+%   times       - uses the `Times` font.
+%
+% For more info see `README.md`
+\documentclass[withindex,glossary]{cam-thesis}
+
+\usepackage{changepage}
+
+
+\usepackage{times}
+
+\usepackage{url}
+
+\usepackage{latexsym}
+
+\usepackage{graphicx}
+
+\usepackage{amssymb}
+
+\usepackage{hyperref}
+%\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{tabularx}
+\usepackage{arydshln}
+\usepackage{wrapfig}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{array,graphicx}
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage{changepage}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage[round]{natbib}
+%\usepackage[hyphens]{url}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+
+\usepackage{arydshln}
+\makeatletter
+%\newcommand{\@BIBLABEL}{\@emptybiblabel}
+\newcommand{\@emptybiblabel}[1]{}
+\makeatother
+%\usepackage[hidelinks]{hyperref}
+
+\usepackage[normalem]{ulem}
+\newcounter{quotecount}
+\newcommand{\MyQuote}[1]{\vspace{0.4cm}\addtocounter{quotecount}{1}%
+     (\arabic{quotecount})\hspace*{1cm}\parbox{12cm}{\em #1}\\[0.4cm]}
+
+\newcommand{\me}{\mathrm{e}}
+
+\newcommand*\rot{\rotatebox{90}}
+\newcommand*\OK{\ding{51}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Thesis meta-information
+%%
+\begin{document}
+
+%% The title of the thesis:
+\title{\Large Representing Meaning in Continuous Space: \hspace{10mm} From Words to Sentences}
+
+%% The full name of the author (e.g.: James Smith):
+\author{Felix Hill}
+
+%% College affiliation:
+\college{Stet John's College}
+
+%% College shield [optional]:
+% \collegeshield{CollegeShields/Clare}
+% \collegeshield{CollegeShields/Fitzwilliam}
+% \collegeshield{CollegeShields/Queens}
+ \collegeshield{CollegeShields/StJohns}
+% \collegeshield{CollegeShields/Trinity}
+
+
+%% Submission date [optional]:
+% \submissiondate{November, 2042}
+
+%% You can redefine the submission notice [optional]:
+% \submissionnotice{A badass thesis submitted on time for the Degree of PhD}
+
+%% Declaration date:
+\date{April 2016}
+
+%% PDF meta-info:
+\subjectline{Computer Science}
+\keywords{one two three}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Abstract:
+%%
+
+
+\abstract{
+  My abstract ...
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Acknowledgements:
+%%
+\acknowledgements{%
+  My acknowledgements ...
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Glossary [optional]:
+%%
+\newglossaryentry{HOL}{
+    name=HOL,
+    description={Higher-order logic}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Contents:
+%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page, abstract, declaration etc.:
+%% -    the title page (is automatically omitted in the technical report mode).
+\frontmatter{}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Thesis body:
+%%
+\chapter{Introduction}
+\input{Chapter_1/Chapter_1.tex}
+\chapter{Understanding and evaluating models of word representation}
+\input{Chapter_2/Chapter_2.tex}
+\chapter{Learning word representations from more than text}
+\input{Chapter_3/Chapter_3.tex}
+\chapter{Representing phrases with neural language models}
+\input{Chapter_4/Chapter_4.tex}
+\chapter{Representing sentences with neural language models}
+\input{Chapter_5/Chapter_5.tex}
+\chapter{Representing semantics in memory networks}
+\input{Chapter_6/Chapter_6.tex}
+\chapter{Conclusion}
+\input{Chapter_7/Chapter_7.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography:
+%%
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{plainnat}
+\bibliography{thesis}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Appendix:
+%%
+
+\appendix
+
+\chapter{Extra Information}
+Some more text ...
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Index:
+%%
+\printthesisindex
+
+\end{document}

@@ -1,0 +1,649 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.25)  25 JAN 2016 13:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**TACL2016.tex
+(./TACL2016.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./acl2012.sty
+Conference Style for ACL 2005 -- released Octobe 11, 2004
+\titlebox=\skip43
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2004/08/31 v1.71 
+\dashlinedash=\dimen113
+\dashlinegap=\dimen114
+\adl@box=\box28
+\adl@height=\dimen115
+\adl@heightsave=\dimen116
+\adl@depth=\dimen117
+\adl@depthsave=\dimen118
+\adl@finaldepth=\dimen119
+\adl@columns=\count99
+\adl@ncol=\count100
+\adl@currentcolumn=\count101
+\adl@currentcolumnsave=\count102
+\adl@totalheight=\count103
+\adl@totalheightsave=\count104
+\adl@dash=\count105
+\adl@gap=\count106
+\adl@cla=\count107
+\adl@clb=\count108
+\adl@everyvbox=\toks19
+\adl@LTpagetotal=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen121
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count111
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count112
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count113
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+)
+(./TACL2016.aux
+
+LaTeX Warning: Label `tb:tablename' multiply defined.
+
+
+LaTeX Warning: Label `tb:tablename' multiply defined.
+
+)
+\openout1 = `TACL2016.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 75.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count119
+)
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
+
+(./TACL2016.out) (./TACL2016.out)
+\@outlinefile=\write3
+\openout3 = `TACL2016.out'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 78.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 78.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 2020) in paragraph at lines 88--89
+\OT1/ptm/m/n/10.95 Much re-cent re-search in com-pu-ta-tional se-man-
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
+
+LaTeX Warning: Citation `mikolov2013distributed' on page 1 undefined on input l
+ine 92.
+
+
+LaTeX Warning: Citation `zock2004word' on page 1 undefined on input line 94.
+
+
+LaTeX Warning: Citation `307754' on page 1 undefined on input line 94.
+
+
+LaTeX Warning: Citation `klementiev2012inducing' on page 1 undefined on input l
+ine 94.
+
+
+LaTeX Warning: Citation `hermann2013multilingual' on page 1 undefined on input 
+line 94.
+
+
+LaTeX Warning: Citation `gouws2014bilbowa' on page 1 undefined on input line 94
+.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+
+]
+Underfull \hbox (badness 1490) in paragraph at lines 96--99
+\OT1/ptm/m/n/10.95 general-knowledge cross-word ques-tion an-swerer.
+ []
+
+
+LaTeX Warning: Citation `mikolov2010recurrent' on page 2 undefined on input lin
+e 102.
+
+
+LaTeX Warning: Citation `kiros2014unifying' on page 2 undefined on input line 1
+02.
+
+
+LaTeX Warning: Citation `bahdanau2014neural' on page 2 undefined on input line 
+102.
+
+
+LaTeX Warning: Citation `mikolov2013distributed' on page 2 undefined on input l
+ine 104.
+
+
+LaTeX Warning: Citation `bengio1994learning' on page 2 undefined on input line 
+126.
+
+
+LaTeX Warning: Citation `hochreiter1997long' on page 2 undefined on input line 
+126.
+
+[2]
+Underfull \hbox (badness 1215) in paragraph at lines 185--186
+\OT1/ptm/m/n/10.95 which the in-put def-i-ni-tion em-bed-dings are pre-
+ []
+
+
+LaTeX Warning: Citation `huang2012improving' on page 3 undefined on input line 
+193.
+
+
+LaTeX Warning: Citation `bordes2015large' on page 3 undefined on input line 193
+.
+
+[3]
+
+LaTeX Warning: Citation `faruqui2014retrofitting' on page 4 undefined on input 
+line 198.
+
+
+LaTeX Warning: Citation `cho2014learning' on page 4 undefined on input line 200
+.
+
+
+LaTeX Warning: Citation `bergstra+al:2010-scipy' on page 4 undefined on input l
+ine 202.
+
+
+LaTeX Warning: Citation `zeiler2012adadelta' on page 4 undefined on input line 
+202.
+
+
+LaTeX Warning: Citation `bilac2003improving' on page 4 undefined on input line 
+208.
+
+
+LaTeX Warning: Citation `bilac2004dictionary' on page 4 undefined on input line
+ 208.
+
+
+LaTeX Warning: Citation `zock2004word' on page 4 undefined on input line 208.
+
+
+LaTeX Warning: Citation `shaw2013building' on page 4 undefined on input line 20
+8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
+[][][]\OT1/ptm/m/n/9 Available at []$\OT1/pcr/m/n/9 http : / / dictionary . ref
+erence .
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 210--211
+\OT1/ptm/m/n/10.95 dic-tio-nary based on user def-i-ni-tions or de-scrip-
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[][][][]$\OT1/pcr/m/n/9 https : / / simple . wikipedia . org / wiki / Main _
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 226.
+
+LaTeX Warning: Citation `mitchell2010composition' on page 5 undefined on input 
+line 263.
+
+
+LaTeX Warning: Citation `shaw2013building' on page 5 undefined on input line 26
+9.
+
+
+LaTeX Warning: Citation `leech1994claws4' on page 5 undefined on input line 273
+.
+
+[5]
+Overfull \hbox (20.62665pt too wide) in paragraph at lines 278--288
+[]  [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Citation `iyyer2015deep' on page 7 undefined on input line 303.
+
+
+Overfull \hbox (10.32988pt too wide) in paragraph at lines 320--351
+[]  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--351
+
+ []
+
+
+Overfull \hbox (2.88986pt too wide) in paragraph at lines 367--380
+[]  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--380
+
+ []
+
+
+LaTeX Warning: Citation `hermann2013multilingual' on page 7 undefined on input 
+line 387.
+
+
+LaTeX Warning: Citation `lauly2014autoencoder' on page 7 undefined on input lin
+e 387.
+
+
+LaTeX Warning: Citation `gouws2014bilbowa' on page 7 undefined on input line 38
+7.
+
+
+LaTeX Warning: Citation `gouws2014bilbowa' on page 7 undefined on input line 38
+7.
+
+[7]
+Underfull \hbox (badness 1072) in paragraph at lines 389--390
+[]\OT1/ptm/m/n/10.95 Because no bench-marks ex-ist for quan-ti-ta-tive
+ []
+
+[8]
+
+LaTeX Warning: Citation `ferrucci2010building' on page 9 undefined on input lin
+e 405.
+
+
+LaTeX Warning: Citation `molla2007question' on page 9 undefined on input line 4
+05.
+
+
+LaTeX Warning: Citation `Iyyer:Boyd-Graber:Claudino:Socher:Daume-2014' on page 
+9 undefined on input line 405.
+
+
+LaTeX Warning: Citation `weston2015towards' on page 9 undefined on input line 4
+05.
+
+
+LaTeX Warning: Citation `berant14paraphrasing' on page 9 undefined on input lin
+e 405.
+
+
+LaTeX Warning: Citation `bordes2014question' on page 9 undefined on input line 
+405.
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 405--406
+[]\OT1/ptm/m/n/10.95 Systems that at-tempt to over-come this, via
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 407.
+
+LaTeX Warning: Citation `littman2002probabilistic' on page 9 undefined on input
+ line 407.
+
+
+Overfull \hbox (3.09776pt too wide) in paragraph at lines 421--440
+[]  [] 
+ []
+
+
+LaTeX Warning: Citation `littman2002probabilistic' on page 9 undefined on input
+ line 481.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
+[][][] \OT1/ptm/m/n/9 See e.g. []$\OT1/pcr/m/n/9 http : / / www . theguardian .
+ com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
+\OT1/pcr/m/n/9 crosswords / crossword -[] blog / 2012 / mar / 08 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
+\OT1/pcr/m/n/9 crossword -[] blog -[] computers -[] crack -[] cryptic -[]
+ []
+
+
+LaTeX Warning: Citation `ginsberg2011dr' on page 9 undefined on input line 493.
+
+
+[9]
+
+LaTeX Warning: Citation `littman2002probabilistic' on page 10 undefined on inpu
+t line 498.
+
+
+LaTeX Warning: Citation `ginsberg2011dr' on page 10 undefined on input line 498
+.
+
+
+Overfull \hbox (2.82025pt too wide) in paragraph at lines 503--531
+[]  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--531
+
+ []
+
+
+LaTeX Warning: Citation `mikolov2013distributed' on page 10 undefined on input 
+line 541.
+
+[10]
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+ [11]
+
+LaTeX Warning: Citation `bordes2014question' on page 12 undefined on input line
+ 550.
+
+
+LaTeX Warning: Citation `graves2014neural' on page 12 undefined on input line 5
+50.
+
+
+LaTeX Warning: Citation `weston2015towards' on page 12 undefined on input line 
+550.
+
+
+LaTeX Warning: Citation `graves2014neural' on page 12 undefined on input line 5
+61.
+
+
+LaTeX Warning: Citation `weston2015towards' on page 12 undefined on input line 
+561.
+
+No file TACL2016.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 580.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 580.
+ (./TACL2016.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 580.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 580.
+Package rerunfilecheck Info: File `TACL2016.out' has not changed.
+(rerunfilecheck)             Checksum: ED3D4F1AC991E98449640C69AD8483B7;1412.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 580.
+ ) 
+Here is how much of TeX's memory you used:
+ 5217 strings out of 493493
+ 75564 string characters out of 3143797
+ 180509 words of memory out of 3000000
+ 8419 multiletter control sequences out of 15000+200000
+ 35373 words of font info for 79 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 29i,13n,28p,1241b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on TACL2016.pdf (12 pages, 196215 bytes).
+PDF statistics:
+ 271 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+

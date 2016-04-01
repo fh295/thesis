@@ -1,0 +1,227 @@
+\label{appendixmem}
+\section{Experimental Details} \label{ap:hp}
+
+\paragraph{Setting}
+The text of questions is lowercased for all Memory Networks as
+well as for all non-learning baselines. LSTMs models use the raw text (although we also tried lowercasing, which made little difference).
+%
+Hyperparameters of all learning models have been set using
+grid search on the validation set.
+%
+The main hyperparameters are embedding dimension $p$, learning rate
+$\lambda$, window size $b$, number of hops $K$, maximum memory size
+$n$ ($n=all$ means using all potential memories).
+%
+All models were implemented using the Torch library (see {\tt torch.ch}).
+%
+For CBT, all models have been trained on all question types 
+altogether. 
+%
+We did not try to experiment with word embeddings pre-trained on a
+bigger corpus.
+
+\paragraph{Optimal hyper-parameter values on CBT:}
+
+\begin{itemize}
+\item Embedding model (context+query): $p=300$, $\lambda=0.01$.
+\item Embedding model (query): $p=300$, $\lambda=0.01$.
+\item Embedding model (window): $p=300$, $\lambda=0.005$, $b=5$.
+\item Embedding model (window+position): $p=300$, $\lambda=0.01$, $b=5$.
+\item LSTMs (query \& context+query): $p=512$, $\lambda=0.5$, $1$
+  layer, gradient clipping factor: $5$, learning rate shrinking factor: $2$.
+\item Contextual LSTMs: $p=256$, $\lambda=0.5$, $1$
+  layer, gradient clipping factor: $10$, learning rate shrinking
+  factor: $2$.
+\item MemNNs  (lexical memory): $n=200$, $\lambda=0.01$, $p=200$, $K=7$.
+\item MemNNs  (window  memory): $n=all$, $b=5$, $\lambda=0.005$,
+  $p=100$, $K=1$.
+\item  MemNNs  (sentential memory + PE): $n=all$, $\lambda=0.001$,
+  $p=100$, $K=1$.
+\item MemNNs  (window  memory + self-sup.): $n=all$, $b=5$, $\lambda=0.01$,
+  $p=300$.
+\end{itemize}
+
+\paragraph{Optimal hyper-parameter values on CNN QA:}
+
+\begin{itemize}
+\item  MemNNs (window memory): $n=all$, $b=5$, $\lambda=0.005$,
+  $p=100$, $K=1$.
+\item  MemNNs (window memory + self-sup.):  $n=all$, $b=5$, $\lambda=0.025$,
+  $p=300$, $K=1$.
+\item  MemNNs (window memory + ensemble): $7$ models with $b=5$.
+\item  MemNNs (window memory + self-sup.  + ensemble): $11$ models with $b=5$.
+\end{itemize}
+
+
+
+\section{Results on CBT Validation Set} \label{ap:res_val}
+
+\newcommand{\mc}[1]{\multicolumn{1}{l|}{#1}}
+  \begin{center}
+  \vspace*{-2ex}
+    \resizebox{1\linewidth}{!}{
+      {\sc 
+        \begin{tabular}{l|cccc}
+          \mc{Methods} & Named Entities & Common Nouns & Verbs & Prepositions
+          \\
+          \hline 
+          \hline 
+          \mc{Maximum frequency (corpus)} & 0.052 & 0.192 & 0.301 & 0.346 \\
+          \mc{Maximum frequency (context)} & 0.299 & 0.273 & 0.219 & 0.312 \\
+          \mc{Sliding window} & 0.178 & 0.199 & 0.200 & 0.091 \\
+          \mc{Word distance model} & 0.436 & 0.371 & 0.332 & 0.259 \\
+          \mc{Kneser-Ney language model} & 0.481 & 0.577 & 0.762 & 0.791 \\ 
+          \mc{Kneser-Ney language model + cache} & 0.500 & 0.612 & 0.755 & 0.693 \\ 
+          \hline
+          \mc{\starspace (context+query)} & 0.235 & 0.297 & 0.368 & 0.356 \\
+          \mc{\starspace (query)} & 0.418 & 0.462 & 0.575 & 0.560 \\
+          \mc{\starspace (window)} & 0.457 & 0.486 & 0.622 & 0.619 \\
+          \mc{\starspace (window+position)} & 0.488 & 0.555 & 0.722 & 0.683 \\
+          \hline 
+          \mc{LSTMs (query)} & 0.500 & 0.613 & 0.811 & \bf 0.819 \\
+          \mc{LSTMs (context+query)} & 0.512 & 0.626 & \bf 0.820 & 0.812 \\
+          \mc{Contextual LSTMs (window context)} & 0.535 & 0.628 & 0.803 & 0.798 \\
+          \hline
+          \hline
+%                           & Memory & Superv. & & & & \\
+%          \cline{2-3}
+          MemNNs  (lexical memory) &   0.519 & 0.647 & 0.818 & 0.785 \\
+          MemNNs  (window  memory) &  0.542 & 0.591 & 0.693 & 0.704 \\
+          MemNNs  (sentential memory + PE) & 0.297 & 0.342 & 0.451 &
+                                                                     0.360 \\
+          \hline
+          MemNNs  (window  memory + self-sup.) & \bf 0.704 & \bf 0.642 & 0.688 & 0.696\\
+          \hline
+        \end{tabular}
+      }
+    }
+  \end{center}
+%\end{table}
+
+
+
+
+\section{Ablation Study on CNN QA} \label{ap:qa_cnn_ab_study}
+%\begin{table}[ht]
+  \begin{center}
+    \vspace*{-4ex}
+    \resizebox{1\linewidth}{!}{
+%    {\small
+      {\sc 
+        \begin{tabular}{l|cc}
+          Methods & Validation & Test \\
+          \hline
+          \hline
+          MemNNs (window memory + self-sup. +  exclud. coocurrences)  &  0.635 & 0.684 \\
+          MemNNs (window memory + self-sup.)    &  0.634 & 0.668 \\
+          MemNNs (window mem. + self-sup.) -time     & 0.625 & 0.659 \\
+          MemNNs (window mem. + self-sup.) -soft memory weighting         & 0.604 & 0.620 \\
+          MemNNs (window mem. + self-sup.) -time -soft memory weighting  & 0.592 & 0.613 \\
+          \hline
+          MemNNs (window mem. + self-sup. + ensemble)              & 0.649 & 0.684 \\
+          MemNNs (window mem. + self-sup. + ensemble) -time        &  0.642 &  0.679 \\
+          MemNNs (window mem. + self-sup. + ensemble) -soft memory weighting & 0.612  &  0.641 \\
+          MemNNs (window mem. + self-sup. + ensemble) -time -soft memory weighting &  0.600 &  0.640 \\
+          \hline
+        \end{tabular}
+      }
+    }
+({\it Soft memory weighting}: the softmax to select
+the best candidate in test as defined in Section~\ref{sec:ssup})
+  \end{center}
+
+\section{Effects of Anonymising Entities in CBT} \label{ap:anon}
+%
+  \begin{center}
+    \vspace*{-4ex}
+    \resizebox{1\linewidth}{!}{
+      {\sc 
+        \begin{tabular}{l|cccc}
+          Methods & Named Entities & Common Nouns & Verbs & Prepositions
+          \\
+          \hline
+          MemNNs (word mem.) & 0.431 & 0.562 & 0.798 & 0.764 \\
+          MemNNs (\window mem.) & 0.493 & 0.554 & 0.692 & 0.674 \\
+          MemNNs (sentence mem.+PE) & 0.318 & 0.305 & 0.502 & 0.326 \\
+          MemNNs (\window mem.+self-sup.) &  0.666 &  0.630 & 0.690 & 0.703\\
+          \hline
+          ANONYMIZED MemNNs (\window +self-sup.) & 0.581 & 0.473 & 0.474 & 0.522\\
+          \hline
+        \end{tabular}
+      }
+    }
+  \end{center}
+
+  To see the impact of the anonymisation of entities and words as done
+  in CNN QA on the self-supervised Memory Networks on the CBT, we
+  conducted an experiment where we replaced the mentions of the ten
+  candidates in each question by anonymised placeholders in train,
+  validation and test. The table above shows results on CBT test set
+  in an anonymised setting (last row) compared to MemNNs in a
+  non-anonymised setting (rows 2-5).  Results indicate that this has a
+  relatively low impact on named entities but a larger one on more
+  syntactic tasks like prepositions or verbs.
+
+
+
+%\end{table}
+
+
+\section{Candidates and Window Memories in CBT} \label{ap:nonsparse-windows}
+
+In our main results in Table \ref{tab:cbt_res} the window memory is constructed as the set of windows
+over the candidates being considered for a given question.
+Training of {\sc MemNNs (window memory)} is performed by making gradient steps for questions, with 
+the true answer word as the target compared against all words in the dictionary as described in Sec. \ref{sec:mod_o}.
+Training of {\sc MemNNs  (window memory + self-sup.)} is performed by making gradient steps for questions, 
+with the true answer word as the target compared against all other candidates as described in Sec. \ref{sec:ssup}.
+As {\sc MemNNs  (window memory + self-sup.)} is the best performing method for named entities and common nouns, 
+to see the impact of these choices we conducted some further experiments with variants of it.
+
+Firstly, window memories do not have to be restricted to candidates, we could consider all possible windows.
+Note that this does not make any difference at evaluation time on CBT as one would still evaluate by multiple choice using the candidates, and those extra windows would not contribute to the scores of the candidates.
+However, this may make a difference to the weights if used at training time.
+We call this ``all windows'' in the experiments to follow.
+
+Secondly, the self-supervision process does not have to rely on there being known candidates:
+all that is required is a positive label, in that case we can perform gradient steps with
+the true answer word as the target compared against all words in the dictionary as described in Sec. \ref{sec:mod_o}, 
+while still using hard attention supervision as described in \ref{sec:ssup}. 
+We call this ``all candidates'' in the experiments to follow.
+
+Thirdly, one does not have to try to train on only the {\em questions} in CBT, but can treat the children's 
+books as a standard 
+language modeling task. In that case, {\em all candidates} and {\em all windows} must be used, as multiple choice questions have not been constructed for every single word (although indeed many of them are covered by the four word classes). We call
+this ``LM'' (for language modeling) in the experiments to follow.
+
+Results with these two alternatives are presented in Table \ref{ap:windoze}, the new variants are the last three rows.
+Overall, the differing approaches have relatively little impact on the results, as all of them provide superior
+results on named entities and common nouns than without self-supervision.
+However, we note that 
+the use of all windows or LM rather than candidate windows does impact training and testing speed.
+
+
+\begin{table}[h]
+  \begin{center}
+    \resizebox{1\linewidth}{!}{
+      {\sc 
+        \begin{tabular}{l|cccc}
+          \mc{Methods} & Named Entities & Common Nouns & Verbs & Prepositions
+          \\
+          MemNNs  (lexical memory) &   0.431 & 0.562 & 0.798 & 0.764 \\
+          MemNNs  (window memory) &  0.493 & 0.554 & 0.692 & 0.674 \\
+          MemNNs  (sentential memory + PE) & 0.318 & 0.305 & 0.502 & 0.326 \\
+          MemNNs  (window memory + self-sup.) & \bf 0.666 & \bf 0.630 & 0.690 & 0.703\\
+          \hline 
+          \hline
+          MemNNs  (all windows + self-sup.)                  & 0.648 & 0.604 & 0.711 & 0.693\\
+          MemNNs  (all windows + all candidates + self-sup.) & 0.639 & 0.602 & 0.698 & 0.667\\
+          MemNNs  (LM + self-sup.)                           & 0.638 & 0.605 & 0.692 & 0.647\\
+          %\hline
+        \end{tabular}
+      }
+    }
+    \caption{\label{ap:windoze} {\bf Results on CBT test set when considering all windows or candidates.}}
+  \end{center}
+  \vspace*{-4ex}
+\end{table}

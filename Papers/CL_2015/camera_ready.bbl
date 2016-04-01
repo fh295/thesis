@@ -1,0 +1,550 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Agirre \bgroup et al.\egroup }2009]{agirre2009study}
+Agirre, Eneko, Enrique Alfonseca, Keith Hall, Jana Kravalova, Marius
+  Pa{\c{s}}ca, and Aitor Soroa.
+\newblock 2009.
+\newblock A study on similarity and relatedness using distributional and
+  wordnet-based approaches.
+\newblock In {\em Proccedings of NAACL}. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citename{Alfonseca and
+  Manandhar}2002]{alfonseca2002extending}
+Alfonseca, Enrique and Suresh Manandhar.
+\newblock 2002.
+\newblock Extending a lexical ontology by a combination of distributional
+  semantics signatures.
+\newblock In {\em Knowledge Engineering and Knowledge Management: Ontologies
+  and the Semantic Web}. Springer, pages 1--7.
+
+\bibitem[\protect\citename{Andrews, Vigliocco, and
+  Vinson}2009]{andrews2009integrating}
+Andrews, Mark, Gabriella Vigliocco, and David Vinson.
+\newblock 2009.
+\newblock Integrating experiential and distributional data to learn semantic
+  representations.
+\newblock {\em Psychological review}, 116(3):463.
+
+\bibitem[\protect\citename{Bansal, Gimpel, and
+  Livescu}2014]{bansal2014tailoring}
+Bansal, Mohit, Kevin Gimpel, and Karen Livescu.
+\newblock 2014.
+\newblock Tailoring continuous word representations for dependency parsing.
+\newblock In {\em Proceedings of ACL}.
+
+\bibitem[\protect\citename{Baroni, Dinu, and Kruszewski}2014]{baroni2014don}
+Baroni, Marco, Georgiana Dinu, and Germ{\'a}n Kruszewski.
+\newblock 2014.
+\newblock Don't count, predict! a systematic comparison of context-counting vs.
+  context-predicting semantic vectors.
+\newblock In {\em Proceedings of ACL}, volume~1.
+
+\bibitem[\protect\citename{Baroni and Lenci}2010]{baroni2010distributional}
+Baroni, Marco and Alessandro Lenci.
+\newblock 2010.
+\newblock Distributional memory: A general framework for corpus-based
+  semantics.
+\newblock {\em Computational Linguistics}, 36(4):673--721.
+
+\bibitem[\protect\citename{Barsalou \bgroup et al.\egroup
+  }2003]{barsalou2003grounding}
+Barsalou, Lawrence~W, W~Kyle~Simmons, Aron~K Barbey, and Christine~D Wilson.
+\newblock 2003.
+\newblock Grounding conceptual knowledge in modality-specific systems.
+\newblock {\em Trends in cognitive sciences}, 7(2):84--91.
+
+\bibitem[\protect\citename{Beltagy, Erk, and Mooney}2014]{beltagysemantic}
+Beltagy, Islam, Katrin Erk, and Raymond Mooney.
+\newblock 2014.
+\newblock Semantic parsing using distributional semantics and probabilistic
+  logic.
+\newblock In {\em ACL 2014 Workshop on Semantic Parsing}.
+
+\bibitem[\protect\citename{Bengio \bgroup et al.\egroup }2003]{bengio2003}
+Bengio, Yoshua, R{\'{e}}jean Ducharme, Pascal Vincent, and Christian Jauvin.
+\newblock 2003.
+\newblock A neural probabilistic language model.
+\newblock {\em The Journal of Machine Learning Research}, 3:1137--1155.
+
+\bibitem[\protect\citename{Bernardi \bgroup et al.\egroup
+  }2013]{bernardi2013relatedness}
+Bernardi, Raffaella, Georgiana Dinu, Marco Marelli, and Marco Baroni.
+\newblock 2013.
+\newblock A relatedness benchmark to test the role of determiners in
+  compositional distributional semantics.
+\newblock {\em Proceedings of ACL}.
+
+\bibitem[\protect\citename{Biemann}2005]{biemann2005ontology}
+Biemann, Chris.
+\newblock 2005.
+\newblock Ontology learning from text: A survey of methods.
+\newblock In {\em LDV forum}, volume~44, pages 75--93.
+
+\bibitem[\protect\citename{Bird}2006]{bird2006nltk}
+Bird, Steven.
+\newblock 2006.
+\newblock Nltk: the natural language toolkit.
+\newblock In {\em Proceedings of the COLING/ACL on Interactive presentation
+  sessions}, pages 69--72. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Bruni \bgroup et al.\egroup
+  }2012a]{bruni2012distributional}
+Bruni, Elia, Gemma Boleda, Marco Baroni, and Nam-Khanh Tran.
+\newblock 2012a.
+\newblock Distributional semantics in technicolor.
+\newblock In {\em Proceedings of ACL}. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citename{Bruni \bgroup et al.\egroup
+  }2012b]{bruni2012distributional2}
+Bruni, Elia, Jasper Uijlings, Marco Baroni, and Nicu Sebe.
+\newblock 2012b.
+\newblock Distributional semantics with eyes: Using image analysis to improve
+  computational representations of word meaning.
+\newblock In {\em Proceedings of the 20th ACM international conference on
+  Multimedia}. ACM.
+
+\bibitem[\protect\citename{Budanitsky and Hirst}2006]{budanitsky2006evaluating}
+Budanitsky, Alexander and Graeme Hirst.
+\newblock 2006.
+\newblock Evaluating wordnet-based measures of lexical semantic relatedness.
+\newblock {\em Computational Linguistics}, 32(1):13--47.
+
+\bibitem[\protect\citename{Cimiano, Hotho, and Staab}2005]{cimiano2005learning}
+Cimiano, Philipp, Andreas Hotho, and Steffen Staab.
+\newblock 2005.
+\newblock Learning concept hierarchies from text corpora using formal concept
+  analysis.
+\newblock {\em J. Artif. Intell. Res.(JAIR)}, 24:305--339.
+
+\bibitem[\protect\citename{Collobert and Weston}2008]{collobert:2008}
+Collobert, R. and J.~Weston.
+\newblock 2008.
+\newblock A unified architecture for natural language processing: Deep neural
+  networks with multitask learning.
+\newblock In {\em International Conference on Machine Learning, {ICML}}.
+
+\bibitem[\protect\citename{Cruse}1986]{cruse1986lexical}
+Cruse, D~Alan.
+\newblock 1986.
+\newblock {\em Lexical semantics}.
+\newblock Cambridge University Press.
+
+\bibitem[\protect\citename{Cunningham}2005]{cunningham2005information}
+Cunningham, Hamish.
+\newblock 2005.
+\newblock Information extraction, automatic.
+\newblock {\em Encyclopedia of language and linguistics,}, pages 665--677.
+
+\bibitem[\protect\citename{Fellbaum}1998]{fellbaum1999wordnet}
+Fellbaum, Christiane.
+\newblock 1998.
+\newblock {\em WordNet}.
+\newblock Wiley Online Library.
+
+\bibitem[\protect\citename{Finkelstein \bgroup et al.\egroup
+  }2001]{finkelstein2001placing}
+Finkelstein, Lev, Evgeniy Gabrilovich, Yossi Matias, Ehud Rivlin, Zach Solan,
+  Gadi Wolfman, and Eytan Ruppin.
+\newblock 2001.
+\newblock Placing search in context: The concept revisited.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 406--414. ACM.
+
+\bibitem[\protect\citename{Firth}1957]{firth1957papers}
+Firth, J.R.
+\newblock 1957.
+\newblock {\em Papers in Linguistics 1934–1951}.
+\newblock Oxford University Press.
+
+\bibitem[\protect\citename{Gentner}1978]{gentner1978relational}
+Gentner, Dedre.
+\newblock 1978.
+\newblock On relational meaning: The acquisition of verb meaning.
+\newblock {\em Child development}, pages 988--998.
+
+\bibitem[\protect\citename{Gentner}2006]{gentner2006verbs}
+Gentner, Dedre.
+\newblock 2006.
+\newblock Why verbs are hard to learn.
+\newblock {\em Action meets word: How children learn verbs}, pages 544--564.
+
+\bibitem[\protect\citename{Gershman and Dyer}2014]{gershmanmetaphor}
+Gershman, Yulia Tsvetkov Leonid Boytsov~Anatole and Eric Nyberg~Chris Dyer.
+\newblock 2014.
+\newblock Metaphor detection with cross-lingual model transfer.
+\newblock In {\em Proceedings of ACL}.
+
+\bibitem[\protect\citename{Golub and Reinsch}1970]{golub1970singular}
+Golub, Gene~H and Christian Reinsch.
+\newblock 1970.
+\newblock Singular value decomposition and least squares solutions.
+\newblock {\em Numerische Mathematik}, 14(5):403--420.
+
+\bibitem[\protect\citename{Griffiths, Steyvers, and
+  Tenenbaum}2007]{griffiths2007topics}
+Griffiths, Thomas~L, Mark Steyvers, and Joshua~B Tenenbaum.
+\newblock 2007.
+\newblock Topics in semantic representation.
+\newblock {\em Psychological review}, 114(2):211.
+
+\bibitem[\protect\citename{Haghighi \bgroup et al.\egroup
+  }2008]{Haghighi2008Learning}
+Haghighi, Aria, Percy Liang, Taylor Berg-Kirkpatrick, and Dan Klein.
+\newblock 2008.
+\newblock Learning bilingual lexicons from monolingual corpora.
+\newblock In {\em Proceedings of ACL 2008}.
+
+\bibitem[\protect\citename{Hassan and Mihalcea}2011]{hassan2011semantic}
+Hassan, Samer and Rada Mihalcea.
+\newblock 2011.
+\newblock Semantic relatedness using salient semantic analysis.
+\newblock In {\em AAAI}.
+
+\bibitem[\protect\citename{Hatzivassiloglou \bgroup et al.\egroup
+  }2001]{hatzivassiloglou2001simfinder}
+Hatzivassiloglou, Vasileios, Judith~L Klavans, Melissa~L Holcombe, Regina
+  Barzilay, Min-Yen Kan, and Kathleen McKeown.
+\newblock 2001.
+\newblock Simfinder: A flexible clustering tool for summarization.
+\newblock In {\em NAACL Workshop on Automatic Summarization}.
+
+\bibitem[\protect\citename{He \bgroup et al.\egroup }2008]{he2008indirect}
+He, Xiaodong, Mei Yang, Jianfeng Gao, Patrick Nguyen, and Robert Moore.
+\newblock 2008.
+\newblock Indirect-hmm-based hypothesis alignment for combining outputs from
+  machine translation systems.
+\newblock In {\em Proceedings of EMNLP}, pages 98--107. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Hill, Kiela, and
+  Korhonen}2013]{hill2013concreteness}
+Hill, Felix, Douwe Kiela, and Anna Korhonen.
+\newblock 2013.
+\newblock Concreteness and corpora: A theoretical and practical analysis.
+\newblock {\em CMCL 2013}, page~75.
+
+\bibitem[\protect\citename{Hill, Korhonen, and
+  Bentz}2013]{hill2013quantitative}
+Hill, Felix, Anna Korhonen, and Christian Bentz.
+\newblock 2013.
+\newblock A quantitative empirical analysis of the abstract/concrete
+  distinction.
+\newblock {\em Cognitive science}.
+
+\bibitem[\protect\citename{Hill, Reichart, and Korhonen}2014]{hill2014multi}
+Hill, Felix, Roi Reichart, and Anna Korhonen.
+\newblock 2014.
+\newblock Multi-modal models for concrete and abstract concept meaning.
+\newblock {\em Transactions of the Association for Computational Linguistics
+  (TACL)}.
+
+\bibitem[\protect\citename{Huang \bgroup et al.\egroup
+  }2012]{huang2012improving}
+Huang, Eric~H, Richard Socher, Christopher~D Manning, and Andrew~Y Ng.
+\newblock 2012.
+\newblock Improving word representations via global context and multiple word
+  prototypes.
+\newblock In {\em Proceedings of ACL}, pages 873--882. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Kiela and Clark}2014]{kiela2014systematic}
+Kiela, Douwe and Stephen Clark.
+\newblock 2014.
+\newblock A systematic study of semantic vector space model parameters.
+\newblock In {\em Proceedings of the 2nd Workshop on Continuous Vector Space
+  Models and their Compositionality (CVSC)@ EACL}, pages 21--30.
+
+\bibitem[\protect\citename{Kiela \bgroup et al.\egroup }2014]{kielaimproving}
+Kiela, Douwe, Felix Hill, Anna Korhonen, and Stephen Clark.
+\newblock 2014.
+\newblock Improving multi-modal representations using image dispersion: Why
+  less is sometimes more.
+\newblock In {\em Proceedings of ACL}. ACL.
+
+\bibitem[\protect\citename{Landauer and Dumais}1997]{landauer1997solution}
+Landauer, Thomas~K and Susan~T Dumais.
+\newblock 1997.
+\newblock A solution to plato's problem: The latent semantic analysis theory of
+  acquisition, induction, and representation of knowledge.
+\newblock {\em Psychological review}, 104(2):211.
+
+\bibitem[\protect\citename{Leech, Garside, and Bryant}1994]{leech1994claws4}
+Leech, Geoffrey, Roger Garside, and Michael Bryant.
+\newblock 1994.
+\newblock Claws4: the tagging of the british national corpus.
+\newblock In {\em Proceedings of COLING}, pages 622--628. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Levy and Goldberg}2014]{levy2014dependency}
+Levy, Omer and Yoav Goldberg.
+\newblock 2014.
+\newblock Dependency-based word embeddings.
+\newblock In {\em Proceedings of ACL}, volume~2.
+
+\bibitem[\protect\citename{Levy \bgroup et al.\egroup }2015]{levysupervised}
+Levy, Omer, Steffen Remus, Chris Biemann, and Idol Dagan.
+\newblock 2015.
+\newblock Do supervised distributional methods really learn lexical inference
+  relations?
+\newblock {\em Proceedings of NAACL}.
+
+\bibitem[\protect\citename{Lewis \bgroup et al.\egroup }2004]{lewis2004rcv1}
+Lewis, David~D, Yiming Yang, Tony~G Rose, and Fan Li.
+\newblock 2004.
+\newblock Rcv1: A new benchmark collection for text categorization research.
+\newblock {\em The Journal of Machine Learning Research}, 5:361--397.
+
+\bibitem[\protect\citename{Li \bgroup et al.\egroup }2014]{li2014obtaining}
+Li, Changliang, Bo~Xu, Gaowei Wu, Xiuying Wang, Wendong Ge, and Yan Li.
+\newblock 2014.
+\newblock Obtaining better word representations via language transfer.
+\newblock In {\em Computational Linguistics and Intelligent Text Processing}.
+  Springer, pages 128--137.
+
+\bibitem[\protect\citename{Li \bgroup et al.\egroup }2006]{li2006exploring}
+Li, Mu, Yang Zhang, Muhua Zhu, and Ming Zhou.
+\newblock 2006.
+\newblock Exploring distributional similarity based models for query spelling
+  correction.
+\newblock In {\em Proceedings of ALC}, pages 1025--1032. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Luong, Socher, and Manning}2013]{luong2013better}
+Luong, Minh-Thang, Richard Socher, and Christopher~D Manning.
+\newblock 2013.
+\newblock Better word representations with recursive neural networks for
+  morphology.
+\newblock {\em CoNLL-2013}, 104.
+
+\bibitem[\protect\citename{Markman and Wisniewski}1997]{markman1997similar}
+Markman, Arthur~B and Edward~J Wisniewski.
+\newblock 1997.
+\newblock Similar and different: The differentiation of basic-level categories.
+\newblock {\em Journal of Experimental Psychology: Learning, Memory, and
+  Cognition}, 23(1).
+
+\bibitem[\protect\citename{Marton, Callison-Burch, and
+  Resnik}2009]{marton2009improved}
+Marton, Yuval, Chris Callison-Burch, and Philip Resnik.
+\newblock 2009.
+\newblock Improved statistical machine translation using monolingually-derived
+  paraphrases.
+\newblock In {\em Proceedings of EMNLP}, pages 381--390. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{McRae, Khalkhali, and Hare}2012]{mcrae2012semantic}
+McRae, Ken, Saman Khalkhali, and Mary Hare.
+\newblock 2012.
+\newblock Semantic and associative relations in adolescents and young adults:
+  Examining a tenuous dichotomy.
+\newblock In Valerie~F Reyna, Sandra~B Chapman, Michael~R Dougherty, and
+  Jere~Ed Confrey, editors, {\em The adolescent brain: Learning, reasoning, and
+  decision making.} American Psychological Association.
+
+\bibitem[\protect\citename{Medelyan \bgroup et al.\egroup
+  }2009]{medelyan2009mining}
+Medelyan, Olena, David Milne, Catherine Legg, and Ian~H Witten.
+\newblock 2009.
+\newblock Mining meaning from wikipedia.
+\newblock {\em International Journal of Human-Computer Studies},
+  67(9):716--754.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup
+  }2013a]{mikolov2013efficient}
+Mikolov, Tomas, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock 2013a.
+\newblock Efficient estimation of word representations in vector space.
+\newblock In {\em Proceedings of International Conference of Learning
+  Representations}, Scottsdale, Arizona, USA.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup
+  }2013b]{mikolov2013distributed}
+Mikolov, Tomas, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock 2013b.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  3111--3119.
+
+\bibitem[\protect\citename{Navigli}2009]{navigli2009word}
+Navigli, Roberto.
+\newblock 2009.
+\newblock Word sense disambiguation: A survey.
+\newblock {\em ACM Computing Surveys (CSUR)}, 41(2):10.
+
+\bibitem[\protect\citename{Nelson, McEvoy, and
+  Schreiber}2004]{nelson2004university}
+Nelson, Douglas~L, Cathy~L McEvoy, and Thomas~A Schreiber.
+\newblock 2004.
+\newblock The university of south florida free association, rhyme, and word
+  fragment norms.
+\newblock {\em Behavior Research Methods, Instruments, \& Computers},
+  36(3):402--407.
+
+\bibitem[\protect\citename{Pad\'o, Pad\'o, and Erk}2007]{pado2007flexible}
+Pad\'o, Sebastian, Ulrike Pad\'o, and Katrin Erk.
+\newblock 2007.
+\newblock Flexible, corpus-based modelling of human plausibility judgements.
+\newblock In {\em Proceedings of EMNLP-CoNLL}, pages 400--409, Prague, Czech
+  Republic, June. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Paivio}1991]{paivio1991dual}
+Paivio, Allan.
+\newblock 1991.
+\newblock Dual coding theory: Retrospect and current status.
+\newblock {\em Canadian Journal of Psychology/Revue canadienne de psychologie},
+  45(3):255.
+
+\bibitem[\protect\citename{Pedersen, Patwardhan, and
+  Michelizzi}2004]{pedersen2004wordnet}
+Pedersen, Ted, Siddharth Patwardhan, and Jason Michelizzi.
+\newblock 2004.
+\newblock Wordnet:: Similarity: measuring the relatedness of concepts.
+\newblock In {\em Demonstration Papers at HLT-NAACL 2004}, pages 38--41.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Phan, Nguyen, and Horiguchi}2008]{phan2008learning}
+Phan, Xuan-Hieu, Le-Minh Nguyen, and Susumu Horiguchi.
+\newblock 2008.
+\newblock Learning to classify short and sparse text \& web with hidden topics
+  from large-scale data collections.
+\newblock In {\em Proceedings of the 17th international conference on World
+  Wide Web}, pages 91--100. ACM.
+
+\bibitem[\protect\citename{Plaut}1995]{plaut1995semantic}
+Plaut, David~C.
+\newblock 1995.
+\newblock Semantic and associative priming in a distributed attractor network.
+\newblock In {\em Proceedings of CogSci}, volume~17, pages 37--42.
+
+\bibitem[\protect\citename{Recchia and Jones}2009]{recchia2009more}
+Recchia, Gabriel and Michael~N Jones.
+\newblock 2009.
+\newblock More data trumps smarter algorithms: Comparing pointwise mutual
+  information with latent semantic analysis.
+\newblock {\em Behavior research methods}, 41(3):647--656.
+
+\bibitem[\protect\citename{Reisinger and Mooney}2010a]{reisinger2010mixture}
+Reisinger, Joseph and Raymond Mooney.
+\newblock 2010a.
+\newblock A mixture model with sharing for lexical semantics.
+\newblock In {\em Proceedings of EMNLP}, pages 1173--1182. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Reisinger and Mooney}2010b]{reisinger2010multi}
+Reisinger, Joseph and Raymond~J Mooney.
+\newblock 2010b.
+\newblock Multi-prototype vector-space models of word meaning.
+\newblock In {\em Human Language Technologies: The 2010 Annual Conference of
+  the North American Chapter of the Association for Computational Linguistics},
+  pages 109--117. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Resnik}1995]{resnik1995using}
+Resnik, Philip.
+\newblock 1995.
+\newblock Using information content to evaluate semantic similarity in a
+  taxonomy.
+\newblock In {\em Proceedings of IJCAI}.
+
+\bibitem[\protect\citename{Resnik and Lin}2010]{resnik201011}
+Resnik, Philip and Jimmy Lin.
+\newblock 2010.
+\newblock 11 evaluation of nlp systems.
+\newblock {\em The handbook of computational linguistics and natural language
+  processing}, 57:271.
+
+\bibitem[\protect\citename{Rosch, Simpson, and
+  Miller}1976]{rosch1976structural}
+Rosch, Eleanor, Carol Simpson, and R~Scott Miller.
+\newblock 1976.
+\newblock Structural bases of typicality effects.
+\newblock {\em Journal of Experimental Psychology: Human perception and
+  performance}, 2(4):491.
+
+\bibitem[\protect\citename{Rose, Stevenson, and
+  Whitehead}2002]{rose2002reuters}
+Rose, Tony, Mark Stevenson, and Miles Whitehead.
+\newblock 2002.
+\newblock The reuters corpus volume 1-from yesterday's news to tomorrow's
+  language resources.
+\newblock In {\em LREC}, volume~2, pages 827--832.
+
+\bibitem[\protect\citename{Rubenstein and
+  Goodenough}1965]{rubenstein1965contextual}
+Rubenstein, Herbert and John~B Goodenough.
+\newblock 1965.
+\newblock Contextual correlates of synonymy.
+\newblock {\em Communications of the ACM}, 8(10):627--633.
+
+\bibitem[\protect\citename{Silberer and Lapata}2014]{silberer2014learning}
+Silberer, Carina and Mirella Lapata.
+\newblock 2014.
+\newblock Learning grounded meaning representations with autoencoders.
+\newblock In {\em Proceedings of ACL}. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citename{Sun, Korhonen, and Krymolowski}2008]{sun2008verb}
+Sun, Lin, Anna Korhonen, and Yuval Krymolowski.
+\newblock 2008.
+\newblock Verb class discovery from rich syntactic data.
+\newblock In {\em Computational linguistics and intelligent text processing}.
+  Springer, pages 16--27.
+
+\bibitem[\protect\citename{Turian, Ratinov, and Bengio}2010]{turian2010word}
+Turian, Joseph, Lev Ratinov, and Yoshua Bengio.
+\newblock 2010.
+\newblock Word representations: a simple and general method for semi-supervised
+  learning.
+\newblock In {\em Proceedings of ACL}, pages 384--394. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Turney}2012]{turney2012domain}
+Turney, Peter~D.
+\newblock 2012.
+\newblock Domain and function: A dual-space model of semantic relations and
+  compositions.
+\newblock {\em Journal of Artificial Intelligence Research (JAIR)},
+  179(44):533--585.
+
+\bibitem[\protect\citename{Turney and Pantel}2010]{turney2010frequency}
+Turney, Peter~D and Patrick Pantel.
+\newblock 2010.
+\newblock From frequency to meaning: Vector space models of semantics.
+\newblock {\em Journal of artificial intelligence research}, 37(1):141--188.
+
+\bibitem[\protect\citename{Tversky}1977]{tversky1977features}
+Tversky, Amos.
+\newblock 1977.
+\newblock Features of similarity.
+\newblock {\em Psychological review}, 84(4):327.
+
+\bibitem[\protect\citename{Wiebe}2000]{wiebe2000learning}
+Wiebe, Janyce.
+\newblock 2000.
+\newblock Learning subjective adjectives from corpora.
+\newblock In {\em AAAI/IAAI}, pages 735--740.
+
+\bibitem[\protect\citename{Williams and Anand}2009]{williams2009predicting}
+Williams, Gbolahan~K and Sarabjot~Singh Anand.
+\newblock 2009.
+\newblock Predicting the polarity strength of adjectives using wordnet.
+\newblock In {\em ICWSM}.
+
+\bibitem[\protect\citename{Wu and Palmer}1994]{wu1994verbs}
+Wu, Zhibiao and Martha Palmer.
+\newblock 1994.
+\newblock Verbs semantics and lexical selection.
+\newblock In {\em Proceedings of ACL}, pages 133--138. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Yong and Foo}1999]{yong1999case}
+Yong, Chung and Shou~King Foo.
+\newblock 1999.
+\newblock A case study on inter-annotator agreement for word sense
+  disambiguation.
+\newblock In {\em Proceedings of the {ACL} {SIGLEX} Workshop on Standardizing
+  Lexical Resources {(SIGLEX99)}}.
+
+\end{thebibliography}

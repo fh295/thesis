@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: naaclhlt2016.aux
+The style file: naaclhlt2016.bst
+Database file #1: naaclhlt2016.bib
+Warning--empty journal in norman1972memory
+You've used 44 entries,
+            2490 wiz_defined-function locations,
+            771 strings with 13242 characters,
+and the built_in function-call counts, 21409 in all, are:
+= -- 2220
+> -- 989
+< -- 23
++ -- 351
+- -- 344
+* -- 1550
+:= -- 3316
+add.period$ -- 183
+call.type$ -- 44
+change.case$ -- 347
+chr.to.int$ -- 41
+cite$ -- 45
+duplicate$ -- 920
+empty$ -- 1538
+format.name$ -- 398
+if$ -- 4569
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 44
+newline$ -- 266
+num.names$ -- 132
+pop$ -- 421
+preamble$ -- 1
+purify$ -- 391
+quote$ -- 0
+skip$ -- 746
+stack$ -- 0
+substring$ -- 1024
+swap$ -- 306
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 352
+warning$ -- 1
+while$ -- 160
+width$ -- 50
+write$ -- 610
+(There was 1 warning)

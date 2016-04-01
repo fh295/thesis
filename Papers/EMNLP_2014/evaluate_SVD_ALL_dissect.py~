@@ -1,0 +1,182 @@
+# get linguistic vectors for the words in each pair
+# get perceptual vectors 
+# combine with various methods
+# Johns and Jones, Ridge Regression (feature inference)
+# concatenation, matrix multiplication
+
+from __future__ import division
+import os
+import sys
+import numpy as np
+from glob import iglob
+from scipy.spatial import distance
+from scipy.stats import pearsonr, spearmanr
+import math
+import random
+import logging
+from gensim.models import word2vec
+from scipy import spatial
+from scipy.spatial import distance
+
+def Norm(vect):
+	vector = np.array(vect)
+	total = np.sqrt(np.dot(vector,vector))
+	if total > 0:
+		total = 1/total
+		return total * vector
+	else:
+		return vector
+
+
+
+PATH = '/auto/homes/fh295/Documents/TACL_summer_2013/feature_extraction/'
+rs = [os.path.basename(filename) for filename in iglob(os.path.join(PATH, '*kernel_matrix.txt'))]
+fileids = [x for x in rs if not 'results' in x]
+
+
+def cos(v1, v2):
+       return math.fabs(np.dot(v1, v2) / (np.sqrt(np.dot(v1, v1)) * np.sqrt(np.dot(v2, v2))))
+
+
+abstract = open('/auto/homes/fh295/Documents/TACL_summer_2013/feature_extraction/abstract_active_nouns.txt').read().splitlines()
+concrete = open('/auto/homes/fh295/Documents/TACL_summer_2013/feature_extraction/concrete_active_nouns_NEW.txt').read().splitlines()
+
+abstract_verbs = open('/auto/homes/fh295/Documents/TACL_summer_2013/feature_extraction/abstract_active_verbs.txt').read().splitlines()
+concrete_verbs = open('/auto/homes/fh295/Documents/TACL_summer_2013/feature_extraction/concrete_active_verbs.txt').read().splitlines()
+
+
+print 'training model'
+
+
+vocab = open("/local/scratch/fh295/NeuralNetworks14/Text8_Model_vocab.txt").read().splitlines()
+
+concrete = [x for x in concrete if x in vocab]
+abstract = [x for x in abstract if x in vocab]
+concrete_verbs = [x for x in concrete_verbs if x in vocab]
+abstract_verbs = [x for x in abstract_verbs if x in vocab]
+
+
+concepts = concrete +abstract+concrete_verbs+abstract_verbs
+
+f = open("/local/scratch/fh295/NeuralNetworks14/Text8_Model_vectors.txt").read().splitlines()
+TEXT = {x.split()[0]:[float(y) for y in x.split()[1:]] for x in f}
+NTEXT = {c:Norm(TEXT[c]) for c in concepts}
+
+
+
+
+
+f = open('/local/scratch/fh295/Jan 2013 concreteness corpus analyses/mcevoydata/USF_pairs_qcon_conc.txt').read().splitlines()
+g = [x.split() for x in f if len(x.split()) == 4]
+gold_pairs = {(x[0],x[1]):float(x[2]) for x in g if x[0] in concepts and x[1] in concepts}
+del g
+
+f = open('/home/fh295/Documents/TACL_summer_2013/feature_extraction/mcevoy_pairs_for_comp.txt').read().splitlines()
+g = [x.split() for x in f if len(x.split()) == 3]
+for x in g:
+	gold_pairs[(x[0],x[1])] = float(x[2])  
+
+del g
+
+SET = concrete
+eval_pairs = [p for p in gold_pairs.keys() if p[0] in SET and p[1] in SET and p[0] in vocab and p[1] in vocab] 
+out = open("/local/scratch/fh295/NeuralNetworks14/USF_concs.txt",'w')
+for p in eval_pairs:
+	out.write(str(p[0])+'\t'+str(p[1])+'\t'+str(gold_pairs[p])+'\n')
+
+out.close()
+
+
+f = open("/local/scratch/fh295/NeuralNetworks14/CSLB_perceptual_vectors.txt").read().splitlines()
+
+CSLB = {line.split()[0].split('_')[0]:[float(x) for x in line.split()[1:]] for line in f[1:]}
+CSLB = {c: Norm(CSLB[c]) for c in CSLB.keys()}
+del f
+f = open("/local/scratch/fh295/NeuralNetworks14/ESP_perceptual_vectors.txt").read().splitlines()
+
+ESP = {line.split()[0]:[float(x)   for x in line.split()[1:]] for line in f}
+del f
+ESP = {c: Norm(ESP[c]) for c in ESP.keys()}
+out = open("/local/scratch/fh295/NeuralNetworks14/PERCEP_vectors.txt",'w')
+
+
+import numpy, scipy.sparse
+from sparsesvd import sparsesvd
+
+N =  {c: list(TEXT[c])+list(ESP[c]) for c in concrete}
+rows = open("/local/scratch/fh295/NeuralNetworks14/ESP.rows",'w')
+dm = open("/local/scratch/fh295/NeuralNetworks14/ESP.dm",'w')
+cols = open("/local/scratch/fh295/NeuralNetworks14/ESP.cols",'w')
+
+for item in N.values()[0]:
+	cols.write(str(item)+'\n')
+
+cols.close()
+
+for item in N.keys():
+	rows.write(str(item)+'\n')
+
+rows.close()
+
+
+
+for item in N.keys():
+	dm.write(str(item))
+	for k in N[item]:
+		dm.write('\t'+str(k))
+	dm.write('\n')
+
+dm.close()
+
+
+print 'ESP'
+
+N =  {c: list(TEXT[c])+list(CSLB[c]) for c in concrete}
+rows = open("/local/scratch/fh295/NeuralNetworks14/CSLB.rows",'w')
+dm = open("/local/scratch/fh295/NeuralNetworks14/CSLB.dm",'w')
+cols = open("/local/scratch/fh295/NeuralNetworks14/CSLB.cols",'w')
+
+for item in N.values()[0]:
+	cols.write(str(item)+'\n')
+
+cols.close()
+for item in N.keys():
+	rows.write(str(item)+'\n')
+
+rows.close()
+
+for item in N.keys():
+	dm.write(str(item))
+	for k in N[item]:
+		dm.write('\t'+str(k))
+	dm.write('\n')
+
+dm.close()
+
+
+print 'CSLB'
+
+N =  {c: list(TEXT[c])+list(ESP[c])+list(CSLB[c])  for c in concrete}
+rows = open("/local/scratch/fh295/NeuralNetworks14/ESP_CSLB.rows",'w')
+dm = open("/local/scratch/fh295/NeuralNetworks14/ESP_CSLB.dm",'w')
+cols = open("/local/scratch/fh295/NeuralNetworks14/ESP_CSLB.cols",'w')
+
+for item in N.values()[0]:
+	cols.write(str(item)+'\n')
+
+cols.close()
+for item in N.keys():
+	rows.write(str(item)+'\n')
+
+rows.close()
+
+for item in N.keys():
+	dm.write(str(item))
+	for k in N[item]:
+		dm.write('\t'+str(k))
+	dm.write('\n')
+
+dm.close()
+
+
+print 'CSLB + ESP'

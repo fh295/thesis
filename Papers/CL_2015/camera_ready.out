@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.0.2}{Design Motivation}{}% 2
+\BOOKMARK [2][-]{subsection.0.2.1}{Similarity and Association}{section.0.2}% 3
+\BOOKMARK [2][-]{subsection.0.2.2}{Concepts, part-of-speech and concreteness}{section.0.2}% 4
+\BOOKMARK [2][-]{subsection.0.2.3}{Existing gold standards and evaluation resources}{section.0.2}% 5
+\BOOKMARK [1][-]{section.0.3}{The SimLex-999 Dataset}{}% 6
+\BOOKMARK [2][-]{subsection.0.3.1}{Choice of Concepts}{section.0.3}% 7
+\BOOKMARK [2][-]{subsection.0.3.2}{Question Design}{section.0.3}% 8
+\BOOKMARK [2][-]{subsection.0.3.3}{Context-free rating}{section.0.3}% 9
+\BOOKMARK [2][-]{subsection.0.3.4}{Questionnaire structure}{section.0.3}% 10
+\BOOKMARK [2][-]{subsection.0.3.5}{Participants}{section.0.3}% 11
+\BOOKMARK [2][-]{subsection.0.3.6}{Post-processing}{section.0.3}% 12
+\BOOKMARK [1][-]{section.0.4}{Analysis of Dataset}{}% 13
+\BOOKMARK [2][-]{subsection.0.4.1}{Inter-annotator agreement}{section.0.4}% 14
+\BOOKMARK [2][-]{subsection.0.4.2}{Response validity: Similarity not association}{section.0.4}% 15
+\BOOKMARK [2][-]{subsection.0.4.3}{Finer-grained Semantic Relations}{section.0.4}% 16
+\BOOKMARK [1][-]{section.0.5}{Evaluating Models with SimLex-999}{}% 17
+\BOOKMARK [2][-]{subsection.0.5.1}{Semantic models}{section.0.5}% 18
+\BOOKMARK [2][-]{subsection.0.5.2}{Results}{section.0.5}% 19
+\BOOKMARK [1][-]{section.0.6}{Conclusion}{}% 20
