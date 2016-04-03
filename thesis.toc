@@ -113,6 +113,8 @@
 \contentsline {section}{\numberline {5.3}Results}{114}{section.5.3}
 \contentsline {section}{\numberline {5.4}Discussion}{115}{section.5.4}
 \contentsline {section}{\numberline {5.5}Conclusion}{118}{section.5.5}
+\contentsline {paragraph}{What is the optimal representation `scope'?}{119}{section*.80}
+\contentsline {paragraph}{What, if anything, is the correct model prior for sentences?}{119}{section*.81}
 \contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{121}{chapter.6}
 \contentsline {section}{\numberline {6.1}Testing representations `in the wild'}{122}{section.6.1}
 \contentsline {section}{\numberline {6.2}The Children's Book Test}{123}{section.6.2}
@@ -128,19 +130,19 @@
 \contentsline {subsection}{\numberline {6.4.5}Human performance}{131}{subsection.6.4.5}
 \contentsline {subsection}{\numberline {6.4.6}Other related approaches}{131}{subsection.6.4.6}
 \contentsline {section}{\numberline {6.5}Results}{132}{section.6.5}
-\contentsline {paragraph}{The form of memory representations}{132}{section*.83}
-\contentsline {paragraph}{Modelling syntactic flow}{133}{section*.84}
-\contentsline {paragraph}{Capturing semantic coherence}{133}{section*.85}
-\contentsline {paragraph}{Self-supervised memory retrieval}{134}{section*.87}
+\contentsline {paragraph}{The form of memory representations}{132}{section*.85}
+\contentsline {paragraph}{Modelling syntactic flow}{133}{section*.86}
+\contentsline {paragraph}{Capturing semantic coherence}{133}{section*.87}
+\contentsline {paragraph}{Self-supervised memory retrieval}{134}{section*.89}
 \contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{134}{subsection.6.5.1}
 \contentsline {section}{\numberline {6.6}Conclusion}{136}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{137}{chapter.7}
-\contentsline {chapter}{Bibliography}{139}{section*.89}
+\contentsline {chapter}{Bibliography}{139}{section*.91}
 \contentsline {chapter}{\numberline {A}}{159}{appendix.A}
 \contentsline {section}{\numberline {A.1}Experimental Details}{159}{section.A.1}
-\contentsline {paragraph}{Setting}{159}{section*.91}
-\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{159}{section*.92}
-\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{160}{section*.93}
+\contentsline {paragraph}{Setting}{159}{section*.93}
+\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{159}{section*.94}
+\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{160}{section*.95}
 \contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{160}{section.A.2}
 \contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{161}{section.A.3}
 \contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{161}{section.A.4}

@@ -510,15 +510,18 @@ Given these commonalities in how the reading models and Memory
 Networks represent context, the advantage of the best-performing
 Memory Network instead seems to stem from how it accesses or retrieves
 this information; in particular, the hard attention and
-self-supervision. Jointly learning to access and use information is a
+self-supervision. Jointly learning to access an
+
+
+d use information is a
 difficult optimization. Self-supervision in particular makes effective
 Memory Network learning more tractable.
 
 \section{Conclusion}
 
-In this chapter, I have presentation an alternative framework for analysing and evaluating different forms of linguistic representation. The approach differs from those taken in Chapters~\ref{CH2}-\ref{CH6}, in that it directly tests the effect of representations on more extrinsic language-prediction task whose application to language technology is clear and unambiguous. The development of neural language models such as memory networks, which compute mulitple layers of internal representations in an otherwise end-to-end architecture, makes this form of analysis and evaluation increasingly viable.  
+In this chapter, I have presented an alternative framework for analysing and evaluating different forms of linguistic representation. The approach differs from those taken in Chapters~\ref{CH2}-\ref{CH5}, in that it directly tests the effect of representations on more extrinsic language-prediction task whose application to language technology is clear and unambiguous. The development of neural language models such as memory networks, which compute multiple layers of internal representations in an otherwise end-to-end architecture, makes this form of analysis and evaluation increasingly viable.  
 
-The conclusions from this chapter were based largely on the Children's Book Test, a new semantic language modelling task. The CBT measures how well models can use both local and wider contextual information to make predictions about different types of words in children's stories. A particular strength of the CBT over similar existing bechmarks is the clear separating drawn between prediction of syntactic function words and more semantically informative terms. This distinction makes the CBT a robust proxy for the impact of language models on applications that require a focus on semantic coherence. It also facilitates finer grained analyses that permit more detailed conclusions about the effects of various modelling decisions, including, most pertinently, the form of memory representations. 
+The conclusions from this chapter were based largely on the Children's Book Test, a new semantic language modelling task. The CBT measures how well models can use both local and wider contextual information to make predictions about different types of words in children's stories. A particular strength of the CBT over similar existing benchmarks is the clear separating drawn between prediction of syntactic function words and more semantically informative terms. This distinction makes the CBT a robust proxy for the impact of language models on applications that require a focus on semantic coherence. It also facilitates finer grained analyses that permit more detailed conclusions about the effects of various modelling decisions, including, most pertinently, the form of memory representations. 
 
 The most consistent finding overall was that memories that encode sub-sentential chunks (windows) of informative text 
 seem to be most useful to neural nets, particularly for tasks involving the prediction of the most semantically informative words in text. 
