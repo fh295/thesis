@@ -1,5 +1,5 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Understanding and evaluating models of word representation}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Understanding and evaluating distributed word representations}{}% 2
 \BOOKMARK [1][-]{section.2.1}{Reproducing human semantic knowledge}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{Similarity and Association}{section.2.1}% 4
 \BOOKMARK [1][-]{section.2.2}{Motivation for SimLex-999}{chapter.2}% 5
@@ -21,7 +21,7 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{Vector space \(counting\) models}{section.2.5}% 21
 \BOOKMARK [2][-]{subsection.2.5.3}{Results}{section.2.5}% 22
 \BOOKMARK [1][-]{section.2.6}{Conclusion}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{Learning word representations from more than text}{}% 24
+\BOOKMARK [0][-]{chapter.3}{Representing words with neural language models and diverse data sources}{}% 24
 \BOOKMARK [1][-]{section.3.1}{Grounded acquisition of abstract concepts from multi-modal data}{chapter.3}% 25
 \BOOKMARK [2][-]{subsection.3.1.1}{Model Design}{section.3.1}% 26
 \BOOKMARK [2][-]{subsection.3.1.2}{Information sources}{section.3.1}% 27
@@ -77,7 +77,7 @@
 \BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 77
 \BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 78
 \BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 79
-\BOOKMARK [0][-]{chapter.6}{Representing semantics in memory networks}{}% 80
+\BOOKMARK [0][-]{chapter.6}{Representing word, phrase and sentence semantics in memory networks}{}% 80
 \BOOKMARK [1][-]{section.6.1}{Testing representations `in the wild'}{chapter.6}% 81
 \BOOKMARK [1][-]{section.6.2}{The Children's Book Test}{chapter.6}% 82
 \BOOKMARK [2][-]{subsection.6.2.1}{Related resources}{section.6.2}% 83
@@ -95,11 +95,13 @@
 \BOOKMARK [2][-]{subsection.6.5.1}{News Article Question Answering}{section.6.5}% 95
 \BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 96
 \BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 97
-\BOOKMARK [0][-]{section*.91}{Bibliography}{}% 98
-\BOOKMARK [0][-]{appendix.A}{}{}% 99
-\BOOKMARK [1][-]{section.A.1}{Experimental Details}{appendix.A}% 100
-\BOOKMARK [1][-]{section.A.2}{Results on CBT Validation Set}{appendix.A}% 101
-\BOOKMARK [1][-]{section.A.3}{Ablation Study on CNN QA}{appendix.A}% 102
-\BOOKMARK [1][-]{section.A.4}{Effects of Anonymising Entities in CBT}{appendix.A}% 103
-\BOOKMARK [1][-]{section.A.5}{Candidates and Window Memories in CBT}{appendix.A}% 104
-\BOOKMARK [0][-]{appendix.B}{}{}% 105
+\BOOKMARK [1][-]{section.7.1}{Contributions of this thesis}{chapter.7}% 98
+\BOOKMARK [1][-]{section.7.2}{Future work}{chapter.7}% 99
+\BOOKMARK [0][-]{section*.96}{Bibliography}{}% 100
+\BOOKMARK [0][-]{appendix.A}{}{}% 101
+\BOOKMARK [1][-]{section.A.1}{Experimental Details}{appendix.A}% 102
+\BOOKMARK [1][-]{section.A.2}{Results on CBT Validation Set}{appendix.A}% 103
+\BOOKMARK [1][-]{section.A.3}{Ablation Study on CNN QA}{appendix.A}% 104
+\BOOKMARK [1][-]{section.A.4}{Effects of Anonymising Entities in CBT}{appendix.A}% 105
+\BOOKMARK [1][-]{section.A.5}{Candidates and Window Memories in CBT}{appendix.A}% 106
+\BOOKMARK [0][-]{appendix.B}{}{}% 107

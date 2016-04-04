@@ -1,6 +1,6 @@
 \thispagestyle {empty}
 \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
-\contentsline {chapter}{\numberline {2}Understanding and evaluating models of word representation}{17}{chapter.2}
+\contentsline {chapter}{\numberline {2}Understanding and evaluating distributed word representations}{17}{chapter.2}
 \contentsline {paragraph}{The Challenge of Evaluation}{18}{section*.5}
 \contentsline {section}{\numberline {2.1}Reproducing human semantic knowledge}{19}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Similarity and Association}{20}{subsection.2.1.1}
@@ -47,37 +47,37 @@
 \contentsline {section}{\numberline {2.6}Conclusion}{48}{section.2.6}
 \contentsline {paragraph}{What is so special about neural word embeddings?}{49}{section*.42}
 \contentsline {paragraph}{The future of word representations}{50}{section*.43}
-\contentsline {chapter}{\numberline {3}Learning word representations from more than text}{53}{chapter.3}
+\contentsline {chapter}{\numberline {3}Representing words with neural language models and diverse data sources}{53}{chapter.3}
 \contentsline {section}{\numberline {3.1}Grounded acquisition of abstract concepts from multi-modal data}{54}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Model Design}{56}{subsection.3.1.1}
 \contentsline {paragraph}{Language-only model}{56}{section*.44}
-\contentsline {subsection}{\numberline {3.1.2}Information sources}{57}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Information sources}{58}{subsection.3.1.2}
 \contentsline {paragraph}{ESPGame dataset}{58}{section*.46}
 \contentsline {paragraph}{CSLB Property Norms}{58}{section*.47}
-\contentsline {paragraph}{Linguistic input}{58}{section*.48}
+\contentsline {paragraph}{Linguistic input}{59}{section*.48}
 \contentsline {subsection}{\numberline {3.1.3}Evaluation}{59}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}Results and Discussion}{60}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Combining information sources}{60}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Propagating input to abstract concepts}{61}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.5}Combining information sources}{61}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Propagating input to abstract concepts}{62}{subsection.3.1.6}
 \contentsline {paragraph}{Johns and Jones}{62}{section*.52}
 \contentsline {paragraph}{Ridge Regression}{62}{section*.53}
 \contentsline {paragraph}{Comparisons}{63}{section*.54}
-\contentsline {subsection}{\numberline {3.1.7}Direct representation vs. propagation}{64}{subsection.3.1.7}
-\contentsline {subsection}{\numberline {3.1.8}Source and quantity of perceptual input}{65}{subsection.3.1.8}
+\contentsline {subsection}{\numberline {3.1.7}Direct representation vs. propagation}{65}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Source and quantity of perceptual input}{66}{subsection.3.1.8}
 \contentsline {subsection}{\numberline {3.1.9}Conclusions}{66}{subsection.3.1.9}
-\contentsline {paragraph}{Type I}{66}{section*.57}
+\contentsline {paragraph}{Type I}{67}{section*.57}
 \contentsline {paragraph}{Type II}{67}{section*.58}
 \contentsline {paragraph}{Type III}{67}{section*.59}
-\contentsline {section}{\numberline {3.2}Learning word representations from bilingual data using encoder-decoder models}{67}{section.3.2}
+\contentsline {section}{\numberline {3.2}Learning word representations from bilingual data using encoder-decoder models}{68}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Neural Machine Translation Models}{68}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Other bilingual models of learning word representations}{69}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Experiments}{70}{subsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.3.1}Similarity and relatedness modelling}{71}{subsubsection.3.2.3.1}
-\contentsline {subsubsection}{\numberline {3.2.3.2}Importance of training data quantity}{73}{subsubsection.3.2.3.2}
+\contentsline {subsubsection}{\numberline {3.2.3.2}Importance of training data quantity}{74}{subsubsection.3.2.3.2}
 \contentsline {subsubsection}{\numberline {3.2.3.3}Analogy resolution}{74}{subsubsection.3.2.3.3}
 \contentsline {section}{\numberline {3.3}Effect of Target Language}{76}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Overcoming the vocabulary size problem}{77}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}How similarity emerges in NMT embeddings}{78}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}How similarity emerges in NMT embeddings}{79}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Conclusions}{80}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Discussion}{81}{section.3.4}
 \contentsline {chapter}{\numberline {4}Representing phrases with neural language models}{83}{chapter.4}
@@ -115,10 +115,10 @@
 \contentsline {section}{\numberline {5.5}Conclusion}{118}{section.5.5}
 \contentsline {paragraph}{What is the optimal representation `scope'?}{119}{section*.80}
 \contentsline {paragraph}{What, if anything, is the correct model prior for sentences?}{119}{section*.81}
-\contentsline {chapter}{\numberline {6}Representing semantics in memory networks}{121}{chapter.6}
+\contentsline {chapter}{\numberline {6}Representing word, phrase and sentence semantics in memory networks}{121}{chapter.6}
 \contentsline {section}{\numberline {6.1}Testing representations `in the wild'}{122}{section.6.1}
 \contentsline {section}{\numberline {6.2}The Children's Book Test}{123}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Related resources}{124}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Related resources}{125}{subsection.6.2.1}
 \contentsline {section}{\numberline {6.3}Memory representation in memory networks}{126}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}End-to-end training}{127}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{127}{subsection.6.3.2}
@@ -137,14 +137,21 @@
 \contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{134}{subsection.6.5.1}
 \contentsline {section}{\numberline {6.6}Conclusion}{136}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{137}{chapter.7}
-\contentsline {chapter}{Bibliography}{139}{section*.91}
-\contentsline {chapter}{\numberline {A}}{159}{appendix.A}
-\contentsline {section}{\numberline {A.1}Experimental Details}{159}{section.A.1}
-\contentsline {paragraph}{Setting}{159}{section*.93}
-\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{159}{section*.94}
-\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{160}{section*.95}
-\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{160}{section.A.2}
-\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{161}{section.A.3}
-\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{161}{section.A.4}
-\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{161}{section.A.5}
-\contentsline {chapter}{\numberline {B}}{163}{appendix.B}
+\contentsline {section}{\numberline {7.1}Contributions of this thesis}{137}{section.7.1}
+\contentsline {paragraph}{A new resource for the evaluation of distributed word representations}{138}{section*.91}
+\contentsline {paragraph}{Two novel methods for acquiring distributed word representations}{138}{section*.92}
+\contentsline {paragraph}{Learning phrase representations by training NLMs on dictionaries or encyclopedias}{139}{section*.93}
+\contentsline {paragraph}{Two novel models for learning distributed sentence representations from text}{139}{section*.94}
+\contentsline {paragraph}{Representing naturally-occurring language in memory networks}{139}{section*.95}
+\contentsline {section}{\numberline {7.2}Future work}{140}{section.7.2}
+\contentsline {chapter}{Bibliography}{141}{section*.96}
+\contentsline {chapter}{\numberline {A}}{161}{appendix.A}
+\contentsline {section}{\numberline {A.1}Experimental Details}{161}{section.A.1}
+\contentsline {paragraph}{Setting}{161}{section*.98}
+\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{161}{section*.99}
+\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{162}{section*.100}
+\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{162}{section.A.2}
+\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{163}{section.A.3}
+\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{163}{section.A.4}
+\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{163}{section.A.5}
+\contentsline {chapter}{\numberline {B}}{165}{appendix.B}
