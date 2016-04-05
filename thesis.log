@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  4 APR 2016 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  5 APR 2016 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1858,24 +1858,25 @@ LaTeX Warning: Reference `CH1' on page 137 undefined on input line 5.
 
 [137
 
-] [138] [139]) [140] (./thesis.bbl [141
+] [138] [139] [140]) [141] [142
 
+] (./thesis.bbl [143
 
-] [142] [143] [144] [145] [146]
+] [144] [145] [146]
 [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157] [158]
-[159]) [160]
+[159] [160] [161]) [162]
 Appendix A.
-(./AppendixA.tex [161
+(./AppendixA.tex [163
 
 ]
 Underfull \vbox (badness 1005) has occurred while \output is active []
 
- [162]
-[163]) [164]
+ [164]
+[165]) [166]
 Appendix B.
-(./AppendixB.tex) [165
+(./AppendixB.tex) [167
 
-] [166
+] [168
 
 ]
 No file thesis.ind.
@@ -1896,8 +1897,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 22852 strings out of 493089
- 419929 string characters out of 6134841
+ 22854 strings out of 493089
+ 419945 string characters out of 6134841
  519428 words of memory out of 5000000
  25247 multiletter control sequences out of 15000+600000
  54647 words of font info for 126 fonts, out of 8000000 for 9000
@@ -1927,10 +1928,10 @@ rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
 tmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on thesis.pdf (166 pages, 2730990 bytes).
+Output written on thesis.pdf (168 pages, 2734029 bytes).
 PDF statistics:
- 3242 PDF objects out of 3580 (max. 8388607)
- 2887 compressed objects within 29 object streams
- 653 named destinations out of 1000 (max. 500000)
+ 3251 PDF objects out of 3580 (max. 8388607)
+ 2894 compressed objects within 29 object streams
+ 655 named destinations out of 1000 (max. 500000)
  969 words of extra memory for PDF output out of 10000 (max. 10000000)
 
