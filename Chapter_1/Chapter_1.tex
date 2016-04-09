@@ -1,27 +1,27 @@
 % This chapter is the Introduction to the Thesis
 
-Why unsupervised learning? 
+The question of how children come to be competent language users is vigorously debated by researchers across the human sciences, but it is widely agreed that they do not learn language because they are taught it [REFs].  A sentence about what happens when children learning language - they are taught little things and get corrected some of the time, but the majority of the time they are just experiencing correct language. This thesis is about computational models that learn to represent or understand language under similar conditions to the child listening to adults speak and (later) reading books.   
 
-Scientific - children
-Engineering - useful!
+\paragraph{Unsupervised learning} In machine learning or statistics, the term `unsupervised' is typically used to refer to techniques in which models or learning agents do not have access to labelled data. In addition to the intuitive parallels with child language learning, in language engineering  or NLP, unsupervised approaches are considered to have certain benefits from a practical point of view [REF]. However, the characterisation of a particular method as unsupervised or otherwise it is not unambiguously clear, largely because it is not always what it means for training data to be labelled. Examples of approaches that are generally considered to be unsupervised include semantic models that build representations based on the statistical properties of word occurrences in raw text (such as LSA, LDA and numerous other variants [REF]I) or clustering approaches to problems like word sense induction [REF] and lexical category acquisition [REF]. Two characteristics stand out as distinguishing these methods from others more often described as supervised. First, unlike supervised settings in which models are tested on a subset of the training data that is `help out' and not observed during training, these unsupervised methods are not evaluated on a task that mirrors the objective guiding their training. Second, in these methods the training data (usually raw text) would exist without the intervention of NLP researchers and/or annotators. From a practical perspective, the first of these properties is desirable, in theory at least, because it indicates that the model has learned something that may ultimately be useful for more than one particular tasks or application. The advantage of the second is less esoteric; it simply implies negligible cost for generating training data and a greater likelihood that such data exists for various domains and/or languages.  
 
+Note that this characterisation of unsupervised methods does not preclude the involvement of humans whatsoever in the production of training data. In so much as natural languages are by definition a product of human activity, the training data for any language model will likely involve humans. (unlike e.g. the physical properties of the natural world, which could be sufficient input for an unsupervised model of vision). In this thesis, I therefore understand the supervised/unsupervised distinction in terms of the nature of this human involvement. If a model or method requires training data labelled by humans for the purpose of training language models or applications, I consider it to be supervised, otherwise it is unsupervised. Note that this criterion makes no assumption about the internals of the model or the learning objective itself. Indeed, the models on which I focus, artificial neural networks, have, to date, been more commonly applied in supervised than unsupervised learning settings. Neural networks in both settings learn by backpropagating an error associated (via a mathematical cost function) with the `correctness' of their predictions. The difference is simply that, in the unsupervised case, the correct prediction is evident from the data as it naturally occurs in the world, whereas in the supervised case, humans were needed to identify the correct predictions.  
 
+\paragraph{Representation learning} The way in which the models considered in this thesis effect unsupervised learning is by acquiring distributed representations of linguistic units (words, phrases, sentences and eventually short passages). In part because of the frequency distribution of natural language types, and in part because of computational (infrastructure) challenges, a single strategy cannot be generally applied to represent each of these different entities. 
 
-Why distributed representations?
+There are many reasons to believe that the human brain encodes knowledge in distributed representations. A. B. C. 
 
-scientific reasons
-language - symbolic sentences vs distributional sentences
-psychology - probabilistic, soft effects
-neuroscience - distributed (Hinton?)
+science
+language
+psycho
+neuro
 
-engineering reasons
-success of deep learning?
+engineering
+success of deep learning
 
 Historical context of deep learning for language understanding
 -- Bengio
 -- Speech recognition
--- CW, then Turian (unsupervised)
+-- CW, then Turian
 -- Socher (supervised)
 -- Kalchbrenner (supervised)
--- Seq2seq (supervised)
-
+-- Seq2seq
