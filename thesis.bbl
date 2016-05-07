@@ -1,9 +1,16 @@
-\begin{thebibliography}{204}
+\begin{thebibliography}{203}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agirre and Soroa(2007)]{agirre2007semeval}
+Eneko Agirre and Aitor Soroa.
+\newblock Semeval-2007 task 02: Evaluating word sense induction and
+  discrimination systems.
+\newblock In \emph{Proceedings of the 4th International Workshop on Semantic
+  Evaluations}, pages 7--12. Association for Computational Linguistics, 2007.
 
 \bibitem[Agirre et~al.(2009{\natexlab{a}})Agirre, Alfonseca, Hall, Kravalova,
   Pasca, and Soroa]{Agirre2009}
@@ -50,12 +57,18 @@ Gerry Altmann and Mark Steedman.
 \newblock Interaction with context during human sentence processing.
 \newblock \emph{Cognition}, 30\penalty0 (3):\penalty0 191--238, 1988.
 
-\bibitem[Andrews et~al.(2009)Andrews, Vigliocco, and
-  Vinson]{andrews2009integrating}
-Mark Andrews, Gabriella Vigliocco, and David Vinson.
-\newblock Integrating experiential and distributional data to learn semantic
-  representations.
-\newblock \emph{Psychological Review}, 116\penalty0 (3):\penalty0 463, 2009.
+\bibitem[Antol et~al.(2015)Antol, Agrawal, Lu, Mitchell, Batra,
+  Lawrence~Zitnick, and Parikh]{antol2015vqa}
+Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra,
+  C~Lawrence~Zitnick, and Devi Parikh.
+\newblock Vqa: Visual question answering.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 2425--2433, 2015.
+
+\bibitem[Anward et~al.(1997)Anward, Moravcsik, and Stassen]{anward1997parts}
+Jan Anward, Edith Moravcsik, and Leon Stassen.
+\newblock Parts of speech: A challenge for typology.
+\newblock \emph{Linguistic typology}, 1\penalty0 (2):\penalty0 167--184, 1997.
 
 \bibitem[Baayen and Lieber(1996)]{baayen1996word}
 R~Harald Baayen and Rochelle Lieber.
@@ -88,12 +101,6 @@ Marco Baroni, Georgiana Dinu, and Germ{\'a}n Kruszewski.
   vs. context-predicting semantic vectors.
 \newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
   for Computational Linguistics}, volume~1, 2014{\natexlab{b}}.
-
-\bibitem[Barsalou(2010)]{barsalou2010grounded}
-Lawrence~W Barsalou.
-\newblock Grounded cognition: past, present, and future.
-\newblock \emph{Topics in Cognitive Science}, 2\penalty0 (4):\penalty0
-  716--724, 2010.
 
 \bibitem[Barsalou and Wiemer-Hastings(2005)]{barsalou2005situating}
 Lawrence~W Barsalou and Katja Wiemer-Hastings.
@@ -188,6 +195,12 @@ Steven Bird.
 \newblock In \emph{Proceedings of the COLING/ACL on Interactive presentation
   sessions}, pages 69--72. Association for Computational Linguistics, 2006.
 
+\bibitem[Blei(2012)]{blei2012probabilistic}
+David~M Blei.
+\newblock Probabilistic topic models.
+\newblock \emph{Communications of the ACM}, 55\penalty0 (4):\penalty0 77--84,
+  2012.
+
 \bibitem[Blei et~al.(2003)Blei, Ng, and Jordan]{blei2003latent}
 David~M Blei, Andrew~Y Ng, and Michael~I Jordan.
 \newblock Latent dirichlet allocation.
@@ -233,12 +246,6 @@ Alexander Budanitsky and Graeme Hirst.
 \newblock \emph{Computational Linguistics}, 32\penalty0 (1):\penalty0 13--47,
   2006.
 
-\bibitem[Bybee and Hopper(2001)]{bybee2001frequency}
-Joan~L Bybee and Paul~J Hopper.
-\newblock \emph{Frequency and the Emergence of Linguistic Structure},
-  volume~45.
-\newblock John Benjamins Publishing, 2001.
-
 \bibitem[Chandar et~al.(2014)Chandar, Lauly, Larochelle, Khapra, Ravindran,
   Raykar, and Saha]{lauly2014autoencoder}
 Sarath Chandar, Stanislas Lauly, Hugo Larochelle, Mitesh Khapra, Balaraman
@@ -246,12 +253,6 @@ Sarath Chandar, Stanislas Lauly, Hugo Larochelle, Mitesh Khapra, Balaraman
 \newblock An autoencoder approach to learning bilingual word representations.
 \newblock In \emph{Advances in Neural Information Processing Systems}, pages
   1853--1861, 2014.
-
-\bibitem[Chater and Manning(2006)]{chater2006probabilistic}
-Nick Chater and Christopher~D Manning.
-\newblock Probabilistic models of language processing and acquisition.
-\newblock \emph{Trends in Cognitive Sciences}, 10\penalty0 (7):\penalty0
-  335--344, 2006.
 
 \bibitem[Chen et~al.(2015)Chen, Fang, Lin, Vedantam, Gupta, Dollar, and
   Zitnick]{chen2015microsoft}
@@ -307,12 +308,6 @@ D~Alan Cruse.
 \newblock \emph{Lexical semantics}.
 \newblock Cambridge University Press, 1986.
 
-\bibitem[Crutch and Warrington(2005)]{crutch2005abstract}
-Sebastian~J Crutch and Elizabeth~K Warrington.
-\newblock Abstract and concrete concepts have structurally different
-  representational frameworks.
-\newblock \emph{Brain}, 128\penalty0 (3):\penalty0 615--627, 2005.
-
 \bibitem[Crutch et~al.(2009)Crutch, Connell, and
   Warrington]{crutch2009different}
 Sebastian~J Crutch, Sarah Connell, and Elizabeth~K Warrington.
@@ -332,13 +327,6 @@ Andrew~M Dai and Quoc~V Le.
 \newblock Semi-supervised sequence learning.
 \newblock In \emph{Advances in Neural Information Processing Systems}, pages
   3061--3069, 2015.
-
-\bibitem[Devereux et~al.(2013)Devereux, Tyler, Geertzen, and
-  Randall]{devereux2013centre}
-Barry~J Devereux, Lorraine~K Tyler, Jeroen Geertzen, and Billi Randall.
-\newblock The centre for speech, language and the brain (cslb) concept property
-  norms.
-\newblock \emph{Behavior Research Methods}, pages 1--9, 2013.
 
 \bibitem[Devlin et~al.(2014)Devlin, Zbib, Huang, Lamar, Schwartz, and
   Makhoul]{devlin2014fast}
@@ -365,6 +353,11 @@ Chris Dyer, Miguel Ballesteros, Wang Ling, Austin Matthews, and Noah~A Smith.
 \newblock In \emph{Proceedings of the Annual Meeting of the Association for
   Computational Linguistics}, 2015.
 
+\bibitem[Elman(1990)]{elman1990finding}
+Jeffrey~L Elman.
+\newblock Finding structure in time.
+\newblock \emph{Cognitive science}, 14\penalty0 (2):\penalty0 179--211, 1990.
+
 \bibitem[Faruqui and Dyer(2014)]{faruqui2014improving}
 Manaal Faruqui and Chris Dyer.
 \newblock Improving vector space word representations using multilingual
@@ -379,17 +372,16 @@ Manaal Faruqui, Jesse Dodge, Sujay~K. Jauhar, Chris Dyer, Eduard Hovy, and
 \newblock \emph{Proceedings of the North American Chapter of the Association
   for Computational Linguistics}, 2014.
 
+\bibitem[Fauconnier(1994)]{fauconnier1994mental}
+Gilles Fauconnier.
+\newblock \emph{Mental spaces: Aspects of meaning construction in natural
+  language}.
+\newblock Cambridge University Press, 1994.
+
 \bibitem[Fellbaum(1999)]{fellbaum1999wordnet}
 Christiane Fellbaum.
 \newblock \emph{WordNet}.
 \newblock Wiley Online Library, 1999.
-
-\bibitem[Feng and Lapata(2010)]{feng2010visual}
-Yansong Feng and Mirella Lapata.
-\newblock Visual information in semantic representation.
-\newblock In \emph{Human Language Technologies: The 2010 Annual Conference of
-  the North American Chapter of the Association for Computational Linguistics},
-  pages 91--99. Association for Computational Linguistics, 2010.
 
 \bibitem[Ferrucci et~al.(2010)Ferrucci, Brown, Chu-Carroll, Fan, Gondek,
   Kalyanpur, Lally, Murdock, Nyberg, Prager, Schlaefer, and
@@ -413,11 +405,6 @@ R.~Firth, J.
 \newblock \emph{A synopsis of linguistic theory 1930-1955}, pages 1--32.
 \newblock Oxford: Philological Society, 1957.
 
-\bibitem[Fodor(1983)]{fodor1983modularity}
-Jerry~A Fodor.
-\newblock \emph{The modularity of mind: An essay on faculty psychology}.
-\newblock MIT press, 1983.
-
 \bibitem[Gentner(1978)]{gentner1978relational}
 Dedre Gentner.
 \newblock On relational meaning: The acquisition of verb meaning.
@@ -428,11 +415,6 @@ Dedre Gentner.
 \newblock Why verbs are hard to learn.
 \newblock \emph{Action meets word: How children learn verbs}, pages 544--564,
   2006.
-
-\bibitem[Gershman and Dyer(2014)]{gershmanmetaphor}
-Yulia Tsvetkov Leonid Boytsov~Anatole Gershman and Eric Nyberg~Chris Dyer.
-\newblock Metaphor detection with cross-lingual model transfer.
-\newblock In \emph{Proceedings of ACL}, 2014.
 
 \bibitem[Ginsberg(2011)]{ginsberg2011dr}
 Matthew~L. Ginsberg.
@@ -452,12 +434,6 @@ Stephan Gouws, Yoshua Bengio, and Greg Corrado.
 \newblock {BilBOWA}: Fast bilingual distributed representations without word
   alignments.
 \newblock In \emph{Proceedings of NIPS Deep Learning Workshop}, 2014.
-
-\bibitem[Grafton(2009)]{grafton2009embodied}
-Scott~T Grafton.
-\newblock Embodied cognition and the simulation of action to understand others.
-\newblock \emph{Annals of the New York Academy of Sciences}, 1156\penalty0
-  (1):\penalty0 97--117, 2009.
 
 \bibitem[Graves et~al.(2008)Graves, Liwicki, Bunke, Schmidhuber, and
   Fern{\'a}ndez]{graves2008unconstrained}
@@ -495,14 +471,6 @@ Russell Grigg.
 Aria Haghighi, Percy Liang, Taylor Berg-Kirkpatrick, and Dan Klein.
 \newblock Learning bilingual lexicons from monolingual corpora.
 \newblock In \emph{ACL}, volume 2008, pages 771--779, 2008.
-
-\bibitem[Hardoon et~al.(2004)Hardoon, Szedmak, and
-  Shawe-Taylor]{hardoon2004canonical}
-David~R Hardoon, Sandor Szedmak, and John Shawe-Taylor.
-\newblock Canonical correlation analysis: An overview with application to
-  learning methods.
-\newblock \emph{Neural Computation}, 16\penalty0 (12):\penalty0 2639--2664,
-  2004.
 
 \bibitem[Harper(1965)]{harper1965}
 Kenneth Harper.
@@ -585,6 +553,18 @@ Felix Hill, Roi Reichart, and Anna Korhonen.
   estimation.
 \newblock \emph{Computational Linguistics}, 2015{\natexlab{b}}.
 
+\bibitem[Hill et~al.(2016)Hill, Bordes, Chopra, and Weston]{hill2015goldilocks}
+Felix Hill, Antoine Bordes, Sumit Chopra, and Jason Weston.
+\newblock The goldilocks principle: Reading children's books with explicit
+  memory representations.
+\newblock \emph{Proceedings of ICLR}, 2016.
+
+\bibitem[Hinton(1986)]{hinton1986learning}
+Geoffrey~E Hinton.
+\newblock Learning distributed representations of concepts.
+\newblock In \emph{Proceedings of the eighth annual conference of the cognitive
+  science society}, volume~1, page~12. Amherst, MA, 1986.
+
 \bibitem[Hinton et~al.(2012)Hinton, Srivastava, Krizhevsky, Sutskever, and
   Salakhutdinov]{hinton2012improving}
 Geoffrey~E Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and
@@ -637,12 +617,6 @@ Yangfeng Ji and Jacob Eisenstein.
 \newblock Discriminative improvements to distributional sentence similarity.
 \newblock In \emph{EMNLP}, pages 891--896, 2013.
 
-\bibitem[Johns and Jones(2012)]{johns2012perceptual}
-Brendan~T Johns and Michael~N Jones.
-\newblock Perceptual inference through global lexical similarity.
-\newblock \emph{Topics in Cognitive Science}, 4\penalty0 (1):\penalty0
-  103--120, 2012.
-
 \bibitem[Joulin and Mikolov(2015)]{joulin2015inferring}
 Armand Joulin and Tomas Mikolov.
 \newblock Inferring algorithmic patterns with stack-augmented recurrent nets.
@@ -661,17 +635,17 @@ Nal Kalchbrenner, Edward Grefenstette, and Phil Blunsom.
 \newblock A convolutional neural network for modelling sentences.
 \newblock In \emph{Proceedings of EMNLP}, 2014.
 
+\bibitem[Kiefer and Pulverm{\"u}ller(2012)]{kiefer2012conceptual}
+Markus Kiefer and Friedemann Pulverm{\"u}ller.
+\newblock Conceptual representations in mind and brain: theoretical
+  developments, current evidence and future directions.
+\newblock \emph{Cortex}, 48\penalty0 (7):\penalty0 805--825, 2012.
+
 \bibitem[Kiela and Clark(2014)]{kiela2014systematic}
 Douwe Kiela and Stephen Clark.
 \newblock A systematic study of semantic vector space model parameters.
 \newblock In \emph{Proceedings of the 2nd Workshop on Continuous Vector Space
   Models and their Compositionality (CVSC)@ EACL}, pages 21--30, 2014.
-
-\bibitem[Kiela and Clark(2015)]{kiela2015multi}
-Douwe Kiela and Stephen Clark.
-\newblock Multi-and cross-modal semantics beyond vision: Grounding in auditory
-  perception.
-\newblock In \emph{Proceedings of EMNLP}, 2015.
 
 \bibitem[Kiela et~al.(2014)Kiela, Hill, Korhonen, and Clark]{kielaimproving}
 Douwe Kiela, Felix Hill, Anna Korhonen, and Stephen Clark.
@@ -842,14 +816,6 @@ Yuval Marton, Chris Callison-Burch, and Philip Resnik.
 \newblock In \emph{Proceedings of EMNLP}, pages 381--390. Association for
   Computational Linguistics, 2009.
 
-\bibitem[McRae et~al.(2005)McRae, Cree, Seidenberg, and
-  McNorgan]{mcrae2005semantic}
-Ken McRae, George~S Cree, Mark~S Seidenberg, and Chris McNorgan.
-\newblock Semantic feature production norms for a large set of living and
-  nonliving things.
-\newblock \emph{Behavior Research Methods}, 37\penalty0 (4):\penalty0 547--559,
-  2005.
-
 \bibitem[McRae et~al.(2012)McRae, Khalkhali, and Hare]{mcrae2012semantic}
 Ken McRae, Saman Khalkhali, and Mary Hare.
 \newblock Semantic and associative relations in adolescents and young adults:
@@ -858,15 +824,11 @@ Ken McRae, Saman Khalkhali, and Mary Hare.
   Jere~Ed Confrey, editors, \emph{The adolescent brain: Learning, reasoning,
   and decision making.} American Psychological Association, 2012.
 
-\bibitem[Mesnil et~al.(2012)Mesnil, Dauphin, Glorot, Rifai, Bengio, Goodfellow,
-  Lavoie, Muller, Desjardins, Warde-Farley, et~al.]{mesnil2012unsupervised}
-Gr{\'e}goire Mesnil, Yann Dauphin, Xavier Glorot, Salah Rifai, Yoshua Bengio,
-  Ian~J Goodfellow, Erick Lavoie, Xavier Muller, Guillaume Desjardins, David
-  Warde-Farley, et~al.
-\newblock Unsupervised and transfer learning challenge: a deep learning
-  approach.
-\newblock \emph{Journal of Machine Learning Research-Proceedings Track},
-  27:\penalty0 97--110, 2012.
+\bibitem[Miikkulainen and Dyer(1991)]{miikkulainen1991natural}
+Risto Miikkulainen and Michael~G Dyer.
+\newblock Natural language processing with modular pdp networks and distributed
+  lexicon.
+\newblock \emph{Cognitive Science}, 15\penalty0 (3):\penalty0 343--399, 1991.
 
 \bibitem[Mikolov and Zweig(2012)]{mikolov2012context}
 Tomas Mikolov and Geoffrey Zweig.
@@ -918,6 +880,14 @@ Jeff Mitchell and Mirella Lapata.
 \newblock Composition in distributional models of semantics.
 \newblock \emph{Cognitive science}, 34\penalty0 (8):\penalty0 1388--1429, 2010.
 
+\bibitem[Mnih et~al.(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness, Bellemare,
+  Graves, Riedmiller, Fidjeland, Ostrovski, et~al.]{mnih2015human}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei~A Rusu, Joel Veness,
+  Marc~G Bellemare, Alex Graves, Martin Riedmiller, Andreas~K Fidjeland, Georg
+  Ostrovski, et~al.
+\newblock Human-level control through deep reinforcement learning.
+\newblock \emph{Nature}, 518\penalty0 (7540):\penalty0 529--533, 2015.
+
 \bibitem[Moll{\'a} and Vicedo(2007)]{molla2007question}
 Diego Moll{\'a} and Jos{\'e}~Luis Vicedo.
 \newblock Question answering in restricted domains: An overview.
@@ -929,6 +899,13 @@ Frederic Morin and Yoshua Bengio.
 \newblock Hierarchical probabilistic neural network language model.
 \newblock In \emph{Proceedings of the international Workshop on Artificial
   Intelligence and Statistics}, pages 246--252, 2005.
+
+\bibitem[Narasimhan et~al.(2015)Narasimhan, Kulkarni, and
+  Barzilay]{narasimhan2015language}
+Karthik Narasimhan, Tejas Kulkarni, and Regina Barzilay.
+\newblock Language understanding for text-based games using deep reinforcement
+  learning.
+\newblock \emph{Proceedings of EMNLP}, 2015.
 
 \bibitem[Navigli(2009)]{navigli2009word}
 Roberto Navigli.
@@ -977,6 +954,13 @@ Bo~Pang and Lillian Lee.
   Computational Linguistics}, pages 115--124. Association for Computational
   Linguistics, 2005.
 
+\bibitem[Patterson et~al.(2007)Patterson, Nestor, and Rogers]{patterson2007you}
+Karalyn Patterson, Peter~J Nestor, and Timothy~T Rogers.
+\newblock Where do you know what you know? the representation of semantic
+  knowledge in the human brain.
+\newblock \emph{Nature Reviews Neuroscience}, 8\penalty0 (12):\penalty0
+  976--987, 2007.
+
 \bibitem[Pedersen et~al.(2004)Pedersen, Patwardhan, and
   Michelizzi]{pedersen2004wordnet}
 Ted Pedersen, Siddharth Patwardhan, and Jason Michelizzi.
@@ -1005,6 +989,12 @@ Xuan-Hieu Phan, Le-Minh Nguyen, and Susumu Horiguchi.
 \newblock In \emph{Proceedings of the 17th international conference on World
   Wide Web}, pages 91--100. ACM, 2008.
 
+\bibitem[Pinker(2009)]{pinker2009language}
+Steven Pinker.
+\newblock \emph{Language learnability and language development, with new
+  commentary by the author}, volume~7.
+\newblock Harvard University Press, 2009.
+
 \bibitem[Plaut(1995)]{plaut1995semantic}
 David~C Plaut.
 \newblock Semantic and associative priming in a distributed attractor network.
@@ -1017,6 +1007,18 @@ Tamara Polajnar, Laura Rimell, and Stephen Clark.
   distributional semantics.
 \newblock In \emph{Workshop on Linking Models of Lexical, Sentential and
   Discourse-level Semantics (LSDSem)}, page~1, 2015.
+
+\bibitem[Poon and Domingos(2009)]{poon2009unsupervised}
+Hoifung Poon and Pedro Domingos.
+\newblock Unsupervised semantic parsing.
+\newblock In \emph{Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing: Volume 1-Volume 1}, pages 1--10. Association for
+  Computational Linguistics, 2009.
+
+\bibitem[Prinz(2004)]{prinz2004furnishing}
+Jesse~J Prinz.
+\newblock \emph{Furnishing the mind: Concepts and their perceptual basis}.
+\newblock MIT press, 2004.
 
 \bibitem[Recchia and Jones(2009)]{recchia2009more}
 Gabriel Recchia and Michael~N Jones.
@@ -1058,19 +1060,27 @@ Matthew Richardson, Christopher~JC Burges, and Erin Renshaw.
   of text.
 \newblock In \emph{EMNLP}, volume~1, page~2, 2013.
 
-\bibitem[Roller and Schulte~im Walde(2013)]{rollermultimodal}
-Stephen Roller and Sabine Schulte~im Walde.
-\newblock A multimodal {LDA} model integrating textual, cognitive and visual
-  modalities.
-\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
-  Natural Language Processing}, pages 1146--1157, Seattle, Washington, USA,
-  October 2013. Association for Computational Linguistics.
+\bibitem[Rockt{\"a}schel et~al.(2015)Rockt{\"a}schel, Grefenstette, Hermann,
+  Ko{\v{c}}isk{\`y}, and Blunsom]{rocktaschel2015reasoning}
+Tim Rockt{\"a}schel, Edward Grefenstette, Karl~Moritz Hermann, Tom{\'a}{\v{s}}
+  Ko{\v{c}}isk{\`y}, and Phil Blunsom.
+\newblock Reasoning about entailment with neural attention.
+\newblock \emph{arXiv preprint arXiv:1509.06664}, 2015.
 
-\bibitem[Rosch et~al.(1976)Rosch, Simpson, and Miller]{rosch1976structural}
+\bibitem[Rosch et~al.(1976{\natexlab{a}})Rosch, Mervis, Gray, Johnson, and
+  Boyes-Braem]{rosch1976basic}
+Eleanor Rosch, Carolyn~B Mervis, Wayne~D Gray, David~M Johnson, and Penny
+  Boyes-Braem.
+\newblock Basic objects in natural categories.
+\newblock \emph{Cognitive psychology}, 8\penalty0 (3):\penalty0 382--439,
+  1976{\natexlab{a}}.
+
+\bibitem[Rosch et~al.(1976{\natexlab{b}})Rosch, Simpson, and
+  Miller]{rosch1976structural}
 Eleanor Rosch, Carol Simpson, and R~Scott Miller.
 \newblock Structural bases of typicality effects.
 \newblock \emph{Journal of Experimental Psychology: Human perception and
-  performance}, 2\penalty0 (4):\penalty0 491, 1976.
+  performance}, 2\penalty0 (4):\penalty0 491, 1976{\natexlab{b}}.
 
 \bibitem[Rose et~al.(2002)Rose, Stevenson, and Whitehead]{rose2002reuters}
 Tony Rose, Mark Stevenson, and Miles Whitehead.
@@ -1116,20 +1126,6 @@ C~Silberer and M~Lapata.
 \newblock In \emph{Proceedings of Association for Computational Linguistics}.
   ACL, 2014.
 
-\bibitem[Silberer and Lapata(2012)]{silberer2012grounded}
-Carina Silberer and Mirella Lapata.
-\newblock Grounded models of semantic representation.
-\newblock In \emph{Proceedings of the 2012 Joint Conference on Empirical
-  Methods in Natural Language Processing and Computational Natural Language
-  Learning}, pages 1423--1433. Association for Computational Linguistics, 2012.
-
-\bibitem[Silberer et~al.(2013)Silberer, Ferrari, and
-  Lapata]{silberer2013models}
-Carina Silberer, Vittorio Ferrari, and Mirella Lapata.
-\newblock Models of semantic representation with visual attributes.
-\newblock In \emph{Proceedings of the 51th Annual Meeting of the Association
-  for Computational Linguistics, Sofia, Bulgaria, August}, 2013.
-
 \bibitem[Socher et~al.(2011)Socher, Pennington, Huang, Ng, and
   Manning]{socher2011semi}
 Richard Socher, Jeffrey Pennington, Eric~H Huang, Andrew~Y Ng, and
@@ -1140,16 +1136,19 @@ Richard Socher, Jeffrey Pennington, Eric~H Huang, Andrew~Y Ng, and
   Natural Language Processing}, pages 151--161. Association for Computational
   Linguistics, 2011.
 
-\bibitem[Srivastava and Salakhutdinov(2012)]{srivastava2012multimodal}
-Nitish Srivastava and Ruslan Salakhutdinov.
-\newblock Multimodal learning with deep boltzmann machines.
-\newblock In \emph{NIPS}, pages 2231--2239, 2012.
-
 \bibitem[Sukhbaatar et~al.(2015)Sukhbaatar, Szlam, Weston, and
   Fergus]{sukhbaatar2015end}
 Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus.
 \newblock End-to-end memory networks.
 \newblock \emph{Proceedings of NIPS}, 2015.
+
+\bibitem[Sun and Korhonen(2009)]{sun2009improving}
+Lin Sun and Anna Korhonen.
+\newblock Improving verb clustering with automatically acquired selectional
+  preferences.
+\newblock In \emph{Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing: Volume 2-Volume 2}, pages 638--647. Association
+  for Computational Linguistics, 2009.
 
 \bibitem[Sun et~al.(2008)Sun, Korhonen, and Krymolowski]{sun2008verb}
 Lin Sun, Anna Korhonen, and Yuval Krymolowski.
@@ -1177,6 +1176,12 @@ Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
   Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
 \newblock Going deeper with convolutions.
 \newblock \emph{arXiv preprint arXiv:1409.4842}, 2014.
+
+\bibitem[Tomasello and Tomasello(2009)]{tomasello2009constructing}
+Michael Tomasello and Michael Tomasello.
+\newblock \emph{Constructing a language: A usage-based theory of language
+  acquisition}.
+\newblock Harvard University Press, 2009.
 
 \bibitem[Turian et~al.(2010)Turian, Ratinov, and Bengio]{turian2010word}
 Joseph Turian, Lev Ratinov, and Yoshua Bengio.
@@ -1219,12 +1224,6 @@ Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, and
   deep network with a local denoising criterion.
 \newblock \emph{The Journal of Machine Learning Research}, 11:\penalty0
   3371--3408, 2010.
-
-\bibitem[Von~Ahn and Dabbish(2004)]{von2004labeling}
-Luis Von~Ahn and Laura Dabbish.
-\newblock Labeling images with a computer game.
-\newblock In \emph{Proceedings of the SIGCHI conference on human factors in
-  computing systems}, pages 319--326. ACM, 2004.
 
 \bibitem[Voorhees(2002)]{voorhees2002overview}
 Ellen~M Voorhees.
@@ -1292,11 +1291,6 @@ Janyce Wiebe, Theresa Wilson, and Claire Cardie.
 \newblock \emph{Language resources and evaluation}, 39\penalty0 (2-3):\penalty0
   165--210, 2005.
 
-\bibitem[Wiemer-Hastings and Xu(2005)]{katja2005content}
-Katja Wiemer-Hastings and Xu~Xu.
-\newblock Content differences for abstract and concrete concepts.
-\newblock \emph{Cognitive Science}, 29\penalty0 (5):\penalty0 719--736, 2005.
-
 \bibitem[Williams and Anand(2009)]{williams2009predicting}
 Gbolahan~K Williams and Sarabjot~Singh Anand.
 \newblock Predicting the polarity strength of adjectives using wordnet.
@@ -1307,14 +1301,6 @@ Ronald~J Williams.
 \newblock Simple statistical gradient-following algorithms for connectionist
   reinforcement learning.
 \newblock \emph{Machine learning}, 8\penalty0 (3-4):\penalty0 229--256, 1992.
-
-\bibitem[Wu et~al.(2013)Wu, Hoi, Xia, Zhao, Wang, and Miao]{wu2013online}
-Pengcheng Wu, Steven~CH Hoi, Hao Xia, Peilin Zhao, Dayong Wang, and Chunyan
-  Miao.
-\newblock Online multimodal deep similarity learning with application to image
-  retrieval.
-\newblock In \emph{Proceedings of the 21st ACM International Conference on
-  Multimedia}, pages 153--162. ACM, 2013.
 
 \bibitem[Wu and Palmer(1994)]{wu1994verbs}
 Zhibiao Wu and Martha Palmer.
@@ -1343,6 +1329,11 @@ Chung Yong and Shou~King Foo.
 Matthew~D. Zeiler.
 \newblock Adadelta: An adaptive learning rate method.
 \newblock In \emph{arXiv preprint arXiv:1212.5701}, 2012.
+
+\bibitem[Zeiler and Fergus(2014)]{zeiler2014visualizing}
+Matthew~D Zeiler and Rob Fergus.
+\newblock Visualizing and understanding convolutional networks.
+\newblock In \emph{Computer vision--ECCV 2014}, pages 818--833. Springer, 2014.
 
 \bibitem[Zock and Bilac(2004)]{zock2004word}
 Michael Zock and Slaven Bilac.

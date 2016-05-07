@@ -1,107 +1,98 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Understanding and evaluating distributed word representations}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Reproducing human semantic knowledge}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Similarity and Association}{section.2.1}% 4
-\BOOKMARK [1][-]{section.2.2}{Motivation for SimLex-999}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.2.1}{Concepts, part-of-speech and concreteness}{section.2.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.2}{Existing gold standards and evaluation resources}{section.2.2}% 7
-\BOOKMARK [1][-]{section.2.3}{The SimLex-999 Dataset}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.3.1}{Choice of Concepts}{section.2.3}% 9
-\BOOKMARK [2][-]{subsection.2.3.2}{Question Design}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.3}{Context-free rating}{section.2.3}% 11
-\BOOKMARK [2][-]{subsection.2.3.4}{Questionnaire structure}{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.5}{Participants}{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.6}{Post-processing}{section.2.3}% 14
-\BOOKMARK [1][-]{section.2.4}{Analysis of Dataset}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.4.1}{Inter-annotator agreement}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.2}{Response validity: Similarity not association}{section.2.4}% 17
-\BOOKMARK [2][-]{subsection.2.4.3}{Finer-grained Semantic Relations}{section.2.4}% 18
-\BOOKMARK [1][-]{section.2.5}{Evaluating Models with SimLex-999}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.5.1}{Neural language models for word representation}{section.2.5}% 20
-\BOOKMARK [2][-]{subsection.2.5.2}{Vector space \(counting\) models}{section.2.5}% 21
-\BOOKMARK [2][-]{subsection.2.5.3}{Results}{section.2.5}% 22
-\BOOKMARK [1][-]{section.2.6}{Conclusion}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{Representing words with neural language models and diverse data sources}{}% 24
-\BOOKMARK [1][-]{section.3.1}{Grounded acquisition of abstract concepts from multi-modal data}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.1.1}{Model Design}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.2}{Information sources}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.3}{Evaluation}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.4}{Results and Discussion}{section.3.1}% 29
-\BOOKMARK [2][-]{subsection.3.1.5}{Combining information sources}{section.3.1}% 30
-\BOOKMARK [2][-]{subsection.3.1.6}{Propagating input to abstract concepts}{section.3.1}% 31
-\BOOKMARK [2][-]{subsection.3.1.7}{Direct representation vs. propagation}{section.3.1}% 32
-\BOOKMARK [2][-]{subsection.3.1.8}{Source and quantity of perceptual input}{section.3.1}% 33
-\BOOKMARK [2][-]{subsection.3.1.9}{Conclusions}{section.3.1}% 34
-\BOOKMARK [1][-]{section.3.2}{Learning word representations from bilingual data using encoder-decoder models}{chapter.3}% 35
-\BOOKMARK [2][-]{subsection.3.2.1}{Neural Machine Translation Models}{section.3.2}% 36
-\BOOKMARK [2][-]{subsection.3.2.2}{Other bilingual models of learning word representations}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.3}{Experiments}{section.3.2}% 38
-\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Similarity and relatedness modelling}{subsection.3.2.3}% 39
-\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Importance of training data quantity}{subsection.3.2.3}% 40
-\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Analogy resolution}{subsection.3.2.3}% 41
-\BOOKMARK [1][-]{section.3.3}{Effect of Target Language}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.1}{Overcoming the vocabulary size problem}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.2}{How similarity emerges in NMT embeddings}{section.3.3}% 44
-\BOOKMARK [2][-]{subsection.3.3.3}{Conclusions}{section.3.3}% 45
-\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{Representing phrases with neural language models}{}% 47
-\BOOKMARK [1][-]{section.4.1}{Neural language model architectures}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.1.1}{Long short-term memory}{section.4.1}% 49
-\BOOKMARK [2][-]{subsection.4.1.2}{Bag-of-words NLMs}{section.4.1}% 50
-\BOOKMARK [2][-]{subsection.4.1.3}{Pre-trained input representations}{section.4.1}% 51
-\BOOKMARK [2][-]{subsection.4.1.4}{Training objective}{section.4.1}% 52
-\BOOKMARK [2][-]{subsection.4.1.5}{Implementation details}{section.4.1}% 53
-\BOOKMARK [1][-]{section.4.2}{Reverse dictionaries}{chapter.4}% 54
-\BOOKMARK [2][-]{subsection.4.2.1}{Data collection and training}{section.4.2}% 55
-\BOOKMARK [2][-]{subsection.4.2.2}{Comparisons}{section.4.2}% 56
-\BOOKMARK [2][-]{subsection.4.2.3}{Reverse dictionary evaluation}{section.4.2}% 57
-\BOOKMARK [2][-]{subsection.4.2.4}{Results}{section.4.2}% 58
-\BOOKMARK [2][-]{subsection.4.2.5}{Qualitative analysis}{section.4.2}% 59
-\BOOKMARK [2][-]{subsection.4.2.6}{Cross-lingual reverse dictionaries}{section.4.2}% 60
-\BOOKMARK [2][-]{subsection.4.2.7}{Discussion}{section.4.2}% 61
-\BOOKMARK [1][-]{section.4.3}{Answering crossword questions}{chapter.4}% 62
-\BOOKMARK [2][-]{subsection.4.3.1}{Evaluation}{section.4.3}% 63
-\BOOKMARK [2][-]{subsection.4.3.2}{Benchmarks and comparisons}{section.4.3}% 64
-\BOOKMARK [2][-]{subsection.4.3.3}{Results}{section.4.3}% 65
-\BOOKMARK [2][-]{subsection.4.3.4}{Qualitative analysis}{section.4.3}% 66
-\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 67
-\BOOKMARK [0][-]{chapter.5}{Representing sentences with neural language models}{}% 68
-\BOOKMARK [1][-]{section.5.1}{Distributed Sentence Representations}{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.1.1}{Existing Models Trained on Text}{section.5.1}% 70
-\BOOKMARK [2][-]{subsection.5.1.2}{Models Trained on Structured Resources}{section.5.1}% 71
-\BOOKMARK [2][-]{subsection.5.1.3}{Novel Text-Based Models}{section.5.1}% 72
-\BOOKMARK [2][-]{subsection.5.1.4}{Training and Model Selection}{section.5.1}% 73
-\BOOKMARK [1][-]{section.5.2}{Evaluating Sentence Representations}{chapter.5}% 74
-\BOOKMARK [2][-]{subsection.5.2.1}{Supervised Evaluations}{section.5.2}% 75
-\BOOKMARK [2][-]{subsection.5.2.2}{Unsupervised Evaluations}{section.5.2}% 76
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 77
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 78
-\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 79
-\BOOKMARK [0][-]{chapter.6}{Representing word, phrase and sentence semantics in memory networks}{}% 80
-\BOOKMARK [1][-]{section.6.1}{Testing representations `in the wild'}{chapter.6}% 81
-\BOOKMARK [1][-]{section.6.2}{The Children's Book Test}{chapter.6}% 82
-\BOOKMARK [2][-]{subsection.6.2.1}{Related resources}{section.6.2}% 83
-\BOOKMARK [1][-]{section.6.3}{Memory representation in memory networks}{chapter.6}% 84
-\BOOKMARK [2][-]{subsection.6.3.1}{End-to-end training}{section.6.3}% 85
-\BOOKMARK [2][-]{subsection.6.3.2}{Self-supervision for Window Memories}{section.6.3}% 86
-\BOOKMARK [1][-]{section.6.4}{Baseline and ocmparison models}{chapter.6}% 87
-\BOOKMARK [2][-]{subsection.6.4.1}{Non-learning baselines}{section.6.4}% 88
-\BOOKMARK [2][-]{subsection.6.4.2}{N-gram language models}{section.6.4}% 89
-\BOOKMARK [2][-]{subsection.6.4.3}{Supervised embedding models}{section.6.4}% 90
-\BOOKMARK [2][-]{subsection.6.4.4}{Recurrent language models}{section.6.4}% 91
-\BOOKMARK [2][-]{subsection.6.4.5}{Human performance}{section.6.4}% 92
-\BOOKMARK [2][-]{subsection.6.4.6}{Other related approaches}{section.6.4}% 93
-\BOOKMARK [1][-]{section.6.5}{Results}{chapter.6}% 94
-\BOOKMARK [2][-]{subsection.6.5.1}{News Article Question Answering}{section.6.5}% 95
-\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 96
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 97
-\BOOKMARK [1][-]{section.7.1}{Contributions of this thesis}{chapter.7}% 98
-\BOOKMARK [1][-]{section.7.2}{Future work}{chapter.7}% 99
-\BOOKMARK [0][-]{section*.96}{Bibliography}{}% 100
-\BOOKMARK [0][-]{appendix.A}{}{}% 101
-\BOOKMARK [1][-]{section.A.1}{Experimental Details}{appendix.A}% 102
-\BOOKMARK [1][-]{section.A.2}{Results on CBT Validation Set}{appendix.A}% 103
-\BOOKMARK [1][-]{section.A.3}{Ablation Study on CNN QA}{appendix.A}% 104
-\BOOKMARK [1][-]{section.A.4}{Effects of Anonymising Entities in CBT}{appendix.A}% 105
-\BOOKMARK [1][-]{section.A.5}{Candidates and Window Memories in CBT}{appendix.A}% 106
-\BOOKMARK [0][-]{appendix.B}{}{}% 107
+\BOOKMARK [1][-]{section.1.1}{Distributed representations of knowledge}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Deep learning}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Neural Language Models}{section.1.2}% 4
+\BOOKMARK [1][-]{section.1.3}{Unsupervised learning}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Understanding and evaluating distributed word representations}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Reproducing human semantic knowledge}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Similarity and Association}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Motivation for SimLex-999}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Concepts, part-of-speech and concreteness}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Existing gold standards and evaluation resources}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{The SimLex-999 Dataset}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Choice of Concepts}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Question Design}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.3}{Context-free rating}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.4}{Questionnaire structure}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.5}{Participants}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.6}{Post-processing}{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{Analysis of Dataset}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.4.1}{Inter-annotator agreement}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.2}{Response validity: Similarity not association}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.3}{Finer-grained Semantic Relations}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{Evaluating Models with SimLex-999}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.5.1}{Neural language models for word representation}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.2}{Vector space \(counting\) models}{section.2.5}% 25
+\BOOKMARK [2][-]{subsection.2.5.3}{Results}{section.2.5}% 26
+\BOOKMARK [1][-]{section.2.6}{Conclusion}{chapter.2}% 27
+\BOOKMARK [0][-]{chapter.3}{Representing word similarity with neural machine translation models}{}% 28
+\BOOKMARK [1][-]{section.3.1}{Encoder-decoder models for Neural Machine Translation}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{Other bilingual models of learning word representations}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.3}{Experiments}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.1}{Similarity and relatedness}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.2}{Analogy resolution}{section.3.3}% 33
+\BOOKMARK [1][-]{section.3.4}{Effect of Target Language}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.5}{Overcoming the vocabulary size problem}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.6}{Discussion}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.7}{Conclusions}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Representing phrases with neural language models}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Neural language model architectures}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.1.1}{Long short-term memory}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.2}{Bag-of-words NLMs}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.3}{Pre-trained input representations}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.4}{Training objective}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.1.5}{Implementation details}{section.4.1}% 44
+\BOOKMARK [1][-]{section.4.2}{Reverse dictionaries}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.2.1}{Data collection and training}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.2}{Comparisons}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.3}{Reverse dictionary evaluation}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.4}{Results}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.5}{Qualitative analysis}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.6}{Cross-lingual reverse dictionaries}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.7}{Discussion}{section.4.2}% 52
+\BOOKMARK [1][-]{section.4.3}{Answering crossword questions}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.3.1}{Evaluation}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.2}{Benchmarks and comparisons}{section.4.3}% 55
+\BOOKMARK [2][-]{subsection.4.3.3}{Results}{section.4.3}% 56
+\BOOKMARK [2][-]{subsection.4.3.4}{Qualitative analysis}{section.4.3}% 57
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 58
+\BOOKMARK [0][-]{chapter.5}{Representing sentences with neural language models}{}% 59
+\BOOKMARK [1][-]{section.5.1}{Distributed Sentence Representations}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.1.1}{Existing Models Trained on Text}{section.5.1}% 61
+\BOOKMARK [2][-]{subsection.5.1.2}{Models Trained on Structured Resources}{section.5.1}% 62
+\BOOKMARK [2][-]{subsection.5.1.3}{Novel Text-Based Models}{section.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.1.4}{Training and Model Selection}{section.5.1}% 64
+\BOOKMARK [1][-]{section.5.2}{Evaluating Sentence Representations}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.2.1}{Supervised Evaluations}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.2}{Unsupervised Evaluations}{section.5.2}% 67
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 70
+\BOOKMARK [0][-]{chapter.6}{Representing word, phrase and sentence semantics in memory networks}{}% 71
+\BOOKMARK [1][-]{section.6.1}{Testing representational forms `in the wild'}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.2}{The Children's Book Test}{chapter.6}% 73
+\BOOKMARK [2][-]{subsection.6.2.1}{Related resources}{section.6.2}% 74
+\BOOKMARK [1][-]{section.6.3}{Memory representation in memory networks}{chapter.6}% 75
+\BOOKMARK [2][-]{subsection.6.3.1}{End-to-end training}{section.6.3}% 76
+\BOOKMARK [2][-]{subsection.6.3.2}{Self-supervision for Window Memories}{section.6.3}% 77
+\BOOKMARK [1][-]{section.6.4}{Baseline and ocmparison models}{chapter.6}% 78
+\BOOKMARK [2][-]{subsection.6.4.1}{Non-learning baselines}{section.6.4}% 79
+\BOOKMARK [2][-]{subsection.6.4.2}{N-gram language models}{section.6.4}% 80
+\BOOKMARK [2][-]{subsection.6.4.3}{Supervised embedding models}{section.6.4}% 81
+\BOOKMARK [2][-]{subsection.6.4.4}{Recurrent language models}{section.6.4}% 82
+\BOOKMARK [2][-]{subsection.6.4.5}{Human performance}{section.6.4}% 83
+\BOOKMARK [2][-]{subsection.6.4.6}{Other related approaches}{section.6.4}% 84
+\BOOKMARK [1][-]{section.6.5}{Results}{chapter.6}% 85
+\BOOKMARK [2][-]{subsection.6.5.1}{News Article Question Answering}{section.6.5}% 86
+\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 87
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 88
+\BOOKMARK [1][-]{section.7.1}{Contributions of this thesis}{chapter.7}% 89
+\BOOKMARK [1][-]{section.7.2}{Future work}{chapter.7}% 90
+\BOOKMARK [0][-]{section*.82}{Bibliography}{}% 91
+\BOOKMARK [0][-]{appendix.A}{}{}% 92
+\BOOKMARK [1][-]{section.A.1}{Experimental Details}{appendix.A}% 93
+\BOOKMARK [1][-]{section.A.2}{Results on CBT Validation Set}{appendix.A}% 94
+\BOOKMARK [1][-]{section.A.3}{Ablation Study on CNN QA}{appendix.A}% 95
+\BOOKMARK [1][-]{section.A.4}{Effects of Anonymising Entities in CBT}{appendix.A}% 96
+\BOOKMARK [1][-]{section.A.5}{Candidates and Window Memories in CBT}{appendix.A}% 97
+\BOOKMARK [0][-]{appendix.B}{}{}% 98

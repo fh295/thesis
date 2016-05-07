@@ -1,157 +1,139 @@
 \thispagestyle {empty}
 \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
-\contentsline {chapter}{\numberline {2}Understanding and evaluating distributed word representations}{17}{chapter.2}
-\contentsline {paragraph}{The Challenge of Evaluation}{18}{section*.5}
-\contentsline {section}{\numberline {2.1}Reproducing human semantic knowledge}{19}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Similarity and Association}{20}{subsection.2.1.1}
-\contentsline {paragraph}{Association and similarity in NLP}{21}{section*.7}
-\contentsline {section}{\numberline {2.2}Motivation for SimLex-999}{23}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Concepts, part-of-speech and concreteness}{23}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Existing gold standards and evaluation resources}{23}{subsection.2.2.2}
-\contentsline {paragraph}{Representative}{24}{section*.8}
-\contentsline {paragraph}{Clearly-defined}{24}{section*.9}
-\contentsline {paragraph}{Consistent and reliable}{24}{section*.10}
-\contentsline {paragraph}{}{24}{section*.11}
-\contentsline {paragraph}{\bf WordSim-353}{24}{section*.12}
-\contentsline {paragraph}{\bf WS-Sim}{25}{section*.13}
-\contentsline {paragraph}{\bf Rubenstein \& Goodenough}{26}{section*.14}
-\contentsline {paragraph}{\bf The MEN Test Collection}{26}{section*.15}
-\contentsline {paragraph}{\bf Synonym detection sets}{27}{section*.16}
-\contentsline {section}{\numberline {2.3}The SimLex-999 Dataset}{27}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Choice of Concepts}{27}{subsection.2.3.1}
-\contentsline {paragraph}{Separating similarity from association}{27}{section*.17}
-\contentsline {paragraph}{POS category}{28}{section*.18}
-\contentsline {paragraph}{Concreteness}{28}{section*.19}
-\contentsline {paragraph}{Final sampling}{30}{section*.21}
-\contentsline {subsection}{\numberline {2.3.2}Question Design}{30}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Context-free rating}{32}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Questionnaire structure}{32}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Participants}{33}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Post-processing}{33}{subsection.2.3.6}
-\contentsline {section}{\numberline {2.4}Analysis of Dataset}{34}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Inter-annotator agreement}{34}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Response validity: Similarity not association}{36}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Finer-grained Semantic Relations}{37}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Evaluating Models with SimLex-999}{39}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Neural language models for word representation}{39}{subsection.2.5.1}
-\contentsline {paragraph}{\bf Collobert \& Weston}{39}{section*.28}
-\contentsline {paragraph}{\bf Huang et al.}{40}{section*.29}
-\contentsline {paragraph}{\bf Log-linear models}{41}{section*.30}
-\contentsline {subsection}{\numberline {2.5.2}\bf Vector space (counting) models}{42}{subsection.2.5.2}
-\contentsline {paragraph}{\bf LSA}{42}{section*.31}
-\contentsline {subsection}{\numberline {2.5.3}Results}{43}{subsection.2.5.3}
-\contentsline {paragraph}{\bf Overall performance on SimLex-999}{43}{figure.caption.34}
-\contentsline {paragraph}{\bf Modeling similarity vs. association}{44}{section*.35}
-\contentsline {paragraph}{\bf Learning concepts of different POS}{47}{section*.39}
-\contentsline {paragraph}{\bf Learning concrete and abstract concepts}{47}{figure.caption.41}
-\contentsline {section}{\numberline {2.6}Conclusion}{48}{section.2.6}
-\contentsline {paragraph}{What is so special about neural word embeddings?}{49}{section*.42}
-\contentsline {paragraph}{The future of word representations}{50}{section*.43}
-\contentsline {chapter}{\numberline {3}Representing words with neural language models and diverse data sources}{53}{chapter.3}
-\contentsline {section}{\numberline {3.1}Grounded acquisition of abstract concepts from multi-modal data}{54}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Model Design}{56}{subsection.3.1.1}
-\contentsline {paragraph}{Language-only model}{56}{section*.44}
-\contentsline {subsection}{\numberline {3.1.2}Information sources}{58}{subsection.3.1.2}
-\contentsline {paragraph}{ESPGame dataset}{58}{section*.46}
-\contentsline {paragraph}{CSLB Property Norms}{58}{section*.47}
-\contentsline {paragraph}{Linguistic input}{59}{section*.48}
-\contentsline {subsection}{\numberline {3.1.3}Evaluation}{59}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Results and Discussion}{60}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Combining information sources}{61}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Propagating input to abstract concepts}{62}{subsection.3.1.6}
-\contentsline {paragraph}{Johns and Jones}{62}{section*.52}
-\contentsline {paragraph}{Ridge Regression}{62}{section*.53}
-\contentsline {paragraph}{Comparisons}{63}{section*.54}
-\contentsline {subsection}{\numberline {3.1.7}Direct representation vs. propagation}{65}{subsection.3.1.7}
-\contentsline {subsection}{\numberline {3.1.8}Source and quantity of perceptual input}{66}{subsection.3.1.8}
-\contentsline {subsection}{\numberline {3.1.9}Conclusions}{66}{subsection.3.1.9}
-\contentsline {paragraph}{Type I}{67}{section*.57}
-\contentsline {paragraph}{Type II}{67}{section*.58}
-\contentsline {paragraph}{Type III}{67}{section*.59}
-\contentsline {section}{\numberline {3.2}Learning word representations from bilingual data using encoder-decoder models}{68}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Neural Machine Translation Models}{68}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Other bilingual models of learning word representations}{69}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Experiments}{70}{subsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.3.1}Similarity and relatedness modelling}{71}{subsubsection.3.2.3.1}
-\contentsline {subsubsection}{\numberline {3.2.3.2}Importance of training data quantity}{74}{subsubsection.3.2.3.2}
-\contentsline {subsubsection}{\numberline {3.2.3.3}Analogy resolution}{74}{subsubsection.3.2.3.3}
-\contentsline {section}{\numberline {3.3}Effect of Target Language}{76}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Overcoming the vocabulary size problem}{77}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}How similarity emerges in NMT embeddings}{79}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Conclusions}{80}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Discussion}{81}{section.3.4}
-\contentsline {chapter}{\numberline {4}Representing phrases with neural language models}{83}{chapter.4}
-\contentsline {section}{\numberline {4.1}Neural language model architectures}{85}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Long short-term memory}{86}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Bag-of-words NLMs}{87}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Pre-trained input representations}{88}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Training objective}{88}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Implementation details}{89}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}Reverse dictionaries}{89}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Data collection and training}{90}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Comparisons}{91}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Reverse dictionary evaluation}{92}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Results}{93}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Qualitative analysis}{95}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Cross-lingual reverse dictionaries}{95}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Discussion}{97}{subsection.4.2.7}
-\contentsline {section}{\numberline {4.3}Answering crossword questions}{98}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Evaluation}{99}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Benchmarks and comparisons}{100}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Results}{101}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Qualitative analysis}{102}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Conclusion}{103}{section.4.4}
-\contentsline {chapter}{\numberline {5}Representing sentences with neural language models}{105}{chapter.5}
-\contentsline {section}{\numberline {5.1}Distributed Sentence Representations}{106}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Existing Models Trained on Text}{107}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Models Trained on Structured Resources}{108}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Novel Text-Based Models}{109}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Training and Model Selection}{111}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Evaluating Sentence Representations}{112}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Supervised Evaluations}{113}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Unsupervised Evaluations}{113}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Results}{114}{section.5.3}
-\contentsline {section}{\numberline {5.4}Discussion}{115}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusion}{118}{section.5.5}
-\contentsline {paragraph}{What is the optimal representation `scope'?}{119}{section*.80}
-\contentsline {paragraph}{What, if anything, is the correct model prior for sentences?}{119}{section*.81}
-\contentsline {chapter}{\numberline {6}Representing word, phrase and sentence semantics in memory networks}{121}{chapter.6}
-\contentsline {section}{\numberline {6.1}Testing representations `in the wild'}{122}{section.6.1}
-\contentsline {section}{\numberline {6.2}The Children's Book Test}{123}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Related resources}{125}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Memory representation in memory networks}{126}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}End-to-end training}{127}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{127}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Baseline and ocmparison models}{129}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Non-learning baselines}{129}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}N-gram language models}{129}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Supervised embedding models}{130}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Recurrent language models}{130}{subsection.6.4.4}
-\contentsline {subsection}{\numberline {6.4.5}Human performance}{131}{subsection.6.4.5}
-\contentsline {subsection}{\numberline {6.4.6}Other related approaches}{131}{subsection.6.4.6}
-\contentsline {section}{\numberline {6.5}Results}{132}{section.6.5}
-\contentsline {paragraph}{The form of memory representations}{132}{section*.85}
-\contentsline {paragraph}{Modelling syntactic flow}{133}{section*.86}
-\contentsline {paragraph}{Capturing semantic coherence}{133}{section*.87}
-\contentsline {paragraph}{Self-supervised memory retrieval}{134}{section*.89}
-\contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{134}{subsection.6.5.1}
-\contentsline {section}{\numberline {6.6}Conclusion}{136}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{137}{chapter.7}
-\contentsline {section}{\numberline {7.1}Contributions of this thesis}{137}{section.7.1}
-\contentsline {paragraph}{A new resource for the evaluation of distributed word representations}{138}{section*.91}
-\contentsline {paragraph}{Two novel methods for acquiring distributed word representations}{138}{section*.92}
-\contentsline {paragraph}{Learning phrase representations by training NLMs on dictionaries or encyclopedias}{139}{section*.93}
-\contentsline {paragraph}{Two novel models for learning distributed sentence representations from text}{139}{section*.94}
-\contentsline {paragraph}{Representing naturally-occurring language in memory networks}{139}{section*.95}
-\contentsline {section}{\numberline {7.2}Future work}{140}{section.7.2}
-\contentsline {chapter}{Bibliography}{143}{section*.96}
-\contentsline {chapter}{\numberline {A}}{163}{appendix.A}
-\contentsline {section}{\numberline {A.1}Experimental Details}{163}{section.A.1}
-\contentsline {paragraph}{Setting}{163}{section*.98}
-\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{163}{section*.99}
-\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{164}{section*.100}
-\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{164}{section.A.2}
-\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{165}{section.A.3}
-\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{165}{section.A.4}
-\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{165}{section.A.5}
-\contentsline {chapter}{\numberline {B}}{167}{appendix.B}
+\contentsline {section}{\numberline {1.1}Distributed representations of knowledge}{16}{section.1.1}
+\contentsline {section}{\numberline {1.2}Deep learning}{18}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Neural Language Models}{19}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Unsupervised learning}{20}{section.1.3}
+\contentsline {chapter}{\numberline {2}Understanding and evaluating distributed word representations}{23}{chapter.2}
+\contentsline {paragraph}{The Challenge of Evaluation}{24}{section*.6}
+\contentsline {section}{\numberline {2.1}Reproducing human semantic knowledge}{26}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Similarity and Association}{26}{subsection.2.1.1}
+\contentsline {paragraph}{Association and similarity in NLP}{28}{section*.8}
+\contentsline {section}{\numberline {2.2}Motivation for SimLex-999}{29}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Concepts, part-of-speech and concreteness}{29}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Existing gold standards and evaluation resources}{30}{subsection.2.2.2}
+\contentsline {paragraph}{Representative}{30}{section*.9}
+\contentsline {paragraph}{Clearly-defined}{30}{section*.10}
+\contentsline {paragraph}{Consistent and reliable}{30}{section*.11}
+\contentsline {paragraph}{}{30}{section*.12}
+\contentsline {paragraph}{\bf WordSim-353}{31}{section*.13}
+\contentsline {paragraph}{\bf WS-Sim}{32}{section*.14}
+\contentsline {paragraph}{\bf Rubenstein \& Goodenough}{32}{section*.15}
+\contentsline {paragraph}{\bf The MEN Test Collection}{33}{section*.16}
+\contentsline {paragraph}{\bf Synonym detection sets}{33}{section*.17}
+\contentsline {section}{\numberline {2.3}The SimLex-999 Dataset}{34}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Choice of Concepts}{34}{subsection.2.3.1}
+\contentsline {paragraph}{Separating similarity from association}{34}{section*.18}
+\contentsline {paragraph}{POS category}{34}{section*.19}
+\contentsline {paragraph}{Concreteness}{35}{section*.20}
+\contentsline {paragraph}{Final sampling}{36}{section*.22}
+\contentsline {subsection}{\numberline {2.3.2}Question Design}{36}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Context-free rating}{37}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Questionnaire structure}{39}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Participants}{39}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Post-processing}{39}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}Analysis of Dataset}{40}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Inter-annotator agreement}{40}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Response validity: Similarity not association}{42}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Finer-grained Semantic Relations}{44}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Evaluating Models with SimLex-999}{45}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Neural language models for word representation}{46}{subsection.2.5.1}
+\contentsline {paragraph}{\bf Collobert \& Weston}{46}{section*.29}
+\contentsline {paragraph}{\bf Huang et al.}{46}{section*.30}
+\contentsline {paragraph}{\bf Log-linear models}{47}{section*.31}
+\contentsline {subsection}{\numberline {2.5.2}\bf Vector space (counting) models}{49}{subsection.2.5.2}
+\contentsline {paragraph}{\bf LSA}{49}{section*.32}
+\contentsline {subsection}{\numberline {2.5.3}Results}{49}{subsection.2.5.3}
+\contentsline {paragraph}{\bf Overall performance on SimLex-999}{49}{figure.caption.35}
+\contentsline {paragraph}{\bf Modeling similarity vs. association}{51}{section*.36}
+\contentsline {paragraph}{\bf Learning concepts of different POS}{54}{section*.40}
+\contentsline {paragraph}{\bf Learning concrete and abstract concepts}{54}{figure.caption.42}
+\contentsline {section}{\numberline {2.6}Conclusion}{55}{section.2.6}
+\contentsline {paragraph}{What is so special about neural word embeddings?}{56}{section*.43}
+\contentsline {paragraph}{The future of word representations}{57}{section*.44}
+\contentsline {chapter}{\numberline {3}Representing word similarity with neural machine translation models}{59}{chapter.3}
+\contentsline {section}{\numberline {3.1}Encoder-decoder models for Neural Machine Translation}{60}{section.3.1}
+\contentsline {section}{\numberline {3.2}Other bilingual models of learning word representations}{61}{section.3.2}
+\contentsline {section}{\numberline {3.3}Experiments}{62}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Similarity and relatedness}{63}{subsection.3.3.1}
+\contentsline {paragraph}{Effect of training data quantity}{66}{section*.47}
+\contentsline {subsection}{\numberline {3.3.2}Analogy resolution}{66}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Effect of Target Language}{68}{section.3.4}
+\contentsline {section}{\numberline {3.5}Overcoming the vocabulary size problem}{69}{section.3.5}
+\contentsline {section}{\numberline {3.6}Discussion}{71}{section.3.6}
+\contentsline {section}{\numberline {3.7}Conclusions}{72}{section.3.7}
+\contentsline {chapter}{\numberline {4}Representing phrases with neural language models}{75}{chapter.4}
+\contentsline {section}{\numberline {4.1}Neural language model architectures}{77}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Long short-term memory}{78}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Bag-of-words NLMs}{79}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Pre-trained input representations}{80}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Training objective}{80}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Implementation details}{81}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Reverse dictionaries}{81}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Data collection and training}{82}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Comparisons}{83}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Reverse dictionary evaluation}{84}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Results}{85}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Qualitative analysis}{87}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Cross-lingual reverse dictionaries}{87}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Discussion}{89}{subsection.4.2.7}
+\contentsline {section}{\numberline {4.3}Answering crossword questions}{90}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Evaluation}{91}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Benchmarks and comparisons}{92}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Results}{93}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Qualitative analysis}{94}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Conclusion}{95}{section.4.4}
+\contentsline {chapter}{\numberline {5}Representing sentences with neural language models}{97}{chapter.5}
+\contentsline {section}{\numberline {5.1}Distributed Sentence Representations}{98}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Existing Models Trained on Text}{99}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Models Trained on Structured Resources}{100}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Novel Text-Based Models}{101}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Training and Model Selection}{102}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Evaluating Sentence Representations}{104}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Supervised Evaluations}{104}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Unsupervised Evaluations}{105}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Results}{106}{section.5.3}
+\contentsline {section}{\numberline {5.4}Discussion}{107}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusion}{110}{section.5.5}
+\contentsline {paragraph}{What is the optimal representation `scope'?}{111}{section*.66}
+\contentsline {paragraph}{What, if anything, is the correct model prior for sentences?}{111}{section*.67}
+\contentsline {chapter}{\numberline {6}Representing word, phrase and sentence semantics in memory networks}{113}{chapter.6}
+\contentsline {section}{\numberline {6.1}Testing representational forms `in the wild'}{114}{section.6.1}
+\contentsline {section}{\numberline {6.2}The Children's Book Test}{115}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Related resources}{117}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Memory representation in memory networks}{118}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}End-to-end training}{119}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{119}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Baseline and ocmparison models}{121}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Non-learning baselines}{121}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}N-gram language models}{121}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Supervised embedding models}{122}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Recurrent language models}{122}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}Human performance}{123}{subsection.6.4.5}
+\contentsline {subsection}{\numberline {6.4.6}Other related approaches}{123}{subsection.6.4.6}
+\contentsline {section}{\numberline {6.5}Results}{124}{section.6.5}
+\contentsline {paragraph}{The form of memory representations}{124}{section*.71}
+\contentsline {paragraph}{Modelling syntactic flow}{125}{section*.72}
+\contentsline {paragraph}{Capturing semantic coherence}{125}{section*.73}
+\contentsline {paragraph}{Self-supervised memory retrieval}{126}{section*.75}
+\contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{126}{subsection.6.5.1}
+\contentsline {section}{\numberline {6.6}Conclusion}{128}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{129}{chapter.7}
+\contentsline {section}{\numberline {7.1}Contributions of this thesis}{129}{section.7.1}
+\contentsline {paragraph}{A new resource for the evaluation of distributed word representations}{130}{section*.77}
+\contentsline {paragraph}{A novel method for acquiring distributed word representations from bilingual texts}{130}{section*.78}
+\contentsline {paragraph}{Learning phrase representations by training NLMs on dictionaries or encyclopedias}{130}{section*.79}
+\contentsline {paragraph}{Two novel models for learning distributed sentence representations from text}{131}{section*.80}
+\contentsline {paragraph}{Representing naturally-occurring language in memory networks}{131}{section*.81}
+\contentsline {section}{\numberline {7.2}Future work}{132}{section.7.2}
+\contentsline {chapter}{Bibliography}{135}{section*.82}
+\contentsline {chapter}{\numberline {A}}{155}{appendix.A}
+\contentsline {section}{\numberline {A.1}Experimental Details}{155}{section.A.1}
+\contentsline {paragraph}{Setting}{155}{section*.84}
+\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{155}{section*.85}
+\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{156}{section*.86}
+\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{156}{section.A.2}
+\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{157}{section.A.3}
+\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{157}{section.A.4}
+\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{157}{section.A.5}
+\contentsline {chapter}{\numberline {B}}{159}{appendix.B}
