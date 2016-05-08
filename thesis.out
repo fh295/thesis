@@ -1,26 +1,26 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Distributed representations of knowledge}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Deep learning}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{Neural Language Models}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{Neural language models}{section.1.2}% 4
 \BOOKMARK [1][-]{section.1.3}{Unsupervised learning}{chapter.1}% 5
 \BOOKMARK [0][-]{chapter.2}{Understanding and evaluating distributed word representations}{}% 6
 \BOOKMARK [1][-]{section.2.1}{Reproducing human semantic knowledge}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Similarity and Association}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Similarity and association}{section.2.1}% 8
 \BOOKMARK [1][-]{section.2.2}{Motivation for SimLex-999}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.1}{Concepts, part-of-speech and concreteness}{section.2.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.2}{Existing gold standards and evaluation resources}{section.2.2}% 11
-\BOOKMARK [1][-]{section.2.3}{The SimLex-999 Dataset}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.3.1}{Choice of Concepts}{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.2}{Question Design}{section.2.3}% 14
+\BOOKMARK [1][-]{section.2.3}{The SimLex-999 dataset}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Choice of concepts}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Question design}{section.2.3}% 14
 \BOOKMARK [2][-]{subsection.2.3.3}{Context-free rating}{section.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.3.4}{Questionnaire structure}{section.2.3}% 16
 \BOOKMARK [2][-]{subsection.2.3.5}{Participants}{section.2.3}% 17
 \BOOKMARK [2][-]{subsection.2.3.6}{Post-processing}{section.2.3}% 18
-\BOOKMARK [1][-]{section.2.4}{Analysis of Dataset}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.4}{Analysis of dataset}{chapter.2}% 19
 \BOOKMARK [2][-]{subsection.2.4.1}{Inter-annotator agreement}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.2}{Response validity: Similarity not association}{section.2.4}% 21
-\BOOKMARK [2][-]{subsection.2.4.3}{Finer-grained Semantic Relations}{section.2.4}% 22
-\BOOKMARK [1][-]{section.2.5}{Evaluating Models with SimLex-999}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.2}{Response validity: similarity not association}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.3}{Finer-grained semantic relations}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{Evaluating models with SimLex-999}{chapter.2}% 23
 \BOOKMARK [2][-]{subsection.2.5.1}{Neural language models for word representation}{section.2.5}% 24
 \BOOKMARK [2][-]{subsection.2.5.2}{Vector space \(counting\) models}{section.2.5}% 25
 \BOOKMARK [2][-]{subsection.2.5.3}{Results}{section.2.5}% 26
@@ -31,7 +31,7 @@
 \BOOKMARK [1][-]{section.3.3}{Experiments}{chapter.3}% 31
 \BOOKMARK [2][-]{subsection.3.3.1}{Similarity and relatedness}{section.3.3}% 32
 \BOOKMARK [2][-]{subsection.3.3.2}{Analogy resolution}{section.3.3}% 33
-\BOOKMARK [1][-]{section.3.4}{Effect of Target Language}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.4}{Effect of target language}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.5}{Overcoming the vocabulary size problem}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.6}{Discussion}{chapter.3}% 36
 \BOOKMARK [1][-]{section.3.7}{Conclusions}{chapter.3}% 37
@@ -57,14 +57,14 @@
 \BOOKMARK [2][-]{subsection.4.3.4}{Qualitative analysis}{section.4.3}% 57
 \BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 58
 \BOOKMARK [0][-]{chapter.5}{Representing sentences with neural language models}{}% 59
-\BOOKMARK [1][-]{section.5.1}{Distributed Sentence Representations}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.1.1}{Existing Models Trained on Text}{section.5.1}% 61
-\BOOKMARK [2][-]{subsection.5.1.2}{Models Trained on Structured Resources}{section.5.1}% 62
-\BOOKMARK [2][-]{subsection.5.1.3}{Novel Text-Based Models}{section.5.1}% 63
-\BOOKMARK [2][-]{subsection.5.1.4}{Training and Model Selection}{section.5.1}% 64
-\BOOKMARK [1][-]{section.5.2}{Evaluating Sentence Representations}{chapter.5}% 65
-\BOOKMARK [2][-]{subsection.5.2.1}{Supervised Evaluations}{section.5.2}% 66
-\BOOKMARK [2][-]{subsection.5.2.2}{Unsupervised Evaluations}{section.5.2}% 67
+\BOOKMARK [1][-]{section.5.1}{Distributed sentence representations}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.1.1}{Existing models trained on text}{section.5.1}% 61
+\BOOKMARK [2][-]{subsection.5.1.2}{Models trained on structured resources}{section.5.1}% 62
+\BOOKMARK [2][-]{subsection.5.1.3}{Novel text-based models}{section.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.1.4}{Training and model selection}{section.5.1}% 64
+\BOOKMARK [1][-]{section.5.2}{Evaluating sentence representations}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.2.1}{Supervised evaluations}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.2}{Unsupervised evaluations}{section.5.2}% 67
 \BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 68
 \BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 69
 \BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 70
@@ -74,8 +74,8 @@
 \BOOKMARK [2][-]{subsection.6.2.1}{Related resources}{section.6.2}% 74
 \BOOKMARK [1][-]{section.6.3}{Memory representation in memory networks}{chapter.6}% 75
 \BOOKMARK [2][-]{subsection.6.3.1}{End-to-end training}{section.6.3}% 76
-\BOOKMARK [2][-]{subsection.6.3.2}{Self-supervision for Window Memories}{section.6.3}% 77
-\BOOKMARK [1][-]{section.6.4}{Baseline and ocmparison models}{chapter.6}% 78
+\BOOKMARK [2][-]{subsection.6.3.2}{Self-supervision for window memories}{section.6.3}% 77
+\BOOKMARK [1][-]{section.6.4}{Baseline and comparison models}{chapter.6}% 78
 \BOOKMARK [2][-]{subsection.6.4.1}{Non-learning baselines}{section.6.4}% 79
 \BOOKMARK [2][-]{subsection.6.4.2}{N-gram language models}{section.6.4}% 80
 \BOOKMARK [2][-]{subsection.6.4.3}{Supervised embedding models}{section.6.4}% 81
@@ -83,7 +83,7 @@
 \BOOKMARK [2][-]{subsection.6.4.5}{Human performance}{section.6.4}% 83
 \BOOKMARK [2][-]{subsection.6.4.6}{Other related approaches}{section.6.4}% 84
 \BOOKMARK [1][-]{section.6.5}{Results}{chapter.6}% 85
-\BOOKMARK [2][-]{subsection.6.5.1}{News Article Question Answering}{section.6.5}% 86
+\BOOKMARK [2][-]{subsection.6.5.1}{News article question answering}{section.6.5}% 86
 \BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 87
 \BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 88
 \BOOKMARK [1][-]{section.7.1}{Contributions of this thesis}{chapter.7}% 89

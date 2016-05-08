@@ -2,12 +2,12 @@
 \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
 \contentsline {section}{\numberline {1.1}Distributed representations of knowledge}{16}{section.1.1}
 \contentsline {section}{\numberline {1.2}Deep learning}{18}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Neural Language Models}{19}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Neural language models}{19}{subsection.1.2.1}
 \contentsline {section}{\numberline {1.3}Unsupervised learning}{20}{section.1.3}
 \contentsline {chapter}{\numberline {2}Understanding and evaluating distributed word representations}{23}{chapter.2}
 \contentsline {paragraph}{The Challenge of Evaluation}{24}{section*.6}
 \contentsline {section}{\numberline {2.1}Reproducing human semantic knowledge}{26}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Similarity and Association}{26}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Similarity and association}{26}{subsection.2.1.1}
 \contentsline {paragraph}{Association and similarity in NLP}{28}{section*.8}
 \contentsline {section}{\numberline {2.2}Motivation for SimLex-999}{29}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Concepts, part-of-speech and concreteness}{29}{subsection.2.2.1}
@@ -21,22 +21,22 @@
 \contentsline {paragraph}{\bf Rubenstein \& Goodenough}{32}{section*.15}
 \contentsline {paragraph}{\bf The MEN Test Collection}{33}{section*.16}
 \contentsline {paragraph}{\bf Synonym detection sets}{33}{section*.17}
-\contentsline {section}{\numberline {2.3}The SimLex-999 Dataset}{34}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Choice of Concepts}{34}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}The SimLex-999 dataset}{34}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Choice of concepts}{34}{subsection.2.3.1}
 \contentsline {paragraph}{Separating similarity from association}{34}{section*.18}
 \contentsline {paragraph}{POS category}{34}{section*.19}
 \contentsline {paragraph}{Concreteness}{35}{section*.20}
 \contentsline {paragraph}{Final sampling}{36}{section*.22}
-\contentsline {subsection}{\numberline {2.3.2}Question Design}{36}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Question design}{36}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Context-free rating}{37}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Questionnaire structure}{39}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Participants}{39}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Post-processing}{39}{subsection.2.3.6}
-\contentsline {section}{\numberline {2.4}Analysis of Dataset}{40}{section.2.4}
+\contentsline {section}{\numberline {2.4}Analysis of dataset}{40}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Inter-annotator agreement}{40}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Response validity: Similarity not association}{42}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Finer-grained Semantic Relations}{44}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Evaluating Models with SimLex-999}{45}{section.2.5}
+\contentsline {subsection}{\numberline {2.4.2}Response validity: similarity not association}{42}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Finer-grained semantic relations}{44}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Evaluating models with SimLex-999}{45}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Neural language models for word representation}{46}{subsection.2.5.1}
 \contentsline {paragraph}{\bf Collobert \& Weston}{46}{section*.29}
 \contentsline {paragraph}{\bf Huang et al.}{46}{section*.30}
@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Similarity and relatedness}{63}{subsection.3.3.1}
 \contentsline {paragraph}{Effect of training data quantity}{66}{section*.47}
 \contentsline {subsection}{\numberline {3.3.2}Analogy resolution}{66}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Effect of Target Language}{68}{section.3.4}
+\contentsline {section}{\numberline {3.4}Effect of target language}{68}{section.3.4}
 \contentsline {section}{\numberline {3.5}Overcoming the vocabulary size problem}{69}{section.3.5}
 \contentsline {section}{\numberline {3.6}Discussion}{71}{section.3.6}
 \contentsline {section}{\numberline {3.7}Conclusions}{72}{section.3.7}
@@ -84,14 +84,14 @@
 \contentsline {subsection}{\numberline {4.3.4}Qualitative analysis}{94}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Conclusion}{95}{section.4.4}
 \contentsline {chapter}{\numberline {5}Representing sentences with neural language models}{97}{chapter.5}
-\contentsline {section}{\numberline {5.1}Distributed Sentence Representations}{98}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Existing Models Trained on Text}{99}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Models Trained on Structured Resources}{100}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Novel Text-Based Models}{101}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Training and Model Selection}{102}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Evaluating Sentence Representations}{104}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Supervised Evaluations}{104}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Unsupervised Evaluations}{105}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.1}Distributed sentence representations}{98}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Existing models trained on text}{99}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Models trained on structured resources}{100}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Novel text-based models}{101}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Training and model selection}{102}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Evaluating sentence representations}{104}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Supervised evaluations}{104}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Unsupervised evaluations}{105}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Results}{106}{section.5.3}
 \contentsline {section}{\numberline {5.4}Discussion}{107}{section.5.4}
 \contentsline {section}{\numberline {5.5}Conclusion}{110}{section.5.5}
@@ -103,8 +103,8 @@
 \contentsline {subsection}{\numberline {6.2.1}Related resources}{117}{subsection.6.2.1}
 \contentsline {section}{\numberline {6.3}Memory representation in memory networks}{118}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}End-to-end training}{119}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Self-supervision for Window Memories}{119}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Baseline and ocmparison models}{121}{section.6.4}
+\contentsline {subsection}{\numberline {6.3.2}Self-supervision for window memories}{119}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Baseline and comparison models}{121}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Non-learning baselines}{121}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}N-gram language models}{121}{subsection.6.4.2}
 \contentsline {subsection}{\numberline {6.4.3}Supervised embedding models}{122}{subsection.6.4.3}
@@ -116,24 +116,24 @@
 \contentsline {paragraph}{Modelling syntactic flow}{125}{section*.72}
 \contentsline {paragraph}{Capturing semantic coherence}{125}{section*.73}
 \contentsline {paragraph}{Self-supervised memory retrieval}{126}{section*.75}
-\contentsline {subsection}{\numberline {6.5.1}News Article Question Answering}{126}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}News article question answering}{126}{subsection.6.5.1}
 \contentsline {section}{\numberline {6.6}Conclusion}{128}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{129}{chapter.7}
 \contentsline {section}{\numberline {7.1}Contributions of this thesis}{129}{section.7.1}
 \contentsline {paragraph}{A new resource for the evaluation of distributed word representations}{130}{section*.77}
 \contentsline {paragraph}{A novel method for acquiring distributed word representations from bilingual texts}{130}{section*.78}
-\contentsline {paragraph}{Learning phrase representations by training NLMs on dictionaries or encyclopedias}{130}{section*.79}
+\contentsline {paragraph}{A simple method for extending word representations to phrases}{130}{section*.79}
 \contentsline {paragraph}{Two novel models for learning distributed sentence representations from text}{131}{section*.80}
-\contentsline {paragraph}{Representing naturally-occurring language in memory networks}{131}{section*.81}
+\contentsline {paragraph}{Interpreting language in context with memory networks}{131}{section*.81}
 \contentsline {section}{\numberline {7.2}Future work}{132}{section.7.2}
 \contentsline {chapter}{Bibliography}{135}{section*.82}
-\contentsline {chapter}{\numberline {A}}{155}{appendix.A}
-\contentsline {section}{\numberline {A.1}Experimental Details}{155}{section.A.1}
-\contentsline {paragraph}{Setting}{155}{section*.84}
-\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{155}{section*.85}
-\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{156}{section*.86}
-\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{156}{section.A.2}
-\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{157}{section.A.3}
-\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{157}{section.A.4}
-\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{157}{section.A.5}
-\contentsline {chapter}{\numberline {B}}{159}{appendix.B}
+\contentsline {chapter}{\numberline {A}}{157}{appendix.A}
+\contentsline {section}{\numberline {A.1}Experimental Details}{157}{section.A.1}
+\contentsline {paragraph}{Setting}{157}{section*.84}
+\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{157}{section*.85}
+\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{158}{section*.86}
+\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{158}{section.A.2}
+\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{159}{section.A.3}
+\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{159}{section.A.4}
+\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{159}{section.A.5}
+\contentsline {chapter}{\numberline {B}}{161}{appendix.B}

@@ -9,11 +9,11 @@ In this chapter, I address these questions by means of a systematic comparison o
 
 I observe notable differences in approaches depending on the nature of the evaluation metric. In particular, deeper or more complex models (which require greater time and resources to train) generally perform best in the supervised setting, whereas shallow log-linear models work best on unsupervised benchmarks. Specifically, SkipThought Vectors~\citep{kiros2015skip} are most effective for the majority of supervised evaluations, but SDAEs are the top performer on paraphrase identification. In contrast, on the (unsupervised) SICK sentence relatedness benchmark, FastSent, a simple, log-linear variant of the SkipThought objective, performs better than all other models. Interestingly, the method that exhibits strongest performance across both supervised and unsupervised benchmarks is a bag-of-words model trained to compose word embeddings using dictionary definitions~\citep{hill2015learning}. Taken together, these findings constitute valuable guidelines for the application of phrasal or sentential representation-learning to language understanding systems.
 
-\section{Distributed Sentence Representations}
+\section{Distributed sentence representations}
 
 To constrain the analysis, I compare neural language models that compute sentence representations from unlabelled, naturally-occurring data, as with the predominant methods for word representations.\footnote{This excludes innovative supervised sentence-level architectures such as those of \cite{socher2011semi},\cite{kalchbrenner2014convolutional} and many others.} Likewise, I do not focus on `bottom up' models where phrase or sentence representations are built from fixed mathematical operations on word vectors (although I do consider a canonical case - see CBOW below); these were already compared by~\cite{milajevs2014evaluating}. Most space is devoted to the novel approaches, and I refer the reader to the original papers for more details of existing models. 
 
-\subsection{Existing Models Trained on Text}
+\subsection{Existing models trained on text}
 {\bf SkipThought Vectors} For consecutive sentences \(S_{i-1},S_i,S_{i+1}\) in some document, the {\bf SkipThought} model \citep{kiros2015skip} is trained to predict target sentences \(S_{i-1}\) and \(S_{i+1}\) given source sentence \(S_i\). As with all~\emph{sequence-to-sequence} models, in training the source sentence is `encoded' by a Recurrent Neural Network (RNN) (with Gated Recurrent Units~\citep{cho2014learning}) and then `decoded' into the two target sentences in turn. Importantly, because RNNs employ a single set of update weights at each time-step, both the encoder and decoder are sensitive to the order of words in the source sentence. 
 
 For each position in a target sentence \(S_t\), the decoder computes a softmax distribution over the model's vocabulary. The cost of a training example is the sum of the negative log-likelihood of each correct word in the target sentences \(S_{i-1}\) and \(S_{i+1}\). This cost is backpropagated to train the encoder (and decoder), which, when trained, can map sequences of words to a single vector.
@@ -28,7 +28,7 @@ I also compare to {\bf C-PHRASE}~\citep{marcobaronijointly}, an approach that ex
 
 \vspace{5pt}\noindent{\bf Non-Distributed Baseline} I implement a {\bf TFIDF BOW} model in which the representation of sentence \(S\) encodes the count in \(S\) of a set of feature-words weighted by their \emph{tfidf} in \(C\), the corpus. The feature-words are the 200,000 most common words in \(C\). 
 
-\subsection{Models Trained on Structured Resources}
+\subsection{Models trained on structured resources}
 The following models rely on (freely-available) data that has more structure than raw text.
 
 \vspace{5pt}\noindent{\bf DictRep} \cite{hill2015learning} trained neural language models to map dictionary definitions to pre-trained word embeddings of the words defined by those definitions. They experimented with {\bf BOW} and {\bf RNN} (with LSTM) encoding architectures and variants in which the input word embeddings were either learned or pre-trained ({\bf+embs.}) to match the target word embeddings. I implement their models using the available code and training data.\footnote{{\scriptsize \url{https://www.cl.cam.ac.uk/~fh295/}}. Definitions from the training data matching those in the WordNet STS 2014 evaluation (used in this study) were excluded.}
@@ -37,7 +37,7 @@ The following models rely on (freely-available) data that has more structure tha
 
 \vspace{5pt}\noindent{\bf NMT} I consider the sentence representations learned by neural MT models. These models have identical architecture to SkipThought, but are trained on sentence-aligned translated texts. I used a standard architecture \citep{cho2014learning} on all available {\bf En-Fr} and {\bf En-De} data from the 2015 Workshop on Statistical MT (WMT).\footnote{\scriptsize \url{www.statmt.org/wmt15/translation-task.html}} 
 
-\subsection{Novel Text-Based Models}
+\subsection{Novel text-based models}
 I introduce two new approaches designed to address certain limitations with the existing models.
 
 \vspace{5pt}\noindent{\bf Sequential (Denoising) Autoencoders} The SkipThought objective requires training text with a coherent inter-sentence narrative, making it problematic to port to domains such as social media or artificial language generated from symbolic knowledge. To avoid this restriction, I experiment with a representation-learning objective based on \emph{denoising autoencoders} (DAEs). In a DAE, high-dimensional input data is corrupted according to some noise function, and the model is trained to recover the original data from the corrupted version. As a result of this process, DAEs learn to represent the data in terms of features that explain its important factors of variation~\citep{vincent2008extracting}. Transforming data into DAE representations (as a `pre-training' or initialisation step) gives more robust (supervised) classification performance in deep feedforward networks \citep{vincent2010stacked}.
@@ -112,7 +112,7 @@ I also experiment with a variant ({\bf+AE}) in which the encoded (source) repres
 
 \end{table*}
 
-\subsection{Training and Model Selection}
+\subsection{Training and model selection}
 
 
 
@@ -120,7 +120,7 @@ Unless stated above, all models were trained on the Toronto Books Corpus,\footno
 
 Specifications of the models are shown in Table~\ref{modelprops}. The log-linear models (SkipGram, CBOW, ParagraphVec and FastSent) were trained for one epoch on one CPU core. The representation dimension \(d\) for these models was found after tuning \(d \in \{100,200,300,400,500\}\) on the validation set.\footnote{For ParagraphVec only \(d \in\{100,200\}\) was possible due to the high memory footprint.} All other models were trained on one GPU. The S(D)AE models were trained for one epoch (\(\approx8\) days). The SkipThought model was trained for two weeks, covering just under one epoch.\footnote{Downloaded from {\scriptsize \url{https://github.com/ryankiros/skip-thoughts}}} For CaptionRep and DictRep, performance was monitored on held-out training data and training was stopped after 24 hours after a plateau in cost. The NMT models were trained for 72 hours. 
 
-\section{Evaluating Sentence Representations}
+\section{Evaluating sentence representations}
 
 In previous work, distributed representations of language were evaluated either by measuring the effect of adding representations as features in some classification task - \emph{supervised evaluation} \citep{collobert2011natural,mikolov2013efficient,kiros2015skip} - or by comparing with human relatedness judgements - \emph{unspervised evaluation} \citep{hill2015learning,baroni2014don,levy2015improving}. The former setting reflects a scenario in which representations are used to inject general knowledge (sometimes considered as \emph{pre-training}) into a supervised model. The latter pertains to applications in which the sentence representation space is used for direct comparisons, lookup or retrieval. Here, I apply and compare both evaluation paradigms.  
 
@@ -228,11 +228,11 @@ DictRep RNN+embs. & .51/.60	&.29/.27	&.80/.81	&.44/.47	&.65/.70	&.42/.46	&.54/.5
 
 
 
-\subsection{Supervised Evaluations}
+\subsection{Supervised evaluations}
 \label{supersec}
 Representations are applied to 6 sentence classification tasks: paraphrase identification (MSRP) \citep{dolan2004unsupervised}, movie review sentiment (MR)~\citep{pang2005seeing}, product reviews (CR)~\citep{hu2004mining}, subjectivity classification (SUBJ)~\citep{pang2004sentimental}, opinion polarity (MPQA)~\citep{wiebe2005annotating} and question type classification (TREC)~\citep{voorhees2002overview}. I follow the procedure (and code) of \cite{kiros2015skip}: a logistic regression classifier is trained on top of sentence representations, with 10-fold cross-validation used when a train-test split is not pre-defined. 
 
-\subsection{Unsupervised Evaluations}
+\subsection{Unsupervised evaluations}
 \label{unseval}
 I also measure how well representation spaces reflect human intuitions of the semantic sentence relatedness, by computing the cosine distance between vectors for the two sentences in each test pair, and correlating these distances with gold-standard human judgements. The SICK dataset~\citep{marelli2014sick} consists of 10,000 pairs of sentences and relatedness judgements. The STS 2014 dataset~\citep{agirre2014semeval} consists of 3,750 pairs and ratings from six linguistic domains. Example ratings are shown in Table~\ref{unsex}. All available pairs are used for testing apart from the 500 SICK `trial' pairs, which are held-out for tuning hyperparameters (representation size of log-linear models, and noise parameters in SDAE). The optimal settings on this task are then applied to both supervised and unsupervised evaluations.  
 
@@ -404,9 +404,9 @@ The second contribution of this chapter is two new objectives for learning distr
 
 Such a study has only recently become viable thanks to recent progress in training deeper neural language models, and many interesting questions concerning sentential representation remain to be resolved. These include: 
 
-\paragraph{What is the optimal representation `scope'?} Evidence from cognitive science [REF] and neuroscience [REF] suggests that humans compute relatively stable representations of `frames' or `scenes', which correspond to something like the action of a verb on one or more nouns. Sentences in general refer to many such scenes. It may ultimately be preferable to use methods similar to those studied in this chapter to acquire representations of scenes, and other machinery to inform the combination of these scenes, a conclusion further supported by experiments in Chapter~\ref{CH6}. However, it is not clear how to prescribe such a strategy in practice, because the scope of the scenes in question is not encoded explicitly in text, whereas a full stop clearly delimits sentences.  
+\paragraph{What is the optimal representation `scope'?} Evidence from cognitive science~\cite{fillmore1985frames} and neuroscience~\cite{ding2016cortical} suggests that humans compute relatively stable representations of `frames' or `scenes', which correspond to something like the action of a verb on one or more nouns. Sentences in general refer to many such scenes. It may ultimately be preferable to use methods similar to those studied in this chapter to acquire representations of scenes, and other machinery to inform the combination of these scenes, a conclusion further supported by experiments in Chapter~\ref{CH6}. However, it is not clear how to prescribe such a strategy in practice, because the scope of the scenes in question is not encoded explicitly in text, whereas a full stop clearly delimits sentences.  
 
-\paragraph{What, if anything, is the correct model prior for sentences?} A BOW model is blind to word order whereas an RNN encodes sequential structure. When training supervised on labelled data in a supervised setting, results show that either a hard (i.e. following pre-specified grammar rules) [REF] or soft (i.e. learned, possibly convolutional) [REF] binary tree structure may be a more appropriate prior for capturing sentential meaning (although these effects are very marginal). We do not examine such networks here because it is not clear how to apply them in the context of unlabelled data. 
+\paragraph{What, if anything, is the correct model prior for sentences?} A BOW model is blind to word order whereas an RNN encodes sequential structure. When training models on labelled data in a supervised setting, results show that either a hard (i.e. following pre-specified grammar rules)~\citep{socher2013recursive} or soft (i.e. learned, possibly convolutional)~\citep{kalchbrenner2014convolutional} binary tree structure may be a more appropriate prior for capturing sentential meaning (although these effects are very marginal). We do not examine such networks here because it is not clear how to apply them in the context of unlabelled data. 
 
 As a cursory glance at Table~\ref{unsex} shows, the satisfactory resolution of these questions may require much more robust benchmarks and evaluations with which to compare models, and consequently they are beyond the scope of this thesis. Nonetheless, in the final study of this thesis, described in the next chapter, I apply an alternative way of studying sentence representations is applied that is less `instrinsic' in nature, and therefore circumvents some of the problematic evaluation issues noted above. First, an overarching model architecture - with relatively weak prior structural assumptions - is constructed to exploit sentence representations in the resolution of a comparatively canonical and well-defined (extrinsic) downstream language prediction task. Then, the underlying nature of the sentence-representation algorithm is varied, and the ultimate effect on the downstream prediction task is measured.    
 

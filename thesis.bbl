@@ -1,4 +1,4 @@
-\begin{thebibliography}{203}
+\begin{thebibliography}{216}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -87,11 +87,19 @@ Mohit Bansal, Kevin Gimpel, and Karen Livescu.
 \newblock Tailoring continuous word representations for dependency parsing.
 \newblock In \emph{Proceedings of ACL}, 2014.
 
+\bibitem[Baroni and Zamparelli(2010)]{baroni2010nouns}
+Marco Baroni and Roberto Zamparelli.
+\newblock Nouns are vectors, adjectives are matrices: Representing
+  adjective-noun constructions in semantic space.
+\newblock In \emph{Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1183--1193. Association for Computational
+  Linguistics, 2010.
+
 \bibitem[Baroni et~al.(2014{\natexlab{a}})Baroni, Bernardi, and
   Zamparelli]{baroni2014frege}
 Marco Baroni, Raffaela Bernardi, and Roberto Zamparelli.
 \newblock Frege in space: A program of compositional distributional semantics.
-\newblock \emph{Linguistic Issues in Language Technology}, 9,
+\newblock \emph{LiLT (Linguistic Issues in Language Technology)}, 9,
   2014{\natexlab{a}}.
 
 \bibitem[Baroni et~al.(2014{\natexlab{b}})Baroni, Dinu, and
@@ -337,6 +345,13 @@ Jacob Devlin, Rabih Zbib, Zhongqiang Huang, Thomas Lamar, Richard Schwartz, and
 \newblock In \emph{Proceedings of the Association for Computational
   Linguistics}, 2014.
 
+\bibitem[Ding et~al.(2016)Ding, Melloni, Zhang, Tian, and
+  Poeppel]{ding2016cortical}
+Nai Ding, Lucia Melloni, Hang Zhang, Xing Tian, and David Poeppel.
+\newblock Cortical tracking of hierarchical linguistic structures in connected
+  speech.
+\newblock \emph{Nature neuroscience}, 19\penalty0 (1):\penalty0 158--164, 2016.
+
 \bibitem[Dolan et~al.(2004)Dolan, Quirk, and Brockett]{dolan2004unsupervised}
 Bill Dolan, Chris Quirk, and Chris Brockett.
 \newblock Unsupervised construction of large paraphrase corpora: Exploiting
@@ -392,6 +407,12 @@ David Ferrucci, Eric Brown, Jennifer Chu-Carroll, James Fan, David Gondek,
 \newblock Building {W}atson: An overview of the {DeepQA} project.
 \newblock In \emph{{AI} magazine}, volume 31(3), pages 59--79, 2010.
 
+\bibitem[Fillmore(1985)]{fillmore1985frames}
+Charles~J Fillmore.
+\newblock Frames and the semantics of understanding.
+\newblock \emph{Quaderni di semantica}, 6\penalty0 (2):\penalty0 222--254,
+  1985.
+
 \bibitem[Finkelstein et~al.(2001)Finkelstein, Gabrilovich, Matias, Rivlin,
   Solan, Wolfman, and Ruppin]{finkelstein2001placing}
 Lev Finkelstein, Evgeniy Gabrilovich, Yossi Matias, Ehud Rivlin, Zach Solan,
@@ -404,6 +425,11 @@ Lev Finkelstein, Evgeniy Gabrilovich, Yossi Matias, Ehud Rivlin, Zach Solan,
 R.~Firth, J.
 \newblock \emph{A synopsis of linguistic theory 1930-1955}, pages 1--32.
 \newblock Oxford: Philological Society, 1957.
+
+\bibitem[Fodor(2004)]{fodor2004having}
+Jerry Fodor.
+\newblock Having concepts: A brief refutation of the twentieth century.
+\newblock \emph{Mind \& Language}, 19\penalty0 (1):\penalty0 29--47, 2004.
 
 \bibitem[Gentner(1978)]{gentner1978relational}
 Dedre Gentner.
@@ -520,6 +546,12 @@ Karl~Moritz Hermann, Tom\'a\v{s} Ko\v{c}isk\'y, Edward Grefenstette, Lasse
   2015.
 \newblock URL \url{http://arxiv.org/abs/1506.03340}.
 
+\bibitem[Hill and Korhonen(2014)]{hill2014learning}
+Felix Hill and Anna Korhonen.
+\newblock Learning abstract concept embeddings from multi-modal data: Since you
+  probably can't see what i mean.
+\newblock In \emph{EMNLP}, pages 255--265. Citeseer, 2014.
+
 \bibitem[Hill et~al.(2013{\natexlab{a}})Hill, Kiela, and
   Korhonen]{hill2013concreteness}
 Felix Hill, Douwe Kiela, and Anna Korhonen.
@@ -622,6 +654,12 @@ Armand Joulin and Tomas Mikolov.
 \newblock Inferring algorithmic patterns with stack-augmented recurrent nets.
 \newblock \emph{NIPS}, 2015.
 
+\bibitem[Kadlec et~al.(2016)Kadlec, Schmid, Bajgar, and
+  Kleindienst]{kadlec2016text}
+Rudolf Kadlec, Martin Schmid, Ondrej Bajgar, and Jan Kleindienst.
+\newblock Text understanding with the attention sum reader network.
+\newblock \emph{arXiv preprint arXiv:1603.01547}, 2016.
+
 \bibitem[Kalchbrenner and Blunsom(2013)]{kalchbrenner13emnlp}
 Nal Kalchbrenner and Phil Blunsom.
 \newblock Recurrent continuous translation models.
@@ -702,6 +740,12 @@ Thomas~K Landauer and Susan~T Dumais.
   acquisition, induction, and representation of knowledge.
 \newblock \emph{Psychological Review}, 104\penalty0 (2):\penalty0 211, 1997.
 
+\bibitem[Lazaridou et~al.(2015)Lazaridou, Pham, and
+  Baroni]{lazaridou2015combining}
+Angeliki Lazaridou, Nghia~The Pham, and Marco Baroni.
+\newblock Combining language and vision with a multimodal skip-gram model.
+\newblock \emph{arXiv preprint arXiv:1501.02598}, 2015.
+
 \bibitem[Le and Mikolov(2014)]{le2014distributed}
 Quoc~V Le and Tomas Mikolov.
 \newblock Distributed representations of sentences and documents.
@@ -714,7 +758,13 @@ Geoffrey Leech, Roger Garside, and Michael Bryant.
   linguistics-Volume 1}, pages 622--628. Association for Computational
   Linguistics, 1994.
 
-\bibitem[Levy and Goldberg(2014{\natexlab{a}})]{levy2014dependency}
+\bibitem[Leviant(2016)]{leviant2016separated}
+Ira Leviant.
+\newblock \emph{Separated by an Un-common Language: Towards Judgment Language
+  Informed Vector Space Modeling}.
+\newblock PhD thesis, Technion, 2016.
+
+\bibitem[Levy and Goldberg(2014{\natexlab{a}})]{2014dependency}
 Omer Levy and Yoav Goldberg.
 \newblock Dependency-based word embeddings.
 \newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
@@ -755,6 +805,11 @@ Michael~L. Littman, Greg~A. Keim, and Noam Shazeer.
 \newblock A probabilistic approach to solving crossword puzzles.
 \newblock \emph{Artificial Intelligence}, 134\penalty0 (1):\penalty0 23--55,
   2002.
+
+\bibitem[Lu et~al.(2015)Lu, Wang, Bansal, Gimpel, and Livescu]{lu2015deep}
+Ang Lu, Weiran Wang, Mohit Bansal, Kevin Gimpel, and Karen Livescu.
+\newblock Deep multilingual correlation for improved word embeddings.
+\newblock In \emph{Proceedings of NAACL}, 2015.
 
 \bibitem[Lucas(2000)]{lucas2000semantic}
 Margery Lucas.
@@ -808,6 +863,11 @@ Arthur~B Markman and Edward~J Wisniewski.
 \newblock \emph{Journal of Experimental Psychology: Learning, Memory, and
   Cognition}, 23\penalty0 (1), 1997.
 
+\bibitem[Marslen-Wilson and Tyler(1980)]{marslen1980temporal}
+William Marslen-Wilson and Lorraine~Komisarjevsky Tyler.
+\newblock The temporal structure of spoken language understanding.
+\newblock \emph{Cognition}, 8\penalty0 (1):\penalty0 1--71, 1980.
+
 \bibitem[Marton et~al.(2009)Marton, Callison-Burch, and
   Resnik]{marton2009improved}
 Yuval Marton, Chris Callison-Burch, and Philip Resnik.
@@ -823,6 +883,12 @@ Ken McRae, Saman Khalkhali, and Mary Hare.
 \newblock In Valerie~F Reyna, Sandra~B Chapman, Michael~R Dougherty, and
   Jere~Ed Confrey, editors, \emph{The adolescent brain: Learning, reasoning,
   and decision making.} American Psychological Association, 2012.
+
+\bibitem[Miikkulainen and Dyer(1989)]{miikkulainen1989encoding}
+Risto Miikkulainen and Michael~G Dyer.
+\newblock Encoding input/output representations in connectionist cognitive
+  systems.
+\newblock \emph{Proceedings of the Connectionist Summer School}, 1989.
 
 \bibitem[Miikkulainen and Dyer(1991)]{miikkulainen1991natural}
 Risto Miikkulainen and Michael~G Dyer.
@@ -968,12 +1034,18 @@ Ted Pedersen, Siddharth Patwardhan, and Jason Michelizzi.
 \newblock In \emph{Demonstration Papers at HLT-NAACL 2004}, pages 38--41.
   Association for Computational Linguistics, 2004.
 
-\bibitem[Pennington et~al.(2014)Pennington, Socher, and
+\bibitem[Pennington et~al.(2014{\natexlab{a}})Pennington, Socher, and
   Manning]{Pennington2014}
 Jeffrey Pennington, Richard Socher, and Christopher Manning.
 \newblock Glove: Global vectors for word representation.
 \newblock In \emph{Proceedings of the Empirical Methods in Natural Language
-  Processing (EMNLP 2014)}, October 2014.
+  Processing (EMNLP 2014)}, October 2014{\natexlab{a}}.
+
+\bibitem[Pennington et~al.(2014{\natexlab{b}})Pennington, Socher, and
+  Manning]{pennington2014glove}
+Jeffrey Pennington, Richard Socher, and Christopher~D Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In \emph{EMNLP}, volume~14, pages 1532--1543, 2014{\natexlab{b}}.
 
 \bibitem[Pham et~al.(2015)Pham, Kruszewski, Lazaridou, and
   Baroni]{marcobaronijointly}
@@ -1135,6 +1207,15 @@ Richard Socher, Jeffrey Pennington, Eric~H Huang, Andrew~Y Ng, and
 \newblock In \emph{Proceedings of the Conference on Empirical Methods in
   Natural Language Processing}, pages 151--161. Association for Computational
   Linguistics, 2011.
+
+\bibitem[Socher et~al.(2013)Socher, Perelygin, Wu, Chuang, Manning, Ng, and
+  Potts]{socher2013recursive}
+Richard Socher, Alex Perelygin, Jean~Y Wu, Jason Chuang, Christopher~D Manning,
+  Andrew~Y Ng, and Christopher Potts.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In \emph{Proceedings of the conference on empirical methods in
+  natural language processing (EMNLP)}, volume 1631, page 1642. Citeseer, 2013.
 
 \bibitem[Sukhbaatar et~al.(2015)Sukhbaatar, Szlam, Weston, and
   Fergus]{sukhbaatar2015end}
