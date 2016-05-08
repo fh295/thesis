@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {2.6}Conclusion}{55}{section.2.6}
 \contentsline {paragraph}{What is so special about neural word embeddings?}{56}{section*.43}
 \contentsline {paragraph}{The future of word representations}{57}{section*.44}
-\contentsline {chapter}{\numberline {3}Representing word similarity with neural machine translation models}{59}{chapter.3}
+\contentsline {chapter}{\numberline {3}Embedding word similarity with neural machine translation}{59}{chapter.3}
 \contentsline {section}{\numberline {3.1}Encoder-decoder models for Neural Machine Translation}{60}{section.3.1}
 \contentsline {section}{\numberline {3.2}Other bilingual models of learning word representations}{61}{section.3.2}
 \contentsline {section}{\numberline {3.3}Experiments}{62}{section.3.3}
@@ -97,7 +97,7 @@
 \contentsline {section}{\numberline {5.5}Conclusion}{110}{section.5.5}
 \contentsline {paragraph}{What is the optimal representation `scope'?}{111}{section*.66}
 \contentsline {paragraph}{What, if anything, is the correct model prior for sentences?}{111}{section*.67}
-\contentsline {chapter}{\numberline {6}Representing word, phrase and sentence semantics in memory networks}{113}{chapter.6}
+\contentsline {chapter}{\numberline {6}Representing and interpreting sentence semantics in context}{113}{chapter.6}
 \contentsline {section}{\numberline {6.1}Testing representational forms `in the wild'}{114}{section.6.1}
 \contentsline {section}{\numberline {6.2}The Children's Book Test}{115}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Related resources}{117}{subsection.6.2.1}
@@ -127,13 +127,3 @@
 \contentsline {paragraph}{Interpreting language in context with memory networks}{131}{section*.81}
 \contentsline {section}{\numberline {7.2}Future work}{132}{section.7.2}
 \contentsline {chapter}{Bibliography}{135}{section*.82}
-\contentsline {chapter}{\numberline {A}}{157}{appendix.A}
-\contentsline {section}{\numberline {A.1}Experimental Details}{157}{section.A.1}
-\contentsline {paragraph}{Setting}{157}{section*.84}
-\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{157}{section*.85}
-\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{158}{section*.86}
-\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{158}{section.A.2}
-\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{159}{section.A.3}
-\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{159}{section.A.4}
-\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{159}{section.A.5}
-\contentsline {chapter}{\numberline {B}}{161}{appendix.B}
