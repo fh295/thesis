@@ -41,7 +41,7 @@
 \contentsline {paragraph}{\bf Collobert \& Weston}{46}{section*.29}
 \contentsline {paragraph}{\bf Huang et al.}{46}{section*.30}
 \contentsline {paragraph}{\bf Log-linear models}{47}{section*.31}
-\contentsline {subsection}{\numberline {2.5.2}\bf Vector space (counting) models}{49}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Vector space (counting) models}{49}{subsection.2.5.2}
 \contentsline {paragraph}{\bf LSA}{49}{section*.32}
 \contentsline {subsection}{\numberline {2.5.3}Results}{49}{subsection.2.5.3}
 \contentsline {paragraph}{\bf Overall performance on SimLex-999}{49}{figure.caption.35}
@@ -119,7 +119,7 @@
 \contentsline {subsection}{\numberline {6.5.1}News article question answering}{126}{subsection.6.5.1}
 \contentsline {section}{\numberline {6.6}Conclusion}{128}{section.6.6}
 \contentsline {chapter}{\numberline {7}Conclusion}{129}{chapter.7}
-\contentsline {section}{\numberline {7.1}Contributions of this thesis}{129}{section.7.1}
+\contentsline {section}{\numberline {7.1}Contributions of this thesis}{130}{section.7.1}
 \contentsline {paragraph}{A new resource for the evaluation of distributed word representations}{130}{section*.77}
 \contentsline {paragraph}{A novel method for acquiring distributed word representations from bilingual texts}{130}{section*.78}
 \contentsline {paragraph}{A simple method for extending word representations to phrases}{130}{section*.79}

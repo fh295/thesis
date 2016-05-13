@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  7 MAY 2016 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  8 MAY 2016 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1353,20 +1353,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: CollegeShields/CUni.pdf Graphic file (type pdf)
 
 <use CollegeShields/CUni.pdf>
-Package pdftex.def Info: CollegeShields/CUni.pdf used on input line 183.
+Package pdftex.def Info: CollegeShields/CUni.pdf used on input line 182.
 (pdftex.def)             Requested size: 207.70511pt x 43.56242pt.
 \cam@title=\box64
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 182.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 182.
 \cam@collegeshieldbox=\box65
 
 <CollegeShields/StJohns.png, id=370, 803.0pt x 956.57375pt>
 File: CollegeShields/StJohns.png Graphic file (type png)
 
 <use CollegeShields/StJohns.png>
-Package pdftex.def Info: CollegeShields/StJohns.png used on input line 183.
+Package pdftex.def Info: CollegeShields/StJohns.png used on input line 182.
 (pdftex.def)             Requested size: 47.76132pt x 56.9055pt.
 \cam@authorcollege=\box66
 \cam@submitnotice=\box67
@@ -1829,23 +1829,27 @@ fur-ther ev-i-dence has emerged
 
 ) [128]
 Chapter 7.
-(./Chapter_7/Chapter_7.tex [129
+(./Chapter_7/Chapter_7.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [130] [131] [132]) [133] [134
+ [129
 
-] (./thesis.bbl
-[135
+]
+[130] [131] [132]) [133] [134
 
-] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146]
-[147] [148] [149] [150] [151] [152] [153] [154]) [155] [156
+] (./thesis.bbl [135
+
+] [136] [137] [138] [139]
+[140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
+[152] [153] [154]) [155] [156
 
 ]
 No file thesis.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
 (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 06093495334E5DFED5FA928C66F9B819;6839.
 
@@ -1855,7 +1859,7 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
  22808 strings out of 493089
@@ -1889,7 +1893,7 @@ rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
 tmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on thesis.pdf (156 pages, 2680559 bytes).
+Output written on thesis.pdf (156 pages, 2681706 bytes).
 PDF statistics:
  3058 PDF objects out of 3580 (max. 8388607)
  2718 compressed objects within 28 object streams
