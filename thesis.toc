@@ -126,4 +126,13 @@
 \contentsline {paragraph}{Two novel models for learning distributed sentence representations from text}{131}{section*.80}
 \contentsline {paragraph}{Interpreting language in context with memory networks}{131}{section*.81}
 \contentsline {section}{\numberline {7.2}Future work}{132}{section.7.2}
-\contentsline {chapter}{Bibliography}{135}{section*.82}
+\contentsline {chapter}{Bibliography}{137}{section*.83}
+\contentsline {chapter}{\numberline {A}}{159}{appendix.A}
+\contentsline {section}{\numberline {A.1}Chapter 6: Experimental details}{159}{section.A.1}
+\contentsline {paragraph}{Setting}{159}{section*.85}
+\contentsline {paragraph}{Optimal hyper-parameter values on CBT:}{159}{section*.86}
+\contentsline {paragraph}{Optimal hyper-parameter values on CNN QA:}{160}{section*.87}
+\contentsline {section}{\numberline {A.2}Results on CBT Validation Set}{160}{section.A.2}
+\contentsline {section}{\numberline {A.3}Ablation Study on CNN QA}{161}{section.A.3}
+\contentsline {section}{\numberline {A.4}Effects of Anonymising Entities in CBT}{161}{section.A.4}
+\contentsline {section}{\numberline {A.5}Candidates and Window Memories in CBT}{161}{section.A.5}
